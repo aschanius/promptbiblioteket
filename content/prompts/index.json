@@ -38,26 +38,18 @@
       ]
     },
     {
-      "id": "handel-forsaljning",
-      "title": "Handel & försäljning",
-      "description": "AI-prompts för butikspersonal, e-handel, försäljare och inköpare",
+      "id": "administration",
+      "title": "Administration",
+      "description": "AI-prompts för handläggare, assistenter, koordinatorer och ekonomer",
       "priority": 3,
       "prompt_count": 0,
       "prompts": []
     },
     {
-      "id": "it-mjukvara",
-      "title": "IT & mjukvara",
-      "description": "AI-prompts för utvecklare, systemadministratörer, testare och projektledare",
+      "id": "handel-forsaljning",
+      "title": "Handel & försäljning",
+      "description": "AI-prompts för butikspersonal, e-handel, försäljare och inköpare",
       "priority": 4,
-      "prompt_count": 0,
-      "prompts": []
-    },
-    {
-      "id": "administration",
-      "title": "Administration",
-      "description": "AI-prompts för handläggare, assistenter, koordinatorer och ekonomer",
-      "priority": 5,
       "prompt_count": 0,
       "prompts": []
     },
@@ -65,6 +57,14 @@
       "id": "bygg-anlaggning",
       "title": "Bygg & anläggning",
       "description": "AI-prompts för byggledare, projektörer, hantverkare och arkitekter",
+      "priority": 5,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "tillverkning-industri",
+      "title": "Tillverkning & industri",
+      "description": "AI-prompts för operatörer, tekniker, ingenjörer och kvalitetsansvariga",
       "priority": 6,
       "prompt_count": 0,
       "prompts": []
@@ -86,18 +86,10 @@
       "prompts": []
     },
     {
-      "id": "tillverkning-industri",
-      "title": "Tillverkning & industri",
-      "description": "AI-prompts för operatörer, tekniker, ingenjörer och kvalitetsansvariga",
-      "priority": 9,
-      "prompt_count": 0,
-      "prompts": []
-    },
-    {
       "id": "stad-fastighet",
       "title": "Städ & fastighet",
       "description": "AI-prompts för fastighetsskötare, städpersonal och drifttekniker",
-      "priority": 10,
+      "priority": 9,
       "prompt_count": 0,
       "prompts": []
     }

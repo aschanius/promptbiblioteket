@@ -17,13 +17,12 @@ Promptbiblioteket är en kuraterad samling av testade och kvalitetssäkrade AI-p
 |----------|-------------|
 | Vård & omsorg | Sjuksköterskor, läkare, undersköterskor |
 | Utbildning | Lärare, rektorer, utbildare |
-| Handel & försäljning | Butik, e-handel, försäljare |
-| IT & mjukvara | Utvecklare, systemadministratörer |
 | Administration | Handläggare, assistenter, koordinatorer |
+| Handel & försäljning | Butik, e-handel, försäljare |
 | Bygg & anläggning | Byggledare, projektörer, hantverkare |
+| Tillverkning & industri | Operatörer, tekniker, ingenjörer |
 | Transport & logistik | Förare, planerare, lagerarbetare |
 | Restaurang & hotell | Kockar, servis, reception |
-| Tillverkning & industri | Operatörer, tekniker, ingenjörer |
 | Städ & fastighet | Fastighetsskötare, städpersonal |
 
 ## Struktur
