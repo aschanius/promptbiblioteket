@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Promptbiblioteket — Processöversikt</title>
+<style>
+  :root {
+    --bg: #0f1117;
+    --surface: #1a1d27;
+    --surface-2: #232733;
+    --border: #2e3345;
+    --text: #e2e4eb;
+    --text-dim: #8b8fa3;
+    --accent: #6c72cb;
+    --accent-bright: #8b91e8;
+    --green: #4ade80;
+    --green-dim: #166534;
+    --amber: #fbbf24;
+    --amber-dim: #78350f;
+    --red: #f87171;
+    --blue: #60a5fa;
+    --purple: #a78bfa;
+    --teal: #2dd4bf;
+    --pink: #f472b6;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 2rem;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+  }
+
+  .header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    background: linear-gradient(135deg, var(--accent-bright), var(--teal));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+  }
+
+  .header .subtitle {
+    color: var(--text-dim);
+    font-size: 1rem;
+  }
+
+  .header .badge {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.25rem 0.75rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 0.8rem;
+    color: var(--text-dim);
+  }
+
+  /* Section titles */
+  .section-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--text-dim);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* Pipeline flow */
+  .pipeline {
+    margin-bottom: 3rem;
+  }
+
+  .flow {
+    display: flex;
+    gap: 0;
+    align-items: stretch;
+    overflow-x: auto;
+    padding-bottom: 1rem;
+  }
+
+  .flow-step {
+    flex: 1;
+    min-width: 180px;
+    position: relative;
+  }
+
+  .flow-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.25rem;
+    height: 100%;
+    transition: border-color 0.2s;
+  }
+
+  .flow-card:hover {
+    border-color: var(--accent);
+  }
+
+  .flow-step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 12px solid var(--accent);
+    z-index: 1;
+    opacity: 0.6;
+  }
+
+  .flow-step:not(:last-child) {
+    margin-right: 32px;
+  }
+
+  .step-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+  }
+
+  .step-1 .step-number { background: var(--purple); color: #fff; }
+  .step-2 .step-number { background: var(--blue); color: #fff; }
+  .step-3 .step-number { background: var(--amber); color: #000; }
+  .step-4 .step-number { background: var(--teal); color: #000; }
+  .step-5 .step-number { background: var(--green); color: #000; }
+
+  .flow-card h3 {
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .flow-card p {
+    font-size: 0.8rem;
+    color: var(--text-dim);
+    margin-bottom: 0.75rem;
+  }
+
+  .flow-card code {
+    display: block;
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.72rem;
+    background: var(--bg);
+    padding: 0.5rem 0.6rem;
+    border-radius: 6px;
+    color: var(--green);
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  /* Repo structure */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    .grid-2 { grid-template-columns: 1fr; }
+    .flow { flex-direction: column; }
+    .flow-step:not(:last-child) { margin-right: 0; margin-bottom: 2rem; }
+    .flow-step:not(:last-child)::after {
+      right: 50%;
+      top: auto;
+      bottom: -18px;
+      transform: translateX(50%) rotate(90deg);
+    }
+  }
+
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 1.5rem;
+  }
+
+  .card h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  .card h3 .icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.7rem;
+  }
+
+  /* File tree */
+  .tree {
+    font-family: 'JetBrains Mono', 'Fira Code', monospace;
+    font-size: 0.78rem;
+    line-height: 1.8;
+  }
+
+  .tree-dir { color: var(--blue); font-weight: 600; }
+  .tree-file { color: var(--text-dim); }
+  .tree-new { color: var(--green); }
+  .tree-comment { color: var(--text-dim); opacity: 0.5; font-style: italic; }
+
+  /* Quality dimensions */
+  .quality-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    .quality-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .q-dim {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+
+  .q-dim:hover {
+    transform: translateY(-2px);
+    border-color: var(--accent);
+  }
+
+  .q-dim .q-icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+
+  .q-dim .q-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+
+  .q-dim .q-weight {
+    font-size: 0.7rem;
+    color: var(--text-dim);
+  }
+
+  .q-dim .q-bar {
+    margin-top: 0.5rem;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--surface-2);
+  }
+
+  .q-dim .q-bar-fill {
+    height: 100%;
+    border-radius: 2px;
+  }
+
+  .q-dim:nth-child(1) .q-bar-fill { background: var(--blue); width: 100%; }
+  .q-dim:nth-child(2) .q-bar-fill { background: var(--purple); width: 100%; }
+  .q-dim:nth-child(3) .q-bar-fill { background: var(--teal); width: 120%; max-width: 100%; }
+  .q-dim:nth-child(4) .q-bar-fill { background: var(--pink); width: 80%; }
+  .q-dim:nth-child(5) .q-bar-fill { background: var(--amber); width: 100%; }
+
+  /* Categories */
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.6rem;
+    margin-bottom: 3rem;
+  }
+
+  @media (max-width: 768px) {
+    .categories { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .cat {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.82rem;
+    transition: border-color 0.2s;
+  }
+
+  .cat:hover { border-color: var(--accent); }
+
+  .cat-num {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: var(--surface-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.65rem;
+    font-weight: 700;
+    color: var(--text-dim);
+    flex-shrink: 0;
+  }
+
+  .cat-name { font-weight: 500; }
+
+  /* Prompt anatomy */
+  .anatomy {
+    margin-bottom: 3rem;
+  }
+
+  .anatomy-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  @media (max-width: 768px) {
+    .anatomy-grid { grid-template-columns: 1fr; }
+  }
+
+  .anatomy-section {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .anatomy-section:last-child { border-bottom: none; }
+
+  .anatomy-tag {
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
+  .tag-required { background: var(--green-dim); color: var(--green); }
+  .tag-optional { background: var(--surface-2); color: var(--text-dim); }
+
+  .anatomy-label { font-weight: 600; font-size: 0.88rem; }
+  .anatomy-desc { font-size: 0.78rem; color: var(--text-dim); }
+
+  /* Threshold bar */
+  .threshold {
+    margin-bottom: 3rem;
+  }
+
+  .threshold-bar {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 1.5rem;
+    position: relative;
+  }
+
+  .threshold-track {
+    height: 8px;
+    background: var(--surface-2);
+    border-radius: 4px;
+    margin: 1.5rem 0 0.5rem;
+    position: relative;
+    overflow: visible;
+  }
+
+  .threshold-fill {
+    height: 100%;
+    border-radius: 4px;
+    background: linear-gradient(90deg, var(--red) 0%, var(--amber) 60%, var(--green) 80%, var(--green) 100%);
+  }
+
+  .threshold-markers {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0.5rem;
+  }
+
+  .threshold-marker {
+    text-align: center;
+    font-size: 0.7rem;
+  }
+
+  .threshold-marker .mark-val {
+    font-weight: 700;
+    font-size: 0.85rem;
+  }
+
+  .threshold-marker .mark-label {
+    color: var(--text-dim);
+  }
+
+  .threshold-labels {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .threshold-label {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.78rem;
+  }
+
+  .threshold-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+  }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--text-dim);
+    font-size: 0.78rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .footer a {
+    color: var(--accent-bright);
+    text-decoration: none;
+  }
+
+  .footer a:hover { text-decoration: underline; }
+</style>
+</head>
+<body>
+
+<div class="container">
+
+  <!-- Header -->
+  <div class="header">
+    <h1>Promptbiblioteket</h1>
+    <div class="subtitle">Open source AI-prompts for svenska yrkesverksamma</div>
+    <div class="badge">CC0 prompts &middot; MIT kod &middot; Teknikministeriet</div>
+  </div>
+
+  <!-- Pipeline Flow -->
+  <div class="pipeline">
+    <div class="section-title">Pipeline &mdash; Generera &rarr; Publicera</div>
+    <div class="flow">
+
+      <div class="flow-step step-1">
+        <div class="flow-card">
+          <div class="step-number">1</div>
+          <h3>Generera</h3>
+          <p>Meta-prompt byggs med mall, rating-schema och gold standard-exempel. Skickas till Claude eller kopieras manuellt.</p>
+          <code>npm run generate -- --topic "..." --category ...</code>
+        </div>
+      </div>
+
+      <div class="flow-step step-2">
+        <div class="flow-card">
+          <div class="step-number">2</div>
+          <h3>Inbox</h3>
+          <p>Genererad prompt landar som JSON i pipeline/inbox/ med status pending_review. Granskning krävs alltid.</p>
+          <code>pipeline/inbox/&lt;slug&gt;.json</code>
+        </div>
+      </div>
+
+      <div class="flow-step step-3">
+        <div class="flow-card">
+          <div class="step-number">3</div>
+          <h3>Granska</h3>
+          <p>Manuell granskning: promptkvalitet, svenska tecken, sektionsstruktur (Roll + Uppgift minimum).</p>
+          <code>Roll &middot; Uppgift &middot; Kontext &middot; Regler &middot; Steg &middot; Format</code>
+        </div>
+      </div>
+
+      <div class="flow-step step-4">
+        <div class="flow-card">
+          <div class="step-number">4</div>
+          <h3>Publicera</h3>
+          <p>Pipeline-runner: formaterar .md, kör verifiering, uppdaterar manifest + ratings + sources.</p>
+          <code>npm run pipeline -- inbox/&lt;slug&gt;.json</code>
+        </div>
+      </div>
+
+      <div class="flow-step step-5">
+        <div class="flow-card">
+          <div class="step-number">5</div>
+          <h3>Verifiera</h3>
+          <p>Automatiska kvalitetskontroller: frontmatter, promptlängd, svenska tecken, roll, skiljetecken.</p>
+          <code>npm run verify -- --verbose</code>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Quality + Repo structure -->
+  <div class="grid-2">
+
+    <!-- Quality dimensions -->
+    <div class="card">
+      <h3>Rating-schema (5 dimensioner)</h3>
+      <div style="display: flex; flex-direction: column; gap: 0.6rem;">
+        <div class="anatomy-section" style="border: none; padding: 0.4rem 0;">
+          <span style="color: var(--blue); font-weight: 700; width: 120px; flex-shrink: 0;">Tydlighet</span>
+          <span style="font-size: 0.78rem; color: var(--text-dim);">Entydig instruktion utan dubbelmeningar</span>
+          <span style="margin-left: auto; font-size: 0.7rem; color: var(--text-dim);">1.0x</span>
+        </div>
+        <div class="anatomy-section" style="border: none; padding: 0.4rem 0;">
+          <span style="color: var(--purple); font-weight: 700; width: 120px; flex-shrink: 0;">Specificitet</span>
+          <span style="font-size: 0.78rem; color: var(--text-dim);">Tillräckligt kontext och detaljer</span>
+          <span style="margin-left: auto; font-size: 0.7rem; color: var(--text-dim);">1.0x</span>
+        </div>
+        <div class="anatomy-section" style="border: none; padding: 0.4rem 0;">
+          <span style="color: var(--teal); font-weight: 700; width: 120px; flex-shrink: 0;">Överförbarhet</span>
+          <span style="font-size: 0.78rem; color: var(--text-dim);">Fungerar i svensk yrkeskontext</span>
+          <span style="margin-left: auto; font-size: 0.7rem; color: var(--teal);">1.2x</span>
+        </div>
+        <div class="anatomy-section" style="border: none; padding: 0.4rem 0;">
+          <span style="color: var(--pink); font-weight: 700; width: 120px; flex-shrink: 0;">Innovation</span>
+          <span style="font-size: 0.78rem; color: var(--text-dim);">Tillför något utöver det uppenbara</span>
+          <span style="margin-left: auto; font-size: 0.7rem; color: var(--text-dim);">0.8x</span>
+        </div>
+        <div class="anatomy-section" style="border: none; padding: 0.4rem 0;">
+          <span style="color: var(--amber); font-weight: 700; width: 120px; flex-shrink: 0;">Testbarhet</span>
+          <span style="font-size: 0.78rem; color: var(--text-dim);">Resultatet kan bedömas objektivt</span>
+          <span style="margin-left: auto; font-size: 0.7rem; color: var(--text-dim);">1.0x</span>
+        </div>
+      </div>
+
+      <!-- Threshold -->
+      <div style="margin-top: 1.25rem; padding-top: 1rem; border-top: 1px solid var(--border);">
+        <div class="threshold-labels">
+          <div class="threshold-label"><div class="threshold-dot" style="background: var(--red);"></div> Avvisas &lt; 3.0</div>
+          <div class="threshold-label"><div class="threshold-dot" style="background: var(--amber);"></div> Förbättra 3.0-3.9</div>
+          <div class="threshold-label"><div class="threshold-dot" style="background: var(--green);"></div> Publicera &ge; 4.0</div>
+        </div>
+        <div class="threshold-track">
+          <div class="threshold-fill" style="width: 100%;"></div>
+        </div>
+        <div class="threshold-markers">
+          <span class="threshold-marker"><span class="mark-val">1</span></span>
+          <span class="threshold-marker"><span class="mark-val" style="color: var(--red);">3.0</span><br><span class="mark-label">tröskel</span></span>
+          <span class="threshold-marker"><span class="mark-val" style="color: var(--amber);">3.9</span></span>
+          <span class="threshold-marker"><span class="mark-val" style="color: var(--green);">4.0</span><br><span class="mark-label">publicera</span></span>
+          <span class="threshold-marker"><span class="mark-val">5</span></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Repo structure -->
+    <div class="card">
+      <h3>Repostruktur</h3>
+      <div class="tree">
+        <div><span class="tree-dir">promptbiblioteket/</span></div>
+        <div>&nbsp;&nbsp;<span class="tree-dir">content/prompts/</span> <span class="tree-comment">&larr; prompt-filer per kategori</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-dir">&lt;kategori&gt;/</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">_meta.yaml</span> <span class="tree-comment">&larr; kategori-metadata</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">&lt;slug&gt;.md</span> <span class="tree-comment">&larr; prompt-fil</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">index.json</span> <span class="tree-comment">&larr; manifest (genererat)</span></div>
+        <div>&nbsp;&nbsp;<span class="tree-dir">pipeline/</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-new">generate-prompt.js</span> <span class="tree-comment">&larr; generera via meta-prompt</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-new">run-pipeline.js</span> <span class="tree-comment">&larr; orkestrering</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">verify-prompts.js</span> <span class="tree-comment">&larr; kvalitetskontroll</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">config.js</span> <span class="tree-comment">&larr; kategorier + sökvägar</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-dir">inbox/</span> <span class="tree-comment">&larr; genererade JSON</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-dir">templates/</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-new">prompt-template.md</span> <span class="tree-comment">&larr; sektionsmall</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-dir">2-evaluate/</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">rating-schema.yaml</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-dir">4-publish/</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">format-prompt.js</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">update-manifest.js</span></div>
+        <div>&nbsp;&nbsp;<span class="tree-dir">data/</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">ratings.json</span> <span class="tree-comment">&larr; ratings-register</span></div>
+        <div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="tree-file">sources.json</span> <span class="tree-comment">&larr; källhänvisningar</span></div>
+      </div>
+      <div style="margin-top: 1rem; font-size: 0.72rem; color: var(--text-dim);">
+        <span class="tree-new" style="font-family: 'JetBrains Mono', monospace;">grönt</span> = nya filer i senaste commit
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Prompt anatomy -->
+  <div class="anatomy">
+    <div class="section-title">Promptens anatomi &mdash; Svenska sektionsrubriker</div>
+    <div class="anatomy-grid">
+      <div class="card">
+        <h3>Prompttextens struktur</h3>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-required">krav</span>
+          <div><div class="anatomy-label"># Roll</div><div class="anatomy-desc">Vem är AI:n? Vilken expertis och bakgrund?</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-required">krav</span>
+          <div><div class="anatomy-label"># Uppgift</div><div class="anatomy-desc">Vad ska AI:n göra? Konkret och handlingsbart.</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-optional">valfri</span>
+          <div><div class="anatomy-label"># Kontext</div><div class="anatomy-desc">Bakgrundsinformation som hjälper AI:n.</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-optional">valfri</span>
+          <div><div class="anatomy-label"># Regler</div><div class="anatomy-desc">Begränsningar, riktlinjer och format.</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-optional">valfri</span>
+          <div><div class="anatomy-label"># Steg</div><div class="anatomy-desc">Arbetsflöde, steg-för-steg-instruktioner.</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-optional">valfri</span>
+          <div><div class="anatomy-label"># Utdataformat</div><div class="anatomy-desc">Önskat format: tabell, lista, rapport etc.</div></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Filens metadata (frontmatter)</h3>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-required">krav</span>
+          <div><div class="anatomy-label">title</div><div class="anatomy-desc">Kort, beskrivande titel</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-required">krav</span>
+          <div><div class="anatomy-label">slug</div><div class="anatomy-desc">URL-vänligt namn (kebab-case)</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-required">krav</span>
+          <div><div class="anatomy-label">category</div><div class="anatomy-desc">En av de 9 yrkeskategorierna</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-required">krav</span>
+          <div><div class="anatomy-label">tags</div><div class="anatomy-desc">Relevanta sökord som lista</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-optional">valfri</span>
+          <div><div class="anatomy-label">rating</div><div class="anatomy-desc">Kvalitetsrating 1.0 &ndash; 5.0</div></div>
+        </div>
+        <div class="anatomy-section">
+          <span class="anatomy-tag tag-optional">valfri</span>
+          <div><div class="anatomy-label">tested_models</div><div class="anatomy-desc">Testade LLM:er [claude-4, gpt-4o]</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Categories -->
+  <div>
+    <div class="section-title">9 yrkeskategorier</div>
+    <div class="categories">
+      <div class="cat"><span class="cat-num">1</span><span class="cat-name">Ekonomi & finans</span></div>
+      <div class="cat"><span class="cat-num">2</span><span class="cat-name">Ledarskap & strategi</span></div>
+      <div class="cat"><span class="cat-num">3</span><span class="cat-name">Juridik & compliance</span></div>
+      <div class="cat"><span class="cat-num">4</span><span class="cat-name">Administration & EA</span></div>
+      <div class="cat"><span class="cat-num">5</span><span class="cat-name">Utbildning & pedagogik</span></div>
+      <div class="cat"><span class="cat-num">6</span><span class="cat-name">Marknadsföring & kommunikation</span></div>
+      <div class="cat"><span class="cat-num">7</span><span class="cat-name">Vård & omsorg</span></div>
+      <div class="cat"><span class="cat-num">8</span><span class="cat-name">HR & rekrytering</span></div>
+      <div class="cat"><span class="cat-num">9</span><span class="cat-name">SME & entreprenörer</span></div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    Promptbiblioteket &middot; <a href="https://github.com/aschanius/promptbiblioteket">github.com/aschanius/promptbiblioteket</a> &middot; Teknikministeriet
+  </div>
+
+</div>
+
+</body>
+</html>
