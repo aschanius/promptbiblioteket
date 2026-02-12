@@ -1,0 +1,21 @@
+{
+  "name": "promptbiblioteket",
+  "version": "1.0.0",
+  "description": "Open source AI-prompts för svenska yrkesverksamma",
+  "private": true,
+  "scripts": {
+    "verify": "node pipeline/verify-prompts.js",
+    "format": "node pipeline/4-publish/format-prompt.js",
+    "manifest": "node pipeline/4-publish/update-manifest.js"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "yaml": "^2.4.0"
+  },
+  "license": "MIT",
+  "author": "Magnus Aschan <magnus@teknikministeriet.se>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aschanius/promptbiblioteket"
+  }
+}

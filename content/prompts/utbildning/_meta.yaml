@@ -1,0 +1,6 @@
+id: utbildning
+title: "Utbildning"
+description: "AI-prompts för lärare, rektorer, utbildare och studievägledare"
+scb_codes:
+  - "23" # Utbildningsspecialister
+priority: 2

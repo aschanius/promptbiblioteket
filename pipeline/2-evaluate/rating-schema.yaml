@@ -1,0 +1,70 @@
+## Rating-schema för Promptbiblioteket
+## Varje dimension bedöms 1-5. Snittrating >= 3.0 krävs för publicering.
+
+dimensions:
+  clarity:
+    id: clarity
+    title: "Tydlighet"
+    description: "Är instruktionen entydig och lätt att förstå?"
+    scale:
+      1: "Otydlig, kan tolkas på flera sätt"
+      2: "Delvis otydlig, kräver omformulering"
+      3: "Acceptabel, men kunde vara tydligare"
+      4: "Tydlig, liten risk för misstolkning"
+      5: "Kristallklar, ingen tvekan om vad som avses"
+
+  specificity:
+    id: specificity
+    title: "Specificitet"
+    description: "Ger prompten tillräckligt kontext och detaljer?"
+    scale:
+      1: "Ingen kontext, generisk instruktion"
+      2: "Viss kontext men saknar viktiga detaljer"
+      3: "Tillräckligt specifik för grundläggande resultat"
+      4: "Detaljerad med bra kontextuell information"
+      5: "Exakt definierad med rollbeskrivning, format och begränsningar"
+
+  transferability:
+    id: transferability
+    title: "Överförbarhet"
+    description: "Fungerar prompten i svensk yrkeskontext?"
+    scale:
+      1: "Bara relevant i annan kultur/kontext"
+      2: "Kräver betydande anpassning för Sverige"
+      3: "Fungerar med mindre justeringar"
+      4: "Väl anpassad till svenska förhållanden"
+      5: "Specifikt utformad för svenska yrkesverksamma"
+
+  innovation:
+    id: innovation
+    title: "Innovation"
+    description: "Går prompten bortom det uppenbara?"
+    scale:
+      1: "Trivialt, alla kan formulera detta"
+      2: "Enkel variant av standardfråga"
+      3: "Intressant vinkling eller teknik"
+      4: "Kreativ approach med tydligt mervärde"
+      5: "Unik metod som ger överraskande bra resultat"
+
+  testability:
+    id: testability
+    title: "Testbarhet"
+    description: "Kan resultatet bedömas objektivt?"
+    scale:
+      1: "Helt subjektivt, omöjligt att bedöma kvalitet"
+      2: "Svårt att avgöra om resultatet är bra"
+      3: "Vissa mätbara kriterier finns"
+      4: "Tydliga kriterier för vad som är bra resultat"
+      5: "Objektivt mätbart med konkreta kriterier"
+
+thresholds:
+  reject: 3.0       # Under detta avvisas prompten
+  improve: 3.9      # Under detta föreslås förbättringar
+  publish: 4.0      # Över detta publiceras direkt
+
+weights:
+  clarity: 1.0
+  specificity: 1.0
+  transferability: 1.2  # Viktigare — svensk yrkesanpassning är differentiering
+  innovation: 0.8       # Mindre viktigt — nyttig > innovativ
+  testability: 1.0

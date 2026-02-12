@@ -1,0 +1,6 @@
+id: stad-fastighet
+title: "Städ & fastighet"
+description: "AI-prompts för fastighetsskötare, städpersonal och drifttekniker"
+scb_codes:
+  - "91" # Städare och hembiträden
+priority: 10

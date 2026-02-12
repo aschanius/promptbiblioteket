@@ -1,0 +1,7 @@
+id: tillverkning-industri
+title: "Tillverkning & industri"
+description: "AI-prompts för operatörer, tekniker, ingenjörer och kvalitetsansvariga"
+scb_codes:
+  - "81" # Processoperatörer
+  - "72" # Metallarbetare och mekaniker
+priority: 9

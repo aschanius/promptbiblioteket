@@ -1,0 +1,7 @@
+id: handel-forsaljning
+title: "Handel & försäljning"
+description: "AI-prompts för butikspersonal, e-handel, försäljare och inköpare"
+scb_codes:
+  - "52" # Försäljare, detaljhandel
+  - "33" # Affärs- och försäljningsagenter
+priority: 3

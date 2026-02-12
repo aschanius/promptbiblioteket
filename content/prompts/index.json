@@ -1,0 +1,106 @@
+{
+  "version": "1.0.0",
+  "generated_at": "2026-02-12T11:37:30.482Z",
+  "categories": [
+    {
+      "id": "vard-omsorg",
+      "title": "Vård & omsorg",
+      "description": "AI-prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer",
+      "priority": 1,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "utbildning",
+      "title": "Utbildning",
+      "description": "AI-prompts för lärare, rektorer, utbildare och studievägledare",
+      "priority": 2,
+      "prompt_count": 1,
+      "prompts": [
+        {
+          "slug": "forklaringsdesigner",
+          "title": "Designa effektiva förklaringar och analogier",
+          "file": "utbildning/forklaringsdesigner.md",
+          "rating": 4.2,
+          "tags": [
+            "förklaring",
+            "analogi",
+            "pedagogik",
+            "undervisning",
+            "lärare"
+          ],
+          "tested_models": [
+            "claude-4",
+            "gpt-4o"
+          ],
+          "tested_date": "2026-02-12T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "handel-forsaljning",
+      "title": "Handel & försäljning",
+      "description": "AI-prompts för butikspersonal, e-handel, försäljare och inköpare",
+      "priority": 3,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "it-mjukvara",
+      "title": "IT & mjukvara",
+      "description": "AI-prompts för utvecklare, systemadministratörer, testare och projektledare",
+      "priority": 4,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "administration",
+      "title": "Administration",
+      "description": "AI-prompts för handläggare, assistenter, koordinatorer och ekonomer",
+      "priority": 5,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "bygg-anlaggning",
+      "title": "Bygg & anläggning",
+      "description": "AI-prompts för byggledare, projektörer, hantverkare och arkitekter",
+      "priority": 6,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "transport-logistik",
+      "title": "Transport & logistik",
+      "description": "AI-prompts för förare, transportplanerare, lagerarbetare och speditörer",
+      "priority": 7,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "restaurang-hotell",
+      "title": "Restaurang & hotell",
+      "description": "AI-prompts för kockar, servispersonal, receptionister och evenemangsplanerare",
+      "priority": 8,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "tillverkning-industri",
+      "title": "Tillverkning & industri",
+      "description": "AI-prompts för operatörer, tekniker, ingenjörer och kvalitetsansvariga",
+      "priority": 9,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "stad-fastighet",
+      "title": "Städ & fastighet",
+      "description": "AI-prompts för fastighetsskötare, städpersonal och drifttekniker",
+      "priority": 10,
+      "prompt_count": 0,
+      "prompts": []
+    }
+  ],
+  "total_prompts": 1
+}
