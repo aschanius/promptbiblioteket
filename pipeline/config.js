@@ -15,6 +15,15 @@ const INBOX_DIR = path.join(__dirname, 'inbox');
 const TEMPLATE_PATH = path.join(__dirname, 'templates', 'prompt-template.md');
 const RATING_SCHEMA_PATH = path.join(__dirname, '2-evaluate', 'rating-schema.yaml');
 
+function slugify(text) {
+  return text
+    .toLowerCase()
+    .replace(/[åä]/g, 'a')
+    .replace(/ö/g, 'o')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-|-$/g, '');
+}
+
 const VALID_CATEGORIES = [
   'ekonomi-finans',
   'ledarskap-strategi',
@@ -28,6 +37,7 @@ const VALID_CATEGORIES = [
 ];
 
 module.exports = {
+  slugify,
   VALID_CATEGORIES,
   ROOT_DIR,
   CONTENT_DIR,

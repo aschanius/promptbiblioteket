@@ -12,18 +12,8 @@
 
 const fs = require('fs');
 const path = require('path');
-const { VALID_CATEGORIES } = require('../config');
-
-const CONTENT_DIR = path.join(__dirname, '../../content/prompts');
-
-function slugify(text) {
-  return text
-    .toLowerCase()
-    .replace(/[åä]/g, 'a')
-    .replace(/ö/g, 'o')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
-}
+const yaml = require('yaml');
+const { VALID_CATEGORIES, CONTENT_DIR, slugify } = require('../config');
 
 function formatPromptFile(data) {
   const {
@@ -69,20 +59,8 @@ function formatPromptFile(data) {
     tags
   };
 
-  // Bygg YAML-frontmatter manuellt för kontroll
-  let yaml = '---\n';
-  yaml += `title: "${fm.title}"\n`;
-  yaml += `slug: ${fm.slug}\n`;
-  yaml += `category: ${fm.category}\n`;
-  if (fm.subcategory) yaml += `subcategory: ${fm.subcategory}\n`;
-  if (fm.source_url) yaml += `source_url: ${fm.source_url}\n`;
-  if (fm.source_author) yaml += `source_author: "${fm.source_author}"\n`;
-  if (fm.source_lang) yaml += `source_lang: ${fm.source_lang}\n`;
-  if (fm.rating) yaml += `rating: ${fm.rating}\n`;
-  if (fm.tested_models) yaml += `tested_models: [${fm.tested_models.join(', ')}]\n`;
-  if (fm.tested_date) yaml += `tested_date: ${fm.tested_date}\n`;
-  yaml += `tags: [${fm.tags.join(', ')}]\n`;
-  yaml += '---\n';
+  // Bygg YAML-frontmatter med yaml-paketet (säker hantering av specialtecken)
+  const fmYaml = '---\n' + yaml.stringify(fm, { lineWidth: 0 }) + '---\n';
 
   // Bygg markdown-body
   let body = '\n';
@@ -105,7 +83,7 @@ function formatPromptFile(data) {
     }
   }
 
-  return { content: yaml + body, slug: finalSlug, category };
+  return { content: fmYaml + body, slug: finalSlug, category };
 }
 
 function writePromptFile(data) {
@@ -184,4 +162,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { formatPromptFile, writePromptFile, slugify };
+module.exports = { formatPromptFile, writePromptFile };

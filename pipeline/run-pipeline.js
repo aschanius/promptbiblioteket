@@ -6,6 +6,9 @@
  * Tar en JSON-fil från pipeline/inbox/, formaterar den till .md,
  * kör verifiering, uppdaterar manifest och datafiler.
  *
+ * Atomicitet: Alla filoperationer samlas i minnet, verifieras,
+ * och skrivs sedan i en batch. Vid fel skrivs inga filer.
+ *
  * Användning:
  *   node pipeline/run-pipeline.js pipeline/inbox/budgetanalys.json
  */
@@ -14,8 +17,8 @@ const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
 const { VALID_CATEGORIES, CONTENT_DIR, DATA_DIR } = require('./config');
-const { formatPromptFile, writePromptFile } = require('./4-publish/format-prompt');
-const { analyzePrompt, validateFrontmatter, extractPrompt } = require('./verify-prompts');
+const { formatPromptFile } = require('./4-publish/format-prompt');
+const { analyzePrompt, validateFrontmatter, extractPrompt, extractSections } = require('./verify-prompts');
 const { scanPrompts } = require('./4-publish/update-manifest');
 
 function loadJson(filePath) {
@@ -23,20 +26,19 @@ function loadJson(filePath) {
   return JSON.parse(raw);
 }
 
-function verifyCreatedFile(filePath) {
-  const content = fs.readFileSync(filePath, 'utf8');
+function verifyContent(content, filename) {
   let parsed;
   try {
     parsed = matter(content);
   } catch (err) {
-    return { ok: false, errors: [`Frontmatter-fel: ${err.message}`] };
+    return { ok: false, errors: [`Frontmatter-fel: ${err.message}`], warnings: [] };
   }
 
   const errors = [];
   const warnings = [];
 
   // Frontmatter-validering
-  const fmIssues = validateFrontmatter(parsed.data, path.basename(filePath));
+  const fmIssues = validateFrontmatter(parsed.data, filename);
   for (const issue of fmIssues) {
     if (issue.severity === 'error') errors.push(issue.message);
     else warnings.push(issue.message);
@@ -52,13 +54,25 @@ function verifyCreatedFile(filePath) {
       if (issue.severity === 'error') errors.push(issue.message);
       else warnings.push(issue.message);
     }
+
+    // Pipeline-specifikt: nya prompts MÅSTE ha # Roll och # Uppgift
+    const sections = extractSections(extracted.prompt);
+    const requiredSections = ['Roll', 'Uppgift'];
+    for (const req of requiredSections) {
+      if (!sections.some(s => s.toLowerCase() === req.toLowerCase())) {
+        errors.push(`Saknar obligatorisk sektion: # ${req}`);
+      }
+    }
   }
 
   return { ok: errors.length === 0, errors, warnings };
 }
 
-function updateDataFiles(promptData) {
-  // Uppdatera ratings.json
+function prepareDataFiles(promptData) {
+  const writes = [];
+  const now = new Date().toISOString();
+
+  // Förbered ratings.json
   const ratingsPath = path.join(DATA_DIR, 'ratings.json');
   let ratings = { ratings: [], schema_version: '1.0.0', updated_at: null };
   if (fs.existsSync(ratingsPath)) {
@@ -66,26 +80,24 @@ function updateDataFiles(promptData) {
   }
 
   if (promptData.rating) {
-    // Ta bort eventuell befintlig entry för samma slug
     ratings.ratings = ratings.ratings.filter(r => r.slug !== promptData.slug);
     ratings.ratings.push({
       slug: promptData.slug,
       category: promptData.category,
       rating: promptData.rating,
-      rated_at: new Date().toISOString()
+      rated_at: now
     });
-    ratings.updated_at = new Date().toISOString();
-    fs.writeFileSync(ratingsPath, JSON.stringify(ratings, null, 2) + '\n', 'utf8');
+    ratings.updated_at = now;
+    writes.push({ path: ratingsPath, content: JSON.stringify(ratings, null, 2) + '\n' });
   }
 
-  // Uppdatera sources.json
+  // Förbered sources.json
   const sourcesPath = path.join(DATA_DIR, 'sources.json');
   let sources = { sources: [], updated_at: null };
   if (fs.existsSync(sourcesPath)) {
     sources = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
   }
 
-  // Ta bort eventuell befintlig entry för samma slug
   sources.sources = sources.sources.filter(s => s.slug !== promptData.slug);
   sources.sources.push({
     slug: promptData.slug,
@@ -93,22 +105,27 @@ function updateDataFiles(promptData) {
     source_url: promptData.source_url || null,
     source_author: promptData.source_author || null,
     source_lang: promptData.source_lang || 'sv',
-    added_at: new Date().toISOString()
+    added_at: now
   });
-  sources.updated_at = new Date().toISOString();
-  fs.writeFileSync(sourcesPath, JSON.stringify(sources, null, 2) + '\n', 'utf8');
+  sources.updated_at = now;
+  writes.push({ path: sourcesPath, content: JSON.stringify(sources, null, 2) + '\n' });
+
+  return writes;
 }
 
-function updateManifest() {
-  const categories = scanPrompts();
-  const totalPrompts = categories.reduce((sum, c) => sum + c.prompts.length, 0);
-
+function prepareManifest(promptFilePath) {
+  // Prompt-filen måste finnas för att scanPrompts ska hitta den,
+  // men vi har redan verifierat innehållet i minnet.
+  // Manifestet byggs efter att prompt-filen skrivits.
   const manifestPath = path.join(CONTENT_DIR, 'index.json');
   let currentVersion = '1.0.0';
   if (fs.existsSync(manifestPath)) {
     const current = JSON.parse(fs.readFileSync(manifestPath, 'utf8'));
     currentVersion = current.version || '1.0.0';
   }
+
+  const categories = scanPrompts();
+  const totalPrompts = categories.reduce((sum, c) => sum + c.prompts.length, 0);
 
   const manifest = {
     version: currentVersion,
@@ -117,8 +134,10 @@ function updateManifest() {
     total_prompts: totalPrompts
   };
 
-  fs.writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n', 'utf8');
-  return { categories: categories.length, totalPrompts };
+  return {
+    write: { path: manifestPath, content: JSON.stringify(manifest, null, 2) + '\n' },
+    stats: { categories: categories.length, totalPrompts }
+  };
 }
 
 function main() {
@@ -163,19 +182,27 @@ function main() {
   console.log(`   Titel: ${promptData.title}`);
   console.log(`   Kategori: ${promptData.category}`);
 
-  // 2. Formatera och skriv .md
+  // 2. Formatera i minnet (skriver INTE till disk ännu)
   console.log('\n2. Formaterar prompt-fil...');
-  let createdPath;
+  let formatted;
   try {
-    createdPath = writePromptFile(promptData);
+    formatted = formatPromptFile(promptData);
   } catch (err) {
     console.error(`   Formateringsfel: ${err.message}`);
     process.exit(1);
   }
 
-  // 3. Verifiera den skapade filen
+  const promptFilePath = path.join(CONTENT_DIR, formatted.category, `${formatted.slug}.md`);
+
+  if (fs.existsSync(promptFilePath)) {
+    console.error(`   Filen finns redan: ${promptFilePath}`);
+    console.error('   Använd en annan slug eller ta bort befintlig fil.');
+    process.exit(1);
+  }
+
+  // 3. Verifiera i minnet (inget skrivet till disk)
   console.log('\n3. Verifierar...');
-  const verification = verifyCreatedFile(createdPath);
+  const verification = verifyContent(formatted.content, path.basename(promptFilePath));
 
   if (verification.warnings.length > 0) {
     for (const w of verification.warnings) {
@@ -188,35 +215,71 @@ function main() {
     for (const e of verification.errors) {
       console.error(`   [FEL] ${e}`);
     }
-    // Ta bort den skapade filen vid misslyckad verifiering
-    fs.unlinkSync(createdPath);
-    console.error(`\n   Borttagen: ${createdPath}`);
     console.error('   Åtgärda felen i inbox-filen och kör igen.');
+    console.error('   (Inga filer har skrivits.)');
     process.exit(1);
   }
   console.log('   Alla kontroller godkända.');
 
-  // 4. Uppdatera manifest
-  console.log('\n4. Uppdaterar manifest...');
-  const manifestResult = updateManifest();
-  console.log(`   ${manifestResult.categories} kategorier, ${manifestResult.totalPrompts} prompts totalt.`);
+  // 4. Förbered datafiler i minnet
+  console.log('\n4. Förbereder datafiler...');
+  const dataWrites = prepareDataFiles(promptData);
 
-  // 5. Uppdatera datafiler
-  console.log('\n5. Uppdaterar datafiler...');
-  updateDataFiles(promptData);
-  console.log('   ratings.json och sources.json uppdaterade.');
+  // 5. Skriv allt i en batch — prompt-fil först (behövs för manifest-scan)
+  console.log('\n5. Skriver alla filer...');
+  const writtenFiles = [];
 
-  // 6. Sammanfattning
-  console.log('\n' + '='.repeat(60));
-  console.log('\nPublicerad!');
-  console.log(`  Fil: ${createdPath}`);
-  console.log(`  Totalt prompts: ${manifestResult.totalPrompts}`);
-  console.log('\nFöreslaget nästa steg:');
-  console.log(`  git add content/ data/ && git commit -m "feat: ny prompt — ${promptData.title}"`);
+  try {
+    // Skapa kategori-mapp om den saknas
+    const catDir = path.dirname(promptFilePath);
+    if (!fs.existsSync(catDir)) {
+      fs.mkdirSync(catDir, { recursive: true });
+    }
+
+    // Skriv prompt-fil
+    fs.writeFileSync(promptFilePath, formatted.content, 'utf8');
+    writtenFiles.push(promptFilePath);
+    console.log(`   Skapad: ${promptFilePath}`);
+
+    // Bygg och skriv manifest (kräver att prompt-filen finns på disk)
+    const manifestResult = prepareManifest(promptFilePath);
+    fs.writeFileSync(manifestResult.write.path, manifestResult.write.content, 'utf8');
+    writtenFiles.push(manifestResult.write.path);
+    console.log(`   ${manifestResult.stats.categories} kategorier, ${manifestResult.stats.totalPrompts} prompts totalt.`);
+
+    // Skriv datafiler
+    for (const w of dataWrites) {
+      fs.writeFileSync(w.path, w.content, 'utf8');
+      writtenFiles.push(w.path);
+    }
+    console.log('   ratings.json och sources.json uppdaterade.');
+
+    // 6. Sammanfattning
+    console.log('\n' + '='.repeat(60));
+    console.log('\nPublicerad!');
+    console.log(`  Fil: ${promptFilePath}`);
+    console.log(`  Totalt prompts: ${manifestResult.stats.totalPrompts}`);
+    console.log('\nFöreslaget nästa steg:');
+    console.log(`  git add content/ data/ && git commit -m "feat: ny prompt — ${promptData.title}"`);
+
+  } catch (err) {
+    // Rollback: ta bort alla filer vi skapat i denna körning
+    console.error(`\n   Fel vid skrivning: ${err.message}`);
+    console.error('   Rollback — tar bort skapade filer...');
+    for (const f of writtenFiles) {
+      try {
+        fs.unlinkSync(f);
+        console.error(`   Borttagen: ${f}`);
+      } catch {
+        // Filen kanske inte skapades
+      }
+    }
+    process.exit(1);
+  }
 }
 
 if (require.main === module) {
   main();
 }
 
-module.exports = { verifyCreatedFile, updateDataFiles, updateManifest };
+module.exports = { verifyContent, prepareDataFiles, prepareManifest };

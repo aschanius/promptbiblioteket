@@ -12,8 +12,8 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
+const { CONTENT_DIR } = require('../config');
 
-const CONTENT_DIR = path.join(__dirname, '../../content/prompts');
 const MANIFEST_PATH = path.join(CONTENT_DIR, 'index.json');
 
 function loadCurrentManifest() {

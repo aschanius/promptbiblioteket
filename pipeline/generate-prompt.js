@@ -19,7 +19,8 @@
 const fs = require('fs');
 const path = require('path');
 const { execFileSync } = require('child_process');
-const { VALID_CATEGORIES, CONTENT_DIR, INBOX_DIR, TEMPLATE_PATH, RATING_SCHEMA_PATH } = require('./config');
+const yaml = require('yaml');
+const { VALID_CATEGORIES, CONTENT_DIR, INBOX_DIR, TEMPLATE_PATH, RATING_SCHEMA_PATH, slugify } = require('./config');
 
 function parseArgs(argv) {
   const args = argv.slice(2);
@@ -32,15 +33,6 @@ function parseArgs(argv) {
   }
 
   return result;
-}
-
-function slugify(text) {
-  return text
-    .toLowerCase()
-    .replace(/[åä]/g, 'a')
-    .replace(/ö/g, 'o')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-|-$/g, '');
 }
 
 function loadGoldStandard() {
@@ -65,6 +57,24 @@ function loadCategoryMeta(category) {
   return fs.readFileSync(metaPath, 'utf8');
 }
 
+function parseRatingDimensions(ratingSchemaRaw) {
+  if (!ratingSchemaRaw) return null;
+  try {
+    const schema = yaml.parse(ratingSchemaRaw);
+    if (!schema?.dimensions || !schema?.weights) return null;
+    return {
+      dimensions: Object.values(schema.dimensions).map(d => ({
+        title: d.title,
+        description: d.description,
+        weight: schema.weights[d.id] || 1.0
+      })),
+      thresholds: schema.thresholds || {}
+    };
+  } catch {
+    return null;
+  }
+}
+
 function buildMetaPrompt(topic, category, categoryMeta, template, ratingSchema, goldStandard) {
   const categoryTitle = categoryMeta
     ? categoryMeta.match(/title:\s*"(.+?)"/)?.[1] || category
@@ -76,7 +86,20 @@ function buildMetaPrompt(topic, category, categoryMeta, template, ratingSchema, 
 
 Skapa en prompt om "${topic}" i kategorin "${categoryTitle}" (${category}).
 
-## Promptstruktur
+## Promptstruktur`;
+
+  // Injicera template dynamiskt om den finns
+  if (template) {
+    prompt += `
+
+Följ denna mall för prompttextens inre struktur:
+
+---
+${template}
+---`;
+  } else {
+    // Fallback om mallen saknas
+    prompt += `
 
 Prompttexten (inuti txt-blocket) ska använda svenska sektionsrubriker:
 - **# Roll** (obligatorisk) — Vem är AI:n? Vilken expertis?
@@ -86,7 +109,26 @@ Prompttexten (inuti txt-blocket) ska använda svenska sektionsrubriker:
 - **# Steg** (valfri) — Arbetsflöde, steg-för-steg
 - **# Utdataformat** (valfri) — Önskat format på svaret
 
-Använd minst Roll + Uppgift. Lägg till fler sektioner när de tillför värde.
+Använd minst Roll + Uppgift. Lägg till fler sektioner när de tillför värde.`;
+  }
+
+  // Injicera rating-dimensioner dynamiskt om schema finns
+  const parsed = parseRatingDimensions(ratingSchema);
+  if (parsed) {
+    const publishThreshold = parsed.thresholds.publish || 4.0;
+    prompt += `
+
+## Kvalitetskrav
+
+Prompten bedöms på ${parsed.dimensions.length} dimensioner (1-5 poäng vardera):`;
+    for (let i = 0; i < parsed.dimensions.length; i++) {
+      const d = parsed.dimensions[i];
+      const weightNote = d.weight !== 1.0 ? ` (viktas ${d.weight}x)` : '';
+      prompt += `\n${i + 1}. **${d.title}**${weightNote} — ${d.description}`;
+    }
+    prompt += `\n\nSikta på minst ${publishThreshold} i snittrating.`;
+  } else {
+    prompt += `
 
 ## Kvalitetskrav
 
@@ -97,7 +139,10 @@ Prompten bedöms på 5 dimensioner (1-5 poäng vardera):
 4. **Innovation** — Tillför något utöver det uppenbara
 5. **Testbarhet** — Resultatet kan bedömas objektivt
 
-Sikta på minst 4.0 i snittrating.
+Sikta på minst 4.0 i snittrating.`;
+  }
+
+  prompt += `
 
 ## Regler
 
@@ -254,4 +299,4 @@ if (require.main === module) {
   main();
 }
 
-module.exports = { buildMetaPrompt, slugify };
+module.exports = { buildMetaPrompt, parseRatingDimensions };

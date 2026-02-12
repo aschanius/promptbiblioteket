@@ -20,10 +20,23 @@ const path = require('path');
 const matter = require('gray-matter');
 const { VALID_CATEGORIES } = require('./config');
 
-const CONTENT_DIR = path.join(__dirname, '../content/prompts');
+const { CONTENT_DIR } = require('./config');
 const RATING_THRESHOLD = 3.0;
 const MIN_PROMPT_LENGTH = 50;
 const MAX_PROMPT_LENGTH = 2000;
+
+const REQUIRED_SECTIONS = ['Roll', 'Uppgift'];
+const KNOWN_SECTIONS = ['Roll', 'Uppgift', 'Kontext', 'Regler', 'Steg', 'Utdataformat'];
+
+function extractSections(promptText) {
+  const sectionRegex = /^#\s+(.+)$/gm;
+  const sections = [];
+  let match;
+  while ((match = sectionRegex.exec(promptText)) !== null) {
+    sections.push(match[1].trim());
+  }
+  return sections;
+}
 
 // Parsning av argument
 const args = process.argv.slice(2);
@@ -79,6 +92,17 @@ const QUALITY_CHECKS = {
     },
     message: 'Inga ASCII-approximationer av svenska tecken',
     severity: 'error',
+    weight: 3
+  },
+  hasRequiredSections: {
+    test: (prompt) => {
+      const sections = extractSections(prompt);
+      return REQUIRED_SECTIONS.every(req =>
+        sections.some(s => s.toLowerCase() === req.toLowerCase())
+      );
+    },
+    message: 'Innehåller obligatoriska sektioner (# Roll, # Uppgift)',
+    severity: 'warning',
     weight: 3
   },
   endsCleanly: {
@@ -362,4 +386,4 @@ if (require.main === module) {
   });
 }
 
-module.exports = { analyzePrompt, validateFrontmatter, extractPrompt, findPromptFiles, QUALITY_CHECKS };
+module.exports = { analyzePrompt, validateFrontmatter, extractPrompt, extractSections, findPromptFiles, QUALITY_CHECKS };
