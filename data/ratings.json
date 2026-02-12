@@ -1,5 +1,12 @@
 {
-  "ratings": [],
+  "ratings": [
+    {
+      "slug": "forklaringsdesigner",
+      "category": "utbildning-pedagogik",
+      "rating": 4.2,
+      "rated_at": "2026-02-12T00:00:00.000Z"
+    }
+  ],
   "schema_version": "1.0.0",
-  "updated_at": null
+  "updated_at": "2026-02-12T00:00:00.000Z"
 }

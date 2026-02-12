@@ -6,7 +6,17 @@ Tack för att du vill bidra! Här är hur du gör.
 
 ### 1. Formatera din prompt
 
-Varje prompt ska följa mallen i `content/prompts/`. Se befintliga prompts för exempel.
+Varje prompt ska följa strukturen i `pipeline/templates/prompt-template.md`. Se befintliga prompts för exempel.
+
+**Prompttextens sektioner** (inuti ` ```txt ` -blocket):
+- **Roll** — Vem är AI:n? (obligatorisk)
+- **Uppgift** — Vad ska göras? (obligatorisk)
+- **Kontext** — Bakgrundsinformation (valfri)
+- **Regler** — Begränsningar och riktlinjer (valfri)
+- **Steg** — Arbetsflöde, steg-för-steg (valfri)
+- **Utdataformat** — Önskat format (valfri)
+
+Roll + Uppgift är minimum. Sektionsrubriker på svenska.
 
 **Obligatoriska fält i frontmatter:**
 - `title` — Kort, beskrivande titel

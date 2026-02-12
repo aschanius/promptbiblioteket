@@ -1,4 +1,13 @@
 {
-  "sources": [],
-  "updated_at": null
+  "sources": [
+    {
+      "slug": "forklaringsdesigner",
+      "category": "utbildning-pedagogik",
+      "source_url": "https://www.oneusefulthing.org/",
+      "source_author": "Ethan Mollick",
+      "source_lang": "en",
+      "added_at": "2026-02-12T00:00:00.000Z"
+    }
+  ],
+  "updated_at": "2026-02-12T00:00:00.000Z"
 }

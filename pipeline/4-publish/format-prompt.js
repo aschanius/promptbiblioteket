@@ -131,49 +131,57 @@ function writePromptFile(data) {
 
 // --- CLI ---
 
-const args = process.argv.slice(2);
+function main() {
+  const args = process.argv.slice(2);
 
-if (args.includes('--json')) {
-  const jsonIdx = args.indexOf('--json');
-  const jsonStr = args[jsonIdx + 1];
+  if (args.includes('--json')) {
+    const jsonIdx = args.indexOf('--json');
+    const jsonStr = args[jsonIdx + 1];
 
-  if (!jsonStr) {
-    console.error('Ange JSON efter --json');
-    process.exit(1);
+    if (!jsonStr) {
+      console.error('Ange JSON efter --json');
+      process.exit(1);
+    }
+
+    try {
+      const data = JSON.parse(jsonStr);
+      writePromptFile(data);
+    } catch (err) {
+      console.error('Ogiltigt JSON:', err.message);
+      process.exit(1);
+    }
+  } else if (args.includes('--dry-run')) {
+    // Skriv bara till stdout för granskning
+    const jsonIdx = args.indexOf('--dry-run');
+    const jsonStr = args[jsonIdx + 1];
+
+    if (!jsonStr) {
+      console.error('Ange JSON efter --dry-run');
+      process.exit(1);
+    }
+
+    try {
+      const data = JSON.parse(jsonStr);
+      const { content } = formatPromptFile(data);
+      console.log(content);
+    } catch (err) {
+      console.error('Fel:', err.message);
+      process.exit(1);
+    }
+  } else {
+    console.log('Format Prompt — Promptbiblioteket');
+    console.log('');
+    console.log('Användning:');
+    console.log('  node pipeline/4-publish/format-prompt.js --json \'{"title":"...","category":"...","prompt":"..."}\'');
+    console.log('  node pipeline/4-publish/format-prompt.js --dry-run \'{"title":"...","category":"...","prompt":"..."}\'');
+    console.log('');
+    console.log('Obligatoriska fält: title, category, prompt');
+    console.log(`Giltiga kategorier: ${VALID_CATEGORIES.join(', ')}`);
   }
-
-  try {
-    const data = JSON.parse(jsonStr);
-    writePromptFile(data);
-  } catch (err) {
-    console.error('Ogiltigt JSON:', err.message);
-    process.exit(1);
-  }
-} else if (args.includes('--dry-run')) {
-  // Skriv bara till stdout för granskning
-  const jsonIdx = args.indexOf('--dry-run');
-  const jsonStr = args[jsonIdx + 1];
-
-  if (!jsonStr) {
-    console.error('Ange JSON efter --dry-run');
-    process.exit(1);
-  }
-
-  try {
-    const data = JSON.parse(jsonStr);
-    const { content } = formatPromptFile(data);
-    console.log(content);
-  } catch (err) {
-    console.error('Fel:', err.message);
-    process.exit(1);
-  }
-} else {
-  console.log('Format Prompt — Promptbiblioteket');
-  console.log('');
-  console.log('Användning:');
-  console.log('  node pipeline/4-publish/format-prompt.js --json \'{"title":"...","category":"...","prompt":"..."}\'');
-  console.log('  node pipeline/4-publish/format-prompt.js --dry-run \'{"title":"...","category":"...","prompt":"..."}\'');
-  console.log('');
-  console.log('Obligatoriska fält: title, category, prompt');
-  console.log(`Giltiga kategorier: ${VALID_CATEGORIES.join(', ')}`);
 }
+
+if (require.main === module) {
+  main();
+}
+
+module.exports = { formatPromptFile, writePromptFile, slugify };

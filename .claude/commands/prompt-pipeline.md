@@ -1,67 +1,58 @@
 # Prompt Pipeline
 
-Kör hela pipelinen för att lägga till nya prompts i Promptbiblioteket.
+Kör hela pipelinen för att generera, granska och publicera nya prompts i Promptbiblioteket.
 
-## Steg
+## Flöde
 
-### 1. Insamling
-Beskriv prompten du vill lägga till:
-- **Källa:** Var hittade du den? (URL, eget skapande, etc.)
-- **Originalspråk:** Svenska eller annat?
-- **Yrkeskategori:** Vilken av de 10 kategorierna?
-
-### 2. Granskning
-Använd rating-schemat i `pipeline/2-evaluate/rating-schema.yaml`:
-- Tydlighet (1-5)
-- Specificitet (1-5)
-- Överförbarhet (1-5)
-- Innovation (1-5)
-- Testbarhet (1-5)
-
-Beräkna viktad rating. Prompten måste nå >= 3.0 för publicering.
-
-### 3. Översättning (om behövs)
-Om källspråket inte är svenska:
-- Översätt till korrekt svenska
-- Anpassa till svensk yrkeskontext
-- Kontrollera att alla å, ä, ö är korrekta
-
-### 4. Formatering
-Kör format-prompt.js:
+### 1. Generera
 ```bash
-node pipeline/4-publish/format-prompt.js --json '{
-  "title": "...",
-  "slug": "...",
-  "category": "...",
-  "prompt": "...",
-  "purpose": "...",
-  "usage": "...",
-  "tags": ["...", "..."],
-  "source_url": "...",
-  "source_author": "...",
-  "source_lang": "...",
-  "rating": 4.2,
-  "tested_models": ["claude-4", "gpt-4o"],
-  "tested_date": "2026-02-15",
-  "test_results": [
-    {"model": "Claude 4", "score": 4, "comment": "..."},
-    {"model": "GPT-4o", "score": 3, "comment": "..."}
-  ]
-}'
+npm run generate -- --topic "Ämnesbeskrivning" --category kategori-id
+```
+Alternativt med `--manual` för att få meta-prompten till stdout (kopiera till valfri chattbot).
+
+### 2. Granska
+Läs igenom JSON-filen i `pipeline/inbox/`. Kontrollera:
+- Titel och tags
+- Prompttextens kvalitet (Roll + Uppgift som minimum)
+- Svenska tecken (å, ä, ö)
+- Att prompten följer `pipeline/templates/prompt-template.md`
+
+### 3. Publicera
+```bash
+npm run pipeline -- pipeline/inbox/<fil>.json
+```
+Pipeline-runnern:
+1. Formaterar JSON → .md i rätt kategori-mapp
+2. Kör verifiering mot kvalitetskrav
+3. Uppdaterar index.json (manifest)
+4. Uppdaterar data/ratings.json + data/sources.json
+
+### 4. Verifiera
+```bash
+npm run verify -- --verbose
 ```
 
-### 5. Verifiering
-```bash
-node pipeline/verify-prompts.js --verbose
-```
+### 5. Committa
+Committa prompt-filen, manifest och datafiler.
 
-### 6. Manifest-uppdatering
-```bash
-node pipeline/4-publish/update-manifest.js
-```
+## 9 yrkeskategorier
 
-### 7. Commit
-Committa prompt-filen, uppdaterat manifest och eventuell sources.json.
+| ID | Namn |
+|----|------|
+| `ekonomi-finans` | Ekonomi & finans |
+| `ledarskap-strategi` | Ledarskap & strategi |
+| `juridik-compliance` | Juridik & compliance |
+| `administration-ea` | Administration & EA |
+| `utbildning-pedagogik` | Utbildning & pedagogik |
+| `marknadsforing-kommunikation` | Marknadsföring & kommunikation |
+| `vard-omsorg` | Vård & omsorg |
+| `hr-rekrytering` | HR & rekrytering |
+| `sme-entreprenorer` | SME & entreprenörer |
+
+## Kvalitetskrav
+
+Rating >= 3.0 enligt 5 dimensioner (se `pipeline/2-evaluate/rating-schema.yaml`).
+Promptmall: `pipeline/templates/prompt-template.md`.
 
 ## Input
 $ARGUMENTS

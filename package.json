@@ -6,7 +6,9 @@
   "scripts": {
     "verify": "node pipeline/verify-prompts.js",
     "format": "node pipeline/4-publish/format-prompt.js",
-    "manifest": "node pipeline/4-publish/update-manifest.js"
+    "manifest": "node pipeline/4-publish/update-manifest.js",
+    "generate": "node pipeline/generate-prompt.js",
+    "pipeline": "node pipeline/run-pipeline.js"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
