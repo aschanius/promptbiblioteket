@@ -1,8 +1,8 @@
 # Promptbiblioteket — Projektinstruktioner
 
 ## Om projektet
-Open source promptbibliotek för svenska yrkesverksamma, under Vardagshacker-varumärket.
-Sajt: prompter.vardagshacker.se (planerad).
+Open source promptbibliotek för svenska yrkesverksamma, under Teknikministeriet.
+Sajt: prompter.teknikministeriet.se (planerad).
 
 ## Regler
 - **Alla texter på korrekt svenska med å, ä, ö.** Inga ASCII-approximationer.

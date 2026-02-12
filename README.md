@@ -65,4 +65,4 @@ Prompts som ingår måste uppnå minst 3.0 i genomsnittlig rating:
 
 ## Byggt av
 
-[Vardagshacker](https://vardagshacker.se) — AI-tips för svenska yrkesverksamma.
+[Teknikministeriet](https://teknikministeriet.se) — AI och teknik för svenska yrkesverksamma.
