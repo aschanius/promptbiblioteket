@@ -68,7 +68,11 @@ function verifyContent(content, filename) {
   return { ok: errors.length === 0, errors, warnings };
 }
 
-function prepareDataFiles(promptData) {
+function prepareDataFiles(promptData, slug) {
+  if (!slug) {
+    throw new Error('slug krävs för prepareDataFiles');
+  }
+
   const writes = [];
   const now = new Date().toISOString();
 
@@ -80,9 +84,9 @@ function prepareDataFiles(promptData) {
   }
 
   if (promptData.rating) {
-    ratings.ratings = ratings.ratings.filter(r => r.slug !== promptData.slug);
+    ratings.ratings = ratings.ratings.filter(r => r.slug !== slug);
     ratings.ratings.push({
-      slug: promptData.slug,
+      slug,
       category: promptData.category,
       rating: promptData.rating,
       rated_at: now
@@ -98,9 +102,9 @@ function prepareDataFiles(promptData) {
     sources = JSON.parse(fs.readFileSync(sourcesPath, 'utf8'));
   }
 
-  sources.sources = sources.sources.filter(s => s.slug !== promptData.slug);
+  sources.sources = sources.sources.filter(s => s.slug !== slug);
   sources.sources.push({
-    slug: promptData.slug,
+    slug,
     category: promptData.category,
     source_url: promptData.source_url || null,
     source_author: promptData.source_author || null,
@@ -223,11 +227,12 @@ function main() {
 
   // 4. Förbered datafiler i minnet
   console.log('\n4. Förbereder datafiler...');
-  const dataWrites = prepareDataFiles(promptData);
+  const dataWrites = prepareDataFiles(promptData, formatted.slug);
 
   // 5. Skriv allt i en batch — prompt-fil först (behövs för manifest-scan)
   console.log('\n5. Skriver alla filer...');
-  const writtenFiles = [];
+  const newFiles = [];       // Filer som inte fanns innan — raderas vid rollback
+  const backups = new Map(); // Befintliga filer — återställs vid rollback
 
   try {
     // Skapa kategori-mapp om den saknas
@@ -236,21 +241,30 @@ function main() {
       fs.mkdirSync(catDir, { recursive: true });
     }
 
-    // Skriv prompt-fil
+    // Skriv prompt-fil (alltid ny)
     fs.writeFileSync(promptFilePath, formatted.content, 'utf8');
-    writtenFiles.push(promptFilePath);
+    newFiles.push(promptFilePath);
     console.log(`   Skapad: ${promptFilePath}`);
 
     // Bygg och skriv manifest (kräver att prompt-filen finns på disk)
     const manifestResult = prepareManifest(promptFilePath);
-    fs.writeFileSync(manifestResult.write.path, manifestResult.write.content, 'utf8');
-    writtenFiles.push(manifestResult.write.path);
+    const manifestPath = manifestResult.write.path;
+    if (fs.existsSync(manifestPath)) {
+      backups.set(manifestPath, fs.readFileSync(manifestPath, 'utf8'));
+    } else {
+      newFiles.push(manifestPath);
+    }
+    fs.writeFileSync(manifestPath, manifestResult.write.content, 'utf8');
     console.log(`   ${manifestResult.stats.categories} kategorier, ${manifestResult.stats.totalPrompts} prompts totalt.`);
 
     // Skriv datafiler
     for (const w of dataWrites) {
+      if (fs.existsSync(w.path)) {
+        backups.set(w.path, fs.readFileSync(w.path, 'utf8'));
+      } else {
+        newFiles.push(w.path);
+      }
       fs.writeFileSync(w.path, w.content, 'utf8');
-      writtenFiles.push(w.path);
     }
     console.log('   ratings.json och sources.json uppdaterade.');
 
@@ -263,16 +277,20 @@ function main() {
     console.log(`  git add content/ data/ && git commit -m "feat: ny prompt — ${promptData.title}"`);
 
   } catch (err) {
-    // Rollback: ta bort alla filer vi skapat i denna körning
+    // Rollback: återställ befintliga filer, radera nya
     console.error(`\n   Fel vid skrivning: ${err.message}`);
-    console.error('   Rollback — tar bort skapade filer...');
-    for (const f of writtenFiles) {
+    console.error('   Rollback — återställer...');
+    for (const [filePath, original] of backups) {
+      try {
+        fs.writeFileSync(filePath, original, 'utf8');
+        console.error(`   Återställd: ${filePath}`);
+      } catch { /* best effort */ }
+    }
+    for (const f of newFiles) {
       try {
         fs.unlinkSync(f);
         console.error(`   Borttagen: ${f}`);
-      } catch {
-        // Filen kanske inte skapades
-      }
+      } catch { /* filen kanske inte skapades */ }
     }
     process.exit(1);
   }

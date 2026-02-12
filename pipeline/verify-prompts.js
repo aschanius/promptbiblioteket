@@ -240,6 +240,11 @@ async function main() {
   console.log('='.repeat(70));
 
   if (categoryFilter) {
+    if (!VALID_CATEGORIES.includes(categoryFilter)) {
+      console.error(`\nOgiltig kategori: "${categoryFilter}"`);
+      console.error(`Giltiga kategorier: ${VALID_CATEGORIES.join(', ')}`);
+      process.exit(1);
+    }
     console.log(`\nFiltrerar: ${categoryFilter}\n`);
   }
 
