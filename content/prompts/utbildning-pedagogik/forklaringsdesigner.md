@@ -1,7 +1,7 @@
 ---
 title: "Designa effektiva förklaringar och analogier"
 slug: forklaringsdesigner
-category: utbildning
+category: utbildning-pedagogik
 subcategory: pedagogik
 source_url: https://www.oneusefulthing.org/
 source_author: "Ethan Mollick"

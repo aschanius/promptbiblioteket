@@ -1,7 +1,0 @@
-id: transport-logistik
-title: "Transport & logistik"
-description: "AI-prompts för förare, transportplanerare, lagerarbetare och speditörer"
-scb_codes:
-  - "83" # Fordonsförare
-  - "93" # Transport- och lagerarbetare
-priority: 7

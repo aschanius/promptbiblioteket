@@ -18,17 +18,12 @@
 const fs = require('fs');
 const path = require('path');
 const matter = require('gray-matter');
+const { VALID_CATEGORIES } = require('./config');
 
 const CONTENT_DIR = path.join(__dirname, '../content/prompts');
 const RATING_THRESHOLD = 3.0;
 const MIN_PROMPT_LENGTH = 50;
 const MAX_PROMPT_LENGTH = 2000;
-
-const VALID_CATEGORIES = [
-  'vard-omsorg', 'utbildning', 'handel-forsaljning', 'it-mjukvara',
-  'administration', 'bygg-anlaggning', 'transport-logistik',
-  'restaurang-hotell', 'tillverkning-industri', 'stad-fastighet'
-];
 
 // Parsning av argument
 const args = process.argv.slice(2);

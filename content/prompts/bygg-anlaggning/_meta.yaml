@@ -1,7 +1,0 @@
-id: bygg-anlaggning
-title: "Bygg & anläggning"
-description: "AI-prompts för byggledare, projektörer, hantverkare och arkitekter"
-scb_codes:
-  - "71" # Byggnads- och anläggningsarbetare
-  - "21" # Ingenjörer och arkitekter
-priority: 6

@@ -12,13 +12,9 @@
 
 const fs = require('fs');
 const path = require('path');
+const { VALID_CATEGORIES } = require('../config');
 
 const CONTENT_DIR = path.join(__dirname, '../../content/prompts');
-const VALID_CATEGORIES = [
-  'vard-omsorg', 'utbildning', 'handel-forsaljning', 'it-mjukvara',
-  'administration', 'bygg-anlaggning', 'transport-logistik',
-  'restaurang-hotell', 'tillverkning-industri', 'stad-fastighet'
-];
 
 function slugify(text) {
   return text

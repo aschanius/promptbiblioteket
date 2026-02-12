@@ -1,7 +1,4 @@
 id: vard-omsorg
 title: "Vård & omsorg"
 description: "AI-prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer"
-scb_codes:
-  - "22" # Hälso- och sjukvårdsspecialister
-  - "32" # Hälso- och sjukvårdsassistenter
-priority: 1
+priority: 7

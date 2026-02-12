@@ -1,7 +1,0 @@
-id: administration
-title: "Administration"
-description: "AI-prompts för handläggare, assistenter, koordinatorer och ekonomer"
-scb_codes:
-  - "41" # Kontorspersonal
-  - "24" # Företagsekonomer och administratörer
-priority: 5

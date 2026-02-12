@@ -1,26 +1,50 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-02-12T11:37:30.482Z",
+  "generated_at": "2026-02-12T18:10:30.603Z",
   "categories": [
     {
-      "id": "vard-omsorg",
-      "title": "Vård & omsorg",
-      "description": "AI-prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer",
+      "id": "ekonomi-finans",
+      "title": "Ekonomi & finans",
+      "description": "AI-prompts för ekonomer, controllers, revisorer och finansanalytiker",
       "priority": 1,
       "prompt_count": 0,
       "prompts": []
     },
     {
-      "id": "utbildning",
-      "title": "Utbildning",
-      "description": "AI-prompts för lärare, rektorer, utbildare och studievägledare",
+      "id": "ledarskap-strategi",
+      "title": "Ledarskap & strategi",
+      "description": "AI-prompts för chefer, projektledare och beslutsfattare",
       "priority": 2,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "juridik-compliance",
+      "title": "Juridik & compliance",
+      "description": "AI-prompts för jurister, bolagsjurister och complianceansvariga",
+      "priority": 3,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "administration-ea",
+      "title": "Administration & EA",
+      "description": "AI-prompts för assistenter, koordinatorer och kontorsadministration",
+      "priority": 4,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "utbildning-pedagogik",
+      "title": "Utbildning & pedagogik",
+      "description": "AI-prompts för lärare, utbildare, rektorer och studiehandledare",
+      "priority": 5,
       "prompt_count": 1,
       "prompts": [
         {
           "slug": "forklaringsdesigner",
           "title": "Designa effektiva förklaringar och analogier",
-          "file": "utbildning/forklaringsdesigner.md",
+          "file": "utbildning-pedagogik/forklaringsdesigner.md",
           "rating": 4.2,
           "tags": [
             "förklaring",
@@ -38,57 +62,33 @@
       ]
     },
     {
-      "id": "administration",
-      "title": "Administration",
-      "description": "AI-prompts för handläggare, assistenter, koordinatorer och ekonomer",
-      "priority": 3,
-      "prompt_count": 0,
-      "prompts": []
-    },
-    {
-      "id": "handel-forsaljning",
-      "title": "Handel & försäljning",
-      "description": "AI-prompts för butikspersonal, e-handel, försäljare och inköpare",
-      "priority": 4,
-      "prompt_count": 0,
-      "prompts": []
-    },
-    {
-      "id": "bygg-anlaggning",
-      "title": "Bygg & anläggning",
-      "description": "AI-prompts för byggledare, projektörer, hantverkare och arkitekter",
-      "priority": 5,
-      "prompt_count": 0,
-      "prompts": []
-    },
-    {
-      "id": "tillverkning-industri",
-      "title": "Tillverkning & industri",
-      "description": "AI-prompts för operatörer, tekniker, ingenjörer och kvalitetsansvariga",
+      "id": "marknadsforing-kommunikation",
+      "title": "Marknadsföring & kommunikation",
+      "description": "AI-prompts för marknadschefer, copywriters, PR och sociala medier",
       "priority": 6,
       "prompt_count": 0,
       "prompts": []
     },
     {
-      "id": "transport-logistik",
-      "title": "Transport & logistik",
-      "description": "AI-prompts för förare, transportplanerare, lagerarbetare och speditörer",
+      "id": "vard-omsorg",
+      "title": "Vård & omsorg",
+      "description": "AI-prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer",
       "priority": 7,
       "prompt_count": 0,
       "prompts": []
     },
     {
-      "id": "restaurang-hotell",
-      "title": "Restaurang & hotell",
-      "description": "AI-prompts för kockar, servispersonal, receptionister och evenemangsplanerare",
+      "id": "hr-rekrytering",
+      "title": "HR & rekrytering",
+      "description": "AI-prompts för HR-chefer, rekryterare och personalutvecklare",
       "priority": 8,
       "prompt_count": 0,
       "prompts": []
     },
     {
-      "id": "stad-fastighet",
-      "title": "Städ & fastighet",
-      "description": "AI-prompts för fastighetsskötare, städpersonal och drifttekniker",
+      "id": "sme-entreprenorer",
+      "title": "SME & entreprenörer",
+      "description": "AI-prompts för småföretagare, verksamhetsledare och enmansföretag",
       "priority": 9,
       "prompt_count": 0,
       "prompts": []

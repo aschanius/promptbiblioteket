@@ -1,0 +1,6 @@
+id: administration-ea
+title: "Administration & EA"
+description: "AI-prompts för assistenter, koordinatorer och kontorsadministration"
+course_ids:
+  - ai-for-ea-v2
+priority: 4

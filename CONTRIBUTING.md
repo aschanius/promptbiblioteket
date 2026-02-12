@@ -11,7 +11,7 @@ Varje prompt ska följa mallen i `content/prompts/`. Se befintliga prompts för 
 **Obligatoriska fält i frontmatter:**
 - `title` — Kort, beskrivande titel
 - `slug` — URL-vänligt namn (kebab-case)
-- `category` — En av de 10 yrkeskategorierna
+- `category` — En av de 9 yrkeskategorierna
 - `tags` — Relevanta sökord
 
 **Obligatoriska sektioner:**
@@ -50,16 +50,21 @@ Prompts med rating under 3.0 avvisas. Vi bedömer:
 
 | Kategori-ID | Namn |
 |-------------|------|
+| `ekonomi-finans` | Ekonomi & finans |
+| `ledarskap-strategi` | Ledarskap & strategi |
+| `juridik-compliance` | Juridik & compliance |
+| `administration-ea` | Administration & EA |
+| `utbildning-pedagogik` | Utbildning & pedagogik |
+| `marknadsforing-kommunikation` | Marknadsföring & kommunikation |
 | `vard-omsorg` | Vård & omsorg |
-| `utbildning` | Utbildning |
-| `handel-forsaljning` | Handel & försäljning |
-| `it-mjukvara` | IT & mjukvara |
-| `administration` | Administration |
-| `bygg-anlaggning` | Bygg & anläggning |
-| `transport-logistik` | Transport & logistik |
-| `restaurang-hotell` | Restaurang & hotell |
-| `tillverkning-industri` | Tillverkning & industri |
-| `stad-fastighet` | Städ & fastighet |
+| `hr-rekrytering` | HR & rekrytering |
+| `sme-entreprenorer` | SME & entreprenörer |
+
+## Bransch-taggar
+
+Branschspecifika prompts placeras i funktionskategorin med en `bransch:`-tagg. Till exempel: en prompt om budgetanalys för byggprojekt hör hemma i `ekonomi-finans` med taggen `bransch:bygg`.
+
+Konvention: `bransch:bygg`, `bransch:transport`, `bransch:restaurang`, `bransch:tillverkning`, `bransch:handel` etc.
 
 ## Språkregel
 

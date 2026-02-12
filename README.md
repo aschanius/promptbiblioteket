@@ -15,15 +15,15 @@ Promptbiblioteket är en kuraterad samling av testade och kvalitetssäkrade AI-p
 
 | Kategori | Beskrivning |
 |----------|-------------|
-| Vård & omsorg | Sjuksköterskor, läkare, undersköterskor |
-| Utbildning | Lärare, rektorer, utbildare |
-| Administration | Handläggare, assistenter, koordinatorer |
-| Handel & försäljning | Butik, e-handel, försäljare |
-| Bygg & anläggning | Byggledare, projektörer, hantverkare |
-| Tillverkning & industri | Operatörer, tekniker, ingenjörer |
-| Transport & logistik | Förare, planerare, lagerarbetare |
-| Restaurang & hotell | Kockar, servis, reception |
-| Städ & fastighet | Fastighetsskötare, städpersonal |
+| Ekonomi & finans | Ekonomer, controllers, revisorer, finansanalytiker |
+| Ledarskap & strategi | Chefer, projektledare, beslutsfattare |
+| Juridik & compliance | Jurister, bolagsjurister, complianceansvariga |
+| Administration & EA | Assistenter, koordinatorer, kontorsadministration |
+| Utbildning & pedagogik | Lärare, utbildare, rektorer, studiehandledare |
+| Marknadsföring & kommunikation | Marknadschefer, copywriters, PR, sociala medier |
+| Vård & omsorg | Sjuksköterskor, läkare, undersköterskor, vårdadministratörer |
+| HR & rekrytering | HR-chefer, rekryterare, personalutvecklare |
+| SME & entreprenörer | Småföretagare, verksamhetsledare, enmansföretag |
 
 ## Struktur
 
