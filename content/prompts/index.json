@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-02-12T20:48:57.589Z",
+  "generated_at": "2026-02-12T21:05:15.500Z",
   "categories": [
     {
       "id": "ekonomi-finans",
@@ -15,8 +15,25 @@
       "title": "Ledarskap & strategi",
       "description": "AI-prompts för chefer, projektledare och beslutsfattare",
       "priority": 2,
-      "prompt_count": 0,
-      "prompts": []
+      "prompt_count": 1,
+      "prompts": [
+        {
+          "slug": "motessammanfattning-och-beslutsdokumentation",
+          "title": "Mötessammanfattning och beslutsdokumentation",
+          "file": "ledarskap-strategi/motessammanfattning-och-beslutsdokumentation.md",
+          "rating": null,
+          "tags": [
+            "möte",
+            "protokoll",
+            "beslut",
+            "dokumentation",
+            "ledarskap",
+            "uppföljning"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        }
+      ]
     },
     {
       "id": "juridik-compliance",
@@ -94,5 +111,5 @@
       "prompts": []
     }
   ],
-  "total_prompts": 1
+  "total_prompts": 2
 }
