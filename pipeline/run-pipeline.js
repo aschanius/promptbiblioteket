@@ -186,6 +186,13 @@ function main() {
   console.log(`   Titel: ${promptData.title}`);
   console.log(`   Kategori: ${promptData.category}`);
 
+  // Rating-gate: prompts med rating under 3.0 avvisas
+  if (promptData.rating !== undefined && promptData.rating !== null && promptData.rating < 3.0) {
+    console.error(`   Rating ${promptData.rating} under minimum 3.0 — avvisad.`);
+    console.error('   Förbättra prompten och kör igen.');
+    process.exit(1);
+  }
+
   // 2. Formatera i minnet (skriver INTE till disk ännu)
   console.log('\n2. Formaterar prompt-fil...');
   let formatted;
@@ -193,6 +200,12 @@ function main() {
     formatted = formatPromptFile(promptData);
   } catch (err) {
     console.error(`   Formateringsfel: ${err.message}`);
+    process.exit(1);
+  }
+
+  // Slug-validering: säkerställ att slug inte är tom
+  if (!formatted.slug) {
+    console.error('   Slug kunde inte genereras. Ange ett giltigt slug eller en titel med bokstäver/siffror.');
     process.exit(1);
   }
 
@@ -234,6 +247,13 @@ function main() {
   const newFiles = [];       // Filer som inte fanns innan — raderas vid rollback
   const backups = new Map(); // Befintliga filer — återställs vid rollback
 
+  // Säker skrivning: tempfil + rename för atomicitet
+  function safeWrite(filePath, content) {
+    const tmpPath = filePath + '.tmp';
+    fs.writeFileSync(tmpPath, content, 'utf8');
+    fs.renameSync(tmpPath, filePath);
+  }
+
   try {
     // Skapa kategori-mapp om den saknas
     const catDir = path.dirname(promptFilePath);
@@ -242,7 +262,7 @@ function main() {
     }
 
     // Skriv prompt-fil (alltid ny)
-    fs.writeFileSync(promptFilePath, formatted.content, 'utf8');
+    safeWrite(promptFilePath, formatted.content);
     newFiles.push(promptFilePath);
     console.log(`   Skapad: ${promptFilePath}`);
 
@@ -254,7 +274,7 @@ function main() {
     } else {
       newFiles.push(manifestPath);
     }
-    fs.writeFileSync(manifestPath, manifestResult.write.content, 'utf8');
+    safeWrite(manifestPath, manifestResult.write.content);
     console.log(`   ${manifestResult.stats.categories} kategorier, ${manifestResult.stats.totalPrompts} prompts totalt.`);
 
     // Skriv datafiler
@@ -264,7 +284,7 @@ function main() {
       } else {
         newFiles.push(w.path);
       }
-      fs.writeFileSync(w.path, w.content, 'utf8');
+      safeWrite(w.path, w.content);
     }
     console.log('   ratings.json och sources.json uppdaterade.');
 
@@ -288,9 +308,15 @@ function main() {
     }
     for (const f of newFiles) {
       try {
-        fs.unlinkSync(f);
-        console.error(`   Borttagen: ${f}`);
+        if (fs.existsSync(f)) {
+          fs.unlinkSync(f);
+          console.error(`   Borttagen: ${f}`);
+        }
       } catch { /* filen kanske inte skapades */ }
+    }
+    // Rensa eventuella kvarvarande .tmp-filer
+    for (const f of [...newFiles, ...backups.keys()]) {
+      try { fs.unlinkSync(f + '.tmp'); } catch { /* ignorera */ }
     }
     process.exit(1);
   }
