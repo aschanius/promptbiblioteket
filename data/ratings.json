@@ -5,8 +5,14 @@
       "category": "utbildning-pedagogik",
       "rating": 4.2,
       "rated_at": "2026-02-12T00:00:00.000Z"
+    },
+    {
+      "slug": "motessammanfattning-och-beslutsdokumentation",
+      "category": "ledarskap-strategi",
+      "rating": 4.0,
+      "rated_at": "2026-02-12T00:00:00.000Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-02-12T00:00:00.000Z"
+  "updated_at": "2026-04-10T00:00:00.000Z"
 }

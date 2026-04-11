@@ -1,27 +1,51 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-02-12T21:28:13.558Z",
+  "generated_at": "2026-04-10T21:03:09.845Z",
   "categories": [
+    {
+      "id": "administration-ea",
+      "title": "Administration & EA",
+      "description": "Prompts för assistenter, koordinatorer och kontorsadministration. Schemaläggning, dokumenthantering och kommunikation.",
+      "priority": 99,
+      "prompt_count": 0,
+      "prompts": []
+    },
     {
       "id": "ekonomi-finans",
       "title": "Ekonomi & finans",
-      "description": "AI-prompts för ekonomer, controllers, revisorer och finansanalytiker",
-      "priority": 1,
+      "description": "Prompts för ekonomer, controllers, revisorer och finansanalytiker. Budget, rapportering, analys och revision.",
+      "priority": 99,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "hr-rekrytering",
+      "title": "HR & rekrytering",
+      "description": "Prompts för HR-chefer, rekryterare och personalutvecklare. Jobbannonsering, intervjufrågor, onboarding och medarbetarsamtal.",
+      "priority": 99,
+      "prompt_count": 0,
+      "prompts": []
+    },
+    {
+      "id": "juridik-compliance",
+      "title": "Juridik & compliance",
+      "description": "Prompts för jurister, bolagsjurister och complianceansvariga. Avtalsgranskning, regelefterlevnad och riskbedömning.",
+      "priority": 99,
       "prompt_count": 0,
       "prompts": []
     },
     {
       "id": "ledarskap-strategi",
       "title": "Ledarskap & strategi",
-      "description": "AI-prompts för chefer, projektledare och beslutsfattare",
-      "priority": 2,
+      "description": "Prompts för chefer, projektledare och beslutsfattare. Mötesledning, strategiarbete, förändringsledning och beslutsunderlag.",
+      "priority": 99,
       "prompt_count": 1,
       "prompts": [
         {
           "slug": "motessammanfattning-och-beslutsdokumentation",
           "title": "Mötessammanfattning och beslutsdokumentation",
           "file": "ledarskap-strategi/motessammanfattning-och-beslutsdokumentation.md",
-          "rating": null,
+          "rating": 4,
           "tags": [
             "möte",
             "protokoll",
@@ -30,32 +54,35 @@
             "ledarskap",
             "uppföljning"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "claude-4",
+            "gpt-4o"
+          ],
+          "tested_date": "2026-02-12"
         }
       ]
     },
     {
-      "id": "juridik-compliance",
-      "title": "Juridik & compliance",
-      "description": "AI-prompts för jurister, bolagsjurister och complianceansvariga",
-      "priority": 3,
+      "id": "marknadsforing-kommunikation",
+      "title": "Marknadsföring & kommunikation",
+      "description": "Prompts för marknadschefer, copywriters, PR och sociala medier. Kampanjer, texter, tonalitet och innehållsstrategi.",
+      "priority": 99,
       "prompt_count": 0,
       "prompts": []
     },
     {
-      "id": "administration-ea",
-      "title": "Administration & EA",
-      "description": "AI-prompts för assistenter, koordinatorer och kontorsadministration",
-      "priority": 4,
+      "id": "sme-entreprenorer",
+      "title": "SME & entreprenörer",
+      "description": "Prompts för småföretagare, verksamhetsledare och enmansföretag. Affärsplanering, kundkommunikation och effektivisering.",
+      "priority": 99,
       "prompt_count": 0,
       "prompts": []
     },
     {
       "id": "utbildning-pedagogik",
       "title": "Utbildning & pedagogik",
-      "description": "AI-prompts för lärare, utbildare, rektorer och studiehandledare",
-      "priority": 5,
+      "description": "Prompts för lärare, utbildare, rektorer och studiehandledare. Lektionsplanering, bedömning, förklaringar och kursdesign.",
+      "priority": 99,
       "prompt_count": 1,
       "prompts": [
         {
@@ -79,34 +106,10 @@
       ]
     },
     {
-      "id": "marknadsforing-kommunikation",
-      "title": "Marknadsföring & kommunikation",
-      "description": "AI-prompts för marknadschefer, copywriters, PR och sociala medier",
-      "priority": 6,
-      "prompt_count": 0,
-      "prompts": []
-    },
-    {
       "id": "vard-omsorg",
       "title": "Vård & omsorg",
-      "description": "AI-prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer",
-      "priority": 7,
-      "prompt_count": 0,
-      "prompts": []
-    },
-    {
-      "id": "hr-rekrytering",
-      "title": "HR & rekrytering",
-      "description": "AI-prompts för HR-chefer, rekryterare och personalutvecklare",
-      "priority": 8,
-      "prompt_count": 0,
-      "prompts": []
-    },
-    {
-      "id": "sme-entreprenorer",
-      "title": "SME & entreprenörer",
-      "description": "AI-prompts för småföretagare, verksamhetsledare och enmansföretag",
-      "priority": 9,
+      "description": "Prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer. Dokumentation, patientkommunikation och rutiner.",
+      "priority": 99,
       "prompt_count": 0,
       "prompts": []
     }

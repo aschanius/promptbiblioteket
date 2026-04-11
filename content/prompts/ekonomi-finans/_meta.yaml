@@ -1,8 +1,3 @@
 id: ekonomi-finans
 title: "Ekonomi & finans"
-description: "AI-prompts för ekonomer, controllers, revisorer och finansanalytiker"
-course_ids:
-  - ai-ekonomi-grundkurs
-  - ai-ekonomi-fortsattning
-  - ai-ekonomi-webbinarium
-priority: 1
+description: "Prompts för ekonomer, controllers, revisorer och finansanalytiker. Budget, rapportering, analys och revision."

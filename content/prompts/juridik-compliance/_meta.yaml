@@ -1,6 +1,3 @@
 id: juridik-compliance
 title: "Juridik & compliance"
-description: "AI-prompts för jurister, bolagsjurister och complianceansvariga"
-course_ids:
-  - ai-for-jurister
-priority: 3
+description: "Prompts för jurister, bolagsjurister och complianceansvariga. Avtalsgranskning, regelefterlevnad och riskbedömning."
