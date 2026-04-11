@@ -1,38 +1,110 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-11T12:55:36.671Z",
+  "generated_at": "2026-04-11T13:13:25.169Z",
   "categories": [
     {
       "id": "administration-ea",
       "title": "Administration & EA",
       "description": "Prompts för assistenter, koordinatorer och kontorsadministration. Schemaläggning, dokumenthantering och kommunikation.",
       "priority": 99,
-      "prompt_count": 0,
-      "prompts": []
+      "prompt_count": 1,
+      "prompts": [
+        {
+          "slug": "agendaforslag-infor-mote",
+          "title": "Agendaförslag inför möte",
+          "file": "administration-ea/agendaforslag-infor-mote.md",
+          "rating": 4,
+          "tags": [
+            "agenda",
+            "möte",
+            "förberedelse",
+            "administration",
+            "assistent"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-11T00:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "ekonomi-finans",
       "title": "Ekonomi & finans",
       "description": "Prompts för ekonomer, controllers, revisorer och finansanalytiker. Budget, rapportering, analys och revision.",
       "priority": 99,
-      "prompt_count": 0,
-      "prompts": []
+      "prompt_count": 1,
+      "prompts": [
+        {
+          "slug": "manadsrapport-med-variansanalys",
+          "title": "Månadsrapport med variansanalys",
+          "file": "ekonomi-finans/manadsrapport-med-variansanalys.md",
+          "rating": 4.2,
+          "tags": [
+            "månadsrapport",
+            "variansanalys",
+            "controller",
+            "budget",
+            "uppföljning"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-11T00:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "hr-rekrytering",
       "title": "HR & rekrytering",
       "description": "Prompts för HR-chefer, rekryterare och personalutvecklare. Jobbannonsering, intervjufrågor, onboarding och medarbetarsamtal.",
       "priority": 99,
-      "prompt_count": 0,
-      "prompts": []
+      "prompt_count": 1,
+      "prompts": [
+        {
+          "slug": "jobbannons-som-attraherar-ratt-profil",
+          "title": "Jobbannons som attraherar rätt profil",
+          "file": "hr-rekrytering/jobbannons-som-attraherar-ratt-profil.md",
+          "rating": 4.1,
+          "tags": [
+            "jobbannons",
+            "rekrytering",
+            "employer-branding",
+            "kompetensprofil",
+            "hr"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-11T00:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "juridik-compliance",
       "title": "Juridik & compliance",
       "description": "Prompts för jurister, bolagsjurister och complianceansvariga. Avtalsgranskning, regelefterlevnad och riskbedömning.",
       "priority": 99,
-      "prompt_count": 0,
-      "prompts": []
+      "prompt_count": 1,
+      "prompts": [
+        {
+          "slug": "avtalsgranskning-av-konsultavtal",
+          "title": "Avtalsgranskning av konsultavtal",
+          "file": "juridik-compliance/avtalsgranskning-av-konsultavtal.md",
+          "rating": 4.3,
+          "tags": [
+            "avtal",
+            "konsultavtal",
+            "red-flags",
+            "juridik",
+            "riskbedömning"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-11T00:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "ledarskap-strategi",
@@ -93,8 +165,26 @@
       "title": "SME & entreprenörer",
       "description": "Prompts för småföretagare, verksamhetsledare och enmansföretag. Affärsplanering, kundkommunikation och effektivisering.",
       "priority": 99,
-      "prompt_count": 0,
-      "prompts": []
+      "prompt_count": 1,
+      "prompts": [
+        {
+          "slug": "skriv-vinnande-offert",
+          "title": "Skriv vinnande offert",
+          "file": "sme-entreprenorer/skriv-vinnande-offert.md",
+          "rating": 4.2,
+          "tags": [
+            "offert",
+            "försäljning",
+            "konsult",
+            "kund",
+            "affär"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-11T00:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "utbildning-pedagogik",
@@ -128,9 +218,27 @@
       "title": "Vård & omsorg",
       "description": "Prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer. Dokumentation, patientkommunikation och rutiner.",
       "priority": 99,
-      "prompt_count": 0,
-      "prompts": []
+      "prompt_count": 1,
+      "prompts": [
+        {
+          "slug": "patientanpassad-medicinsk-information",
+          "title": "Patientanpassad medicinsk information",
+          "file": "vard-omsorg/patientanpassad-medicinsk-information.md",
+          "rating": 4.2,
+          "tags": [
+            "patientinformation",
+            "kommunikation",
+            "anhörig",
+            "journal",
+            "vård"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-11T00:00:00.000Z"
+        }
+      ]
     }
   ],
-  "total_prompts": 3
+  "total_prompts": 9
 }
