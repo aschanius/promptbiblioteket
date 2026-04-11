@@ -9,6 +9,8 @@ Sajt: prompts.teknikministeriet.se (planerad).
 - **Varje prompt måste testas** mot minst en LLM innan publicering.
 - **Rating-schema med 5 dimensioner** (tydlighet, specificitet, överförbarhet, innovation, testbarhet).
 - **Prompts under 3.0 i snittrating avvisas.**
+- **Rating är kvalitetsmärkning, inte betygsättning.** Prompten möter ribban eller möter den inte. Stanna inte på 4.2 vs 4.3-precision.
+- **Vid adaption av extern prompt:** behåll original `source_author` och `source_url`, markera anpassningen i `## Syfte` (t.ex. "strukturerad enligt Promptbibliotekets mall av Teknikministeriet").
 
 ## Struktur
 - `content/prompts/<kategori>/` — Prompt-filer (.md) per yrkeskategori
