@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-10T21:03:09.845Z",
+  "generated_at": "2026-04-11T12:55:36.671Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -67,8 +67,26 @@
       "title": "Marknadsföring & kommunikation",
       "description": "Prompts för marknadschefer, copywriters, PR och sociala medier. Kampanjer, texter, tonalitet och innehållsstrategi.",
       "priority": 99,
-      "prompt_count": 0,
-      "prompts": []
+      "prompt_count": 1,
+      "prompts": [
+        {
+          "slug": "pressmeddelande-med-nyhetsvinkel",
+          "title": "Pressmeddelande med nyhetsvinkel",
+          "file": "marknadsforing-kommunikation/pressmeddelande-med-nyhetsvinkel.md",
+          "rating": 4.1,
+          "tags": [
+            "pressmeddelande",
+            "pr",
+            "kommunikation",
+            "media",
+            "nyhet"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-11T00:00:00.000Z"
+        }
+      ]
     },
     {
       "id": "sme-entreprenorer",
@@ -114,5 +132,5 @@
       "prompts": []
     }
   ],
-  "total_prompts": 2
+  "total_prompts": 3
 }

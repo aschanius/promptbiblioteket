@@ -9,10 +9,16 @@
     {
       "slug": "motessammanfattning-och-beslutsdokumentation",
       "category": "ledarskap-strategi",
-      "rating": 4.0,
+      "rating": 4,
       "rated_at": "2026-02-12T00:00:00.000Z"
+    },
+    {
+      "slug": "pressmeddelande-med-nyhetsvinkel",
+      "category": "marknadsforing-kommunikation",
+      "rating": 4.1,
+      "rated_at": "2026-04-11T12:55:36.657Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-10T00:00:00.000Z"
+  "updated_at": "2026-04-11T12:55:36.657Z"
 }
