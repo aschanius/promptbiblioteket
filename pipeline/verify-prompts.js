@@ -86,8 +86,11 @@ const QUALITY_CHECKS = {
   },
   noAsciiApproximations: {
     test: (prompt) => {
-      // Kontrollera vanliga ASCII-approximationer av svenska ord
-      const suspicious = /\b(ar\s|pa\s|for\s|las\s|gor\s|fran\s|atgarder\s)/i.test(prompt);
+      // Kontrollera vanliga ASCII-approximationer av svenska ord.
+      // Lookbehind/lookahead inkluderar svenska tecken eftersom JavaScripts
+      // \b bara ser ASCII-word-chars — annars triggar t.ex. "frågor" (där "å"
+      // räknas som non-word och skapar falsk ordgräns före "gor").
+      const suspicious = /(?<![\wåäöÅÄÖ])(ar|pa|for|las|gor|fran|atgarder)(?![\wåäöÅÄÖ])/i.test(prompt);
       return !suspicious;
     },
     message: 'Inga ASCII-approximationer av svenska tecken',
