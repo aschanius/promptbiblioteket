@@ -68,6 +68,79 @@ function verifyContent(content, filename) {
   return { ok: errors.length === 0, errors, warnings };
 }
 
+function checkSimilarity(promptData, slug) {
+  const warnings = [];
+  const newTitle = (promptData.title || '').toLowerCase();
+  const newTags = new Set((promptData.tags || []).map(t => t.toLowerCase()));
+  const newPrompt = (promptData.prompt || '').toLowerCase();
+
+  // Extrahera nyckelord ur prompt-texten (ord > 4 tecken, exkludera stoppord)
+  const stopWords = new Set(['eller', 'sedan', 'under', 'efter', 'innan', 'genom',
+    'mellan', 'också', 'denna', 'dessa', 'vilka', 'vilket', 'andra', 'finns',
+    'vara', 'hade', 'inte', 'från', 'till', 'sobre', 'avec', 'punkt', 'lista',
+    'skriv', 'format', 'text', 'följande', 'antal', 'konkret', 'tydlig']);
+  const newWords = new Set(
+    newPrompt.match(/\b[a-zåäö]{5,}\b/g)?.filter(w => !stopWords.has(w)) || []
+  );
+
+  // Skanna alla befintliga prompts
+  const catDirs = fs.readdirSync(CONTENT_DIR, { withFileTypes: true })
+    .filter(d => d.isDirectory() && !d.name.startsWith('.'));
+
+  for (const dir of catDirs) {
+    const dirPath = path.join(CONTENT_DIR, dir.name);
+    const files = fs.readdirSync(dirPath).filter(f => f.endsWith('.md') && !f.startsWith('_'));
+
+    for (const file of files) {
+      const existing = matter(fs.readFileSync(path.join(dirPath, file), 'utf8'));
+      const existingSlug = existing.data.slug || file.replace('.md', '');
+
+      // Skippa om det är samma slug (uppdatering)
+      if (existingSlug === slug) continue;
+
+      const existingTitle = (existing.data.title || '').toLowerCase();
+      const existingTags = new Set((existing.data.tags || []).map(t => t.toLowerCase()));
+      const existingPrompt = (existing.content || '').toLowerCase();
+
+      // 1. Titel-likhet (Jaccard på ord)
+      const titleWordsNew = new Set(newTitle.split(/\s+/));
+      const titleWordsExist = new Set(existingTitle.split(/\s+/));
+      const titleIntersect = [...titleWordsNew].filter(w => titleWordsExist.has(w)).length;
+      const titleUnion = new Set([...titleWordsNew, ...titleWordsExist]).size;
+      const titleSim = titleUnion > 0 ? titleIntersect / titleUnion : 0;
+
+      // 2. Tagg-överlappning
+      const tagIntersect = [...newTags].filter(t => existingTags.has(t)).length;
+      const tagUnion = new Set([...newTags, ...existingTags]).size;
+      const tagSim = tagUnion > 0 ? tagIntersect / tagUnion : 0;
+
+      // 3. Prompt-text nyckelord (Jaccard)
+      const existWords = new Set(
+        existingPrompt.match(/\b[a-zåäö]{5,}\b/g)?.filter(w => !stopWords.has(w)) || []
+      );
+      const wordIntersect = [...newWords].filter(w => existWords.has(w)).length;
+      const wordUnion = new Set([...newWords, ...existWords]).size;
+      const wordSim = wordUnion > 0 ? wordIntersect / wordUnion : 0;
+
+      // Viktad score — taggar väger tungt (samma ämnesområde)
+      const similarity = (titleSim * 0.25) + (tagSim * 0.4) + (wordSim * 0.35);
+
+      if (similarity > 0.25) {
+        const pct = Math.round(similarity * 100);
+        warnings.push(
+          `${pct}% likhet med "${existing.data.title}" (${dir.name}/${file})`
+        );
+      }
+    }
+  }
+
+  return warnings.sort((a, b) => {
+    const pctA = parseInt(a);
+    const pctB = parseInt(b);
+    return pctB - pctA;
+  });
+}
+
 function prepareDataFiles(promptData, slug) {
   if (!slug) {
     throw new Error('slug krävs för prepareDataFiles');
@@ -237,6 +310,16 @@ function main() {
     process.exit(1);
   }
   console.log('   Alla kontroller godkända.');
+
+  // 3b. Likhetscheck mot befintliga prompts
+  const similarWarnings = checkSimilarity(promptData, formatted.slug);
+  if (similarWarnings.length > 0) {
+    console.log('\n   ⚠ Möjlig överlappning:');
+    for (const w of similarWarnings) {
+      console.log(`     ${w}`);
+    }
+    console.log('   (Varning — publicering fortsätter. Granska manuellt.)');
+  }
 
   // 4. Förbered datafiler i minnet
   console.log('\n4. Förbereder datafiler...');
