@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
   --font-mono: "JetBrains Mono", "Fira Code", "Menlo", "Consolas", monospace;
   --color-tm-accent: #00D4AA;
