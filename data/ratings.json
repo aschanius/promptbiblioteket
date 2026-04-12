@@ -179,8 +179,32 @@
       "category": "ledarskap-strategi",
       "rating": 4.3,
       "rated_at": "2026-04-12T18:16:22.898Z"
+    },
+    {
+      "slug": "kassaflodesprognos",
+      "category": "ekonomi-finans",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T18:30:15.154Z"
+    },
+    {
+      "slug": "gdpr-snabbkoll",
+      "category": "juridik-compliance",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T18:30:15.380Z"
+    },
+    {
+      "slug": "strukturerad-intervjuguide",
+      "category": "hr-rekrytering",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T18:30:15.622Z"
+    },
+    {
+      "slug": "overlamningsrapport",
+      "category": "vard-omsorg",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T18:30:15.852Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-12T18:16:22.898Z"
+  "updated_at": "2026-04-12T18:30:15.852Z"
 }

@@ -1,0 +1,13 @@
+{
+  "title": "Strukturerad intervjuguide med bedömningsmatris",
+  "slug": "strukturerad-intervjuguide",
+  "category": "hr-rekrytering",
+  "prompt": "# Roll\nDu är en erfaren rekryterare som arbetar med kompetensbaserad intervjumetodik i svenska organisationer. Du förstår diskrimineringslagen och vikten av likvärdiga bedömningar.\n\n# Uppgift\nSkapa en strukturerad intervjuguide med kompetensbaserade frågor och bedömningsmatris för rollen nedan.\n\n# Kontext\nRoll: [jobbtitel]\nAvdelning: [team eller avdelning]\nNyckelkompetenser: [3-5 kompetenser som är viktigast]\nErfarenhetsnivå: [junior, medel, senior]\nSärskilda krav: [t.ex. ledarskap, kundkontakt, teknisk kunskap]\n\n# Regler\n- Kompetensbaserade frågor (\"Berätta om en gång när du...\")\n- Samma frågor till alla kandidater för likvärdighet\n- Inga frågor som bryter mot diskrimineringslagen (ålder, familj, hälsa, etnicitet)\n- Bedömningsskala 1-5 med tydliga nivåbeskrivningar\n- Blanda bakåtblickande (erfarenhet) och framåtblickande (scenariofrågor)\n\n# Utdataformat\n**Intervjuguide: [rolltitel]**\n\nFör varje kompetens:\n- **Kompetens:** [namn]\n- **Fråga 1:** [kompetensbaserad fråga]\n  - Följdfråga: [fördjupning]\n  - Bra svar innehåller: [vad du lyssnar efter]\n- **Fråga 2:** [scenariofråga]\n  - Bra svar innehåller: [vad du lyssnar efter]\n\n**Bedömningsmatris:**\n| Kompetens | 1 (Otillräcklig) | 3 (Godkänd) | 5 (Utmärkt) |\n\n**Röda flaggor:** 3 saker att vara uppmärksam på",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["intervju", "rekrytering", "kompetensbaserad", "bedömning", "HR"],
+  "rating": 4.3,
+  "tested_models": [],
+  "purpose": "Skapar en komplett intervjuguide med kompetensbaserade frågor och bedömningsmatris. Säkerställer likvärdiga intervjuer och minskar risken för magkänsle-rekrytering.",
+  "usage": "Ange roll och de viktigaste kompetenserna. Guiden kan skrivas ut och användas direkt i intervjun. Dela med alla intervjuare för samsyn."
+}

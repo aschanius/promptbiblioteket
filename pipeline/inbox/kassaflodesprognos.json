@@ -1,0 +1,13 @@
+{
+  "title": "Kassaflödesprognos — likviditetsanalys",
+  "slug": "kassaflodesprognos",
+  "category": "ekonomi-finans",
+  "prompt": "# Roll\nDu är en erfaren controller med specialisering i kassaflödesanalys för svenska små och medelstora företag. Du förstår säsongsvariationer, betalningsvillkor och likviditetsrisker.\n\n# Uppgift\nAnalysera kassaflödessituationen nedan och skapa en prognos för kommande 3 månader. Flagga likviditetsrisker och föreslå åtgärder.\n\n# Kontext\nFöretag: [namn, bransch, storlek]\nNuvarande kassa: [belopp SEK]\nMånatliga fasta kostnader: [belopp SEK]\nFörväntade inbetalningar:\n[lista med belopp, datum, kund/källa]\nFörväntade utbetalningar:\n[lista med belopp, datum, typ (löner, hyra, leverantörer)]\nSäsongsvariation: [ja/nej, beskriv mönster]\n\n# Regler\n- Räkna i SEK, svenska betalningsvillkor (30 dagar standard)\n- Flagga veckor där kassan riskerar gå under [tröskelbelopp] SEK\n- Räkna med att 10-15% av fakturor betalas sent\n- Inkludera moms och skattekonto i prognosen\n- Var konservativ i uppskattningar\n\n# Utdataformat\n1. **Månad-för-månad-prognos** — tabell med in, ut, netto, ackumulerad kassa\n2. **Riskflaggor** — veckor med likviditetsbrist, markerade med allvar (varning/kritisk)\n3. **Åtgärdsförslag** — 3-5 konkreta åtgärder för att stärka kassan\n4. **Känslighetsanalys** — vad händer om största kunden betalar 30 dagar sent?",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["kassaflöde", "likviditet", "prognos", "controller", "ekonomi"],
+  "rating": 4.3,
+  "tested_models": [],
+  "purpose": "Hjälper controllers och ekonomiansvariga att snabbt skapa en kassaflödesprognos med riskflaggor och åtgärdsförslag. Särskilt värdefullt för SME utan avancerade prognosverktyg.",
+  "usage": "Fyll i så mycket du kan av kontexten. Ju mer exakta siffror, desto bättre prognos. Kör månadsvis för att fånga förändringar tidigt."
+}

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-12T18:16:22.906Z",
+  "generated_at": "2026-04-12T18:30:15.860Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -55,8 +55,10 @@
             "professionell",
             "snabb"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         }
       ]
     },
@@ -65,8 +67,23 @@
       "title": "Ekonomi & finans",
       "description": "Prompts för ekonomer, controllers, revisorer och finansanalytiker. Budget, rapportering, analys och revision.",
       "priority": 99,
-      "prompt_count": 1,
+      "prompt_count": 2,
       "prompts": [
+        {
+          "slug": "kassaflodesprognos",
+          "title": "Kassaflödesprognos — likviditetsanalys",
+          "file": "ekonomi-finans/kassaflodesprognos.md",
+          "rating": 4.3,
+          "tags": [
+            "kassaflöde",
+            "likviditet",
+            "prognos",
+            "controller",
+            "ekonomi"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
         {
           "slug": "manadsrapport-med-variansanalys",
           "title": "Månadsrapport med variansanalys",
@@ -91,7 +108,7 @@
       "title": "HR & rekrytering",
       "description": "Prompts för HR-chefer, rekryterare och personalutvecklare. Jobbannonsering, intervjufrågor, onboarding och medarbetarsamtal.",
       "priority": 99,
-      "prompt_count": 1,
+      "prompt_count": 2,
       "prompts": [
         {
           "slug": "jobbannons-som-attraherar-ratt-profil",
@@ -109,6 +126,21 @@
             "claude-opus-4-6"
           ],
           "tested_date": "2026-04-11T00:00:00.000Z"
+        },
+        {
+          "slug": "strukturerad-intervjuguide",
+          "title": "Strukturerad intervjuguide med bedömningsmatris",
+          "file": "hr-rekrytering/strukturerad-intervjuguide.md",
+          "rating": 4.3,
+          "tags": [
+            "intervju",
+            "rekrytering",
+            "kompetensbaserad",
+            "bedömning",
+            "HR"
+          ],
+          "tested_models": [],
+          "tested_date": null
         }
       ]
     },
@@ -117,7 +149,7 @@
       "title": "Juridik & compliance",
       "description": "Prompts för jurister, bolagsjurister och complianceansvariga. Avtalsgranskning, regelefterlevnad och riskbedömning.",
       "priority": 99,
-      "prompt_count": 1,
+      "prompt_count": 2,
       "prompts": [
         {
           "slug": "avtalsgranskning-av-konsultavtal",
@@ -135,6 +167,21 @@
             "claude-opus-4-6"
           ],
           "tested_date": "2026-04-11T00:00:00.000Z"
+        },
+        {
+          "slug": "gdpr-snabbkoll",
+          "title": "GDPR-snabbkoll av process eller tjänst",
+          "file": "juridik-compliance/gdpr-snabbkoll.md",
+          "rating": 4.3,
+          "tags": [
+            "GDPR",
+            "dataskydd",
+            "compliance",
+            "IMY",
+            "personuppgifter"
+          ],
+          "tested_models": [],
+          "tested_date": null
         }
       ]
     },
@@ -157,8 +204,10 @@
             "systemtänkande",
             "risk"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "djavulens-advokat",
@@ -189,8 +238,10 @@
             "källor",
             "omvärldsbevakning"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "motesforeberedelse",
@@ -204,8 +255,10 @@
             "ledarskap",
             "coaching"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "motessammanfattning-och-beslutsdokumentation",
@@ -315,8 +368,10 @@
             "distribution",
             "marknadsföring"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "klarsprakskonsult-textomskrivning",
@@ -424,8 +479,10 @@
             "rådgivning",
             "planering"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "skriv-vinnande-offert",
@@ -465,8 +522,10 @@
             "mentor",
             "fördjupning"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "forklara-for-nyborjare",
@@ -532,8 +591,10 @@
             "utbildning",
             "karriär"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "sokratisk-utfragning",
@@ -559,8 +620,23 @@
       "title": "Vård & omsorg",
       "description": "Prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer. Dokumentation, patientkommunikation och rutiner.",
       "priority": 99,
-      "prompt_count": 1,
+      "prompt_count": 2,
       "prompts": [
+        {
+          "slug": "overlamningsrapport",
+          "title": "Överlämningsrapport vid skiftbyte",
+          "file": "vard-omsorg/overlamningsrapport.md",
+          "rating": 4.3,
+          "tags": [
+            "SBAR",
+            "överlämning",
+            "skiftbyte",
+            "patientsäkerhet",
+            "vård"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
         {
           "slug": "patientanpassad-medicinsk-information",
           "title": "Patientanpassad medicinsk information",
@@ -581,5 +657,5 @@
       ]
     }
   ],
-  "total_prompts": 30
+  "total_prompts": 34
 }

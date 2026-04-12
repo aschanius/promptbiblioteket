@@ -239,7 +239,39 @@
       "source_author": "Teknikministeriet",
       "source_lang": "sv",
       "added_at": "2026-04-12T18:16:22.898Z"
+    },
+    {
+      "slug": "kassaflodesprognos",
+      "category": "ekonomi-finans",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:30:15.154Z"
+    },
+    {
+      "slug": "gdpr-snabbkoll",
+      "category": "juridik-compliance",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:30:15.380Z"
+    },
+    {
+      "slug": "strukturerad-intervjuguide",
+      "category": "hr-rekrytering",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:30:15.622Z"
+    },
+    {
+      "slug": "overlamningsrapport",
+      "category": "vard-omsorg",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:30:15.852Z"
     }
   ],
-  "updated_at": "2026-04-12T18:16:22.898Z"
+  "updated_at": "2026-04-12T18:30:15.852Z"
 }
