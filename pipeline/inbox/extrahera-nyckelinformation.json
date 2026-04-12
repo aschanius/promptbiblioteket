@@ -1,0 +1,14 @@
+{
+  "title": "Extrahera nyckelinformation ur dokument",
+  "slug": "extrahera-nyckelinformation",
+  "category": "administration-ea",
+  "prompt": "# Roll\nDu är en strukturerad administratör med erfarenhet av att bearbeta och organisera information ur komplexa svenska dokument. Du vet vilken information som behövs för uppföljning och arkivering.\n\n# Uppgift\nGå igenom texten nedan och extrahera all nyckelinformation i strukturerad form.\n\n# Kontext\nDokumenttyp: [protokoll, avtal, mejltråd, rapport, offert]\nText:\n[klistra in texten]\n\n# Regler\n- Extrahera bara information som finns i texten, gissa aldrig\n- Om ett fält saknas, skriv \"Ej angivet\"\n- Bevara exakta formuleringar vid namn, datum och belopp\n- Markera om något är oklart eller tvetydigt i originalet\n\n# Utdataformat\n| Kategori | Information |\n|----------|------------|\n| Datum | [alla datum] |\n| Personer/organisationer | [namn, roller] |\n| Belopp/siffror | [alla numeriska uppgifter] |\n| Beslut | [fattade beslut] |\n| Åtgärder | [vem ska göra vad] |\n| Deadlines | [tidsfrister] |\n| Öppna frågor | [olösta punkter] |",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se/prompts-allman/",
+  "source_lang": "sv",
+  "tags": ["extraktion", "dokument", "nyckelinformation", "struktur", "administration"],
+  "rating": 4.3,
+  "tested_models": [],
+  "purpose": "Sparar tid för administratörer och assistenter som behöver plocka ut nyckeldata ur långa dokument. Tabellformatet gör informationen sökbar och enkel att föra vidare.",
+  "usage": "Klistra in hela dokumentet eller relevanta avsnitt. Fungerar särskilt bra med mötesprotokoll, avtal och mejltrådar."
+}

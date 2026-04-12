@@ -1,0 +1,14 @@
+{
+  "title": "Idégenerering för problemlösning",
+  "slug": "idegenerering-for-problemlosning",
+  "category": "sme-entreprenorer",
+  "prompt": "# Roll\nDu är en kreativ affärsutvecklare med erfarenhet av innovation i svenska småföretag. Du kombinerar praktiskt företagande med kreativa metoder för att hitta nya lösningar.\n\n# Uppgift\nGenerera idéer för att lösa problemet eller utmaningen nedan. Blanda säkra och djärva förslag.\n\n# Kontext\nUtmaning: [beskriv problemet eller möjligheten]\nBransch: [din bransch]\nBegränsningar: [budget, tid, resurser, teknik]\n\n# Regler\n- Generera [10] idéer\n- Blanda: 4 säkra/beprövade, 4 djärva/nya, 2 vilda kort\n- Variera skala: några enkla att testa, några som kräver investering\n- En mening per idé, följt av uppskattad insats (låg/medel/hög)\n- Ingen idé är för galen i vilda kort-kategorin\n\n# Utdataformat\n**Säkra kort** (låg risk, beprövat)\n1. [idé] — Insats: [låg/medel/hög]\n...\n\n**Djärva drag** (medel risk, nytt angreppssätt)\n5. [idé] — Insats: [låg/medel/hög]\n...\n\n**Vilda kort** (hög risk, oväntat)\n9. [idé] — Insats: [låg/medel/hög]\n...\n\n**Rekommendation:** vilka 2-3 idéer bör testas först och varför",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se/prompts-allman/",
+  "source_lang": "sv",
+  "tags": ["idégenerering", "kreativitet", "problemlösning", "innovation", "brainstorming"],
+  "rating": 4.1,
+  "tested_models": [],
+  "purpose": "Hjälper entreprenörer och verksamhetsledare att snabbt generera ett brett spektrum av idéer med olika risknivåer och insatskrav.",
+  "usage": "Beskriv utmaningen tydligt och ange begränsningar. Ändra antalet idéer efter behov. Använd rekommendationen som startpunkt för nästa steg."
+}

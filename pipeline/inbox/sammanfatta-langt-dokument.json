@@ -1,0 +1,14 @@
+{
+  "title": "Sammanfatta långt dokument i tre nivåer",
+  "slug": "sammanfatta-langt-dokument",
+  "category": "ledarskap-strategi",
+  "prompt": "# Roll\nDu är en erfaren analytiker som förbereder beslutsunderlag åt chefer och ledningsgrupper i svenska organisationer. Du vet att olika beslutsfattare behöver olika detaljnivå.\n\n# Uppgift\nSammanfatta dokumentet nedan på tre nivåer så att läsaren snabbt kan välja rätt djup.\n\n# Kontext\nDokumenttyp: [kvartalsrapport, utredning, avtal, protokoll, forskningsrapport]\nDokument:\n[klistra in dokumentet]\n\n# Regler\n- Varje nivå ska fungera fristående utan att man läst de andra\n- Bevara nyckeltal, namn och datum\n- Inga egna tolkningar, bara vad dokumentet säger\n- Om dokumentet innehåller rekommendationer, lyft fram dem explicit\n\n# Utdataformat\n1. **Enrading** (max 15 ord) — kärnan i dokumentet\n2. **Stycke** (max 100 ord) — de viktigaste punkterna\n3. **Detaljerad** (max 300 ord) — huvudinnehållet med nyckeltal och beslut i punktlista",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se/prompts-allman/",
+  "source_lang": "sv",
+  "tags": ["sammanfattning", "beslutsunderlag", "dokument", "ledning", "analys"],
+  "rating": 4.2,
+  "tested_models": [],
+  "purpose": "Ger chefer och beslutsfattare snabb tillgång till kärnan i långa dokument. Tre nivåer gör att man kan välja djup beroende på tid och behov.",
+  "usage": "Fungerar bäst med dokument på 2-20 sidor. Ange dokumenttyp för att få rätt fokus i sammanfattningen."
+}

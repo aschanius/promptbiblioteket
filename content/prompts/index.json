@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-12T14:38:45.171Z",
+  "generated_at": "2026-04-12T17:47:07.071Z",
   "categories": [
     {
       "id": "administration-ea",
       "title": "Administration & EA",
       "description": "Prompts för assistenter, koordinatorer och kontorsadministration. Schemaläggning, dokumenthantering och kommunikation.",
       "priority": 99,
-      "prompt_count": 1,
+      "prompt_count": 2,
       "prompts": [
         {
           "slug": "agendaforslag-infor-mote",
@@ -25,6 +25,21 @@
             "claude-opus-4-6"
           ],
           "tested_date": "2026-04-11T00:00:00.000Z"
+        },
+        {
+          "slug": "extrahera-nyckelinformation",
+          "title": "Extrahera nyckelinformation ur dokument",
+          "file": "administration-ea/extrahera-nyckelinformation.md",
+          "rating": 4.3,
+          "tags": [
+            "extraktion",
+            "dokument",
+            "nyckelinformation",
+            "struktur",
+            "administration"
+          ],
+          "tested_models": [],
+          "tested_date": null
         }
       ]
     },
@@ -111,8 +126,23 @@
       "title": "Ledarskap & strategi",
       "description": "Prompts för chefer, projektledare och beslutsfattare. Mötesledning, strategiarbete, förändringsledning och beslutsunderlag.",
       "priority": 99,
-      "prompt_count": 1,
+      "prompt_count": 5,
       "prompts": [
+        {
+          "slug": "djavulens-advokat",
+          "title": "Djävulens advokat — stresstest av förslag",
+          "file": "ledarskap-strategi/djavulens-advokat.md",
+          "rating": 4.2,
+          "tags": [
+            "kritisk granskning",
+            "motargument",
+            "riskbedömning",
+            "beslut",
+            "stresstest"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
         {
           "slug": "motessammanfattning-och-beslutsdokumentation",
           "title": "Mötessammanfattning och beslutsdokumentation",
@@ -131,6 +161,51 @@
             "gpt-4o"
           ],
           "tested_date": "2026-02-12"
+        },
+        {
+          "slug": "sammanfatta-langt-dokument",
+          "title": "Sammanfatta långt dokument i tre nivåer",
+          "file": "ledarskap-strategi/sammanfatta-langt-dokument.md",
+          "rating": 4.2,
+          "tags": [
+            "sammanfattning",
+            "beslutsunderlag",
+            "dokument",
+            "ledning",
+            "analys"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
+        {
+          "slug": "sex-tankarhattar",
+          "title": "Sex tänkarhattar — beslutsanalys",
+          "file": "ledarskap-strategi/sex-tankarhattar.md",
+          "rating": 4.1,
+          "tags": [
+            "tänkarhattar",
+            "de Bono",
+            "beslut",
+            "analys",
+            "perspektiv"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
+        {
+          "slug": "swot-analys",
+          "title": "SWOT-analys med strategiska slutsatser",
+          "file": "ledarskap-strategi/swot-analys.md",
+          "rating": 4.3,
+          "tags": [
+            "swot",
+            "strategi",
+            "analys",
+            "beslutsunderlag",
+            "affärsutveckling"
+          ],
+          "tested_models": [],
+          "tested_date": null
         }
       ]
     },
@@ -139,8 +214,23 @@
       "title": "Marknadsföring & kommunikation",
       "description": "Prompts för marknadschefer, copywriters, PR och sociala medier. Kampanjer, texter, tonalitet och innehållsstrategi.",
       "priority": 99,
-      "prompt_count": 2,
+      "prompt_count": 4,
       "prompts": [
+        {
+          "slug": "anpassa-ton-och-malgrupp",
+          "title": "Anpassa ton och målgrupp",
+          "file": "marknadsforing-kommunikation/anpassa-ton-och-malgrupp.md",
+          "rating": 4,
+          "tags": [
+            "ton",
+            "målgrupp",
+            "anpassning",
+            "kommunikation",
+            "copywriting"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
         {
           "slug": "klarsprakskonsult-textomskrivning",
           "title": "Klarspråkskonsult — textomskrivning",
@@ -152,6 +242,23 @@
             "kommunikation",
             "tillgänglighet",
             "språkvård"
+          ],
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "korrekturlasning-av-text",
+          "title": "Korrekturläsning av text",
+          "file": "marknadsforing-kommunikation/korrekturlasning-av-text.md",
+          "rating": 4.1,
+          "tags": [
+            "korrektur",
+            "språk",
+            "grammatik",
+            "kvalitet",
+            "skrivande"
           ],
           "tested_models": [],
           "tested_date": null
@@ -180,8 +287,38 @@
       "title": "SME & entreprenörer",
       "description": "Prompts för småföretagare, verksamhetsledare och enmansföretag. Affärsplanering, kundkommunikation och effektivisering.",
       "priority": 99,
-      "prompt_count": 1,
+      "prompt_count": 3,
       "prompts": [
+        {
+          "slug": "forbattra-din-prompt",
+          "title": "Förbättra din prompt — metaprompt",
+          "file": "sme-entreprenorer/forbattra-din-prompt.md",
+          "rating": 4,
+          "tags": [
+            "metaprompt",
+            "prompting",
+            "förbättring",
+            "AI-verktyg",
+            "effektivitet"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
+        {
+          "slug": "idegenerering-for-problemlosning",
+          "title": "Idégenerering för problemlösning",
+          "file": "sme-entreprenorer/idegenerering-for-problemlosning.md",
+          "rating": 4.1,
+          "tags": [
+            "idégenerering",
+            "kreativitet",
+            "problemlösning",
+            "innovation",
+            "brainstorming"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
         {
           "slug": "skriv-vinnande-offert",
           "title": "Skriv vinnande offert",
@@ -206,8 +343,23 @@
       "title": "Utbildning & pedagogik",
       "description": "Prompts för lärare, utbildare, rektorer och studiehandledare. Lektionsplanering, bedömning, förklaringar och kursdesign.",
       "priority": 99,
-      "prompt_count": 1,
+      "prompt_count": 4,
       "prompts": [
+        {
+          "slug": "forklara-for-nyborjare",
+          "title": "Förklara komplext begrepp för nybörjare",
+          "file": "utbildning-pedagogik/forklara-for-nyborjare.md",
+          "rating": 4.2,
+          "tags": [
+            "förklaring",
+            "pedagogik",
+            "nybörjare",
+            "analogi",
+            "lärande"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
         {
           "slug": "forklaringsdesigner",
           "title": "Designa effektiva förklaringar och analogier",
@@ -225,6 +377,36 @@
             "gpt-4o"
           ],
           "tested_date": "2026-02-12T00:00:00.000Z"
+        },
+        {
+          "slug": "identifiera-kunskapsluckor",
+          "title": "Identifiera kunskapsluckor",
+          "file": "utbildning-pedagogik/identifiera-kunskapsluckor.md",
+          "rating": 4.1,
+          "tags": [
+            "kunskapsluckor",
+            "bedömning",
+            "lärande",
+            "självutvärdering",
+            "pedagogik"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
+        {
+          "slug": "sokratisk-utfragning",
+          "title": "Sokratisk utfrågning för djupare lärande",
+          "file": "utbildning-pedagogik/sokratisk-utfragning.md",
+          "rating": 4.3,
+          "tags": [
+            "sokratisk metod",
+            "frågor",
+            "handledning",
+            "lärande",
+            "pedagogik"
+          ],
+          "tested_models": [],
+          "tested_date": null
         }
       ]
     },
@@ -255,5 +437,5 @@
       ]
     }
   ],
-  "total_prompts": 10
+  "total_prompts": 22
 }

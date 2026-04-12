@@ -59,8 +59,80 @@
       "category": "marknadsforing-kommunikation",
       "rating": 4.2,
       "rated_at": "2026-04-12T14:38:45.159Z"
+    },
+    {
+      "slug": "anpassa-ton-och-malgrupp",
+      "category": "marknadsforing-kommunikation",
+      "rating": 4,
+      "rated_at": "2026-04-12T17:47:04.577Z"
+    },
+    {
+      "slug": "korrekturlasning-av-text",
+      "category": "marknadsforing-kommunikation",
+      "rating": 4.1,
+      "rated_at": "2026-04-12T17:47:04.808Z"
+    },
+    {
+      "slug": "sammanfatta-langt-dokument",
+      "category": "ledarskap-strategi",
+      "rating": 4.2,
+      "rated_at": "2026-04-12T17:47:05.036Z"
+    },
+    {
+      "slug": "extrahera-nyckelinformation",
+      "category": "administration-ea",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T17:47:05.265Z"
+    },
+    {
+      "slug": "swot-analys",
+      "category": "ledarskap-strategi",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T17:47:05.498Z"
+    },
+    {
+      "slug": "idegenerering-for-problemlosning",
+      "category": "sme-entreprenorer",
+      "rating": 4.1,
+      "rated_at": "2026-04-12T17:47:05.720Z"
+    },
+    {
+      "slug": "djavulens-advokat",
+      "category": "ledarskap-strategi",
+      "rating": 4.2,
+      "rated_at": "2026-04-12T17:47:05.943Z"
+    },
+    {
+      "slug": "sex-tankarhattar",
+      "category": "ledarskap-strategi",
+      "rating": 4.1,
+      "rated_at": "2026-04-12T17:47:06.159Z"
+    },
+    {
+      "slug": "forklara-for-nyborjare",
+      "category": "utbildning-pedagogik",
+      "rating": 4.2,
+      "rated_at": "2026-04-12T17:47:06.378Z"
+    },
+    {
+      "slug": "sokratisk-utfragning",
+      "category": "utbildning-pedagogik",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T17:47:06.605Z"
+    },
+    {
+      "slug": "identifiera-kunskapsluckor",
+      "category": "utbildning-pedagogik",
+      "rating": 4.1,
+      "rated_at": "2026-04-12T17:47:06.835Z"
+    },
+    {
+      "slug": "forbattra-din-prompt",
+      "category": "sme-entreprenorer",
+      "rating": 4,
+      "rated_at": "2026-04-12T17:47:07.060Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-12T14:38:45.159Z"
+  "updated_at": "2026-04-12T17:47:07.060Z"
 }

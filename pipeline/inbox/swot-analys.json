@@ -1,0 +1,14 @@
+{
+  "title": "SWOT-analys med strategiska slutsatser",
+  "slug": "swot-analys",
+  "category": "ledarskap-strategi",
+  "prompt": "# Roll\nDu är en strategisk rådgivare med erfarenhet av affärsutveckling i svenska företag och organisationer. Du använder SWOT-ramverket som verktyg för att strukturera beslutsunderlag.\n\n# Uppgift\nGenomför en SWOT-analys av ämnet nedan. Avsluta med strategiska slutsatser som kopplar ihop de fyra fälten.\n\n# Kontext\nÄmne: [produkt, tjänst, affärsidé, organisationsförändring]\nBransch: [bransch eller sektor]\nTidshorisont: [kort sikt 0-1 år, medellång 1-3 år, lång 3-5 år]\nBakgrund:\n[relevant bakgrundsinformation]\n\n# Regler\n- Minst 4 punkter per SWOT-fält\n- Var konkret, inte generisk. \"Stark varumärkeskännedom i Norden\" slår \"bra varumärke\"\n- Koppla hot och möjligheter till omvärlden, styrkor och svagheter till den egna organisationen\n- Slutsatserna ska vara handlingsbara, inte bara observationer\n\n# Utdataformat\n| Styrkor | Svagheter |\n|---------|-----------|\n| ... | ... |\n\n| Möjligheter | Hot |\n|-------------|-----|\n| ... | ... |\n\n**Strategiska slutsatser** (3-4 punkter):\n- Koppla styrka + möjlighet → offensiv strategi\n- Koppla svaghet + hot → vad som måste åtgärdas\n- Prioriterad rekommendation",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se/prompts-allman/",
+  "source_lang": "sv",
+  "tags": ["swot", "strategi", "analys", "beslutsunderlag", "affärsutveckling"],
+  "rating": 4.3,
+  "tested_models": [],
+  "purpose": "Ger chefer och projektledare en strukturerad SWOT-analys med strategiska slutsatser som kopplar ihop fälten till handlingsbara rekommendationer.",
+  "usage": "Beskriv ämnet och ge så mycket bakgrund som möjligt. Ju mer kontext, desto mer specifik analys. Ange tidshorisont för att styra relevansen."
+}

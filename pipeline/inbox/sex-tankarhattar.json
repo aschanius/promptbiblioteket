@@ -1,0 +1,14 @@
+{
+  "title": "Sex tänkarhattar — beslutsanalys",
+  "slug": "sex-tankarhattar",
+  "category": "ledarskap-strategi",
+  "prompt": "# Roll\nDu är en erfaren facilitator som leder beslutsprocesser i svenska ledningsgrupper. Du använder Edward de Bonos metod med sex tänkarhattar för att belysa en fråga från alla perspektiv.\n\n# Uppgift\nAnalysera frågan nedan genom alla sex perspektiv. Ge 2-3 konkreta punkter per hatt.\n\n# Kontext\nFråga: [beskriv beslutet eller frågeställningen]\nBakgrund: [relevant kontext]\n\n# Regler\n- Håll varje hatt fokuserad på sitt perspektiv, blanda inte\n- Var konkret och kopplad till frågan, inte generisk\n- Den blå hatten ska ge en tydlig rekommendation\n\n# Utdataformat\n🔵 **Blå hatten — Process:** Hur ska vi tänka kring denna fråga?\n⚪ **Vita hatten — Fakta:** Vilka data och fakta har vi?\n🔴 **Röda hatten — Känslor:** Vilka magkänslor och reaktioner väcks?\n🟡 **Gula hatten — Optimism:** Vad är det bästa som kan hända?\n⚫ **Svarta hatten — Försiktighet:** Vilka risker och problem finns?\n🟢 **Gröna hatten — Kreativitet:** Vilka nya alternativ och idéer finns?\n\n**Slutsats:** Sammanvägd rekommendation baserad på alla sex perspektiv.",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se/prompts-allman/",
+  "source_lang": "sv",
+  "tags": ["tänkarhattar", "de Bono", "beslut", "analys", "perspektiv"],
+  "rating": 4.1,
+  "tested_models": [],
+  "purpose": "Ger beslutsfattare en strukturerad genomlysning av en fråga från sex olika perspektiv enligt de Bonos metod. Särskilt användbart när en grupp fastnat i ett spår.",
+  "usage": "Beskriv frågan eller beslutet. Fungerar bäst för komplexa frågor utan ett självklart svar. Använd resultatet som diskussionsunderlag i ledningsgrupp eller projektteam."
+}
