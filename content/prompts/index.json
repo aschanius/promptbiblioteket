@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-12T17:47:07.071Z",
+  "generated_at": "2026-04-12T18:16:22.906Z",
   "categories": [
     {
       "id": "administration-ea",
       "title": "Administration & EA",
       "description": "Prompts för assistenter, koordinatorer och kontorsadministration. Schemaläggning, dokumenthantering och kommunikation.",
       "priority": 99,
-      "prompt_count": 2,
+      "prompt_count": 3,
       "prompts": [
         {
           "slug": "agendaforslag-infor-mote",
@@ -37,6 +37,23 @@
             "nyckelinformation",
             "struktur",
             "administration"
+          ],
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "snabbmejl",
+          "title": "Snabbmejl — professionellt mejl på sekunder",
+          "file": "administration-ea/snabbmejl.md",
+          "rating": 4.1,
+          "tags": [
+            "mejl",
+            "e-post",
+            "kommunikation",
+            "professionell",
+            "snabb"
           ],
           "tested_models": [],
           "tested_date": null
@@ -126,8 +143,23 @@
       "title": "Ledarskap & strategi",
       "description": "Prompts för chefer, projektledare och beslutsfattare. Mötesledning, strategiarbete, förändringsledning och beslutsunderlag.",
       "priority": 99,
-      "prompt_count": 5,
+      "prompt_count": 8,
       "prompts": [
+        {
+          "slug": "andraordningseffekter",
+          "title": "Andraordningseffekter — tänk tre steg längre",
+          "file": "ledarskap-strategi/andraordningseffekter.md",
+          "rating": 4.3,
+          "tags": [
+            "konsekvensanalys",
+            "scenarioplanering",
+            "strategi",
+            "systemtänkande",
+            "risk"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
         {
           "slug": "djavulens-advokat",
           "title": "Djävulens advokat — stresstest av förslag",
@@ -139,6 +171,38 @@
             "riskbedömning",
             "beslut",
             "stresstest"
+          ],
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "forskningssyntes",
+          "title": "Forskningssyntes — sammanställ flera källor",
+          "file": "ledarskap-strategi/forskningssyntes.md",
+          "rating": 4.2,
+          "tags": [
+            "research",
+            "syntes",
+            "analys",
+            "källor",
+            "omvärldsbevakning"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
+        {
+          "slug": "motesforeberedelse",
+          "title": "Mötesförberedelse på 10 minuter",
+          "file": "ledarskap-strategi/motesforeberedelse.md",
+          "rating": 4.3,
+          "tags": [
+            "möte",
+            "förberedelse",
+            "förhandling",
+            "ledarskap",
+            "coaching"
           ],
           "tested_models": [],
           "tested_date": null
@@ -174,8 +238,10 @@
             "ledning",
             "analys"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "sex-tankarhattar",
@@ -189,8 +255,10 @@
             "analys",
             "perspektiv"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "swot-analys",
@@ -204,8 +272,10 @@
             "beslutsunderlag",
             "affärsutveckling"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         }
       ]
     },
@@ -214,7 +284,7 @@
       "title": "Marknadsföring & kommunikation",
       "description": "Prompts för marknadschefer, copywriters, PR och sociala medier. Kampanjer, texter, tonalitet och innehållsstrategi.",
       "priority": 99,
-      "prompt_count": 4,
+      "prompt_count": 5,
       "prompts": [
         {
           "slug": "anpassa-ton-och-malgrupp",
@@ -227,6 +297,23 @@
             "anpassning",
             "kommunikation",
             "copywriting"
+          ],
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "innehallsatervinning",
+          "title": "Innehållsåtervinning — ett innehåll, flera format",
+          "file": "marknadsforing-kommunikation/innehallsatervinning.md",
+          "rating": 4.1,
+          "tags": [
+            "content",
+            "återvinning",
+            "sociala medier",
+            "distribution",
+            "marknadsföring"
           ],
           "tested_models": [],
           "tested_date": null
@@ -260,8 +347,10 @@
             "kvalitet",
             "skrivande"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "pressmeddelande-med-nyhetsvinkel",
@@ -287,7 +376,7 @@
       "title": "SME & entreprenörer",
       "description": "Prompts för småföretagare, verksamhetsledare och enmansföretag. Affärsplanering, kundkommunikation och effektivisering.",
       "priority": 99,
-      "prompt_count": 3,
+      "prompt_count": 4,
       "prompts": [
         {
           "slug": "forbattra-din-prompt",
@@ -301,8 +390,10 @@
             "AI-verktyg",
             "effektivitet"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "idegenerering-for-problemlosning",
@@ -315,6 +406,23 @@
             "problemlösning",
             "innovation",
             "brainstorming"
+          ],
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "omvand-brief",
+          "title": "Omvänd brief — klargör innan du löser",
+          "file": "sme-entreprenorer/omvand-brief.md",
+          "rating": 4.3,
+          "tags": [
+            "problemdefinition",
+            "strategi",
+            "klargörande",
+            "rådgivning",
+            "planering"
           ],
           "tested_models": [],
           "tested_date": null
@@ -343,8 +451,23 @@
       "title": "Utbildning & pedagogik",
       "description": "Prompts för lärare, utbildare, rektorer och studiehandledare. Lektionsplanering, bedömning, förklaringar och kursdesign.",
       "priority": 99,
-      "prompt_count": 4,
+      "prompt_count": 6,
       "prompts": [
+        {
+          "slug": "expertintervju",
+          "title": "Expertintervju — lär av en virtuell specialist",
+          "file": "utbildning-pedagogik/expertintervju.md",
+          "rating": 4.2,
+          "tags": [
+            "expertis",
+            "lärande",
+            "intervju",
+            "mentor",
+            "fördjupning"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
         {
           "slug": "forklara-for-nyborjare",
           "title": "Förklara komplext begrepp för nybörjare",
@@ -357,8 +480,10 @@
             "analogi",
             "lärande"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
           "slug": "forklaringsdesigner",
@@ -390,6 +515,23 @@
             "självutvärdering",
             "pedagogik"
           ],
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "larandeplan",
+          "title": "Lärandeplan — strukturerad kunskapsutveckling",
+          "file": "utbildning-pedagogik/larandeplan.md",
+          "rating": 4.2,
+          "tags": [
+            "lärande",
+            "planering",
+            "kompetensutveckling",
+            "utbildning",
+            "karriär"
+          ],
           "tested_models": [],
           "tested_date": null
         },
@@ -405,8 +547,10 @@
             "lärande",
             "pedagogik"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
         }
       ]
     },
@@ -437,5 +581,5 @@
       ]
     }
   ],
-  "total_prompts": 22
+  "total_prompts": 30
 }

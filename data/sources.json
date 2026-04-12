@@ -175,7 +175,71 @@
       "source_author": "Teknikministeriet",
       "source_lang": "sv",
       "added_at": "2026-04-12T17:47:07.060Z"
+    },
+    {
+      "slug": "expertintervju",
+      "category": "utbildning-pedagogik",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:16:21.331Z"
+    },
+    {
+      "slug": "motesforeberedelse",
+      "category": "ledarskap-strategi",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:16:21.555Z"
+    },
+    {
+      "slug": "omvand-brief",
+      "category": "sme-entreprenorer",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:16:21.783Z"
+    },
+    {
+      "slug": "forskningssyntes",
+      "category": "ledarskap-strategi",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:16:22.005Z"
+    },
+    {
+      "slug": "snabbmejl",
+      "category": "administration-ea",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:16:22.228Z"
+    },
+    {
+      "slug": "innehallsatervinning",
+      "category": "marknadsforing-kommunikation",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:16:22.453Z"
+    },
+    {
+      "slug": "larandeplan",
+      "category": "utbildning-pedagogik",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:16:22.676Z"
+    },
+    {
+      "slug": "andraordningseffekter",
+      "category": "ledarskap-strategi",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-12T18:16:22.898Z"
     }
   ],
-  "updated_at": "2026-04-12T17:47:07.060Z"
+  "updated_at": "2026-04-12T18:16:22.898Z"
 }

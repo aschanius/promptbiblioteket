@@ -131,8 +131,56 @@
       "category": "sme-entreprenorer",
       "rating": 4,
       "rated_at": "2026-04-12T17:47:07.060Z"
+    },
+    {
+      "slug": "expertintervju",
+      "category": "utbildning-pedagogik",
+      "rating": 4.2,
+      "rated_at": "2026-04-12T18:16:21.331Z"
+    },
+    {
+      "slug": "motesforeberedelse",
+      "category": "ledarskap-strategi",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T18:16:21.555Z"
+    },
+    {
+      "slug": "omvand-brief",
+      "category": "sme-entreprenorer",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T18:16:21.783Z"
+    },
+    {
+      "slug": "forskningssyntes",
+      "category": "ledarskap-strategi",
+      "rating": 4.2,
+      "rated_at": "2026-04-12T18:16:22.005Z"
+    },
+    {
+      "slug": "snabbmejl",
+      "category": "administration-ea",
+      "rating": 4.1,
+      "rated_at": "2026-04-12T18:16:22.228Z"
+    },
+    {
+      "slug": "innehallsatervinning",
+      "category": "marknadsforing-kommunikation",
+      "rating": 4.1,
+      "rated_at": "2026-04-12T18:16:22.453Z"
+    },
+    {
+      "slug": "larandeplan",
+      "category": "utbildning-pedagogik",
+      "rating": 4.2,
+      "rated_at": "2026-04-12T18:16:22.676Z"
+    },
+    {
+      "slug": "andraordningseffekter",
+      "category": "ledarskap-strategi",
+      "rating": 4.3,
+      "rated_at": "2026-04-12T18:16:22.898Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-12T17:47:07.060Z"
+  "updated_at": "2026-04-12T18:16:22.898Z"
 }

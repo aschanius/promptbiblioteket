@@ -1,0 +1,13 @@
+{
+  "title": "Innehållsåtervinning — ett innehåll, flera format",
+  "slug": "innehallsatervinning",
+  "category": "marknadsforing-kommunikation",
+  "prompt": "# Roll\nDu är en innehållsstrateg som arbetar med svenska företag och vet hur man anpassar budskap för olika plattformar i en svensk kontext.\n\n# Uppgift\nTa innehållet nedan och omvandla det till flera distributionsformat anpassade för respektive plattform.\n\n# Kontext\nOriginalinnehåll:\n[klistra in artikel, blogginlägg, presentation eller rapport]\nVarumärkeston: [professionell, personlig, inspirerande, saklig]\nMålgrupp: [beslutsfattare, yrkesverksamma, allmänheten]\n\n# Regler\n- Behåll kärnbudskapet men anpassa format och ton per plattform\n- Skriv på svenska med naturligt språk för varje plattform\n- LinkedIn = professionellt och insiktsfullt, inte corporate-speak\n- Sociala medier = kort, konkret, engagerande\n- Mejl = personligt och handlingsinriktat\n- Ingen identisk text i två format\n\n# Utdataformat\n1. **LinkedIn-inlägg** (max 200 ord, med hook i första meningen)\n2. **3 kortformat-inlägg** (för X/Twitter, max 280 tecken var)\n3. **Nyhetsbrevsstycke** (max 100 ord, med länk-CTA)\n4. **Intern sammanfattning** (3 bullet points för Slack/Teams)",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["content", "återvinning", "sociala medier", "distribution", "marknadsföring"],
+  "rating": 4.1,
+  "tested_models": [],
+  "purpose": "Omvandlar ett långt innehåll till flera distributionsformat. Sparar tid och ökar räckvidden utan att skapa nytt material.",
+  "usage": "Klistra in hela originalinnehållet. Ange varumärkeston och målgrupp. Resultaten kan användas direkt eller som utgångspunkt."
+}
