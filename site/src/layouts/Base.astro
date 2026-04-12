@@ -54,8 +54,9 @@ const siteUrl = 'https://prompts.teknikministeriet.se';
   <header class="border-b" style="border-color: var(--tm-border);">
     <nav class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
       <a href="/" class="flex items-center gap-3 no-underline" style="color: var(--tm-text);">
-        <span class="text-lg font-bold tracking-tight">Promptbiblioteket</span>
-        <span class="text-xs px-2 py-0.5 rounded-full" style="background: var(--tm-border); color: var(--tm-muted);">av Teknikministeriet</span>
+        <img src="/logo-light.png" alt="Teknikministeriet" class="h-8 dark:hidden" />
+        <img src="/logo-dark.png" alt="Teknikministeriet" class="h-8 hidden dark:block" />
+        <span class="text-xs px-2 py-0.5 rounded-full" style="background: var(--tm-border); color: var(--tm-muted);">Promptbiblioteket</span>
       </a>
       <div class="flex items-center gap-4">
         <a href="/" class="text-sm hover:underline" style="color: var(--tm-muted);">Hem</a>
