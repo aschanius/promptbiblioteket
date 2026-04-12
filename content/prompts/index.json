@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-12T11:18:03.364Z",
+  "generated_at": "2026-04-12T14:38:45.171Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -139,8 +139,23 @@
       "title": "Marknadsföring & kommunikation",
       "description": "Prompts för marknadschefer, copywriters, PR och sociala medier. Kampanjer, texter, tonalitet och innehållsstrategi.",
       "priority": 99,
-      "prompt_count": 1,
+      "prompt_count": 2,
       "prompts": [
+        {
+          "slug": "klarsprakskonsult-textomskrivning",
+          "title": "Klarspråkskonsult — textomskrivning",
+          "file": "marknadsforing-kommunikation/klarsprakskonsult-textomskrivning.md",
+          "rating": 4.2,
+          "tags": [
+            "klarspråk",
+            "omskrivning",
+            "kommunikation",
+            "tillgänglighet",
+            "språkvård"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
         {
           "slug": "pressmeddelande-med-nyhetsvinkel",
           "title": "Pressmeddelande med nyhetsvinkel",
@@ -240,5 +255,5 @@
       ]
     }
   ],
-  "total_prompts": 9
+  "total_prompts": 10
 }

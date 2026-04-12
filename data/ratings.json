@@ -53,8 +53,14 @@
       "category": "vard-omsorg",
       "rating": 4.2,
       "rated_at": "2026-04-11T13:13:25.157Z"
+    },
+    {
+      "slug": "klarsprakskonsult-textomskrivning",
+      "category": "marknadsforing-kommunikation",
+      "rating": 4.2,
+      "rated_at": "2026-04-12T14:38:45.159Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-11T13:13:25.157Z"
+  "updated_at": "2026-04-12T14:38:45.159Z"
 }
