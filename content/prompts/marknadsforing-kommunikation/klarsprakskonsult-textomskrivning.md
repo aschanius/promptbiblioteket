@@ -6,6 +6,9 @@ source_url: https://www.teknikministeriet.se/prompts-allman/
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
+tested_models:
+  - gemini-2.5-flash
+tested_date: 2026-04-12
 tags:
   - klarspråk
   - omskrivning
@@ -50,3 +53,7 @@ Text:
 ## Användning
 
 Klistra in hela texten eller de mest svårlästa avsnitten. Ange texttyp och målgrupp för bäst resultat. Använd ändringsloggen som underlag om du behöver motivera omskrivningen för kollegor.
+
+## Testresultat
+
+- **Gemini 2.5 Flash:** ★★★★☆ — Följde alla regler korrekt: korta meningar, aktiv form, vardagliga ord. Lade till underrubriker, levererade ändringslogg med motiveringar och läsbarhetsuppskattning före/efter. Omskrev en komplex myndighetsmening (67 ord) till sex korta meningar utan informationsförlust.
