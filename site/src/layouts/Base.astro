@@ -1,0 +1,103 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+  canonical?: string;
+  jsonLd?: Record<string, unknown>;
+}
+
+const { title, description = 'Open source AI-prompts för svenska yrkesverksamma. Sök, kopiera och använd — gratis.', canonical, jsonLd } = Astro.props;
+const pageTitle = title === 'Promptbiblioteket' ? title : `${title} | Promptbiblioteket`;
+const canonicalUrl = canonical || Astro.url.href;
+const siteUrl = 'https://prompts.teknikministeriet.se';
+---
+<html lang="sv">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={description} />
+  <link rel="canonical" href={canonicalUrl} />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content={pageTitle} />
+  <meta property="og:description" content={description} />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonicalUrl} />
+  <meta property="og:site_name" content="Promptbiblioteket — Teknikministeriet" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content={pageTitle} />
+  <meta name="twitter:description" content={description} />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- Dark mode: prevent FOUC -->
+  <script is:inline>
+    (function() {
+      const pref = localStorage.getItem('theme');
+      if (pref === 'dark' || (!pref && matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+
+  {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
+</head>
+<body class="min-h-screen flex flex-col">
+  <header class="border-b" style="border-color: var(--tm-border);">
+    <nav class="max-w-5xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <a href="/" class="flex items-center gap-3 no-underline" style="color: var(--tm-text);">
+        <span class="text-lg font-bold tracking-tight">Promptbiblioteket</span>
+        <span class="text-xs px-2 py-0.5 rounded-full" style="background: var(--tm-border); color: var(--tm-muted);">av Teknikministeriet</span>
+      </a>
+      <div class="flex items-center gap-4">
+        <a href="/" class="text-sm hover:underline" style="color: var(--tm-muted);">Hem</a>
+        <button id="theme-toggle" class="p-2 rounded-lg" style="color: var(--tm-muted); background: var(--tm-surface);" aria-label="Byt tema">
+          <svg id="icon-sun" class="w-4 h-4 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="12" cy="12" r="5"/><path d="M12 1v2m0 18v2M4.22 4.22l1.42 1.42m12.72 12.72l1.42 1.42M1 12h2m18 0h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke-width="2" stroke-linecap="round"/></svg>
+          <svg id="icon-moon" class="w-4 h-4 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="flex-1 max-w-5xl mx-auto px-4 sm:px-6 py-8 w-full">
+    <slot />
+  </main>
+
+  <footer class="border-t py-8 text-center text-sm" style="border-color: var(--tm-border); color: var(--tm-muted);">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6">
+      <p>Promptbiblioteket av <a href="https://teknikministeriet.se" class="hover:underline" style="color: var(--color-tm-accent);">Teknikministeriet</a>. Prompts under CC0, kod under MIT.</p>
+    </div>
+  </footer>
+
+  <script is:inline>
+    (function() {
+      const btn = document.getElementById('theme-toggle');
+      const sunIcon = document.getElementById('icon-sun');
+      const moonIcon = document.getElementById('icon-moon');
+
+      function updateIcons() {
+        const isDark = document.documentElement.classList.contains('dark');
+        sunIcon.classList.toggle('hidden', !isDark);
+        moonIcon.classList.toggle('hidden', isDark);
+      }
+
+      btn.addEventListener('click', () => {
+        document.documentElement.classList.toggle('dark');
+        const isDark = document.documentElement.classList.contains('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        updateIcons();
+      });
+
+      updateIcons();
+    })();
+  </script>
+</body>
+</html>

@@ -8,7 +8,10 @@
     "format": "node pipeline/4-publish/format-prompt.js",
     "manifest": "node pipeline/4-publish/update-manifest.js",
     "generate": "node pipeline/generate-prompt.js",
-    "pipeline": "node pipeline/run-pipeline.js"
+    "pipeline": "node pipeline/run-pipeline.js",
+    "build": "npm run verify && cd site && npm run build",
+    "dev": "cd site && npm run dev",
+    "preview": "cd site && npm run preview"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

@@ -1,0 +1,121 @@
+---
+import Base from '../layouts/Base.astro';
+import PromptCard from '../components/PromptCard.astro';
+import { getCollection } from 'astro:content';
+import { categories } from '../lib/categories';
+
+const allPrompts = await getCollection('prompts');
+
+// Count prompts per category
+const countByCategory = new Map<string, number>();
+for (const p of allPrompts) {
+  const cat = p.data.category;
+  countByCategory.set(cat, (countByCategory.get(cat) || 0) + 1);
+}
+
+// Latest prompts (sorted by tested_date desc)
+const latestPrompts = [...allPrompts]
+  .filter(p => p.data.tested_date)
+  .sort((a, b) => (b.data.tested_date!.getTime() - a.data.tested_date!.getTime()))
+  .slice(0, 6);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Promptbiblioteket',
+  url: 'https://prompts.teknikministeriet.se',
+  description: 'Open source AI-prompts för svenska yrkesverksamma',
+  publisher: {
+    '@type': 'Organization',
+    name: 'Teknikministeriet',
+    url: 'https://teknikministeriet.se',
+  },
+};
+---
+<Base
+  title="Promptbiblioteket"
+  description="Open source AI-prompts för svenska yrkesverksamma. Sök, kopiera och använd — gratis."
+  jsonLd={jsonLd}
+>
+  <!-- Hero -->
+  <div class="text-center mb-12 mt-4">
+    <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-3">Promptbiblioteket</h1>
+    <p class="text-lg" style="color: var(--tm-muted);">
+      AI-prompts för svenska yrkesverksamma. Sök, kopiera, använd.
+    </p>
+  </div>
+
+  <!-- Pagefind search -->
+  <div id="search" class="max-w-xl mx-auto mb-12"></div>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+  <script is:inline>
+    window.addEventListener('DOMContentLoaded', () => {
+      new PagefindUI({
+        element: '#search',
+        showSubResults: false,
+        showImages: false,
+        translations: {
+          placeholder: 'Sök bland prompts...',
+          zero_results: 'Inga träffar för [SEARCH_TERM]',
+        },
+      });
+    });
+  </script>
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <style>
+    /* Override Pagefind UI theme to match TM brand */
+    :root {
+      --pagefind-ui-scale: 0.9;
+      --pagefind-ui-primary: #00D4AA;
+      --pagefind-ui-text: #111827;
+      --pagefind-ui-background: #f9fafb;
+      --pagefind-ui-border: #e5e7eb;
+      --pagefind-ui-tag: #e5e7eb;
+      --pagefind-ui-border-width: 1px;
+      --pagefind-ui-border-radius: 0.5rem;
+      --pagefind-ui-font: system-ui, -apple-system, sans-serif;
+    }
+    :root.dark {
+      --pagefind-ui-text: #f1f5f9;
+      --pagefind-ui-background: #242424;
+      --pagefind-ui-border: #333333;
+      --pagefind-ui-tag: #333333;
+    }
+  </style>
+
+  <!-- Category grid -->
+  <section class="mb-16">
+    <h2 class="text-xl font-semibold mb-6">Kategorier</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      {categories.map(cat => {
+        const count = countByCategory.get(cat.id) || 0;
+        return (
+          <a href={`/${cat.id}/`} class="category-card block no-underline" style="color: var(--tm-text);">
+            <h3 class="font-semibold mb-1">{cat.title}</h3>
+            <p class="text-sm mb-2" style="color: var(--tm-muted);">{cat.description}</p>
+            <span class="text-xs font-mono" style="color: var(--color-tm-accent);">
+              {count} {count === 1 ? 'prompt' : 'prompts'}
+            </span>
+          </a>
+        );
+      })}
+    </div>
+  </section>
+
+  <!-- Latest prompts -->
+  {latestPrompts.length > 0 && (
+    <section>
+      <h2 class="text-xl font-semibold mb-6">Senast tillagda</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {latestPrompts.map(p => (
+          <PromptCard
+            title={p.data.title}
+            href={`/${p.data.category}/${p.data.slug}/`}
+            tags={p.data.tags}
+            testedDate={p.data.tested_date}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+</Base>

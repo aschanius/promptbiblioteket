@@ -1,0 +1,29 @@
+---
+interface Props {
+  title: string;
+  href: string;
+  tags?: string[];
+  testedDate?: Date;
+  category?: string;
+}
+
+const { title, href, tags = [], testedDate, category } = Astro.props;
+
+function formatDate(d: Date): string {
+  return d.toLocaleDateString('sv-SE', { year: 'numeric', month: 'short', day: 'numeric' });
+}
+---
+<div class="prompt-card">
+  <a href={href} class="block no-underline" style="color: var(--tm-text);">
+    <h3 class="text-base font-semibold mb-2">{title}</h3>
+  </a>
+  <div class="flex flex-wrap gap-1.5 mb-2">
+    {tags.slice(0, 4).map(tag => (
+      <a href={`/tagg/${tag}/`} class="tag no-underline">{tag}</a>
+    ))}
+  </div>
+  <div class="flex items-center gap-3 text-xs" style="color: var(--tm-muted);">
+    {testedDate && <span>Testad {formatDate(testedDate)}</span>}
+    {category && <span>{category}</span>}
+  </div>
+</div>

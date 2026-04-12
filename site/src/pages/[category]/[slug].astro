@@ -1,0 +1,166 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PromptBlock from '../../components/PromptBlock.astro';
+import PromptCard from '../../components/PromptCard.astro';
+import { getCollection, render } from 'astro:content';
+import { getCategoryById } from '../../lib/categories';
+import { extractPromptText } from '../../lib/prompts';
+
+export async function getStaticPaths() {
+  const allPrompts = await getCollection('prompts');
+
+  return allPrompts.map(entry => ({
+    params: { category: entry.data.category, slug: entry.data.slug },
+    props: { entry, allPrompts },
+  }));
+}
+
+const { entry, allPrompts } = Astro.props;
+const { data } = entry;
+const category = getCategoryById(data.category);
+
+// Get the raw markdown body to extract prompt text
+const { Content } = await render(entry);
+
+// Read original file to extract prompt text
+// We need the raw body — use entry.body if available
+const rawBody = entry.body || '';
+const promptText = extractPromptText(rawBody);
+
+// Related prompts (same category, excluding self)
+const related = allPrompts
+  .filter((p: any) => p.data.category === data.category && p.data.slug !== data.slug)
+  .slice(0, 3);
+
+const description = rawBody
+  .split('## Syfte')[1]
+  ?.split('##')[0]
+  ?.replace(/\n/g, ' ')
+  ?.trim()
+  ?.slice(0, 155) || `AI-prompt: ${data.title}`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: data.title,
+  description,
+  step: [{
+    '@type': 'HowToStep',
+    text: 'Kopiera prompten och klistra in i din AI-assistent.',
+  }],
+  tool: (data.tested_models || []).map((m: string) => ({
+    '@type': 'HowToTool',
+    name: m,
+  })),
+  keywords: (data.tags || []).join(', '),
+};
+---
+<Base title={data.title} description={description} jsonLd={jsonLd}>
+  <Breadcrumb crumbs={[
+    { label: 'Hem', href: '/' },
+    { label: category?.title || data.category, href: `/${data.category}/` },
+    { label: data.title },
+  ]} />
+
+  <article data-pagefind-body>
+    <h1 class="text-2xl sm:text-3xl font-bold mb-3">{data.title}</h1>
+
+    <!-- Tags -->
+    {data.tags && data.tags.length > 0 && (
+      <div class="flex flex-wrap gap-2 mb-6">
+        {data.tags.map((tag: string) => (
+          <a href={`/tagg/${tag}/`} class="tag no-underline">{tag}</a>
+        ))}
+      </div>
+    )}
+
+    <!-- Prompt block -->
+    {promptText && (
+      <div class="mb-8">
+        <PromptBlock promptText={promptText} />
+      </div>
+    )}
+
+    <!-- Rendered markdown content (Syfte, Användning, Testresultat) -->
+    <div class="prose-content">
+      <Content />
+    </div>
+
+    <!-- Metadata -->
+    <div class="mt-8 pt-6 border-t flex flex-wrap gap-4 text-sm" style="border-color: var(--tm-border); color: var(--tm-muted);">
+      {data.tested_models && data.tested_models.length > 0 && (
+        <span>Testad med: {data.tested_models.join(', ')}</span>
+      )}
+      {data.tested_date && (
+        <span>Testad: {data.tested_date.toLocaleDateString('sv-SE')}</span>
+      )}
+      {data.source_author && (
+        <span>
+          Källa: {data.source_url ? (
+            <a href={data.source_url} style="color: var(--color-tm-accent);" rel="noopener noreferrer" target="_blank">{data.source_author}</a>
+          ) : data.source_author}
+        </span>
+      )}
+    </div>
+  </article>
+
+  <!-- Related prompts -->
+  {related.length > 0 && (
+    <section class="mt-12">
+      <h2 class="text-lg font-semibold mb-4">Fler i {category?.title || data.category}</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {related.map((p: any) => (
+          <PromptCard
+            title={p.data.title}
+            href={`/${p.data.category}/${p.data.slug}/`}
+            tags={p.data.tags}
+            testedDate={p.data.tested_date}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+</Base>
+
+<style>
+  /* Style the rendered markdown sections */
+  .prose-content :global(h2) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    color: var(--tm-text);
+  }
+
+  .prose-content :global(p) {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+    color: var(--tm-text);
+  }
+
+  .prose-content :global(ul) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+
+  .prose-content :global(li) {
+    margin-bottom: 0.25rem;
+    line-height: 1.7;
+    color: var(--tm-text);
+  }
+
+  .prose-content :global(strong) {
+    font-weight: 600;
+  }
+
+  .prose-content :global(a) {
+    color: var(--color-tm-accent);
+    text-decoration: underline;
+  }
+
+  /* Hide the prompt code block from rendered markdown (we show it separately) */
+  .prose-content :global(pre) {
+    display: none;
+  }
+</style>

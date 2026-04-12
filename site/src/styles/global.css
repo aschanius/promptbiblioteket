@@ -1,0 +1,142 @@
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "JetBrains Mono", "Fira Code", "Menlo", "Consolas", monospace;
+  --color-tm-accent: #00D4AA;
+  --color-tm-accent-hover: #00b894;
+}
+
+:root {
+  --tm-bg: #ffffff;
+  --tm-surface: #f9fafb;
+  --tm-text: #111827;
+  --tm-muted: #6b7280;
+  --tm-border: #e5e7eb;
+  --prompt-bg: #f8f9fa;
+  --prompt-border: #e5e7eb;
+  --prompt-text: #1f2937;
+}
+
+:root.dark {
+  --tm-bg: #1a1a1a;
+  --tm-surface: #242424;
+  --tm-text: #f1f5f9;
+  --tm-muted: #94a3b8;
+  --tm-border: #333333;
+  --prompt-bg: #0d1117;
+  --prompt-border: #30363d;
+  --prompt-text: #e6edf3;
+}
+
+body {
+  background-color: var(--tm-bg);
+  color: var(--tm-text);
+  font-family: system-ui, -apple-system, sans-serif;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+/* Prompt block */
+.prompt-block {
+  background: var(--prompt-bg);
+  border: 1px solid var(--prompt-border);
+  color: var(--prompt-text);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.prompt-block pre {
+  font-family: var(--font-mono);
+  font-size: 0.875rem;
+  line-height: 1.7;
+  padding: 1.25rem;
+  margin: 0;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Prompt section headers */
+.prompt-block pre .prompt-heading {
+  color: var(--color-tm-accent);
+  font-weight: 700;
+}
+
+/* Category cards */
+.category-card {
+  border: 1px solid var(--tm-border);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  background: var(--tm-surface);
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.category-card:hover {
+  border-color: var(--color-tm-accent);
+  box-shadow: 0 0 0 1px var(--color-tm-accent);
+}
+
+/* Prompt cards */
+.prompt-card {
+  border: 1px solid var(--tm-border);
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  background: var(--tm-surface);
+  transition: border-color 0.15s;
+}
+
+.prompt-card:hover {
+  border-color: var(--color-tm-accent);
+}
+
+/* Tags */
+.tag {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  background: var(--tm-border);
+  color: var(--tm-muted);
+  transition: background-color 0.15s;
+}
+
+.tag:hover {
+  background: var(--color-tm-accent);
+  color: #111827;
+}
+
+/* Breadcrumbs */
+.breadcrumb {
+  font-size: 0.875rem;
+  color: var(--tm-muted);
+}
+
+.breadcrumb a {
+  color: var(--tm-muted);
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  color: var(--color-tm-accent);
+}
+
+/* Copy button */
+.copy-btn {
+  background: var(--tm-border);
+  border: none;
+  border-radius: 0.375rem;
+  padding: 0.375rem 0.75rem;
+  font-size: 0.75rem;
+  color: var(--tm-muted);
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.copy-btn:hover {
+  background: var(--color-tm-accent);
+  color: #111827;
+}
+
+.copy-btn.copied {
+  background: #16a34a;
+  color: white;
+}

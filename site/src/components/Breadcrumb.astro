@@ -1,0 +1,38 @@
+---
+interface Crumb {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  crumbs: Crumb[];
+}
+
+const { crumbs } = Astro.props;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: crumbs.map((crumb, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: crumb.label,
+    ...(crumb.href ? { item: `https://prompts.teknikministeriet.se${crumb.href}` } : {}),
+  })),
+};
+---
+<nav class="breadcrumb mb-6" aria-label="Brödsmulor">
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  <ol class="flex flex-wrap gap-1">
+    {crumbs.map((crumb, i) => (
+      <li class="flex items-center gap-1">
+        {i > 0 && <span aria-hidden="true">/</span>}
+        {crumb.href ? (
+          <a href={crumb.href}>{crumb.label}</a>
+        ) : (
+          <span style="color: var(--tm-text);">{crumb.label}</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>

@@ -1,0 +1,54 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Breadcrumb from '../../../components/Breadcrumb.astro';
+import PromptCard from '../../../components/PromptCard.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const allPrompts = await getCollection('prompts');
+
+  // Collect all unique tags
+  const tagMap = new Map<string, typeof allPrompts>();
+  for (const p of allPrompts) {
+    for (const tag of p.data.tags || []) {
+      if (!tagMap.has(tag)) tagMap.set(tag, []);
+      tagMap.get(tag)!.push(p);
+    }
+  }
+
+  return [...tagMap.entries()].map(([tag, prompts]) => ({
+    params: { tag },
+    props: {
+      tag,
+      prompts: prompts.sort((a, b) => a.data.title.localeCompare(b.data.title, 'sv')),
+    },
+  }));
+}
+
+const { tag, prompts } = Astro.props;
+const description = `AI-prompts taggade med "${tag}". ${prompts.length} prompt${prompts.length === 1 ? '' : 's'} i Promptbiblioteket.`;
+---
+<Base title={`Prompts: ${tag}`} description={description}>
+  <Breadcrumb crumbs={[
+    { label: 'Hem', href: '/' },
+    { label: `Tagg: ${tag}` },
+  ]} />
+
+  <h1 class="text-2xl sm:text-3xl font-bold mb-2">
+    <span style="color: var(--tm-muted);">Tagg:</span> {tag}
+  </h1>
+  <p class="mb-8 text-sm" style="color: var(--tm-muted);">
+    {prompts.length} {prompts.length === 1 ? 'prompt' : 'prompts'}
+  </p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    {prompts.map(p => (
+      <PromptCard
+        title={p.data.title}
+        href={`/${p.data.category}/${p.data.slug}/`}
+        tags={p.data.tags}
+        testedDate={p.data.tested_date}
+      />
+    ))}
+  </div>
+</Base>

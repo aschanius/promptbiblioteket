@@ -1,0 +1,38 @@
+---
+import { highlightPromptHeadings } from '../lib/prompts';
+
+interface Props {
+  promptText: string;
+}
+
+const { promptText } = Astro.props;
+const highlighted = highlightPromptHeadings(promptText);
+---
+<div class="prompt-block relative group">
+  <div class="flex items-center justify-between px-4 py-2 border-b" style="border-color: var(--prompt-border); background: var(--tm-surface);">
+    <span class="text-xs font-mono" style="color: var(--tm-muted);">Prompt</span>
+    <button
+      class="copy-btn"
+      data-prompt={promptText}
+      aria-label="Kopiera prompt"
+    >
+      Kopiera
+    </button>
+  </div>
+  <pre set:html={highlighted} />
+</div>
+
+<script is:inline>
+  document.querySelectorAll('.copy-btn[data-prompt]').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const text = btn.getAttribute('data-prompt');
+      await navigator.clipboard.writeText(text);
+      btn.textContent = 'Kopierad!';
+      btn.classList.add('copied');
+      setTimeout(() => {
+        btn.textContent = 'Kopiera';
+        btn.classList.remove('copied');
+      }, 2000);
+    });
+  });
+</script>

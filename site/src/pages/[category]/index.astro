@@ -1,0 +1,135 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PromptCard from '../../components/PromptCard.astro';
+import { getCollection } from 'astro:content';
+import { categories } from '../../lib/categories';
+
+export async function getStaticPaths() {
+  const allPrompts = await getCollection('prompts');
+
+  return categories.map(cat => {
+    const prompts = allPrompts.filter(p => p.data.category === cat.id);
+    return {
+      params: { category: cat.id },
+      props: { category: cat, prompts },
+    };
+  });
+}
+
+const { category, prompts } = Astro.props;
+
+// Collect all tags in this category
+const allTags = [...new Set(prompts.flatMap(p => p.data.tags || []))].sort((a, b) => a.localeCompare(b, 'sv'));
+
+const description = `AI-prompts för ${category.title.toLowerCase()}. ${category.description}`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${category.title} — AI-prompts`,
+  description,
+  url: `https://prompts.teknikministeriet.se/${category.id}/`,
+  isPartOf: {
+    '@type': 'WebSite',
+    name: 'Promptbiblioteket',
+    url: 'https://prompts.teknikministeriet.se',
+  },
+};
+---
+<Base title={`${category.title} — AI-prompts`} description={description} jsonLd={jsonLd}>
+  <Breadcrumb crumbs={[
+    { label: 'Hem', href: '/' },
+    { label: category.title },
+  ]} />
+
+  <h1 class="text-2xl sm:text-3xl font-bold mb-2">{category.title}</h1>
+  <p class="mb-6" style="color: var(--tm-muted);">{category.description}</p>
+
+  <!-- Sort + filter controls -->
+  <div class="flex flex-wrap items-center gap-4 mb-6">
+    <div class="flex gap-1 text-sm">
+      <button class="sort-btn active px-3 py-1 rounded-md" data-sort="newest">Nyast</button>
+      <button class="sort-btn px-3 py-1 rounded-md" data-sort="alpha">A–Ö</button>
+    </div>
+  </div>
+
+  <!-- Tags -->
+  {allTags.length > 0 && (
+    <div class="flex flex-wrap gap-2 mb-8">
+      {allTags.map(tag => (
+        <a href={`/tagg/${tag}/`} class="tag no-underline">{tag}</a>
+      ))}
+    </div>
+  )}
+
+  <!-- Prompt list -->
+  {prompts.length === 0 ? (
+    <p style="color: var(--tm-muted);">Inga prompts i denna kategori ännu.</p>
+  ) : (
+    <div id="prompt-grid" class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {prompts.map(p => (
+        <PromptCard
+          title={p.data.title}
+          href={`/${p.data.category}/${p.data.slug}/`}
+          tags={p.data.tags}
+          testedDate={p.data.tested_date}
+        />
+      ))}
+    </div>
+  )}
+</Base>
+
+<style>
+  .sort-btn {
+    background: var(--tm-surface);
+    color: var(--tm-muted);
+    border: 1px solid var(--tm-border);
+    cursor: pointer;
+    transition: all 0.15s;
+  }
+  .sort-btn:hover {
+    border-color: var(--color-tm-accent);
+    color: var(--tm-text);
+  }
+  .sort-btn.active {
+    background: var(--color-tm-accent);
+    color: #111827;
+    border-color: var(--color-tm-accent);
+  }
+</style>
+
+<script is:inline>
+  document.querySelectorAll('.sort-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.sort-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      const grid = document.getElementById('prompt-grid');
+      if (!grid) return;
+      const cards = [...grid.children];
+
+      cards.sort((a, b) => {
+        const sortBy = btn.getAttribute('data-sort');
+        if (sortBy === 'alpha') {
+          const titleA = a.querySelector('h3')?.textContent || '';
+          const titleB = b.querySelector('h3')?.textContent || '';
+          return titleA.localeCompare(titleB, 'sv');
+        }
+        // newest: by date desc, parse from "Testad" text
+        const dateA = parseDate(a);
+        const dateB = parseDate(b);
+        return dateB - dateA;
+      });
+
+      cards.forEach(card => grid.appendChild(card));
+    });
+  });
+
+  function parseDate(el) {
+    const text = el.querySelector('.text-xs')?.textContent || '';
+    const match = text.match(/Testad\s+(.*)/);
+    if (match) return new Date(match[1]).getTime() || 0;
+    return 0;
+  }
+</script>
