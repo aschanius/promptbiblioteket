@@ -6,6 +6,7 @@ source_url: https://www.teknikministeriet.se/prompts-allman/
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.1
+version: "1.0"
 tested_models:
   - gemini-2.5-flash
 tested_date: 2026-04-12

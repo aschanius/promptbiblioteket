@@ -130,7 +130,7 @@ const QUALITY_CHECKS = {
 const REQUIRED_FRONTMATTER = ['title', 'slug', 'category', 'tags'];
 const OPTIONAL_FRONTMATTER = [
   'subcategory', 'source_url', 'source_author', 'source_lang',
-  'rating', 'tested_models', 'tested_date'
+  'rating', 'tested_models', 'tested_date', 'version'
 ];
 
 function validateFrontmatter(data, filename) {

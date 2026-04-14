@@ -102,6 +102,9 @@ const jsonLd = {
           ) : data.source_author}
         </span>
       )}
+      {data.version && (
+        <span>v{data.version}</span>
+      )}
     </div>
   </article>
 

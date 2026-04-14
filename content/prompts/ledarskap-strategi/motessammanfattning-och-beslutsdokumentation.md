@@ -5,6 +5,7 @@ category: ledarskap-strategi
 source_author: "Promptbiblioteket"
 source_lang: sv
 rating: 4.0
+version: "1.0"
 tested_models: [claude-4, gpt-4o]
 tested_date: "2026-02-12"
 tags: [möte, protokoll, beslut, dokumentation, ledarskap, uppföljning]

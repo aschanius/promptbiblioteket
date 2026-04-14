@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-14T20:09:40.648Z",
+  "generated_at": "2026-04-14T21:03:04.874Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -101,8 +101,42 @@
       "title": "Ekonomi & finans",
       "description": "Prompts för ekonomer, controllers, revisorer och finansanalytiker. Budget, rapportering, analys och revision.",
       "priority": 99,
-      "prompt_count": 2,
+      "prompt_count": 9,
       "prompts": [
+        {
+          "slug": "besparingspotential-8020",
+          "title": "Besparingspotential enligt 80/20-principen",
+          "file": "ekonomi-finans/besparingspotential-8020.md",
+          "rating": 4,
+          "tags": [
+            "besparingar",
+            "kostnadsanalys",
+            "pareto",
+            "controller",
+            "ekonomi"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-14T00:00:00.000Z"
+        },
+        {
+          "slug": "forklara-ekonomi-for-styrelsen",
+          "title": "Förklara ekonomi för styrelsen",
+          "file": "ekonomi-finans/forklara-ekonomi-for-styrelsen.md",
+          "rating": 4.2,
+          "tags": [
+            "styrelse",
+            "kommunikation",
+            "klarspråk",
+            "ekonomi",
+            "ledning"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-14T00:00:00.000Z"
+        },
         {
           "slug": "kassaflodesprognos",
           "title": "Kassaflödesprognos — likviditetsanalys",
@@ -121,6 +155,23 @@
           "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
+          "slug": "kvartalskommentar-ledningsgrupp",
+          "title": "Kvartalskommentar till ledningsgruppen",
+          "file": "ekonomi-finans/kvartalskommentar-ledningsgrupp.md",
+          "rating": 4.3,
+          "tags": [
+            "kvartalsrapport",
+            "ledningsgrupp",
+            "sammanfattning",
+            "controller",
+            "ekonomi"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-14T00:00:00.000Z"
+        },
+        {
           "slug": "manadsrapport-med-variansanalys",
           "title": "Månadsrapport med variansanalys",
           "file": "ekonomi-finans/manadsrapport-med-variansanalys.md",
@@ -136,6 +187,74 @@
             "claude-opus-4-6"
           ],
           "tested_date": "2026-04-11T00:00:00.000Z"
+        },
+        {
+          "slug": "monsterigenkanning-finansdata",
+          "title": "Mönsterigenkänning i finansiell data",
+          "file": "ekonomi-finans/monsterigenkanning-finansdata.md",
+          "rating": 4.2,
+          "tags": [
+            "dataanalys",
+            "mönster",
+            "trender",
+            "outliers",
+            "ekonomi"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-14T00:00:00.000Z"
+        },
+        {
+          "slug": "rapportstruktur-for-ekonomer",
+          "title": "Rapportstruktur för ekonomer",
+          "file": "ekonomi-finans/rapportstruktur-for-ekonomer.md",
+          "rating": 4.1,
+          "tags": [
+            "rapport",
+            "struktur",
+            "disposition",
+            "ekonomi",
+            "controller"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-14T00:00:00.000Z"
+        },
+        {
+          "slug": "scenarioanalys-tre-utfall",
+          "title": "Scenarioanalys med tre utfall",
+          "file": "ekonomi-finans/scenarioanalys-tre-utfall.md",
+          "rating": 4.2,
+          "tags": [
+            "scenarioanalys",
+            "prognos",
+            "riskanalys",
+            "beslutsunderlag",
+            "ekonomi"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-14T00:00:00.000Z"
+        },
+        {
+          "slug": "snabb-avvikelseanalys",
+          "title": "Snabb avvikelseanalys",
+          "file": "ekonomi-finans/snabb-avvikelseanalys.md",
+          "rating": 4.1,
+          "tags": [
+            "avvikelse",
+            "budget",
+            "controller",
+            "snabbanalys",
+            "ekonomi"
+          ],
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-14T00:00:00.000Z"
         }
       ]
     },
@@ -741,5 +860,5 @@
       ]
     }
   ],
-  "total_prompts": 39
+  "total_prompts": 46
 }

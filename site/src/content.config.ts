@@ -13,6 +13,7 @@ const prompts = defineCollection({
     source_url: z.string().optional(),
     source_lang: z.string().optional(),
     rating: z.number().optional(),
+    version: z.string().optional(),
     tested_models: z.array(z.string()).optional(),
     tested_date: z.coerce.date().optional(),
     tags: z.array(z.string()).optional(),

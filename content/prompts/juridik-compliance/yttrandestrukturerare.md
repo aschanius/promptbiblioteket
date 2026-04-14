@@ -6,6 +6,7 @@ source_url: https://www.teknikministeriet.se/prompts-jurister/
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.1
+version: "1.0"
 tags:
   - yttrande
   - dokumentstruktur

@@ -7,6 +7,7 @@ source_url: https://www.oneusefulthing.org/
 source_author: "Ethan Mollick"
 source_lang: en
 rating: 4.2
+version: "1.0"
 tested_models: [claude-4, gpt-4o]
 tested_date: 2026-02-12
 tags: [förklaring, analogi, pedagogik, undervisning, lärare]
