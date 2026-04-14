@@ -203,8 +203,20 @@
       "category": "vard-omsorg",
       "rating": 4.3,
       "rated_at": "2026-04-12T18:30:15.852Z"
+    },
+    {
+      "slug": "mejltriage-for-chefens-inkorg",
+      "category": "administration-ea",
+      "rating": 4.2,
+      "rated_at": "2026-04-14T18:20:44.346Z"
+    },
+    {
+      "slug": "kalenderprioritering-veckoplanering",
+      "category": "administration-ea",
+      "rating": 4.4,
+      "rated_at": "2026-04-14T18:20:47.576Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-12T18:30:15.852Z"
+  "updated_at": "2026-04-14T18:20:47.576Z"
 }
