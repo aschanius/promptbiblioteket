@@ -55,8 +55,17 @@ const QUALITY_CHECKS = {
     weight: 1
   },
   hasClearRole: {
-    test: (prompt) => /du är|agera som|din roll|i rollen som/i.test(prompt),
-    message: 'Definierar AI:ns roll tydligt',
+    test: (prompt) => {
+      const sections = extractSections(prompt);
+      const hasRollSection = sections.some(s => s.toLowerCase() === 'roll');
+      if (!hasRollSection) return false;
+      // Roll-sektionen ska innehålla perspektiv eller domänindikator
+      const rollMatch = prompt.match(/# Roll\n([\s\S]*?)(?=\n#\s|\n```|$)/);
+      if (!rollMatch) return false;
+      const rollText = rollMatch[1].trim();
+      return rollText.length >= 20; // Roll måste ha substans
+    },
+    message: 'Roll-sektion med perspektiv och domän',
     severity: 'warning',
     weight: 2
   },

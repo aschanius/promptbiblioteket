@@ -4,6 +4,7 @@ node_modules/
 .env
 .env.local
 dist/
+site/.astro/
 .playwright-cli/
 .playwright-mcp/
 *.png

@@ -5,6 +5,9 @@ category: administration-ea
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.4
+tested_models:
+  - claude-opus-4-6
+tested_date: "2026-04-14"
 tags:
   - kalender
   - prioritering
