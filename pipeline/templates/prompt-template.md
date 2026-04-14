@@ -10,7 +10,7 @@ En prompt byggs upp av följande sektioner inuti ` ```txt ` -blocket:
 
 | Sektion | Syfte | Exempel |
 |---------|-------|---------|
-| **Roll** | Vem är AI:n? Vilken expertis har den? | "Du är en erfaren controller med 15 års erfarenhet..." |
+| **Roll** | Lins: perspektiv och domän. Inga erfarenhetsanspråk ("erfaren", "15 år"). | "Du är controller i ett svenskt medelstort företag. Perspektiv: ledningen vill ha beslutsunderlag, inte siffror." |
 | **Uppgift** | Vad ska AI:n göra? Konkret och handlingsbart. | "Analysera den bifogade kvartalsrapporten och identifiera..." |
 
 ### Valfria
@@ -26,11 +26,15 @@ En prompt byggs upp av följande sektioner inuti ` ```txt ` -blocket:
 
 En prompt behöver minst **Roll + Uppgift**. Lägg till fler sektioner efter behov — en enkel prompt med tydlig roll och uppgift slår en komplex prompt med otydliga instruktioner.
 
+**Roll = lins, inte kostym.** Rollen sätter perspektiv (vems intressen optimeras) och domän (svensk kontext, bransch). Erfarenhetsanspråk ("erfaren", "15 års erfarenhet", "världsledande") har ingen mätbar effekt på moderna LLM:er och ska inte användas. Skriv ut förkortningar (t.ex. "Executive Assistant", inte "EA") för att undvika tvetydighet.
+
+**Steg är valfritt och ofta onödigt.** Moderna LLM:er planerar själva. Inkludera # Steg bara om ordningen har affärslogik ("kontrollera budget innan du föreslår lösning"), inte för att diktera resonemang.
+
 ## Exempelstruktur
 
 ```txt
 # Roll
-Du är en [yrkesroll] med expertis inom [område].
+Du är [yrkesroll] i [domän/kontext]. Perspektiv: [vems intressen optimeras och hur].
 
 # Uppgift
 [Beskriv konkret vad AI:n ska göra]

@@ -25,7 +25,7 @@ Sparar tid för administratörer och assistenter som behöver plocka ut nyckelda
 
 ```txt
 # Roll
-Du är en strukturerad administratör med erfarenhet av att bearbeta och organisera information ur komplexa svenska dokument. Du vet vilken information som behövs för uppföljning och arkivering.
+Du extraherar och strukturerar information ur svenska dokument. Perspektiv: informationen ska vara sökbar och redo för uppföljning.
 
 # Uppgift
 Gå igenom texten nedan och extrahera all nyckelinformation i strukturerad form.
