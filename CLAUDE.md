@@ -2,7 +2,7 @@
 
 ## Om projektet
 Open source promptbibliotek för svenska yrkesverksamma, under Teknikministeriet.
-Sajt: prompts.teknikministeriet.se (planerad).
+Sajt: https://prompts.teknikministeriet.se
 
 ## Regler
 - **Alla texter på korrekt svenska med å, ä, ö.** Inga ASCII-approximationer.
@@ -17,7 +17,8 @@ Sajt: prompts.teknikministeriet.se (planerad).
 - `content/prompts/index.json` — Manifest med alla kategorier och prompts
 - `pipeline/` — Scripts för kvalitetssäkring och publicering
 - `data/` — Ratings, källor, metadata
-- `site/` — Sajt-build (planerad)
+- `site/` — Astro-sajt (statisk, Pagefind-sök)
+- `scripts/deploy.sh` — Deploy till produktion
 
 ## 9 yrkeskategorier
 
@@ -45,6 +46,10 @@ Sajt: prompts.teknikministeriet.se (planerad).
 | `npm run pipeline -- pipeline/inbox/<fil>.json` | Publicera prompt från inbox |
 | `npm run format -- <json-fil>` | Formatera JSON till .md |
 | `npm run manifest` | Regenerera index.json |
+| `npm run build` | Verify + bygga sajt |
+| `npm run dev` | Lokal dev-server |
+| `npm run preview` | Förhandsgranska bygge |
+| `./scripts/deploy.sh` | Deploy till produktion (verify → build → rsync) |
 
 ## Slash command
 - `/prompt-pipeline` — Interaktiv guide genom hela pipeline-flödet (se `.claude/commands/prompt-pipeline.md`)
@@ -66,6 +71,16 @@ Sajt: prompts.teknikministeriet.se (planerad).
 
 ### 4. Verifiera
 `npm run verify -- --verbose` — bekräfta att allt är OK.
+
+### 5. Deploy
+`./scripts/deploy.sh` — bygger och synkar till produktion.
+
+## Hosting och deploy
+- **Server:** bahnhof-prod (`/var/www/prompts.teknikministeriet.se`)
+- **Typ:** Statisk sajt (Astro 6 + nginx), Pagefind för sökning
+- **Deploy:** `./scripts/deploy.sh` — manuell, verify → build → rsync
+- **SSL:** Let's Encrypt via Certbot
+- **Ingen CI/CD** — deploy sker från lokal maskin
 
 ## Kvalitetskontroller (verify)
 
