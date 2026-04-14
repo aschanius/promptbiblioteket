@@ -52,7 +52,7 @@ const jsonLd = {
   <script is:inline>
     window.addEventListener('DOMContentLoaded', () => {
       if (typeof PagefindUI !== 'undefined') {
-        new PagefindUI({
+        var pf = new PagefindUI({
           element: '#search',
           showSubResults: false,
           showImages: false,
@@ -61,6 +61,12 @@ const jsonLd = {
             zero_results: 'Inga träffar för [SEARCH_TERM]',
           },
         });
+        // Stöd ?q= från Ghost-söket
+        var q = new URLSearchParams(location.search).get('q');
+        if (q) {
+          var input = document.querySelector('#search input');
+          if (input) { input.value = q; pf.triggerSearch(q); }
+        }
       } else {
         var el = document.getElementById('search');
         var p = document.createElement('p');
