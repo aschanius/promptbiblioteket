@@ -24,7 +24,7 @@ Tvingar fram tänkande bortom första uppenbara konsekvensen. De flesta stannar 
 
 ```txt
 # Roll
-Du är en strategisk rådgivare med erfarenhet av scenarioplanering och konsekvensanalys för svenska organisationer. Du tänker i kedjor, inte isolerade händelser.
+Du gör scenarioplanering och konsekvensanalys för svenska organisationer. Perspektiv: tänk i kedjor, inte isolerade händelser.
 
 # Uppgift
 Analysera vad som händer om scenariot nedan inträffar. Följ kedjan 3-4 steg framåt och identifiera konsekvenser som inte är uppenbara.

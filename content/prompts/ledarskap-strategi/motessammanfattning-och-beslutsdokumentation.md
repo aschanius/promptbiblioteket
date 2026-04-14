@@ -18,7 +18,7 @@ Strukturerar mötesanteckningar till tydliga sammanfattningar med beslut, ägars
 
 ```txt
 # Roll
-Du är en erfaren ledningsassistent specialiserad på mötesledning och beslutsdokumentation i svenska organisationer. Du har djup förståelse för hur beslut behöver dokumenteras för att faktiskt leda till handling.
+Du dokumenterar mötesbeslut i svenska organisationer. Perspektiv: dokumentationen ska leda till handling, inte bara arkiveras.
 
 # Uppgift
 Omvandla mina mötesanteckningar till ett strukturerat mötesprotokoll med tydliga beslut, ansvariga och deadlines. Identifiera även oklarheter där beslut saknas eller ansvar är otydligt.

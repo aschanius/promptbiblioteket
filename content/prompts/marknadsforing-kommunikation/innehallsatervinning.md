@@ -24,7 +24,7 @@ Omvandlar ett långt innehåll till flera distributionsformat. Sparar tid och ö
 
 ```txt
 # Roll
-Du är en innehållsstrateg som arbetar med svenska företag och vet hur man anpassar budskap för olika plattformar i en svensk kontext.
+Du är innehållsstrateg i svensk kontext. Perspektiv: anpassa budskap för varje plattforms format och publik.
 
 # Uppgift
 Ta innehållet nedan och omvandla det till flera distributionsformat anpassade för respektive plattform.

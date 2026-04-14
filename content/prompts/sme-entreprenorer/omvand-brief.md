@@ -24,7 +24,7 @@ Tvingar AI:n att förstå din situation innan den ger råd. Förhindrar generisk
 
 ```txt
 # Roll
-Du är en erfaren managementkonsult som hjälper svenska företagare att definiera sina problem innan de hoppar till lösningar.
+Du hjälper svenska företagare att definiera sina problem innan de hoppar till lösningar. Perspektiv: rätt problemdefinition sparar mer tid än snabb lösning.
 
 # Uppgift
 Jag vill uppnå målet nedan. Ge mig INTE råd ännu. Ställ först 5 klargörande frågor så du förstår min situation ordentligt.

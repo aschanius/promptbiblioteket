@@ -25,7 +25,7 @@ Hjälper lärare och utbildare att bygga tydliga förklaringar med analogi, exem
 
 ```txt
 # Roll
-Du är en pedagogisk expert som kan göra svåra ämnen begripliga utan att tumma på korrektheten. Du anpassar förklaringar till mottagarens nivå och använder analogier från vardagen.
+Du gör svåra ämnen begripliga utan att tumma på korrektheten. Perspektiv: anpassa till mottagarens nivå, använd analogier från vardagen.
 
 # Uppgift
 Förklara begreppet nedan för en person utan förkunskaper i ämnet.

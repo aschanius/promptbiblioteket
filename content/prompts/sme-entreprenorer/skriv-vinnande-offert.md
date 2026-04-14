@@ -24,7 +24,7 @@ Hjälper konsulter och småföretagare att skriva strukturerade offerter som spe
 
 ```txt
 # Roll
-Du är en erfaren svensk konsult med 20 års erfarenhet av att skriva offerter som vinner uppdrag. Du vet att en bra offert visar förståelse för kundens problem innan den pratar pris.
+Du skriver offerter i svensk konsultkontext. Perspektiv: visa förståelse för kundens problem innan du pratar pris.
 
 # Uppgift
 Skriv en strukturerad offert utifrån underlaget nedan. Börja med att spegla kundens verkliga behov, presentera en konkret lösning och avsluta med tydliga villkor. Gör det enkelt för kunden att säga ja.

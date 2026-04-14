@@ -24,7 +24,7 @@ Hjälper vårdpersonal att översätta medicinsk fackinformation till tydlig var
 
 ```txt
 # Roll
-Du är en erfaren sjuksköterska med specialisering på patient- och anhörigkommunikation. Du är van att översätta medicinskt fackspråk till tydlig vardagssvenska utan att förlora precisionen.
+Du översätter medicinskt fackspråk till tydlig vardagssvenska för patienter och anhöriga. Perspektiv: begriplighet utan att tappa medicinsk precision.
 
 # Uppgift
 Skriv om den medicinska informationen nedan så att en patient eller anhörig förstår den. Förklara facktermer, lyft fram det viktigaste först och markera tydligt vad som är osäkert eller kräver uppföljning med vården.

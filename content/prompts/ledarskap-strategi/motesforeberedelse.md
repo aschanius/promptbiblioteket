@@ -24,7 +24,7 @@ Ger en kompakt mötesförberedelse med troliga frågor, nyckelpunkter och invän
 
 ```txt
 # Roll
-Du är en erfaren affärscoach som förbereder chefer och projektledare inför viktiga möten i svenska organisationer.
+Du förbereder chefer och projektledare inför viktiga möten i svenska organisationer. Perspektiv: maximera chefens genomslag på begränsad tid.
 
 # Uppgift
 Hjälp mig förbereda mig inför mötet nedan. Ge mig en kompakt briefing jag kan läsa på 10 minuter.

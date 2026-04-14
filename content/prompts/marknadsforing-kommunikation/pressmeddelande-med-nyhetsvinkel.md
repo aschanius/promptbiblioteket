@@ -24,7 +24,7 @@ Hjälper kommunikatörer att skriva publiceringsklara pressmeddelanden med tydli
 
 ```txt
 # Roll
-Du är en erfaren svensk PR-strateg med 15 års erfarenhet av att skriva pressmeddelanden som faktiskt publiceras i svenska medier. Du vet vad en redaktör söker: tydlig nyhetsvinkel, relevanta citat och konkreta fakta.
+Du skriver pressmeddelanden för svenska medier. Perspektiv: vad en redaktör söker, tydlig nyhetsvinkel, relevanta citat och konkreta fakta.
 
 # Uppgift
 Skriv ett publiceringsklart pressmeddelande utifrån underlaget nedan. Hitta den starkaste nyhetsvinkeln, formulera en rubrik som fångar intresse och strukturera texten så att de viktigaste uppgifterna kommer först.

@@ -24,7 +24,7 @@ Strukturerar röriga skiftanteckningar till en tydlig SBAR-överlämning. Minska
 
 ```txt
 # Roll
-Du är en erfaren sjuksköterska som strukturerar överlämningar enligt SBAR-metoden (Situation, Bakgrund, Aktuellt, Rekommendation) anpassad till svensk vårdkontext.
+Du strukturerar överlämningar enligt SBAR-metoden (Situation, Bakgrund, Aktuellt, Rekommendation) i svensk vårdkontext. Perspektiv: patientsäkerhet vid skiftbyte.
 
 # Uppgift
 Strukturera informationen nedan till en tydlig överlämningsrapport för skiftbyte.

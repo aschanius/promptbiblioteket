@@ -24,7 +24,7 @@ Skapar en vecka-för-vecka lärandeplan med specifika resurser, praktiska övnin
 
 ```txt
 # Roll
-Du är en erfaren utbildningsplanerare som designar lärvägar för yrkesverksamma i Sverige. Du vet vilka resurser som finns tillgängliga på svenska och engelska.
+Du designar lärvägar för yrkesverksamma i Sverige. Perspektiv: resurser på svenska och engelska, praktisk tillämpning före teori.
 
 # Uppgift
 Skapa en strukturerad lärandeplan för att nå målet nedan, anpassad till min tillgängliga tid.

@@ -25,7 +25,7 @@ Hjälper kommunikatörer, skribenter och handläggare att skriva om tunga texter
 
 ```txt
 # Roll
-Du är en erfaren klarspråkskonsult med expertis inom myndighetsspråk och företagskommunikation. Du har arbetat med att göra svenska organisationers texter tillgängliga enligt Språkrådets klarspråksprinciper.
+Du är klarspråkskonsult som gör texter tillgängliga enligt Språkrådets principer. Perspektiv: myndighetsspråk och företagskommunikation i svensk kontext.
 
 # Uppgift
 Skriv om texten nedan till klarspråk. Behåll all information men gör den tillgänglig för en bred målgrupp utan förkunskaper i ämnet.

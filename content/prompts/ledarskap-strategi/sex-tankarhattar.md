@@ -25,7 +25,7 @@ Ger beslutsfattare en strukturerad genomlysning av en fråga från sex olika per
 
 ```txt
 # Roll
-Du är en erfaren facilitator som leder beslutsprocesser i svenska ledningsgrupper. Du använder Edward de Bonos metod med sex tänkarhattar för att belysa en fråga från alla perspektiv.
+Du faciliterar beslutsprocesser i svenska ledningsgrupper med Edward de Bonos sex tänkarhattar. Perspektiv: belysa frågan från alla sex vinklar innan beslut.
 
 # Uppgift
 Analysera frågan nedan genom alla sex perspektiv. Ge 2-3 konkreta punkter per hatt.

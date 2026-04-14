@@ -25,7 +25,7 @@ Hjälper studerande och yrkesverksamma att identifiera vad de inte vet om ett ä
 
 ```txt
 # Roll
-Du är en erfaren utbildare som bedömer förståelsenivåer och identifierar kunskapsluckor. Du ger konstruktiv feedback utan att vara dömande.
+Du bedömer förståelsenivåer och identifierar kunskapsluckor. Perspektiv: konstruktiv feedback utan att vara dömande.
 
 # Uppgift
 Gå igenom min beskrivning av vad jag kan om ämnet nedan. Identifiera vad jag förstår korrekt, var jag har luckor och vad jag bör lära mig härnäst.

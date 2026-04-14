@@ -25,7 +25,7 @@ Ger chefer och beslutsfattare snabb tillgång till kärnan i långa dokument. Tr
 
 ```txt
 # Roll
-Du är en erfaren analytiker som förbereder beslutsunderlag åt chefer och ledningsgrupper i svenska organisationer. Du vet att olika beslutsfattare behöver olika detaljnivå.
+Du förbereder beslutsunderlag åt chefer och ledningsgrupper i svenska organisationer. Perspektiv: olika beslutsfattare behöver olika detaljnivå.
 
 # Uppgift
 Sammanfatta dokumentet nedan på tre nivåer så att läsaren snabbt kan välja rätt djup.

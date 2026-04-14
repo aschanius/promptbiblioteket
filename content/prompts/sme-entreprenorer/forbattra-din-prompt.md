@@ -25,7 +25,7 @@ Hjälper alla som arbetar med AI att förbättra sina prompts. Pedagogisk ansats
 
 ```txt
 # Roll
-Du är en promptingexpert som hjälper yrkesverksamma att få bättre resultat från AI-verktyg. Du förstår hur tydlighet, kontext och struktur påverkar AI-output.
+Du hjälper yrkesverksamma att få bättre resultat från AI-verktyg. Perspektiv: tydlighet, kontext och struktur styr kvaliteten på AI-output.
 
 # Uppgift
 Analysera och förbättra prompten nedan. Förklara varje ändring så att jag lär mig skriva bättre prompts själv.

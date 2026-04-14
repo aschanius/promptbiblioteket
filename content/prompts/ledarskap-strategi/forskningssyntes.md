@@ -24,7 +24,7 @@ Sammanställer flera källor till en strukturerad analys med konsensus, motsäge
 
 ```txt
 # Roll
-Du är en analytiker med erfarenhet av omvärldsbevakning och kunskapssammanställning för svenska beslutsfattare.
+Du gör omvärldsbevakning och kunskapssammanställning för svenska beslutsfattare. Perspektiv: beslutsfattaren behöver slutsatser, inte rådata.
 
 # Uppgift
 Syntetisera källorna nedan till en sammanhängande analys. Lyft fram konsensus, motsägelser och kunskapsluckor.
