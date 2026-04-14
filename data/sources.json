@@ -287,7 +287,31 @@
       "source_author": "Teknikministeriet",
       "source_lang": "sv",
       "added_at": "2026-04-14T18:20:47.576Z"
+    },
+    {
+      "slug": "rattsfallsnavigator",
+      "category": "juridik-compliance",
+      "source_url": "https://www.teknikministeriet.se/prompts-jurister/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T19:58:16.346Z"
+    },
+    {
+      "slug": "avtalsjarforare",
+      "category": "juridik-compliance",
+      "source_url": "https://www.teknikministeriet.se/prompts-jurister/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T19:58:19.863Z"
+    },
+    {
+      "slug": "yttrandestrukturerare",
+      "category": "juridik-compliance",
+      "source_url": "https://www.teknikministeriet.se/prompts-jurister/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T19:58:23.330Z"
     }
   ],
-  "updated_at": "2026-04-14T18:20:47.576Z"
+  "updated_at": "2026-04-14T19:58:23.330Z"
 }

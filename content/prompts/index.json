@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-14T18:20:47.584Z",
+  "generated_at": "2026-04-14T20:09:40.648Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -55,8 +55,10 @@
             "fokustid",
             "assistent"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-14"
         },
         {
           "slug": "mejltriage-for-chefens-inkorg",
@@ -70,8 +72,10 @@
             "prioritering",
             "assistent"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "claude-opus-4-6"
+          ],
+          "tested_date": "2026-04-14"
         },
         {
           "slug": "snabbmejl",
@@ -183,7 +187,7 @@
       "title": "Juridik & compliance",
       "description": "Prompts för jurister, bolagsjurister och complianceansvariga. Avtalsgranskning, regelefterlevnad och riskbedömning.",
       "priority": 99,
-      "prompt_count": 2,
+      "prompt_count": 5,
       "prompts": [
         {
           "slug": "avtalsgranskning-av-konsultavtal",
@@ -203,6 +207,20 @@
           "tested_date": "2026-04-11T00:00:00.000Z"
         },
         {
+          "slug": "avtalsjarforare",
+          "title": "Avtalsjämförare för versionshantering",
+          "file": "juridik-compliance/avtalsjarforare.md",
+          "rating": 4.3,
+          "tags": [
+            "avtal",
+            "jämförelse",
+            "versionshantering",
+            "förhandling"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
+        {
           "slug": "gdpr-snabbkoll",
           "title": "GDPR-snabbkoll av process eller tjänst",
           "file": "juridik-compliance/gdpr-snabbkoll.md",
@@ -218,6 +236,34 @@
             "gemini-2.5-flash"
           ],
           "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "rattsfallsnavigator",
+          "title": "Rättsfallsnavigator för juridiska databaser",
+          "file": "juridik-compliance/rattsfallsnavigator.md",
+          "rating": 4.1,
+          "tags": [
+            "rättsfall",
+            "juridiska databaser",
+            "prejudikat",
+            "rättsfallssökning"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
+        {
+          "slug": "yttrandestrukturerare",
+          "title": "Yttrandestrukturerare för juridiska dokument",
+          "file": "juridik-compliance/yttrandestrukturerare.md",
+          "rating": 4.1,
+          "tags": [
+            "yttrande",
+            "dokumentstruktur",
+            "myndighet",
+            "remiss"
+          ],
+          "tested_models": [],
+          "tested_date": null
         }
       ]
     },
@@ -467,25 +513,8 @@
       "title": "SME & entreprenörer",
       "description": "Prompts för småföretagare, verksamhetsledare och enmansföretag. Affärsplanering, kundkommunikation och effektivisering.",
       "priority": 99,
-      "prompt_count": 4,
+      "prompt_count": 3,
       "prompts": [
-        {
-          "slug": "forbattra-din-prompt",
-          "title": "Förbättra din prompt — metaprompt",
-          "file": "sme-entreprenorer/forbattra-din-prompt.md",
-          "rating": 4,
-          "tags": [
-            "metaprompt",
-            "prompting",
-            "förbättring",
-            "AI-verktyg",
-            "effektivitet"
-          ],
-          "tested_models": [
-            "gemini-2.5-flash"
-          ],
-          "tested_date": "2026-04-12T00:00:00.000Z"
-        },
         {
           "slug": "idegenerering-for-problemlosning",
           "title": "Idégenerering för problemlösning",
@@ -544,7 +573,7 @@
       "title": "Utbildning & pedagogik",
       "description": "Prompts för lärare, utbildare, rektorer och studiehandledare. Lektionsplanering, bedömning, förklaringar och kursdesign.",
       "priority": 99,
-      "prompt_count": 6,
+      "prompt_count": 7,
       "prompts": [
         {
           "slug": "expertintervju",
@@ -557,6 +586,23 @@
             "intervju",
             "mentor",
             "fördjupning"
+          ],
+          "tested_models": [
+            "gemini-2.5-flash"
+          ],
+          "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "forbattra-din-prompt",
+          "title": "Förbättra din prompt — metaprompt",
+          "file": "utbildning-pedagogik/forbattra-din-prompt.md",
+          "rating": 4,
+          "tags": [
+            "metaprompt",
+            "prompting",
+            "förbättring",
+            "AI-verktyg",
+            "effektivitet"
           ],
           "tested_models": [
             "gemini-2.5-flash"
@@ -695,5 +741,5 @@
       ]
     }
   ],
-  "total_prompts": 36
+  "total_prompts": 39
 }

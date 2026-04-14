@@ -215,8 +215,26 @@
       "category": "administration-ea",
       "rating": 4.4,
       "rated_at": "2026-04-14T18:20:47.576Z"
+    },
+    {
+      "slug": "rattsfallsnavigator",
+      "category": "juridik-compliance",
+      "rating": 4.1,
+      "rated_at": "2026-04-14T19:58:16.346Z"
+    },
+    {
+      "slug": "avtalsjarforare",
+      "category": "juridik-compliance",
+      "rating": 4.3,
+      "rated_at": "2026-04-14T19:58:19.863Z"
+    },
+    {
+      "slug": "yttrandestrukturerare",
+      "category": "juridik-compliance",
+      "rating": 4.1,
+      "rated_at": "2026-04-14T19:58:23.330Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-14T18:20:47.576Z"
+  "updated_at": "2026-04-14T19:58:23.330Z"
 }

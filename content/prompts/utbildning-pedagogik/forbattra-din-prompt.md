@@ -1,7 +1,7 @@
 ---
 title: Förbättra din prompt — metaprompt
 slug: forbattra-din-prompt
-category: sme-entreprenorer
+category: utbildning-pedagogik
 source_url: https://www.teknikministeriet.se/prompts-allman/
 source_author: Teknikministeriet
 source_lang: sv
