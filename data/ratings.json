@@ -233,8 +233,56 @@
       "category": "juridik-compliance",
       "rating": 4.1,
       "rated_at": "2026-04-14T19:58:23.330Z"
+    },
+    {
+      "slug": "utvecklingssamtal-struktur",
+      "category": "hr-rekrytering",
+      "rating": 4.2,
+      "rated_at": "2026-04-17T21:55:06.062Z"
+    },
+    {
+      "slug": "rehabiliteringsplan-sjukfranvaro",
+      "category": "hr-rekrytering",
+      "rating": 4.3,
+      "rated_at": "2026-04-17T21:55:12.335Z"
+    },
+    {
+      "slug": "onboarding-30-60-90",
+      "category": "hr-rekrytering",
+      "rating": 4.2,
+      "rated_at": "2026-04-17T21:55:12.552Z"
+    },
+    {
+      "slug": "avvikelserapport-lex-maria",
+      "category": "vard-omsorg",
+      "rating": 4.3,
+      "rated_at": "2026-04-17T21:55:12.770Z"
+    },
+    {
+      "slug": "omvardnadsepikris",
+      "category": "vard-omsorg",
+      "rating": 4.2,
+      "rated_at": "2026-04-17T21:55:16.992Z"
+    },
+    {
+      "slug": "motiverande-samtal-forberedelse",
+      "category": "vard-omsorg",
+      "rating": 4.3,
+      "rated_at": "2026-04-17T21:55:17.207Z"
+    },
+    {
+      "slug": "prissattning-konsulttjanst",
+      "category": "sme-entreprenorer",
+      "rating": 4.3,
+      "rated_at": "2026-04-17T21:55:17.418Z"
+    },
+    {
+      "slug": "kontinuitetsplan-egenforetagare",
+      "category": "sme-entreprenorer",
+      "rating": 4.1,
+      "rated_at": "2026-04-17T21:55:17.630Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-14T19:58:23.330Z"
+  "updated_at": "2026-04-17T21:55:17.630Z"
 }

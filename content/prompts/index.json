@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-17T21:43:18.045Z",
+  "generated_at": "2026-04-17T21:55:17.638Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -263,7 +263,7 @@
       "title": "HR & rekrytering",
       "description": "Prompts för HR-chefer, rekryterare och personalutvecklare. Jobbannonsering, intervjufrågor, onboarding och medarbetarsamtal.",
       "priority": 99,
-      "prompt_count": 2,
+      "prompt_count": 5,
       "prompts": [
         {
           "slug": "jobbannons-som-attraherar-ratt-profil",
@@ -283,6 +283,40 @@
           "tested_date": "2026-04-11T00:00:00.000Z"
         },
         {
+          "slug": "onboarding-30-60-90",
+          "title": "Onboardingplan — första 30, 60 och 90 dagarna",
+          "file": "hr-rekrytering/onboarding-30-60-90.md",
+          "rating": 4.2,
+          "tags": [
+            "onboarding",
+            "introduktion",
+            "nyanställd",
+            "hr",
+            "rekrytering"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
+        },
+        {
+          "slug": "rehabiliteringsplan-sjukfranvaro",
+          "title": "Rehabiliteringsplan vid längre sjukfrånvaro",
+          "file": "hr-rekrytering/rehabiliteringsplan-sjukfranvaro.md",
+          "rating": 4.3,
+          "tags": [
+            "rehabilitering",
+            "sjukfrånvaro",
+            "arbetsgivaransvar",
+            "försäkringskassan",
+            "arbetsmiljö"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
+        },
+        {
           "slug": "strukturerad-intervjuguide",
           "title": "Strukturerad intervjuguide med bedömningsmatris",
           "file": "hr-rekrytering/strukturerad-intervjuguide.md",
@@ -298,6 +332,23 @@
             "gemini-2.5-flash"
           ],
           "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "utvecklingssamtal-struktur",
+          "title": "Utvecklingssamtal med struktur",
+          "file": "hr-rekrytering/utvecklingssamtal-struktur.md",
+          "rating": 4.2,
+          "tags": [
+            "utvecklingssamtal",
+            "medarbetarsamtal",
+            "ledarskap",
+            "hr",
+            "samtal"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
         }
       ]
     },
@@ -336,8 +387,10 @@
             "versionshantering",
             "förhandling"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
         },
         {
           "slug": "gdpr-snabbkoll",
@@ -367,8 +420,10 @@
             "prejudikat",
             "rättsfallssökning"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
         },
         {
           "slug": "yttrandestrukturerare",
@@ -381,8 +436,10 @@
             "myndighet",
             "remiss"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
         }
       ]
     },
@@ -632,7 +689,7 @@
       "title": "SME & entreprenörer",
       "description": "Prompts för småföretagare, verksamhetsledare och enmansföretag. Affärsplanering, kundkommunikation och effektivisering.",
       "priority": 99,
-      "prompt_count": 3,
+      "prompt_count": 5,
       "prompts": [
         {
           "slug": "idegenerering-for-problemlosning",
@@ -652,6 +709,23 @@
           "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
+          "slug": "kontinuitetsplan-egenforetagare",
+          "title": "Kontinuitetsplan vid egen sjukdom",
+          "file": "sme-entreprenorer/kontinuitetsplan-egenforetagare.md",
+          "rating": 4.1,
+          "tags": [
+            "kontinuitet",
+            "sjukdom",
+            "egenföretagare",
+            "risk",
+            "beredskap"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
+        },
+        {
           "slug": "omvand-brief",
           "title": "Omvänd brief — klargör innan du löser",
           "file": "sme-entreprenorer/omvand-brief.md",
@@ -667,6 +741,23 @@
             "gemini-2.5-flash"
           ],
           "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "prissattning-konsulttjanst",
+          "title": "Prissättning av konsulttjänst",
+          "file": "sme-entreprenorer/prissattning-konsulttjanst.md",
+          "rating": 4.3,
+          "tags": [
+            "prissättning",
+            "konsult",
+            "egenföretagare",
+            "timpris",
+            "offert"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
         },
         {
           "slug": "skriv-vinnande-offert",
@@ -821,8 +912,59 @@
       "title": "Vård & omsorg",
       "description": "Prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer. Dokumentation, patientkommunikation och rutiner.",
       "priority": 99,
-      "prompt_count": 2,
+      "prompt_count": 5,
       "prompts": [
+        {
+          "slug": "avvikelserapport-lex-maria",
+          "title": "Avvikelserapport enligt Lex Maria eller Lex Sarah",
+          "file": "vard-omsorg/avvikelserapport-lex-maria.md",
+          "rating": 4.3,
+          "tags": [
+            "lex-maria",
+            "lex-sarah",
+            "patientsäkerhet",
+            "avvikelse",
+            "IVO"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
+        },
+        {
+          "slug": "motiverande-samtal-forberedelse",
+          "title": "Motiverande samtal — förberedelse",
+          "file": "vard-omsorg/motiverande-samtal-forberedelse.md",
+          "rating": 4.3,
+          "tags": [
+            "motiverande-samtal",
+            "MI",
+            "samtalsmetodik",
+            "folkhälsa",
+            "omsorg"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
+        },
+        {
+          "slug": "omvardnadsepikris",
+          "title": "Omvårdnadsepikris vid utskrivning",
+          "file": "vard-omsorg/omvardnadsepikris.md",
+          "rating": 4.2,
+          "tags": [
+            "omvårdnad",
+            "epikris",
+            "utskrivning",
+            "VIPS",
+            "vård"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-17T00:00:00.000Z"
+        },
         {
           "slug": "overlamningsrapport",
           "title": "Överlämningsrapport vid skiftbyte",
@@ -860,5 +1002,5 @@
       ]
     }
   ],
-  "total_prompts": 46
+  "total_prompts": 54
 }

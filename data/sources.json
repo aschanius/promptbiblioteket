@@ -311,7 +311,71 @@
       "source_author": "Teknikministeriet",
       "source_lang": "sv",
       "added_at": "2026-04-14T19:58:23.330Z"
+    },
+    {
+      "slug": "utvecklingssamtal-struktur",
+      "category": "hr-rekrytering",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T21:55:06.062Z"
+    },
+    {
+      "slug": "rehabiliteringsplan-sjukfranvaro",
+      "category": "hr-rekrytering",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T21:55:12.335Z"
+    },
+    {
+      "slug": "onboarding-30-60-90",
+      "category": "hr-rekrytering",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T21:55:12.552Z"
+    },
+    {
+      "slug": "avvikelserapport-lex-maria",
+      "category": "vard-omsorg",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T21:55:12.770Z"
+    },
+    {
+      "slug": "omvardnadsepikris",
+      "category": "vard-omsorg",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T21:55:16.992Z"
+    },
+    {
+      "slug": "motiverande-samtal-forberedelse",
+      "category": "vard-omsorg",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T21:55:17.207Z"
+    },
+    {
+      "slug": "prissattning-konsulttjanst",
+      "category": "sme-entreprenorer",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T21:55:17.418Z"
+    },
+    {
+      "slug": "kontinuitetsplan-egenforetagare",
+      "category": "sme-entreprenorer",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T21:55:17.630Z"
     }
   ],
-  "updated_at": "2026-04-14T19:58:23.330Z"
+  "updated_at": "2026-04-17T21:55:17.630Z"
 }
