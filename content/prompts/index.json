@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-14T21:03:04.874Z",
+  "generated_at": "2026-04-17T21:43:18.045Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -116,7 +116,7 @@
             "ekonomi"
           ],
           "tested_models": [
-            "claude-opus-4-6"
+            "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
         },
@@ -133,7 +133,7 @@
             "ledning"
           ],
           "tested_models": [
-            "claude-opus-4-6"
+            "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
         },
@@ -167,7 +167,7 @@
             "ekonomi"
           ],
           "tested_models": [
-            "claude-opus-4-6"
+            "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
         },
@@ -201,7 +201,7 @@
             "ekonomi"
           ],
           "tested_models": [
-            "claude-opus-4-6"
+            "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
         },
@@ -218,7 +218,7 @@
             "controller"
           ],
           "tested_models": [
-            "claude-opus-4-6"
+            "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
         },
@@ -235,7 +235,7 @@
             "ekonomi"
           ],
           "tested_models": [
-            "claude-opus-4-6"
+            "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
         },
@@ -252,7 +252,7 @@
             "ekonomi"
           ],
           "tested_models": [
-            "claude-opus-4-6"
+            "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
         }

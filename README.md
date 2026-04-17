@@ -6,7 +6,7 @@ Open source-samling av AI-prompts för svenska yrkesverksamma.
 
 Promptbiblioteket är en kuraterad samling av testade och kvalitetssäkrade AI-prompts, organiserade efter yrkeskategori. Varje prompt är:
 
-- **Testad** mot minst två LLM:er (Claude, GPT)
+- **Testad** mot minst en LLM (Claude, GPT eller Gemini)
 - **Ratad** enligt fem kvalitetsdimensioner
 - **Anpassad** för svenska yrkesverksamma med korrekt terminologi
 - **Källhänvisad** med attribution till ursprunglig skapare
