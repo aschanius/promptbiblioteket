@@ -2,13 +2,14 @@
 title: Andraordningseffekter — tänk tre steg längre
 slug: andraordningseffekter
 category: ledarskap-strategi
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
 version: "1.0"
 tested_models:
   - gemini-2.5-flash
-tested_date: 2026-04-12
+tested_date: 2026-04-12T00:00:00.000Z
 tags:
   - konsekvensanalys
   - scenarioplanering
@@ -16,7 +17,6 @@ tags:
   - systemtänkande
   - risk
 ---
-
 ## Syfte
 
 Tvingar fram tänkande bortom första uppenbara konsekvensen. De flesta stannar vid steg 1. Den här prompten går till steg 4 och hittar det du inte hade tänkt på.

@@ -131,15 +131,15 @@ const jsonLd = {
       {data.tested_date && (
         <span>Testad: {data.tested_date.toLocaleDateString('sv-SE')}</span>
       )}
+      {data.version && (
+        <span>Version: {data.version}</span>
+      )}
       {data.source_author && (
         <span>
           Källa: {data.source_url ? (
             <a href={data.source_url} style="color: var(--color-tm-accent);" rel="noopener noreferrer" target="_blank">{data.source_author}</a>
           ) : data.source_author}
         </span>
-      )}
-      {data.version && (
-        <span>v{data.version}</span>
       )}
       {data.updated_at && (
         <span>Uppdaterad {data.updated_at.toLocaleDateString('sv-SE')}</span>

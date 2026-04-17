@@ -2,13 +2,14 @@
 title: Snabbmejl — professionellt mejl på sekunder
 slug: snabbmejl
 category: administration-ea
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.1
 version: "1.0"
 tested_models:
   - gemini-2.5-flash
-tested_date: 2026-04-12
+tested_date: 2026-04-12T00:00:00.000Z
 tags:
   - mejl
   - e-post
@@ -16,7 +17,6 @@ tags:
   - professionell
   - snabb
 ---
-
 ## Syfte
 
 Genererar professionella mejl i svensk affärskontext med rätt ton, längd och struktur. Sparar tid på daglig mejlskrivning.

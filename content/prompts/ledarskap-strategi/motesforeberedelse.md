@@ -2,13 +2,14 @@
 title: Mötesförberedelse på 10 minuter
 slug: motesforeberedelse
 category: ledarskap-strategi
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
 version: "1.0"
 tested_models:
   - gemini-2.5-flash
-tested_date: 2026-04-12
+tested_date: 2026-04-12T00:00:00.000Z
 tags:
   - möte
   - förberedelse
@@ -16,7 +17,6 @@ tags:
   - ledarskap
   - coaching
 ---
-
 ## Syfte
 
 Ger en kompakt mötesförberedelse med troliga frågor, nyckelpunkter och invändningar. Sparar tid och minskar osäkerhet inför viktiga samtal.

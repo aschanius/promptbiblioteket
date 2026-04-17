@@ -29,8 +29,11 @@ function formatPromptFile(data) {
     source_lang = 'sv',
     tags = [],
     rating = null,
+    version = '1.0',
     tested_models = [],
     tested_date = null,
+    updated_at = null,
+    changelog = null,
     test_results = []
   } = data;
 
@@ -54,8 +57,11 @@ function formatPromptFile(data) {
     ...(source_author && { source_author }),
     ...(source_lang && { source_lang }),
     ...(rating && { rating }),
+    ...(version && { version }),
     ...(tested_models.length > 0 && { tested_models }),
     ...(tested_date && { tested_date }),
+    ...(updated_at && { updated_at }),
+    ...(changelog && { changelog }),
     tags
   };
 

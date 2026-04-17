@@ -2,12 +2,14 @@
 title: Omvårdnadsepikris vid utskrivning
 slug: omvardnadsepikris
 category: vard-omsorg
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-17
+tested_date: 2026-04-17T00:00:00.000Z
 tags:
   - omvårdnad
   - epikris
@@ -15,7 +17,6 @@ tags:
   - VIPS
   - vård
 ---
-
 ## Syfte
 
 Strukturerar omvårdnadsepikris enligt VIPS-modellen och SOSFS 1996:32. Minskar risken att information tappas vid överföring mellan vårdnivåer.

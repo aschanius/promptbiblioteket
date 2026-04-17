@@ -2,13 +2,14 @@
 title: Strukturerad intervjuguide med bedömningsmatris
 slug: strukturerad-intervjuguide
 category: hr-rekrytering
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
 version: "1.0"
 tested_models:
   - gemini-2.5-flash
-tested_date: 2026-04-12
+tested_date: 2026-04-12T00:00:00.000Z
 tags:
   - intervju
   - rekrytering
@@ -16,7 +17,6 @@ tags:
   - bedömning
   - HR
 ---
-
 ## Syfte
 
 Skapar en komplett intervjuguide med kompetensbaserade frågor och bedömningsmatris. Säkerställer likvärdiga intervjuer och minskar risken för magkänsle-rekrytering.

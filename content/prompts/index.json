@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-17T22:44:32.527Z",
+  "generated_at": "2026-04-17T22:51:21.319Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -58,7 +58,7 @@
           "tested_models": [
             "claude-opus-4-6"
           ],
-          "tested_date": "2026-04-14"
+          "tested_date": "2026-04-14T00:00:00.000Z"
         },
         {
           "slug": "mejltriage-for-chefens-inkorg",
@@ -75,7 +75,7 @@
           "tested_models": [
             "claude-opus-4-6"
           ],
-          "tested_date": "2026-04-14"
+          "tested_date": "2026-04-14T00:00:00.000Z"
         },
         {
           "slug": "snabbmejl",
@@ -587,7 +587,7 @@
             "claude-4",
             "gpt-4o"
           ],
-          "tested_date": "2026-02-12"
+          "tested_date": "2026-02-12T00:00:00.000Z"
         },
         {
           "slug": "sammanfatta-langt-dokument",

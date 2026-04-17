@@ -2,13 +2,14 @@
 title: Kalenderprioritering och veckoplanering
 slug: kalenderprioritering-veckoplanering
 category: administration-ea
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.4
 version: "1.0"
 tested_models:
   - claude-opus-4-6
-tested_date: "2026-04-14"
+tested_date: 2026-04-14
 tags:
   - kalender
   - prioritering
@@ -16,7 +17,6 @@ tags:
   - fokustid
   - assistent
 ---
-
 ## Syfte
 
 Hjälper EA:er att optimera chefens vecka genom att identifiera konflikter, skydda fokustid och prioritera rätt möten. Stödjer skärmdump som input.

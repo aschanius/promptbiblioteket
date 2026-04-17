@@ -2,13 +2,14 @@
 title: Månadsrapport med variansanalys
 slug: manadsrapport-med-variansanalys
 category: ekonomi-finans
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
 version: "1.0"
 tested_models:
   - claude-opus-4-6
-tested_date: 2026-04-11
+tested_date: 2026-04-11T00:00:00.000Z
 tags:
   - månadsrapport
   - variansanalys
@@ -16,7 +17,6 @@ tags:
   - budget
   - uppföljning
 ---
-
 ## Syfte
 
 Hjälper controllers att snabbt omvandla månadsresultat till en strukturerad rapport med variansanalys, drivande faktorer och handlingsförslag — från siffror till beslut.

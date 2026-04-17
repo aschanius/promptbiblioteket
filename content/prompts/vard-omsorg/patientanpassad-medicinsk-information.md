@@ -2,13 +2,14 @@
 title: Patientanpassad medicinsk information
 slug: patientanpassad-medicinsk-information
 category: vard-omsorg
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
 version: "1.0"
 tested_models:
   - claude-opus-4-6
-tested_date: 2026-04-11
+tested_date: 2026-04-11T00:00:00.000Z
 tags:
   - patientinformation
   - kommunikation
@@ -16,7 +17,6 @@ tags:
   - journal
   - vård
 ---
-
 ## Syfte
 
 Hjälper vårdpersonal att översätta medicinsk fackinformation till tydlig vardagssvenska för patienter och anhöriga — utan att förlora precision eller göra nya medicinska bedömningar.

@@ -2,12 +2,14 @@
 title: Utvecklingssamtal med struktur
 slug: utvecklingssamtal-struktur
 category: hr-rekrytering
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-17
+tested_date: 2026-04-17T00:00:00.000Z
 tags:
   - utvecklingssamtal
   - medarbetarsamtal
@@ -15,7 +17,6 @@ tags:
   - hr
   - samtal
 ---
-
 ## Syfte
 
 Hjälper svenska chefer att förbereda utvecklingssamtal med tydlig struktur. Bygger på etablerad praxis från Ledarna, Chef och svenska lärosäten.

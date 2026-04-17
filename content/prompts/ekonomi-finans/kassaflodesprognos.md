@@ -2,13 +2,14 @@
 title: Kassaflödesprognos — likviditetsanalys
 slug: kassaflodesprognos
 category: ekonomi-finans
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
 version: "1.0"
 tested_models:
   - gemini-2.5-flash
-tested_date: 2026-04-12
+tested_date: 2026-04-12T00:00:00.000Z
 tags:
   - kassaflöde
   - likviditet
@@ -16,7 +17,6 @@ tags:
   - controller
   - ekonomi
 ---
-
 ## Syfte
 
 Hjälper controllers och ekonomiansvariga att snabbt skapa en kassaflödesprognos med riskflaggor och åtgärdsförslag. Särskilt värdefullt för SME utan avancerade prognosverktyg.

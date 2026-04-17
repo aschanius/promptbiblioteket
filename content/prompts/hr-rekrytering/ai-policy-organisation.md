@@ -2,12 +2,14 @@
 title: AI-policy för organisationen
 slug: ai-policy-organisation
 category: hr-rekrytering
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-18
+tested_date: 2026-04-18T00:00:00.000Z
 tags:
   - ai-styrning
   - policy
@@ -15,7 +17,6 @@ tags:
   - ai-verktyg
   - hr
 ---
-
 ## Syfte
 
 Tar fram AI-policy för medarbetare enligt AI Act Artikel 4 och IMY:s riktlinjer. Täcker godkända verktyg, datahantering, incidentrapportering och utbildningskrav.

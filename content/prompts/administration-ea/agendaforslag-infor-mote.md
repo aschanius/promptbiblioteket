@@ -2,13 +2,14 @@
 title: Agendaförslag inför möte
 slug: agendaforslag-infor-mote
 category: administration-ea
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4
 version: "1.0"
 tested_models:
   - claude-opus-4-6
-tested_date: 2026-04-11
+tested_date: 2026-04-11T00:00:00.000Z
 tags:
   - agenda
   - möte
@@ -16,7 +17,6 @@ tags:
   - administration
   - assistent
 ---
-
 ## Syfte
 
 Hjälper assistenter och koordinatorer att snabbt bygga en strukturerad mötesagenda med tidsbudget, beslutspunkter och förberedelsematerial — så att mötet faktiskt leder någonstans.

@@ -1,16 +1,24 @@
 ---
-title: "Mötessammanfattning och beslutsdokumentation"
+title: Mötessammanfattning och beslutsdokumentation
 slug: motessammanfattning-och-beslutsdokumentation
 category: ledarskap-strategi
-source_author: "Promptbiblioteket"
+source_url: https://www.teknikministeriet.se
+source_author: Teknikministeriet
 source_lang: sv
-rating: 4.0
+rating: 4
 version: "1.0"
-tested_models: [claude-4, gpt-4o]
-tested_date: "2026-02-12"
-tags: [möte, protokoll, beslut, dokumentation, ledarskap, uppföljning]
+tested_models:
+  - claude-4
+  - gpt-4o
+tested_date: 2026-02-12
+tags:
+  - möte
+  - protokoll
+  - beslut
+  - dokumentation
+  - ledarskap
+  - uppföljning
 ---
-
 ## Syfte
 
 Strukturerar mötesanteckningar till tydliga sammanfattningar med beslut, ägarskap och nästa steg — så att inget faller mellan stolarna.

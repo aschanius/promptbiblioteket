@@ -2,12 +2,14 @@
 title: AI-riskanalys enligt AI Act
 slug: ai-riskanalys-ai-act
 category: juridik-compliance
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-18
+tested_date: 2026-04-18T00:00:00.000Z
 tags:
   - ai-styrning
   - ai-act
@@ -15,7 +17,6 @@ tags:
   - compliance
   - juridik
 ---
-
 ## Syfte
 
 Klassificerar AI-system enligt EU:s AI Act (förbjuden, hög, begränsad eller minimal risk). Skapar underlag inför hög risk-kraven som träder i kraft 2 augusti 2026.

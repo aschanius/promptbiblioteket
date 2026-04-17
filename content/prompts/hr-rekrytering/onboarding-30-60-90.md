@@ -2,12 +2,14 @@
 title: Onboardingplan — första 30, 60 och 90 dagarna
 slug: onboarding-30-60-90
 category: hr-rekrytering
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-17
+tested_date: 2026-04-17T00:00:00.000Z
 tags:
   - onboarding
   - introduktion
@@ -15,7 +17,6 @@ tags:
   - hr
   - rekrytering
 ---
-
 ## Syfte
 
 Skapar konkret onboardingplan i etablerad 30/60/90-struktur. Minskar risken att nya medarbetare faller mellan stolarna de första månaderna.

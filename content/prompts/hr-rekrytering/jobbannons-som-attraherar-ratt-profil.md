@@ -2,13 +2,14 @@
 title: Jobbannons som attraherar rätt profil
 slug: jobbannons-som-attraherar-ratt-profil
 category: hr-rekrytering
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.1
 version: "1.0"
 tested_models:
   - claude-opus-4-6
-tested_date: 2026-04-11
+tested_date: 2026-04-11T00:00:00.000Z
 tags:
   - jobbannons
   - rekrytering
@@ -16,7 +17,6 @@ tags:
   - kompetensprofil
   - hr
 ---
-
 ## Syfte
 
 Hjälper rekryterare att skriva jobbannonser som attraherar rätt kandidater, inte bara flest. Undviker jargong och lyfter fram det som faktiskt betyder något för beslutet.

@@ -2,12 +2,14 @@
 title: AI-träningsplan enligt Artikel 4
 slug: ai-traningsplan-artikel-4
 category: utbildning-pedagogik
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-18
+tested_date: 2026-04-18T00:00:00.000Z
 tags:
   - ai-styrning
   - utbildning
@@ -15,7 +17,6 @@ tags:
   - ai-act
   - AI-verktyg
 ---
-
 ## Syfte
 
 Tar fram differentierad AI-träningsplan enligt AI Act Artikel 4. Kompetenskravet gäller från 2 februari 2025 för alla som arbetar med AI i organisationen.

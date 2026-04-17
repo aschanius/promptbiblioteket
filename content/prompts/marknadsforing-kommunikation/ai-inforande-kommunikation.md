@@ -2,12 +2,14 @@
 title: Kommunikationsplan för AI-införande
 slug: ai-inforande-kommunikation
 category: marknadsforing-kommunikation
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.1
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-18
+tested_date: 2026-04-18T00:00:00.000Z
 tags:
   - ai-styrning
   - kommunikation
@@ -15,7 +17,6 @@ tags:
   - transparens
   - ai-införande
 ---
-
 ## Syfte
 
 Strukturerar intern och extern kommunikation vid AI-införande. Bygger förtroende genom transparens — 77 % av kunder förväntar sig öppenhet om AI-användning.

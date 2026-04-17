@@ -2,13 +2,14 @@
 title: Omvänd brief — klargör innan du löser
 slug: omvand-brief
 category: sme-entreprenorer
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
 version: "1.0"
 tested_models:
   - gemini-2.5-flash
-tested_date: 2026-04-12
+tested_date: 2026-04-12T00:00:00.000Z
 tags:
   - problemdefinition
   - strategi
@@ -16,7 +17,6 @@ tags:
   - rådgivning
   - planering
 ---
-
 ## Syfte
 
 Tvingar AI:n att förstå din situation innan den ger råd. Förhindrar generiska svar och avslöjar antaganden du inte visste att du gjorde.

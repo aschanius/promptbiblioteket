@@ -2,13 +2,14 @@
 title: Skriv vinnande offert
 slug: skriv-vinnande-offert
 category: sme-entreprenorer
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
 version: "1.0"
 tested_models:
   - claude-opus-4-6
-tested_date: 2026-04-11
+tested_date: 2026-04-11T00:00:00.000Z
 tags:
   - offert
   - försäljning
@@ -16,7 +17,6 @@ tags:
   - kund
   - affär
 ---
-
 ## Syfte
 
 Hjälper konsulter och småföretagare att skriva strukturerade offerter som speglar kundens behov, presenterar en tydlig lösning och gör det enkelt att säga ja.

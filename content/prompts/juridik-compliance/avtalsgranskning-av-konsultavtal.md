@@ -2,13 +2,14 @@
 title: Avtalsgranskning av konsultavtal
 slug: avtalsgranskning-av-konsultavtal
 category: juridik-compliance
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
 version: "1.0"
 tested_models:
   - claude-opus-4-6
-tested_date: 2026-04-11
+tested_date: 2026-04-11T00:00:00.000Z
 tags:
   - avtal
   - konsultavtal
@@ -16,7 +17,6 @@ tags:
   - juridik
   - riskbedömning
 ---
-
 ## Syfte
 
 Hjälper jurister, bolagsjurister och konsulter att snabbt identifiera red flags i ett konsultavtal — vad som är standard, vad som är onormalt och var riskerna sitter.

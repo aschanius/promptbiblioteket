@@ -2,12 +2,14 @@
 title: Rehabiliteringsplan vid längre sjukfrånvaro
 slug: rehabiliteringsplan-sjukfranvaro
 category: hr-rekrytering
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-17
+tested_date: 2026-04-17T00:00:00.000Z
 tags:
   - rehabilitering
   - sjukfrånvaro
@@ -15,7 +17,6 @@ tags:
   - försäkringskassan
   - arbetsmiljö
 ---
-
 ## Syfte
 
 Strukturerar arbetsgivarens rehabiliteringsplan enligt AFS 2020:5 och Försäkringskassans krav. Hjälper HR och chef att uppfylla lagkravet om plan senast dag 30.

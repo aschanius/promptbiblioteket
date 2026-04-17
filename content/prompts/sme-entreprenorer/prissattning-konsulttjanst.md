@@ -2,12 +2,14 @@
 title: Prissättning av konsulttjänst
 slug: prissattning-konsulttjanst
 category: sme-entreprenorer
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-17
+tested_date: 2026-04-17T00:00:00.000Z
 tags:
   - prissättning
   - konsult
@@ -15,7 +17,6 @@ tags:
   - timpris
   - offert
 ---
-
 ## Syfte
 
 Räknar ut hållbart timpris och fastpris baserat på önskad lön, kostnader och beläggning. Bygger på den svenska 2,5-3x-regeln och 70%-debiterbart.

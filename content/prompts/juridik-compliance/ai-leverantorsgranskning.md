@@ -2,12 +2,14 @@
 title: Leverantörsgranskning av AI-system
 slug: ai-leverantorsgranskning
 category: juridik-compliance
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-18
+tested_date: 2026-04-18T00:00:00.000Z
 tags:
   - ai-styrning
   - leverantör
@@ -15,7 +17,6 @@ tags:
   - due-diligence
   - compliance
 ---
-
 ## Syfte
 
 Strukturerar due diligence av AI-leverantör enligt GDPR, IMY:s vägledning och AI Act. Skapar underlag inför avtalsingång och för årlig uppföljning som IMY förväntar sig dokumenterad.

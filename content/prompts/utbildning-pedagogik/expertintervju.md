@@ -2,13 +2,14 @@
 title: Expertintervju — lär av en virtuell specialist
 slug: expertintervju
 category: utbildning-pedagogik
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.2
 version: "1.0"
 tested_models:
   - gemini-2.5-flash
-tested_date: 2026-04-12
+tested_date: 2026-04-12T00:00:00.000Z
 tags:
   - expertis
   - lärande
@@ -16,7 +17,6 @@ tags:
   - mentor
   - fördjupning
 ---
-
 ## Syfte
 
 Simulerar en intervju med en erfaren specialist inom valfritt område. Ger praktisk insikt med verkliga avvägningar istället för lärobokssvar.

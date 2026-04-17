@@ -2,12 +2,14 @@
 title: Motiverande samtal — förberedelse
 slug: motiverande-samtal-forberedelse
 category: vard-omsorg
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
+version: "1.0"
 tested_models:
   - claude-opus-4-7
-tested_date: 2026-04-17
+tested_date: 2026-04-17T00:00:00.000Z
 tags:
   - motiverande-samtal
   - MI
@@ -15,7 +17,6 @@ tags:
   - folkhälsa
   - omsorg
 ---
-
 ## Syfte
 
 Förbereder motiverande samtal enligt MI-metodiken (Motivational Interviewing) som används i svensk hälso- och sjukvård, socialtjänst och psykiatri. Stödjer samtalsledarens förberedelse utan att förvandla MI till manus.

@@ -2,13 +2,14 @@
 title: Pressmeddelande med nyhetsvinkel
 slug: pressmeddelande-med-nyhetsvinkel
 category: marknadsforing-kommunikation
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.1
 version: "1.0"
 tested_models:
   - claude-opus-4-6
-tested_date: 2026-04-11
+tested_date: 2026-04-11T00:00:00.000Z
 tags:
   - pressmeddelande
   - pr
@@ -16,7 +17,6 @@ tags:
   - media
   - nyhet
 ---
-
 ## Syfte
 
 Hjälper kommunikatörer att skriva publiceringsklara pressmeddelanden med tydlig nyhetsvinkel, relevanta citat och struktur som svenska redaktörer faktiskt gillar.

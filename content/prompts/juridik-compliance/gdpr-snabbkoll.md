@@ -2,13 +2,14 @@
 title: GDPR-snabbkoll av process eller tjänst
 slug: gdpr-snabbkoll
 category: juridik-compliance
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
 version: "1.0"
 tested_models:
   - gemini-2.5-flash
-tested_date: 2026-04-12
+tested_date: 2026-04-12T00:00:00.000Z
 tags:
   - GDPR
   - dataskydd
@@ -17,7 +18,6 @@ tags:
   - personuppgifter
   - ai-styrning
 ---
-
 ## Syfte
 
 Ger en snabb GDPR-granskning av en process eller tjänst med risker, åtgärder och saknad dokumentation. Sparar tid innan formell konsekvensbedömning.

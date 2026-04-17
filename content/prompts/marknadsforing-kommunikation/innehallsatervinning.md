@@ -2,13 +2,14 @@
 title: Innehållsåtervinning — ett innehåll, flera format
 slug: innehallsatervinning
 category: marknadsforing-kommunikation
+source_url: https://www.teknikministeriet.se
 source_author: Teknikministeriet
 source_lang: sv
 rating: 4.1
 version: "1.0"
 tested_models:
   - gemini-2.5-flash
-tested_date: 2026-04-12
+tested_date: 2026-04-12T00:00:00.000Z
 tags:
   - content
   - återvinning
@@ -16,7 +17,6 @@ tags:
   - distribution
   - marknadsföring
 ---
-
 ## Syfte
 
 Omvandlar ett långt innehåll till flera distributionsformat. Sparar tid och ökar räckvidden utan att skapa nytt material.
