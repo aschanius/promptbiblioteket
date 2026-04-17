@@ -5,6 +5,7 @@ import { getCollection } from 'astro:content';
 import { categories } from '../lib/categories';
 import { levelLabels } from '../lib/flows';
 import { themes } from '../lib/themes';
+import PromptCount from '../components/PromptCount.astro';
 
 const allPrompts = await getCollection('prompts');
 const allFlows = await getCollection('flows');
@@ -44,10 +45,15 @@ const jsonLd = {
   <!-- Hero -->
   <div class="text-center mb-12 mt-4">
     <h1 class="text-3xl sm:text-4xl font-bold tracking-tight mb-3">Promptbiblioteket</h1>
-    <p class="text-lg" style="color: var(--tm-muted);">
+    <p class="text-lg mb-2" style="color: var(--tm-muted);">
       AI-prompts för svenska yrkesverksamma. Sök, kopiera, använd.
     </p>
+    <PromptCount class="text-sm" />
   </div>
+
+  <style>
+    :global(.count-num) { color: var(--color-tm-accent); }
+  </style>
 
   <!-- Pagefind search (index skapas vid npm run build) -->
   <div id="search" class="max-w-xl mx-auto mb-12"></div>

@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import PromptCount from '../components/PromptCount.astro';
 
 interface Props {
   title: string;
@@ -75,6 +76,7 @@ const siteUrl = 'https://prompts.teknikministeriet.se';
   <footer class="border-t py-8 text-center text-sm" style="border-color: var(--tm-border); color: var(--tm-muted);">
     <div class="max-w-5xl mx-auto px-4 sm:px-6">
       <p>Promptbiblioteket av <a href="https://teknikministeriet.se" class="hover:underline" style="color: var(--color-tm-accent);">Teknikministeriet</a>. Prompts under CC0, kod under MIT.</p>
+      <p class="mt-2 text-xs"><PromptCount /></p>
     </div>
   </footer>
 

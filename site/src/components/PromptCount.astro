@@ -1,0 +1,28 @@
+---
+import { getCollection } from 'astro:content';
+
+const promptCount = (await getCollection('prompts')).length;
+const flowCount = (await getCollection('flows')).length;
+
+interface Props {
+  class?: string;
+}
+
+const { class: className = '' } = Astro.props;
+---
+<span class={className}>
+  <span class="count-num">{promptCount}</span> prompts
+  <span class="count-sep">·</span>
+  <span class="count-num">{flowCount}</span> flöden
+</span>
+
+<style>
+  .count-num {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+  }
+  .count-sep {
+    margin: 0 0.25rem;
+    opacity: 0.5;
+  }
+</style>
