@@ -9,16 +9,22 @@ import { extractPromptText } from '../../lib/prompts';
 
 export async function getStaticPaths() {
   const allPrompts = await getCollection('prompts');
+  const allFlows = await getCollection('flows');
 
   return allPrompts.map(entry => ({
     params: { category: entry.data.category, slug: entry.data.slug },
-    props: { entry, allPrompts },
+    props: { entry, allPrompts, allFlows },
   }));
 }
 
-const { entry, allPrompts } = Astro.props;
+const { entry, allPrompts, allFlows } = Astro.props;
 const { data } = entry;
 const category = getCategoryById(data.category);
+
+// Flöden som använder denna prompt
+const flowsUsingThis = allFlows.filter((f: any) =>
+  f.data.steps.some((s: any) => s.prompt === data.slug)
+);
 
 // Get the raw markdown body to extract prompt text
 const { Content } = await render(entry);
@@ -87,6 +93,36 @@ const jsonLd = {
       <Content />
     </div>
 
+    <!-- Flöden som använder denna prompt -->
+    {flowsUsingThis.length > 0 && (
+      <div class="flow-badge mt-6">
+        <div class="flow-badge-label">Ingår i {flowsUsingThis.length === 1 ? 'flödet' : 'flödena'}:</div>
+        <ul class="flow-badge-list">
+          {flowsUsingThis.map((f: any) => (
+            <li>
+              <a href={`/flode/${f.data.slug}/`} style="color: var(--color-tm-accent);">
+                {f.data.title} →
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+
+    <!-- Ändringshistorik om changelog finns -->
+    {data.changelog && data.changelog.length > 0 && (
+      <details class="changelog mt-6">
+        <summary>Ändringshistorik ({data.changelog.length})</summary>
+        <ul class="changelog-list">
+          {data.changelog.map((entry: any) => (
+            <li>
+              <strong>v{entry.version}</strong> · {entry.date.toLocaleDateString('sv-SE')} — {entry.change}
+            </li>
+          ))}
+        </ul>
+      </details>
+    )}
+
     <!-- Metadata -->
     <div class="mt-8 pt-6 border-t flex flex-wrap gap-4 text-sm" style="border-color: var(--tm-border); color: var(--tm-muted);">
       {data.tested_models && data.tested_models.length > 0 && (
@@ -104,6 +140,9 @@ const jsonLd = {
       )}
       {data.version && (
         <span>v{data.version}</span>
+      )}
+      {data.updated_at && (
+        <span>Uppdaterad {data.updated_at.toLocaleDateString('sv-SE')}</span>
       )}
     </div>
   </article>
@@ -165,5 +204,46 @@ const jsonLd = {
   /* Hide the prompt code block from rendered markdown (we show it separately) */
   .prose-content :global(pre) {
     display: none;
+  }
+
+  .flow-badge {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: var(--tm-surface);
+    border-left: 3px solid var(--color-tm-accent);
+  }
+  .flow-badge-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--tm-text);
+  }
+  .flow-badge-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .changelog {
+    font-size: 0.875rem;
+    color: var(--tm-muted);
+  }
+  .changelog summary {
+    cursor: pointer;
+    padding: 0.5rem 0;
+  }
+  .changelog-list {
+    list-style: none;
+    padding: 0.5rem 0 0 1rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .changelog-list li {
+    line-height: 1.6;
   }
 </style>

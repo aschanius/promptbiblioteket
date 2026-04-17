@@ -1,0 +1,48 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection } from 'astro:content';
+import { getCategoryById } from '../../lib/categories';
+import { levelLabels } from '../../lib/flows';
+
+const allFlows = await getCollection('flows');
+const flows = [...allFlows].sort((a, b) => a.data.title.localeCompare(b.data.title, 'sv'));
+
+const description = 'Flöden kombinerar flera prompts till sammanhängande arbetsmönster. Från månadsbokslut till rekryteringsprocess — färdiga kedjor för vardagens uppgifter.';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Promptflöden',
+  description,
+  url: 'https://prompts.teknikministeriet.se/flode/',
+};
+---
+<Base title="Flöden" description={description} jsonLd={jsonLd}>
+  <Breadcrumb crumbs={[
+    { label: 'Hem', href: '/' },
+    { label: 'Flöden' },
+  ]} />
+
+  <h1 class="text-2xl sm:text-3xl font-bold mb-2">Flöden</h1>
+  <p class="mb-8" style="color: var(--tm-muted);">
+    Kedjor av prompts som tillsammans löser en större arbetsuppgift. Varje flöde bygger på befintliga prompts i biblioteket.
+  </p>
+
+  <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+    {flows.map(flow => {
+      const cat = getCategoryById(flow.data.category);
+      return (
+        <a href={`/flode/${flow.data.slug}/`} class="prompt-card block no-underline" style="color: var(--tm-text);">
+          <h3 class="text-base font-semibold mb-2">{flow.data.title}</h3>
+          <div class="flex flex-wrap gap-3 text-xs mb-2" style="color: var(--tm-muted);">
+            {flow.data.estimated_time && <span>⏱ {flow.data.estimated_time}</span>}
+            {flow.data.level && <span>{levelLabels[flow.data.level]}</span>}
+            <span>{flow.data.steps.length} steg</span>
+          </div>
+          {cat && <div class="text-xs" style="color: var(--color-tm-accent);">{cat.title}</div>}
+        </a>
+      );
+    })}
+  </div>
+</Base>

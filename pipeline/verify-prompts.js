@@ -130,7 +130,8 @@ const QUALITY_CHECKS = {
 const REQUIRED_FRONTMATTER = ['title', 'slug', 'category', 'tags'];
 const OPTIONAL_FRONTMATTER = [
   'subcategory', 'source_url', 'source_author', 'source_lang',
-  'rating', 'tested_models', 'tested_date', 'version'
+  'rating', 'tested_models', 'tested_date', 'version',
+  'updated_at', 'changelog'
 ];
 
 function validateFrontmatter(data, filename) {
@@ -163,6 +164,33 @@ function validateFrontmatter(data, filename) {
 
   if (data.slug && !/^[a-z0-9-]+$/.test(data.slug)) {
     issues.push({ severity: 'warning', message: `Slug innehåller ogiltiga tecken: "${data.slug}"` });
+  }
+
+  // Changelog-validering: varje post måste ha version, date, change
+  if (data.changelog) {
+    if (!Array.isArray(data.changelog)) {
+      issues.push({ severity: 'error', message: 'changelog måste vara en lista' });
+    } else {
+      data.changelog.forEach((entry, i) => {
+        if (!entry.version || !entry.date || !entry.change) {
+          issues.push({
+            severity: 'error',
+            message: `changelog[${i}] saknar obligatoriska fält (version, date, change)`
+          });
+        }
+      });
+    }
+  }
+
+  // Om version > 1.0 ska det finnas en changelog som dokumenterar ändringarna
+  if (data.version && data.version !== '1.0' && /^\d/.test(data.version)) {
+    const versionNum = parseFloat(data.version);
+    if (versionNum > 1.0 && (!data.changelog || data.changelog.length === 0)) {
+      issues.push({
+        severity: 'warning',
+        message: `version ${data.version} saknar changelog — dokumentera vad som ändrats`
+      });
+    }
   }
 
   return issues;

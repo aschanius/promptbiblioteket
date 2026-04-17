@@ -1,0 +1,102 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import PromptCard from '../../components/PromptCard.astro';
+import { getCollection } from 'astro:content';
+import { themes, getThemeById } from '../../lib/themes';
+
+export async function getStaticPaths() {
+  const allPrompts = await getCollection('prompts');
+
+  return themes.map(theme => {
+    const themeTagSet = new Set(theme.tags.map(t => t.toLowerCase()));
+    const matching = allPrompts.filter((p: any) => {
+      const promptTags = (p.data.tags || []).map((t: string) => t.toLowerCase());
+      return promptTags.some((t: string) => themeTagSet.has(t));
+    });
+    return {
+      params: { slug: theme.id },
+      props: { theme, prompts: matching },
+    };
+  });
+}
+
+const { theme, prompts } = Astro.props;
+
+// Group by category for tidy display
+const byCategory = new Map<string, any[]>();
+for (const p of prompts) {
+  const cat = p.data.category;
+  if (!byCategory.has(cat)) byCategory.set(cat, []);
+  byCategory.get(cat)!.push(p);
+}
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: theme.title,
+  description: theme.description,
+  url: `https://prompts.teknikministeriet.se/tema/${theme.id}/`,
+};
+---
+<Base title={theme.title} description={theme.description} jsonLd={jsonLd}>
+  <Breadcrumb crumbs={[
+    { label: 'Hem', href: '/' },
+    { label: 'Tema' },
+    { label: theme.title },
+  ]} />
+
+  <h1 class="text-2xl sm:text-3xl font-bold mb-2">
+    <span style="color: var(--tm-muted);">Tema:</span> {theme.title}
+  </h1>
+  <p class="mb-4" style="color: var(--tm-muted);">{theme.description}</p>
+
+  <div class="theme-why mb-8">
+    <strong>Varför ett tema, inte en kategori?</strong>
+    <p>{theme.why}</p>
+  </div>
+
+  {prompts.length === 0 ? (
+    <p style="color: var(--tm-muted);">Inga prompts matchar detta tema ännu. Taggar som filtrerar: {theme.tags.join(', ')}.</p>
+  ) : (
+    [...byCategory.entries()].map(([catId, catPrompts]) => (
+      <section class="mb-8">
+        <h2 class="text-lg font-semibold mb-3">
+          <a href={`/${catId}/`} style="color: var(--color-tm-accent);">{catId}</a>
+          <span class="text-sm font-normal ml-2" style="color: var(--tm-muted);">
+            ({catPrompts.length} {catPrompts.length === 1 ? 'prompt' : 'prompts'})
+          </span>
+        </h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          {catPrompts.map((p: any) => (
+            <PromptCard
+              title={p.data.title}
+              href={`/${p.data.category}/${p.data.slug}/`}
+              tags={p.data.tags}
+              testedDate={p.data.tested_date}
+            />
+          ))}
+        </div>
+      </section>
+    ))
+  )}
+</Base>
+
+<style>
+  .theme-why {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: var(--tm-surface);
+    border-left: 3px solid var(--color-tm-accent);
+    font-size: 0.9rem;
+  }
+  .theme-why strong {
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+  .theme-why p {
+    margin: 0;
+    line-height: 1.6;
+    color: var(--tm-muted);
+  }
+</style>

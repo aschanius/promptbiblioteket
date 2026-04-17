@@ -3,8 +3,12 @@ import Base from '../layouts/Base.astro';
 import PromptCard from '../components/PromptCard.astro';
 import { getCollection } from 'astro:content';
 import { categories } from '../lib/categories';
+import { levelLabels } from '../lib/flows';
+import { themes } from '../lib/themes';
 
 const allPrompts = await getCollection('prompts');
+const allFlows = await getCollection('flows');
+const flows = [...allFlows].sort((a, b) => a.data.title.localeCompare(b.data.title, 'sv'));
 
 // Count prompts per category
 const countByCategory = new Map<string, number>();
@@ -115,6 +119,49 @@ const jsonLd = {
       })}
     </div>
   </section>
+
+  <!-- Flows -->
+  {flows.length > 0 && (
+    <section class="mb-16">
+      <div class="flex items-baseline justify-between mb-6">
+        <h2 class="text-xl font-semibold">Flöden</h2>
+        <a href="/flode/" class="text-sm hover:underline" style="color: var(--color-tm-accent);">Alla flöden →</a>
+      </div>
+      <p class="text-sm mb-4" style="color: var(--tm-muted);">
+        Kedjor av prompts som löser större arbetsuppgifter — från månadsbokslut till rekryteringsprocess.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {flows.slice(0, 6).map(flow => (
+          <a href={`/flode/${flow.data.slug}/`} class="prompt-card block no-underline" style="color: var(--tm-text);">
+            <h3 class="text-base font-semibold mb-2">{flow.data.title}</h3>
+            <div class="flex flex-wrap gap-3 text-xs" style="color: var(--tm-muted);">
+              {flow.data.estimated_time && <span>⏱ {flow.data.estimated_time}</span>}
+              {flow.data.level && <span>{levelLabels[flow.data.level]}</span>}
+              <span>{flow.data.steps.length} steg</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- Themes -->
+  {themes.length > 0 && (
+    <section class="mb-16">
+      <h2 class="text-xl font-semibold mb-6">Teman</h2>
+      <p class="text-sm mb-4" style="color: var(--tm-muted);">
+        Tvärs yrkeskategorier — när ett ämne behöver samverkan mellan roller.
+      </p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+        {themes.map(theme => (
+          <a href={`/tema/${theme.id}/`} class="prompt-card block no-underline" style="color: var(--tm-text);">
+            <h3 class="text-base font-semibold mb-2">{theme.title}</h3>
+            <p class="text-sm" style="color: var(--tm-muted);">{theme.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 
   <!-- Latest prompts -->
   {latestPrompts.length > 0 && (

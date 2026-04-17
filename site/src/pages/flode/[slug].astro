@@ -1,0 +1,174 @@
+---
+import Base from '../../layouts/Base.astro';
+import Breadcrumb from '../../components/Breadcrumb.astro';
+import { getCollection, render } from 'astro:content';
+import { getCategoryById } from '../../lib/categories';
+import { levelLabels } from '../../lib/flows';
+
+export async function getStaticPaths() {
+  const allFlows = await getCollection('flows');
+  const allPrompts = await getCollection('prompts');
+
+  return allFlows.map(flow => ({
+    params: { slug: flow.data.slug },
+    props: { flow, allPrompts },
+  }));
+}
+
+const { flow, allPrompts } = Astro.props;
+const { data } = flow;
+const category = getCategoryById(data.category);
+
+const { Content } = await render(flow);
+
+// Resolve each step's prompt to its metadata
+const resolvedSteps = data.steps.map(step => {
+  const prompt = allPrompts.find((p: any) => p.data.slug === step.prompt);
+  return {
+    ...step,
+    resolved: prompt,
+  };
+});
+
+// Verify all steps resolve — broken references fail the build
+const missing = resolvedSteps.filter(s => !s.resolved);
+if (missing.length > 0) {
+  throw new Error(
+    `Flödet "${data.title}" refererar till prompts som inte finns: ${missing.map(s => s.prompt).join(', ')}`
+  );
+}
+
+const description = `Flöde: ${data.title}. ${data.steps.length} steg, ${data.estimated_time || 'varierande tid'}.`;
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: data.title,
+  description,
+  totalTime: data.estimated_time,
+  step: resolvedSteps.map((s, i) => ({
+    '@type': 'HowToStep',
+    position: i + 1,
+    name: s.role,
+    text: s.resolved!.data.title,
+    url: `https://prompts.teknikministeriet.se/${s.resolved!.data.category}/${s.resolved!.data.slug}/`,
+  })),
+};
+---
+<Base title={data.title} description={description} jsonLd={jsonLd}>
+  <Breadcrumb crumbs={[
+    { label: 'Hem', href: '/' },
+    { label: 'Flöden', href: '/flode/' },
+    { label: data.title },
+  ]} />
+
+  <article data-pagefind-body>
+    <h1 class="text-2xl sm:text-3xl font-bold mb-3">{data.title}</h1>
+
+    <!-- Metadata -->
+    <div class="flex flex-wrap gap-4 mb-6 text-sm" style="color: var(--tm-muted);">
+      {data.estimated_time && <span>⏱ {data.estimated_time}</span>}
+      {data.level && <span>{levelLabels[data.level]}</span>}
+      <span>{data.steps.length} steg</span>
+      {category && <a href={`/${category.id}/`} style="color: var(--color-tm-accent);">{category.title}</a>}
+    </div>
+
+    <!-- Tags -->
+    {data.tags && data.tags.length > 0 && (
+      <div class="flex flex-wrap gap-2 mb-6">
+        {data.tags.map((tag: string) => (
+          <a href={`/tagg/${tag}/`} class="tag no-underline">{tag}</a>
+        ))}
+      </div>
+    )}
+
+    <!-- Prose body: Syfte, När använd, Tips -->
+    <div class="prose-content mb-8">
+      <Content />
+    </div>
+
+    <!-- Steps -->
+    <h2 class="text-xl font-semibold mb-4">Stegen</h2>
+    <ol class="flow-steps">
+      {resolvedSteps.map((step, i) => (
+        <li class="flow-step">
+          <div class="flow-step-num">{i + 1}</div>
+          <div class="flow-step-body">
+            <div class="flow-step-role" style="color: var(--tm-muted);">{step.role}</div>
+            <a href={`/${step.resolved!.data.category}/${step.resolved!.data.slug}/`}
+               class="flow-step-link"
+               style="color: var(--color-tm-accent);">
+              {step.resolved!.data.title} →
+            </a>
+          </div>
+        </li>
+      ))}
+    </ol>
+  </article>
+</Base>
+
+<style>
+  .prose-content :global(h2) {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-content :global(p) {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+  .prose-content :global(ul) {
+    margin-bottom: 1rem;
+    padding-left: 1.5rem;
+  }
+  .prose-content :global(li) {
+    margin-bottom: 0.25rem;
+    line-height: 1.7;
+  }
+
+  .flow-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .flow-step {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+    padding: 1rem;
+    border: 1px solid var(--tm-border);
+    border-radius: 0.5rem;
+    background: var(--tm-surface);
+  }
+  .flow-step-num {
+    flex-shrink: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--color-tm-accent);
+    color: #111827;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .flow-step-body {
+    flex: 1;
+  }
+  .flow-step-role {
+    font-size: 0.875rem;
+    margin-bottom: 0.25rem;
+  }
+  .flow-step-link {
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .flow-step-link:hover {
+    text-decoration: underline;
+  }
+</style>

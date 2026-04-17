@@ -15,6 +15,7 @@ tags:
   - compliance
   - IMY
   - personuppgifter
+  - ai-styrning
 ---
 
 ## Syfte
