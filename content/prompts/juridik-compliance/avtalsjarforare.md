@@ -7,6 +7,9 @@ source_author: Teknikministeriet
 source_lang: sv
 rating: 4.3
 version: "1.0"
+tested_models:
+  - claude-opus-4-7
+tested_date: 2026-04-17
 tags:
   - avtal
   - jämförelse
