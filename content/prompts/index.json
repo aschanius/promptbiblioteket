@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-17T21:55:17.638Z",
+  "generated_at": "2026-04-17T22:44:32.527Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -263,8 +263,25 @@
       "title": "HR & rekrytering",
       "description": "Prompts för HR-chefer, rekryterare och personalutvecklare. Jobbannonsering, intervjufrågor, onboarding och medarbetarsamtal.",
       "priority": 99,
-      "prompt_count": 5,
+      "prompt_count": 6,
       "prompts": [
+        {
+          "slug": "ai-policy-organisation",
+          "title": "AI-policy för organisationen",
+          "file": "hr-rekrytering/ai-policy-organisation.md",
+          "rating": 4.2,
+          "tags": [
+            "ai-styrning",
+            "policy",
+            "personal",
+            "ai-verktyg",
+            "hr"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
         {
           "slug": "jobbannons-som-attraherar-ratt-profil",
           "title": "Jobbannons som attraherar rätt profil",
@@ -357,8 +374,42 @@
       "title": "Juridik & compliance",
       "description": "Prompts för jurister, bolagsjurister och complianceansvariga. Avtalsgranskning, regelefterlevnad och riskbedömning.",
       "priority": 99,
-      "prompt_count": 5,
+      "prompt_count": 7,
       "prompts": [
+        {
+          "slug": "ai-leverantorsgranskning",
+          "title": "Leverantörsgranskning av AI-system",
+          "file": "juridik-compliance/ai-leverantorsgranskning.md",
+          "rating": 4.3,
+          "tags": [
+            "ai-styrning",
+            "leverantör",
+            "dpa",
+            "due-diligence",
+            "compliance"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "ai-riskanalys-ai-act",
+          "title": "AI-riskanalys enligt AI Act",
+          "file": "juridik-compliance/ai-riskanalys-ai-act.md",
+          "rating": 4.3,
+          "tags": [
+            "ai-styrning",
+            "ai-act",
+            "risklassning",
+            "compliance",
+            "juridik"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
         {
           "slug": "avtalsgranskning-av-konsultavtal",
           "title": "Avtalsgranskning av konsultavtal",
@@ -402,7 +453,8 @@
             "dataskydd",
             "compliance",
             "IMY",
-            "personuppgifter"
+            "personuppgifter",
+            "ai-styrning"
           ],
           "tested_models": [
             "gemini-2.5-flash"
@@ -595,8 +647,25 @@
       "title": "Marknadsföring & kommunikation",
       "description": "Prompts för marknadschefer, copywriters, PR och sociala medier. Kampanjer, texter, tonalitet och innehållsstrategi.",
       "priority": 99,
-      "prompt_count": 5,
+      "prompt_count": 6,
       "prompts": [
+        {
+          "slug": "ai-inforande-kommunikation",
+          "title": "Kommunikationsplan för AI-införande",
+          "file": "marknadsforing-kommunikation/ai-inforande-kommunikation.md",
+          "rating": 4.1,
+          "tags": [
+            "ai-styrning",
+            "kommunikation",
+            "förändringsledning",
+            "transparens",
+            "ai-införande"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
         {
           "slug": "anpassa-ton-och-malgrupp",
           "title": "Anpassa ton och målgrupp",
@@ -783,8 +852,25 @@
       "title": "Utbildning & pedagogik",
       "description": "Prompts för lärare, utbildare, rektorer och studiehandledare. Lektionsplanering, bedömning, förklaringar och kursdesign.",
       "priority": 99,
-      "prompt_count": 7,
+      "prompt_count": 8,
       "prompts": [
+        {
+          "slug": "ai-traningsplan-artikel-4",
+          "title": "AI-träningsplan enligt Artikel 4",
+          "file": "utbildning-pedagogik/ai-traningsplan-artikel-4.md",
+          "rating": 4.2,
+          "tags": [
+            "ai-styrning",
+            "utbildning",
+            "kompetensutveckling",
+            "ai-act",
+            "AI-verktyg"
+          ],
+          "tested_models": [
+            "claude-opus-4-7"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
         {
           "slug": "expertintervju",
           "title": "Expertintervju — lär av en virtuell specialist",
@@ -1002,5 +1088,5 @@
       ]
     }
   ],
-  "total_prompts": 54
+  "total_prompts": 59
 }

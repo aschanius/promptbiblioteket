@@ -281,8 +281,38 @@
       "category": "sme-entreprenorer",
       "rating": 4.1,
       "rated_at": "2026-04-17T21:55:17.630Z"
+    },
+    {
+      "slug": "ai-riskanalys-ai-act",
+      "category": "juridik-compliance",
+      "rating": 4.3,
+      "rated_at": "2026-04-17T22:43:42.855Z"
+    },
+    {
+      "slug": "ai-traningsplan-artikel-4",
+      "category": "utbildning-pedagogik",
+      "rating": 4.2,
+      "rated_at": "2026-04-17T22:43:43.292Z"
+    },
+    {
+      "slug": "ai-inforande-kommunikation",
+      "category": "marknadsforing-kommunikation",
+      "rating": 4.1,
+      "rated_at": "2026-04-17T22:43:43.511Z"
+    },
+    {
+      "slug": "ai-leverantorsgranskning",
+      "category": "juridik-compliance",
+      "rating": 4.3,
+      "rated_at": "2026-04-17T22:43:43.731Z"
+    },
+    {
+      "slug": "ai-policy-organisation",
+      "category": "hr-rekrytering",
+      "rating": 4.2,
+      "rated_at": "2026-04-17T22:44:32.517Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-17T21:55:17.630Z"
+  "updated_at": "2026-04-17T22:44:32.517Z"
 }

@@ -375,7 +375,47 @@
       "source_author": "Teknikministeriet",
       "source_lang": "sv",
       "added_at": "2026-04-17T21:55:17.630Z"
+    },
+    {
+      "slug": "ai-riskanalys-ai-act",
+      "category": "juridik-compliance",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T22:43:42.855Z"
+    },
+    {
+      "slug": "ai-traningsplan-artikel-4",
+      "category": "utbildning-pedagogik",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T22:43:43.292Z"
+    },
+    {
+      "slug": "ai-inforande-kommunikation",
+      "category": "marknadsforing-kommunikation",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T22:43:43.511Z"
+    },
+    {
+      "slug": "ai-leverantorsgranskning",
+      "category": "juridik-compliance",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T22:43:43.731Z"
+    },
+    {
+      "slug": "ai-policy-organisation",
+      "category": "hr-rekrytering",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-17T22:44:32.517Z"
     }
   ],
-  "updated_at": "2026-04-17T21:55:17.630Z"
+  "updated_at": "2026-04-17T22:44:32.517Z"
 }

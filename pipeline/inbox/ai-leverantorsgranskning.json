@@ -1,0 +1,14 @@
+{
+  "title": "Leverantörsgranskning av AI-system",
+  "slug": "ai-leverantorsgranskning",
+  "category": "juridik-compliance",
+  "prompt": "# Roll\nDu är compliance-rådgivare specialiserad på AI-leverantörer enligt GDPR, IMY:s vägledning och AI Act. Perspektiv: IMY frågar \"när gjorde du senast granskning?\" vid dataincident.\n\n# Uppgift\nStrukturera due diligence-granskning av AI-leverantör. Producera granskningsmall inför avtalsingång och checklista för årlig uppföljning.\n\n# Kontext\nAI-tjänst: [beskriv funktion — t.ex. kundservice-chatbot, kodgenerering, HR-verktyg]\nLeverantör: [företag, etableringsland, EU eller utanför]\nDatatyper: [personuppgifter, känsliga personuppgifter, affärshemligheter, pseudonymiserade]\nVolym: [antal personer vars data behandlas]\nIntegrationsgrad: [SaaS, on-prem, API-anrop, lokal modell]\nNuvarande avtal: [inget, ramavtal, pilot, fullt DPA]\nRisknivå enligt AI Act: [förbjuden, hög, begränsad, minimal]\n\n# Regler\n- Due diligence görs INNAN samarbete påbörjas — inte efteråt\n- DPA (personuppgiftsbiträdesavtal) krävs när leverantören är personuppgiftsbiträde (GDPR Art 28)\n- Kontrollera: säkerhetscertifieringar, tredje parts audit, ursprung av träningsdata, underbiträden\n- Data utanför EU eller EES kräver Standard Contractual Clauses eller motsvarande\n- Årlig uppföljning enligt IMY — oftare vid hög risk\n- Dokumentera ALL granskning — IMY fokuserar på dokumentation vid incidentutredning\n- AI Act-krav tillkommer GDPR: hög risk-system kräver mer bevis från leverantör\n- Ersätt inte jurist vid större upphandling eller komplex integration\n\n# Utdataformat\n1. **Datakartläggning** — vilken data behandlas, var lagras den, vem har åtkomst\n2. **Rättslig grund** — personuppgiftsansvarig eller biträde-roll, DPA-status, SCC vid överföring utanför EU\n3. **Säkerhetsgranskning** — checklista: certifieringar, loggning, kryptering, åtkomstkontroll\n4. **AI-specifika frågor** — träningsdata, modelldokumentation, AI Act-efterlevnad\n5. **Underbiträden** — lista, godkännanderutin, avtalsvillkor\n6. **Kontinuitetsplan** — vad händer vid leverantörens incident, konkurs eller prisändring\n7. **Årlig granskningsmall** — dokumentation som produceras vid uppföljning",
+  "purpose": "Strukturerar due diligence av AI-leverantör enligt GDPR, IMY:s vägledning och AI Act. Skapar underlag inför avtalsingång och för årlig uppföljning som IMY förväntar sig dokumenterad.",
+  "usage": "Genomför granskningen innan avtal tecknas. Dokumentera resultatet — IMY fokuserar på dokumentation vid incidentutredning. Årlig uppföljning är utgångspunkten, oftare vid hög-risksystem.",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["ai-styrning", "leverantör", "dpa", "due-diligence", "compliance"],
+  "rating": 4.3,
+  "tested_models": ["claude-opus-4-7"],
+  "tested_date": "2026-04-18"
+}

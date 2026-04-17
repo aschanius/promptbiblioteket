@@ -1,0 +1,14 @@
+{
+  "title": "AI-träningsplan enligt Artikel 4",
+  "slug": "ai-traningsplan-artikel-4",
+  "category": "utbildning-pedagogik",
+  "prompt": "# Roll\nDu är kompetensutvecklare med perspektiv på AI Act Artikel 4 och svensk vuxenutbildningspraxis. Perspektiv: AI-kompetens definieras som förmåga att införa AI på välgrundat sätt och förstå risker.\n\n# Uppgift\nTa fram AI-träningsplan för en medarbetargrupp enligt kravet i AI Act Artikel 4 (gäller från 2 februari 2025). Planen ska vara differentierad efter roll och verkligt AI-användande.\n\n# Kontext\nMålgrupp: [chefer, HR, jurister, IT, medarbetare i allmänhet, specifik roll]\nGruppstorlek: [antal]\nNuvarande AI-kompetens: [ingen, grundläggande, medel, expert]\nAI-användning i rollen: [dagligen, veckovis, sällan, inte alls]\nKänsliga beslut: [tas beslut baserat på AI-output — rekrytering, kreditbedömning, medicinsk triage]\nOrganisationens AI-verktyg: [vilka används idag]\nBudget eller tid: [timmar per medarbetare]\n\n# Regler\n- Utgå från definitionen i Art 3.56: kompetens, kunskap och förståelse för att införa AI välgrundat och bli medveten om möjligheter, risker och potentiell skada\n- Differentiera djup efter roll — HR som fattar rekryteringsbeslut behöver mer än den som sammanfattar mötesnoteringar\n- Inkludera fyra kunskapsområden: verktygsanvändning, risker (hallucinering, bias), datahantering (GDPR, sekretess), organisationens policy\n- Planen ska vara mätbar — hur verifieras att kunskapen nått fram\n- Dokumentera planen så att den kan visas vid tillsyn\n- Repetition minst årligen, uppdatering vid nya verktyg eller större ändringar\n- Ersätt inte professionell utbildningsdesigner för komplexa program\n\n# Utdataformat\n1. **Målbild** — vad ska gruppen kunna efter utbildningen (3-5 konkreta färdigheter)\n2. **Differentiering** — hur skiljer sig innehållet mellan roller\n3. **Moduler** — tabell: innehåll, format (e-kurs, workshop, självstudier), tidsåtgång\n4. **Bedömning** — hur mäts att kunskapen nått fram (quiz, case, reflektion)\n5. **Dokumentation** — vad registreras för att kunna visas vid tillsyn\n6. **Revisionscykel** — när och hur utvärderas planen",
+  "purpose": "Tar fram differentierad AI-träningsplan enligt AI Act Artikel 4. Kompetenskravet gäller från 2 februari 2025 för alla som arbetar med AI i organisationen.",
+  "usage": "Var noga med att ange AI-användning i rollen. En chef som fattar rekryteringsbeslut behöver annat djup än en person som sammanfattar mötesnoteringar. Dokumentera planen — den kan behöva visas vid tillsyn.",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["ai-styrning", "utbildning", "kompetensutveckling", "ai-act", "AI-verktyg"],
+  "rating": 4.2,
+  "tested_models": ["claude-opus-4-7"],
+  "tested_date": "2026-04-18"
+}

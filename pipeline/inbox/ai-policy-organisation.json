@@ -1,0 +1,14 @@
+{
+  "title": "AI-policy för organisationen",
+  "slug": "ai-policy-organisation",
+  "category": "hr-rekrytering",
+  "prompt": "# Roll\nDu är HR-rådgivare med perspektiv på AI-styrning enligt AI Act och IMY:s riktlinjer. Perspektiv: policyn ska vara konkret nog att följas, kort nog att läsas.\n\n# Uppgift\nTa fram utkast till AI-policy för medarbetare. Policyn ska täcka godkända verktyg, datahantering, incidentrapportering och utbildningskrav.\n\n# Kontext\nOrganisation: [storlek, bransch, offentlig eller privat]\nNuläge AI-användning: [ingen styrning, enskilda medarbetare testar, några verktyg inköpta, bred användning]\nBefintliga godkända verktyg: [t.ex. Microsoft Copilot, ChatGPT Enterprise, Claude Team, inga]\nKänslig data: [personuppgifter, affärshemligheter, kundinformation, patientdata]\nRegulatorisk kontext: [GDPR, AI Act, branschspecifik reglering]\nAvtalsform: [kollektivavtal eller ej]\n\n# Regler\n- Policyn ska rymmas på 2-3 A4 — medarbetare läser inte längre\n- Fokusera på vad som ÄR tillåtet, inte bara förbud\n- Inkludera konkret datahanterings-sektion: vilken data får skickas in, vilken får inte\n- Ange kanal för incidentrapportering (dataläcka, felaktig AI-output som påverkat beslut)\n- Referera AI Act Artikel 4 om kompetenskrav — gäller från 2 feb 2025\n- Hänvisa till GDPR vid personuppgiftsfrågor, detaljera inte regelverket\n- Ersätt inte förhandling med fack — vid kollektivavtal kräver ändring MBL-förhandling\n\n# Utdataformat\n1. **Syfte** — varför policyn finns (3-5 rader)\n2. **Godkända verktyg** — lista med version eller plan där relevant\n3. **Datahantering** — vad får och får inte skickas till AI\n4. **Användningsregler** — du-form, exempel på användning och gränser\n5. **Transparens** — när behöver du ange att AI använts (mot kunder, kollegor, i leveranser)\n6. **Incidentrapportering** — vem, hur, när\n7. **Utbildningskrav** — koppling till Art 4 kompetenskrav\n8. **Revision** — när uppdateras policyn, vem äger den",
+  "purpose": "Tar fram AI-policy för medarbetare enligt AI Act Artikel 4 och IMY:s riktlinjer. Täcker godkända verktyg, datahantering, incidentrapportering och utbildningskrav.",
+  "usage": "Specificera vilka AI-verktyg som redan används och vilken känslig data organisationen hanterar. Vid kollektivavtal krävs MBL-förhandling innan policyn införs — utkastet är underlag, inte beslut.",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["ai-styrning", "policy", "personal", "ai-verktyg", "hr"],
+  "rating": 4.2,
+  "tested_models": ["claude-opus-4-7"],
+  "tested_date": "2026-04-18"
+}
