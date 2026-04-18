@@ -415,7 +415,71 @@
       "source_author": "Teknikministeriet",
       "source_lang": "sv",
       "added_at": "2026-04-17T22:44:32.517Z"
+    },
+    {
+      "slug": "arsbokslut-forberedelse-k2-k3",
+      "category": "ekonomi-finans",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T11:20:53.265Z"
+    },
+    {
+      "slug": "fakturapaminnelse-eskalering",
+      "category": "ekonomi-finans",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T11:20:57.548Z"
+    },
+    {
+      "slug": "pre-mortem-for-projektrisker",
+      "category": "ledarskap-strategi",
+      "source_url": "https://hbr.org/2007/09/performing-a-project-premortem",
+      "source_author": "Gary Klein (via HBR)",
+      "source_lang": "en",
+      "added_at": "2026-04-18T11:26:11.546Z"
+    },
+    {
+      "slug": "kommunicera-svart-beslut",
+      "category": "ledarskap-strategi",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T11:26:11.765Z"
+    },
+    {
+      "slug": "okr-formulering-kvartal",
+      "category": "ledarskap-strategi",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T11:26:11.985Z"
+    },
+    {
+      "slug": "feedback-pa-elevtext",
+      "category": "utbildning-pedagogik",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T11:26:35.928Z"
+    },
+    {
+      "slug": "formativ-bedomning-lektionsfrager",
+      "category": "utbildning-pedagogik",
+      "source_url": "https://www.skolverket.se/",
+      "source_author": "Skolverket (formativ bedömning)",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T11:26:36.143Z"
+    },
+    {
+      "slug": "bedomning-mot-kunskapskrav",
+      "category": "utbildning-pedagogik",
+      "source_url": "https://www.skolverket.se/",
+      "source_author": "Skolverket (kunskapskrav Lgr22/GY2025)",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T11:26:43.116Z"
     }
   ],
-  "updated_at": "2026-04-17T22:44:32.517Z"
+  "updated_at": "2026-04-18T11:26:43.116Z"
 }

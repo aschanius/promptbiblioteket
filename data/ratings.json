@@ -311,8 +311,56 @@
       "category": "hr-rekrytering",
       "rating": 4.2,
       "rated_at": "2026-04-17T22:44:32.517Z"
+    },
+    {
+      "slug": "arsbokslut-forberedelse-k2-k3",
+      "category": "ekonomi-finans",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T11:20:53.265Z"
+    },
+    {
+      "slug": "fakturapaminnelse-eskalering",
+      "category": "ekonomi-finans",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T11:20:57.548Z"
+    },
+    {
+      "slug": "pre-mortem-for-projektrisker",
+      "category": "ledarskap-strategi",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T11:26:11.546Z"
+    },
+    {
+      "slug": "kommunicera-svart-beslut",
+      "category": "ledarskap-strategi",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T11:26:11.765Z"
+    },
+    {
+      "slug": "okr-formulering-kvartal",
+      "category": "ledarskap-strategi",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T11:26:11.985Z"
+    },
+    {
+      "slug": "feedback-pa-elevtext",
+      "category": "utbildning-pedagogik",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T11:26:35.928Z"
+    },
+    {
+      "slug": "formativ-bedomning-lektionsfrager",
+      "category": "utbildning-pedagogik",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T11:26:36.143Z"
+    },
+    {
+      "slug": "bedomning-mot-kunskapskrav",
+      "category": "utbildning-pedagogik",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T11:26:43.116Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-17T22:44:32.517Z"
+  "updated_at": "2026-04-18T11:26:43.116Z"
 }

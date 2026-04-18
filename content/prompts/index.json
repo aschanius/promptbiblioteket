@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-17T22:51:21.319Z",
+  "generated_at": "2026-04-18T11:26:43.125Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -101,8 +101,25 @@
       "title": "Ekonomi & finans",
       "description": "Prompts för ekonomer, controllers, revisorer och finansanalytiker. Budget, rapportering, analys och revision.",
       "priority": 99,
-      "prompt_count": 9,
+      "prompt_count": 11,
       "prompts": [
+        {
+          "slug": "arsbokslut-forberedelse-k2-k3",
+          "title": "Årsbokslut-förberedelse — checklista enligt K2 eller K3",
+          "file": "ekonomi-finans/arsbokslut-forberedelse-k2-k3.md",
+          "rating": 4.3,
+          "tags": [
+            "årsbokslut",
+            "K2",
+            "K3",
+            "redovisning",
+            "årsredovisning"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
         {
           "slug": "besparingspotential-8020",
           "title": "Besparingspotential enligt 80/20-principen",
@@ -119,6 +136,23 @@
             "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
+        },
+        {
+          "slug": "fakturapaminnelse-eskalering",
+          "title": "Fakturapåminnelse — eskaleringstrappa från vänlig till inkasso",
+          "file": "ekonomi-finans/fakturapaminnelse-eskalering.md",
+          "rating": 4.3,
+          "tags": [
+            "faktura",
+            "påminnelse",
+            "inkasso",
+            "betalning",
+            "kundfordringar"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "forklara-ekonomi-for-styrelsen",
@@ -500,7 +534,7 @@
       "title": "Ledarskap & strategi",
       "description": "Prompts för chefer, projektledare och beslutsfattare. Mötesledning, strategiarbete, förändringsledning och beslutsunderlag.",
       "priority": 99,
-      "prompt_count": 8,
+      "prompt_count": 11,
       "prompts": [
         {
           "slug": "andraordningseffekter",
@@ -554,6 +588,23 @@
           "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
+          "slug": "kommunicera-svart-beslut",
+          "title": "Kommunicera ett svårt beslut — uppsägning, omorganisation eller nedläggning",
+          "file": "ledarskap-strategi/kommunicera-svart-beslut.md",
+          "rating": 4.3,
+          "tags": [
+            "kommunikation",
+            "svårt-beslut",
+            "uppsägning",
+            "chef",
+            "arbetsrätt"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "motesforeberedelse",
           "title": "Mötesförberedelse på 10 minuter",
           "file": "ledarskap-strategi/motesforeberedelse.md",
@@ -588,6 +639,40 @@
             "gpt-4o"
           ],
           "tested_date": "2026-02-12T00:00:00.000Z"
+        },
+        {
+          "slug": "okr-formulering-kvartal",
+          "title": "OKR-formulering för kvartalet — mål och mätbara nyckelresultat",
+          "file": "ledarskap-strategi/okr-formulering-kvartal.md",
+          "rating": 4.2,
+          "tags": [
+            "OKR",
+            "mål",
+            "strategi",
+            "kvartal",
+            "ledningsgrupp"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "pre-mortem-for-projektrisker",
+          "title": "Pre-mortem — identifiera projektrisker innan start",
+          "file": "ledarskap-strategi/pre-mortem-for-projektrisker.md",
+          "rating": 4.2,
+          "tags": [
+            "pre-mortem",
+            "risk",
+            "projekt",
+            "beslut",
+            "workshop"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "sammanfatta-langt-dokument",
@@ -852,7 +937,7 @@
       "title": "Utbildning & pedagogik",
       "description": "Prompts för lärare, utbildare, rektorer och studiehandledare. Lektionsplanering, bedömning, förklaringar och kursdesign.",
       "priority": 99,
-      "prompt_count": 8,
+      "prompt_count": 11,
       "prompts": [
         {
           "slug": "ai-traningsplan-artikel-4",
@@ -872,6 +957,23 @@
           "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
+          "slug": "bedomning-mot-kunskapskrav",
+          "title": "Bedömning mot kunskapskrav — betygsunderlag enligt Lgr22 eller GY2025",
+          "file": "utbildning-pedagogik/bedomning-mot-kunskapskrav.md",
+          "rating": 4.3,
+          "tags": [
+            "bedömning",
+            "kunskapskrav",
+            "betyg",
+            "Lgr22",
+            "GY2025"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "expertintervju",
           "title": "Expertintervju — lär av en virtuell specialist",
           "file": "utbildning-pedagogik/expertintervju.md",
@@ -887,6 +989,23 @@
             "gemini-2.5-flash"
           ],
           "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "feedback-pa-elevtext",
+          "title": "Feedback på elevtext — konstruktiv och enligt kunskapskrav",
+          "file": "utbildning-pedagogik/feedback-pa-elevtext.md",
+          "rating": 4.3,
+          "tags": [
+            "feedback",
+            "bedömning",
+            "elevtext",
+            "kunskapskrav",
+            "lärare"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "forbattra-din-prompt",
@@ -939,6 +1058,23 @@
             "gpt-4o"
           ],
           "tested_date": "2026-02-12T00:00:00.000Z"
+        },
+        {
+          "slug": "formativ-bedomning-lektionsfrager",
+          "title": "Formativ bedömning — frågor att ställa under lektionen",
+          "file": "utbildning-pedagogik/formativ-bedomning-lektionsfrager.md",
+          "rating": 4.2,
+          "tags": [
+            "formativ-bedömning",
+            "lektion",
+            "frågor",
+            "lärare",
+            "bedömning"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "identifiera-kunskapsluckor",
@@ -1088,5 +1224,5 @@
       ]
     }
   ],
-  "total_prompts": 59
+  "total_prompts": 67
 }
