@@ -479,7 +479,71 @@
       "source_author": "Skolverket (kunskapskrav Lgr22/GY2025)",
       "source_lang": "sv",
       "added_at": "2026-04-18T11:26:43.116Z"
+    },
+    {
+      "slug": "gdpr-incident-beslutsstod",
+      "category": "juridik-compliance",
+      "source_url": "https://www.imy.se/",
+      "source_author": "IMY (artikel 33–34 GDPR)",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T12:50:08.840Z"
+    },
+    {
+      "slug": "pub-avtal-granskning",
+      "category": "juridik-compliance",
+      "source_url": "https://www.imy.se/",
+      "source_author": "IMY (artikel 28 GDPR)",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T12:50:09.060Z"
+    },
+    {
+      "slug": "visselblasarlagen-tillampning",
+      "category": "juridik-compliance",
+      "source_url": "https://lagen.nu/2021:890",
+      "source_author": "Lag (2021:890) om skydd för visselblåsare",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T12:50:09.281Z"
+    },
+    {
+      "slug": "nda-utkast-svensk-standard",
+      "category": "juridik-compliance",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T12:51:36.445Z"
+    },
+    {
+      "slug": "referenstagning-frager",
+      "category": "hr-rekrytering",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T12:51:36.667Z"
+    },
+    {
+      "slug": "loneforhandling-forberedelse-chef",
+      "category": "hr-rekrytering",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T12:51:36.882Z"
+    },
+    {
+      "slug": "kompetensgapsanalys-team",
+      "category": "hr-rekrytering",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T12:51:37.100Z"
+    },
+    {
+      "slug": "exit-intervju-forberedelse",
+      "category": "hr-rekrytering",
+      "source_url": null,
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T12:51:58.303Z"
     }
   ],
-  "updated_at": "2026-04-18T11:26:43.116Z"
+  "updated_at": "2026-04-18T12:51:58.303Z"
 }

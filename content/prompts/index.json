@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-18T11:26:43.125Z",
+  "generated_at": "2026-04-18T12:51:58.313Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -297,7 +297,7 @@
       "title": "HR & rekrytering",
       "description": "Prompts för HR-chefer, rekryterare och personalutvecklare. Jobbannonsering, intervjufrågor, onboarding och medarbetarsamtal.",
       "priority": 99,
-      "prompt_count": 6,
+      "prompt_count": 10,
       "prompts": [
         {
           "slug": "ai-policy-organisation",
@@ -317,6 +317,21 @@
           "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
+          "slug": "exit-intervju-forberedelse",
+          "title": "Exit-intervju — förberedelse och frågor som ger ärliga svar",
+          "file": "hr-rekrytering/exit-intervju-forberedelse.md",
+          "rating": 4.2,
+          "tags": [
+            "exit-intervju",
+            "HR",
+            "personalomsättning",
+            "organisation",
+            "kultur"
+          ],
+          "tested_models": [],
+          "tested_date": null
+        },
+        {
           "slug": "jobbannons-som-attraherar-ratt-profil",
           "title": "Jobbannons som attraherar rätt profil",
           "file": "hr-rekrytering/jobbannons-som-attraherar-ratt-profil.md",
@@ -334,6 +349,40 @@
           "tested_date": "2026-04-11T00:00:00.000Z"
         },
         {
+          "slug": "kompetensgapsanalys-team",
+          "title": "Kompetensgapsanalys för team — vad saknas, vad kan utvecklas internt",
+          "file": "hr-rekrytering/kompetensgapsanalys-team.md",
+          "rating": 4.2,
+          "tags": [
+            "kompetensgap",
+            "HR",
+            "teamutveckling",
+            "AI-Act",
+            "kompetensförsörjning"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "loneforhandling-forberedelse-chef",
+          "title": "Löneförhandling — förberedelse för chef",
+          "file": "hr-rekrytering/loneforhandling-forberedelse-chef.md",
+          "rating": 4.3,
+          "tags": [
+            "löneförhandling",
+            "lönesamtal",
+            "chef",
+            "HR",
+            "lönesättning"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "onboarding-30-60-90",
           "title": "Onboardingplan — första 30, 60 och 90 dagarna",
           "file": "hr-rekrytering/onboarding-30-60-90.md",
@@ -349,6 +398,23 @@
             "claude-opus-4-7"
           ],
           "tested_date": "2026-04-17T00:00:00.000Z"
+        },
+        {
+          "slug": "referenstagning-frager",
+          "title": "Referenstagning — frågor för djupare bedömning av kandidat",
+          "file": "hr-rekrytering/referenstagning-frager.md",
+          "rating": 4.3,
+          "tags": [
+            "referenstagning",
+            "rekrytering",
+            "intervju",
+            "HR",
+            "bedömning"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "rehabiliteringsplan-sjukfranvaro",
@@ -408,7 +474,7 @@
       "title": "Juridik & compliance",
       "description": "Prompts för jurister, bolagsjurister och complianceansvariga. Avtalsgranskning, regelefterlevnad och riskbedömning.",
       "priority": 99,
-      "prompt_count": 7,
+      "prompt_count": 11,
       "prompts": [
         {
           "slug": "ai-leverantorsgranskning",
@@ -478,6 +544,23 @@
           "tested_date": "2026-04-17T00:00:00.000Z"
         },
         {
+          "slug": "gdpr-incident-beslutsstod",
+          "title": "GDPR-incident — beslutsstöd för anmälan till IMY",
+          "file": "juridik-compliance/gdpr-incident-beslutsstod.md",
+          "rating": 4.4,
+          "tags": [
+            "GDPR",
+            "incident",
+            "IMY",
+            "dataskydd",
+            "beslutsstöd"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "gdpr-snabbkoll",
           "title": "GDPR-snabbkoll av process eller tjänst",
           "file": "juridik-compliance/gdpr-snabbkoll.md",
@@ -496,6 +579,40 @@
           "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
+          "slug": "nda-utkast-svensk-standard",
+          "title": "NDA-utkast — sekretessavtal enligt svensk standard",
+          "file": "juridik-compliance/nda-utkast-svensk-standard.md",
+          "rating": 4.2,
+          "tags": [
+            "NDA",
+            "sekretessavtal",
+            "avtal",
+            "juridik",
+            "svensk-rätt"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "pub-avtal-granskning",
+          "title": "Personuppgiftsbiträdesavtal (PUB-avtal) — granskning enligt GDPR artikel 28",
+          "file": "juridik-compliance/pub-avtal-granskning.md",
+          "rating": 4.3,
+          "tags": [
+            "PUB-avtal",
+            "GDPR",
+            "artikel-28",
+            "granskning",
+            "dataskydd"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "rattsfallsnavigator",
           "title": "Rättsfallsnavigator för juridiska databaser",
           "file": "juridik-compliance/rattsfallsnavigator.md",
@@ -510,6 +627,23 @@
             "claude-opus-4-7"
           ],
           "tested_date": "2026-04-17T00:00:00.000Z"
+        },
+        {
+          "slug": "visselblasarlagen-tillampning",
+          "title": "Visselblåsarlagen — tillämpningsguide för svenska arbetsgivare",
+          "file": "juridik-compliance/visselblasarlagen-tillampning.md",
+          "rating": 4.3,
+          "tags": [
+            "visselblåsarlagen",
+            "compliance",
+            "arbetsrätt",
+            "GDPR",
+            "policy"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "yttrandestrukturerare",
@@ -1224,5 +1358,5 @@
       ]
     }
   ],
-  "total_prompts": 67
+  "total_prompts": 75
 }

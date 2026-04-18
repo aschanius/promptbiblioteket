@@ -359,8 +359,56 @@
       "category": "utbildning-pedagogik",
       "rating": 4.3,
       "rated_at": "2026-04-18T11:26:43.116Z"
+    },
+    {
+      "slug": "gdpr-incident-beslutsstod",
+      "category": "juridik-compliance",
+      "rating": 4.4,
+      "rated_at": "2026-04-18T12:50:08.840Z"
+    },
+    {
+      "slug": "pub-avtal-granskning",
+      "category": "juridik-compliance",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T12:50:09.060Z"
+    },
+    {
+      "slug": "visselblasarlagen-tillampning",
+      "category": "juridik-compliance",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T12:50:09.281Z"
+    },
+    {
+      "slug": "nda-utkast-svensk-standard",
+      "category": "juridik-compliance",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T12:51:36.445Z"
+    },
+    {
+      "slug": "referenstagning-frager",
+      "category": "hr-rekrytering",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T12:51:36.667Z"
+    },
+    {
+      "slug": "loneforhandling-forberedelse-chef",
+      "category": "hr-rekrytering",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T12:51:36.882Z"
+    },
+    {
+      "slug": "kompetensgapsanalys-team",
+      "category": "hr-rekrytering",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T12:51:37.100Z"
+    },
+    {
+      "slug": "exit-intervju-forberedelse",
+      "category": "hr-rekrytering",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T12:51:58.303Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-18T11:26:43.116Z"
+  "updated_at": "2026-04-18T12:51:58.303Z"
 }
