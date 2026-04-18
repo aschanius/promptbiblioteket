@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-18T14:43:42.710Z",
+  "generated_at": "2026-04-18T14:55:37.465Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -1387,8 +1387,25 @@
       "title": "Vård & omsorg",
       "description": "Prompts för sjuksköterskor, läkare, undersköterskor och vårdadministratörer. Dokumentation, patientkommunikation och rutiner.",
       "priority": 99,
-      "prompt_count": 5,
+      "prompt_count": 11,
       "prompts": [
+        {
+          "slug": "anhorigsamtal-struktur",
+          "title": "Anhörigsamtal — strukturerad samtalsguide",
+          "file": "vard-omsorg/anhorigsamtal-struktur.md",
+          "rating": 4.3,
+          "tags": [
+            "anhörigsamtal",
+            "kommunikation",
+            "sekretess",
+            "vård",
+            "omsorg"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
         {
           "slug": "avvikelserapport-lex-maria",
           "title": "Avvikelserapport enligt Lex Maria eller Lex Sarah",
@@ -1405,6 +1422,23 @@
             "claude-opus-4-7"
           ],
           "tested_date": "2026-04-17T00:00:00.000Z"
+        },
+        {
+          "slug": "lss-bedomningssamtal",
+          "title": "LSS — förberedelse inför bedömningssamtal",
+          "file": "vard-omsorg/lss-bedomningssamtal.md",
+          "rating": 4.3,
+          "tags": [
+            "LSS",
+            "biståndsbedömning",
+            "funktionsnedsättning",
+            "handläggning",
+            "socialtjänst"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "motiverande-samtal-forberedelse",
@@ -1473,9 +1507,78 @@
             "claude-opus-4-6"
           ],
           "tested_date": "2026-04-11T00:00:00.000Z"
+        },
+        {
+          "slug": "rehabmote-dokumentation",
+          "title": "Rehabmöte — struktur och dokumentation av teamträff",
+          "file": "vard-omsorg/rehabmote-dokumentation.md",
+          "rating": 4.2,
+          "tags": [
+            "rehabilitering",
+            "teamarbete",
+            "dokumentation",
+            "vård",
+            "rehab"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "sip-samordnad-plan",
+          "title": "Samordnad individuell plan (SIP) — förberedelse och struktur",
+          "file": "vard-omsorg/sip-samordnad-plan.md",
+          "rating": 4.4,
+          "tags": [
+            "SIP",
+            "samordning",
+            "socialtjänst",
+            "hälso- och sjukvård",
+            "samverkan"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "smartskattning-dokumentation",
+          "title": "Smärtskattning — strukturerad dokumentation enligt VAS/NRS/Abbey",
+          "file": "vard-omsorg/smartskattning-dokumentation.md",
+          "rating": 4.4,
+          "tags": [
+            "smärtskattning",
+            "VAS",
+            "NRS",
+            "Abbey",
+            "dokumentation",
+            "omvårdnad"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "vardplan-utkast",
+          "title": "Vårdplan — utkast från bedömning till konkret plan",
+          "file": "vard-omsorg/vardplan-utkast.md",
+          "rating": 4.3,
+          "tags": [
+            "vårdplan",
+            "omvårdnad",
+            "dokumentation",
+            "journal",
+            "vård"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         }
       ]
     }
   ],
-  "total_prompts": 82
+  "total_prompts": 88
 }

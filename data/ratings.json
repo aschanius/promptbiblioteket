@@ -449,8 +449,44 @@
       "category": "administration-ea",
       "rating": 4.2,
       "rated_at": "2026-04-18T14:43:42.701Z"
+    },
+    {
+      "slug": "vardplan-utkast",
+      "category": "vard-omsorg",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T14:55:36.315Z"
+    },
+    {
+      "slug": "lss-bedomningssamtal",
+      "category": "vard-omsorg",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T14:55:36.556Z"
+    },
+    {
+      "slug": "smartskattning-dokumentation",
+      "category": "vard-omsorg",
+      "rating": 4.4,
+      "rated_at": "2026-04-18T14:55:36.782Z"
+    },
+    {
+      "slug": "anhorigsamtal-struktur",
+      "category": "vard-omsorg",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T14:55:37.009Z"
+    },
+    {
+      "slug": "rehabmote-dokumentation",
+      "category": "vard-omsorg",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T14:55:37.233Z"
+    },
+    {
+      "slug": "sip-samordnad-plan",
+      "category": "vard-omsorg",
+      "rating": 4.4,
+      "rated_at": "2026-04-18T14:55:37.455Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-18T14:43:42.701Z"
+  "updated_at": "2026-04-18T14:55:37.455Z"
 }

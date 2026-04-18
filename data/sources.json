@@ -599,7 +599,55 @@
       "source_author": "Teknikministeriet",
       "source_lang": "sv",
       "added_at": "2026-04-18T14:43:42.701Z"
+    },
+    {
+      "slug": "vardplan-utkast",
+      "category": "vard-omsorg",
+      "source_url": "https://www.socialstyrelsen.se",
+      "source_author": "Socialstyrelsens föreskrifter om dokumentation i patientjournal",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:55:36.315Z"
+    },
+    {
+      "slug": "lss-bedomningssamtal",
+      "category": "vard-omsorg",
+      "source_url": "https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-1993387-om-stod-och-service-till-vissa_sfs-1993-387",
+      "source_author": "Lagen om stöd och service till vissa funktionshindrade (LSS, SFS 1993:387)",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:55:36.556Z"
+    },
+    {
+      "slug": "smartskattning-dokumentation",
+      "category": "vard-omsorg",
+      "source_url": "https://www.socialstyrelsen.se",
+      "source_author": "Socialstyrelsens nationella riktlinjer för vård vid smärta",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:55:36.782Z"
+    },
+    {
+      "slug": "anhorigsamtal-struktur",
+      "category": "vard-omsorg",
+      "source_url": "https://www.socialstyrelsen.se",
+      "source_author": "Socialstyrelsens vägledning om samtal i vården",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:55:37.009Z"
+    },
+    {
+      "slug": "rehabmote-dokumentation",
+      "category": "vard-omsorg",
+      "source_url": "https://www.socialstyrelsen.se",
+      "source_author": "Socialstyrelsens nationella riktlinjer för strokevård och rehabilitering",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:55:37.233Z"
+    },
+    {
+      "slug": "sip-samordnad-plan",
+      "category": "vard-omsorg",
+      "source_url": "https://www.socialstyrelsen.se/kunskapsstod-och-regler/regler-och-riktlinjer/sip-samordnad-individuell-plan/",
+      "source_author": "Socialstyrelsen — Samordnad individuell plan (SIP)",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:55:37.455Z"
     }
   ],
-  "updated_at": "2026-04-18T14:43:42.701Z"
+  "updated_at": "2026-04-18T14:55:37.455Z"
 }
