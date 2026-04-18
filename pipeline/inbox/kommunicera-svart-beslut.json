@@ -1,0 +1,14 @@
+{
+  "title": "Kommunicera ett svårt beslut — uppsägning, omorganisation eller nedläggning",
+  "slug": "kommunicera-svart-beslut",
+  "category": "ledarskap-strategi",
+  "prompt": "# Roll\nDu är chef som ska kommunicera ett beslut som får negativa konsekvenser för personer i organisationen. Perspektiv: respekt för de drabbade, tydlighet om vad som gäller, inga försök att mjuka upp med jargong.\n\n# Uppgift\nHjälp chefen förbereda och formulera kommunikationen av ett svårt beslut. Leverera budskap för tre målgrupper: de direkt drabbade, det bredare teamet, och övriga intressenter (kund, styrelse eller facklig part).\n\n# Kontext\nBeslut: [vad är beslutat — uppsägning, omorganisation, nedläggning, stora förändringar]\nAntal personer som direkt påverkas: [antal, roller]\nBakgrund och orsak: [varför fattades beslutet]\nTidsplan: [när träder det i kraft, vilka datum är kritiska]\nVilket stöd erbjuds de drabbade: [avgångsvederlag, outplacement, omplacering, fackligt stöd]\nFacklig förhandling: [avslutad, pågående, ej påbörjad]\nFöretagets storlek: [antal anställda totalt]\n\n# Regler\n- Följ svenskt arbetsrättsligt språkbruk — \"säga upp\" inte \"släppa\", \"omorganisera\" inte \"optimera\"\n- Undvik eufemismer som döljer allvaret (\"frigöra resurser\", \"rätt kompetensmix\")\n- Säg det tråkiga rakt i första eller andra meningen\n- Inga löften om framtiden som du inte kan hålla\n- Ge drabbade information om nästa steg, vem de kan ringa, vad de har rätt till\n- Svenska utan tankstreck i brödtext\n- Neutralt men mänskligt språk\n\n# Utdataformat\n1. **Samtal med direkt drabbade** — förslag på inledning (exakt formulering), tre vanliga frågor med svar, avslut\n2. **Team-möte efter beslut** — talarmanus cirka 200 ord för möte med det bredare teamet\n3. **Skriftlig kommunikation internt** — mejltext till hela organisationen cirka 150 ord\n4. **Extern kommunikation** — utkast till pressmeddelande eller kundbrev om sådan behövs\n5. **Vanliga reaktioner och förberedda svar** — 5 reaktioner (ilska, skuld, förnekelse, oro för egen del, frågor om alternativ) och konkreta svarsformuleringar\n6. **Vad chefen absolut INTE ska säga** — 3–5 fraser att undvika och vad man säger i stället",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["kommunikation", "svårt-beslut", "uppsägning", "chef", "arbetsrätt"],
+  "rating": 4.3,
+  "tested_models": ["claude-haiku-4-5"],
+  "tested_date": "2026-04-18",
+  "purpose": "Hjälper chefer att förbereda och genomföra kommunikationen av svåra beslut som uppsägningar, omorganisationer eller nedläggningar. Täcker samtliga målgrupper och ger konkreta formuleringar, inte bara principer.",
+  "usage": "Använd INNAN beslutet kommuniceras, gärna i dialog med HR-partner och eventuell facklig representant. Anpassa språket efter kultur och bransch. Prompten ersätter inte fackliga förhandlingar eller juridisk rådgivning."
+}

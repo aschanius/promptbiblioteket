@@ -1,0 +1,14 @@
+{
+  "title": "Löneförhandling — förberedelse för chef",
+  "slug": "loneforhandling-forberedelse-chef",
+  "category": "hr-rekrytering",
+  "prompt": "# Roll\nDu är chef som ska genomföra lönesamtal med en medarbetare. Perspektiv: göra motiverad, genomtänkt lönesättning som står pall mot både medarbetarens och HR:s granskning.\n\n# Uppgift\nHjälp chefen förbereda lönesamtalet: underlag för lönebeslut, argumentation, hur resultatet kommuniceras, och hur invändningar hanteras.\n\n# Kontext\nMedarbetarens roll: [befattning, nivå, antal år i rollen]\nNuvarande lön: [belopp SEK/månad]\nLöneintervall för rollen: [lägsta, median, högsta enligt bolagets lönepolicy eller marknadsdata]\nPrestation under året: [kort beskrivning — höjdpunkter, utvecklingsområden]\nUtvecklingsmål som satts: [vilka nåddes, vilka inte, varför]\nKollektivavtal: [finns, vilket, ev. lönerevisionsnivå]\nBudgetram för löneökning: [procent totalt för teamet]\nSpeciella omständigheter: [t.ex. utökat ansvar, barnledig del av året, internutveckling]\n\n# Regler\n- Lönesättning ska vara motiverad och kopplad till prestation, ansvar och marknadsläge — inte till personlig relation\n- Beakta kollektivavtalets minimilönenivåer och revisionsmodell\n- Ingen diskriminering på grund av kön, ålder, etnicitet, funktionsvariation — dokumentera beslutsgrund\n- Skilj tydligt på lön och engångsbelopp/bonus\n- Om medarbetaren varit föräldraledig: hänsyn enligt diskrimineringslagen\n- Ge konkreta exempel på prestation — inte \"hon är duktig\"\n- Svenska utan tankstreck i brödtext\n\n# Utdataformat\n1. **Bedömningsunderlag** — tabell: prestation, ansvar, marknadsjämförelse, beteende/värderingar — med belägg\n2. **Löneförslag med motivering** — belopp, procentuell förändring, motivering i 3–5 meningar\n3. **Talpunkter för samtalet** — 5 nyckelbudskap att leverera\n4. **Hantering av vanliga invändningar** — \"jag jämför med X som tjänar mer\", \"det här är lågt för branschen\", \"jag förväntade mig mer\" — förberedda svar\n5. **Utvecklingsresonemang** — hur ser chefen på medarbetarens lönekurva framåt\n6. **Dokumentation för HR** — vad som ska noteras om beslutet\n7. **Vad chefen absolut INTE ska säga** — 3 fraser att undvika",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["löneförhandling", "lönesamtal", "chef", "HR", "lönesättning"],
+  "rating": 4.3,
+  "tested_models": ["claude-haiku-4-5"],
+  "tested_date": "2026-04-18",
+  "purpose": "Ger chefen strukturerat förberedelseunderlag inför lönesamtal. Kopplar lönebeslut till prestation, ansvar och marknadsläge. Tar höjd för kollektivavtal och diskrimineringsrisker. Förbereder för vanliga invändningar.",
+  "usage": "Kör en vecka innan lönesamtalet. Ta fram marknadsdata från Unionen, Saco, eller branschorganisationer. Konsultera HR om kollektivavtalets revisionsmodell. Prompten ersätter inte lokala löneförhandlingar enligt kollektivavtal."
+}

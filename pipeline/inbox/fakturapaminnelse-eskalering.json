@@ -6,8 +6,9 @@
   "source_author": "Teknikministeriet",
   "source_lang": "sv",
   "tags": ["faktura", "påminnelse", "inkasso", "betalning", "kundfordringar"],
-  "rating": 4.2,
-  "tested_models": [],
+  "rating": 4.3,
+  "tested_models": ["claude-haiku-4-5"],
+  "tested_date": "2026-04-18",
   "purpose": "Ger småföretagare en färdig eskaleringstrappa för obetalda fakturor som följer svensk räntelag och inkassolag. Bevarar kundrelationen i tidiga steg och ger tydligt beslutsunderlag innan inkasso.",
   "usage": "Fyll i kontext om kunden och fakturan. Välj rätt påminnelsenivå baserat på hur många dagar som gått efter förfallodatum. Beslutsmatrisen används när påminnelse 3 inte lett till betalning."
 }

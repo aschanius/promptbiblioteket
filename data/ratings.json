@@ -407,8 +407,14 @@
       "category": "hr-rekrytering",
       "rating": 4.2,
       "rated_at": "2026-04-18T12:51:58.303Z"
+    },
+    {
+      "slug": "ai-rekrytering-kandidattransparens",
+      "category": "hr-rekrytering",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T12:52:29.131Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-18T12:51:58.303Z"
+  "updated_at": "2026-04-18T12:52:29.131Z"
 }

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-18T12:51:58.313Z",
+  "generated_at": "2026-04-18T12:52:29.141Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -297,7 +297,7 @@
       "title": "HR & rekrytering",
       "description": "Prompts för HR-chefer, rekryterare och personalutvecklare. Jobbannonsering, intervjufrågor, onboarding och medarbetarsamtal.",
       "priority": 99,
-      "prompt_count": 10,
+      "prompt_count": 11,
       "prompts": [
         {
           "slug": "ai-policy-organisation",
@@ -315,6 +315,21 @@
             "claude-opus-4-7"
           ],
           "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "ai-rekrytering-kandidattransparens",
+          "title": "AI i rekrytering — transparensinformation till kandidat",
+          "file": "hr-rekrytering/ai-rekrytering-kandidattransparens.md",
+          "rating": 4.3,
+          "tags": [
+            "AI-Act",
+            "rekrytering",
+            "transparens",
+            "GDPR",
+            "kandidat"
+          ],
+          "tested_models": [],
+          "tested_date": null
         },
         {
           "slug": "exit-intervju-forberedelse",
@@ -1358,5 +1373,5 @@
       ]
     }
   ],
-  "total_prompts": 75
+  "total_prompts": 76
 }

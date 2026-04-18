@@ -6,8 +6,9 @@
   "source_author": "Teknikministeriet",
   "source_lang": "sv",
   "tags": ["årsbokslut", "K2", "K3", "redovisning", "årsredovisning"],
-  "rating": 4.2,
-  "tested_models": [],
+  "rating": 4.3,
+  "tested_models": ["claude-haiku-4-5"],
+  "tested_date": "2026-04-18",
   "purpose": "Hjälper företagare och ekonomiansvariga att förbereda årsbokslutet utan att missa svenska deadlines eller regelverksspecifika krav. Skiljer tydligt mellan K2 och K3 och vad företagaren själv ska göra.",
   "usage": "Fyll i företagsform och välj rätt regelverk. Kör 2–3 månader före räkenskapsårets slut för bästa effekt. Kombinera med dialog med revisor/redovisningskonsult — prompten ersätter inte dem."
 }
