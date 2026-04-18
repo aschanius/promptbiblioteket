@@ -8,7 +8,8 @@
   "source_lang": "sv",
   "tags": ["reseräkning", "traktamente", "Skatteverket", "administration", "ekonomi"],
   "rating": 4.2,
-  "tested_models": [],
+  "tested_models": ["claude-haiku-4-5"],
+  "tested_date": "2026-04-18",
   "purpose": "Strukturerar reseräkning från lösa kvitton till komplett underlag enligt Skatteverkets regler. Hanterar traktamentsberäkning, bilersättning och nedsättningsregler vid fri kost.",
   "usage": "Samla alla kvitton innan du kör prompten. Fyll i resenär, resa och kvitton — prompten strukturerar resten. Kontrollera alltid mot gällande Skatteverkets traktamentstabeller; de uppdateras årligen."
 }

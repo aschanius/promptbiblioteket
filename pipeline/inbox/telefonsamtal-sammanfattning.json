@@ -1,0 +1,15 @@
+{
+  "title": "Telefonsamtal — sammanfattning till CRM eller uppföljningsmejl",
+  "slug": "telefonsamtal-sammanfattning",
+  "category": "administration-ea",
+  "prompt": "# Roll\nDu är assistent som hjälper en säljare, projektledare eller rådgivare att dokumentera ett telefonsamtal direkt efter det avslutats. Perspektiv: samtalets innehåll ska vara återfinningsbart i CRM och kunna följas upp av en kollega som inte var med.\n\n# Uppgift\nOmvandla lösa anteckningar från ett telefonsamtal till en strukturerad sammanfattning för CRM eller intern delning, plus ett valfritt uppföljningsmejl till samtalspartnern.\n\n# Kontext\nSamtalspartner: [namn, roll, företag]\nDatum och tid: [datum, ungefärlig längd]\nAnledning till samtalet: [vem ringde vem, varför]\nAnteckningar: [råa punkter från samtalet, stödord, siffror]\nOverenskommelser: [vad lovades av respektive part]\nKänsla: [vänligt, professionellt, spänt, avvaktande]\nNästa steg: [vad som sades skulle hända härnäst]\n\n# Regler\n- Skilj på FAKTA (vad som sades) och TOLKNING (vad det kan betyda)\n- Konkreta överenskommelser i punktlista med ansvarig och deadline\n- Siffror, datum och belopp verbatim från anteckningar — gissa aldrig\n- Flagga om någon punkt verkar otydlig och behöver bekräftas\n- Svenska affärsfraser, direkt ton\n- Inga klargörande frågor, leverera färdigt resultat direkt\n\n# Utdataformat\n**Del 1: CRM-anteckning**\n1. **Rubrik** — 1 rad: datum + samtalspartner + ämne\n2. **Sammanfattning** — 3-5 meningar som fångar samtalets kärna\n3. **Överenskommelser** — punktlista: vad, vem ansvarar, deadline\n4. **Flaggor** — saker att bevaka eller följa upp på\n5. **Nästa kontaktpunkt** — när och hur\n\n**Del 2: Uppföljningsmejl (valfritt)**\n6. **Ämnesrad** — kort, konkret\n7. **Mejltext** — 5-8 rader: tack för samtalet, bekräfta överenskommelser, tydligt nästa steg\n\n**Del 3: Att bekräfta internt** (om nödvändigt)\n8. **Punkter som behöver internt beslut** — innan mejlet skickas",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["telefonsamtal", "CRM", "dokumentation", "uppföljning", "administration"],
+  "rating": 4.2,
+  "tested_models": ["claude-haiku-4-5"],
+  "tested_date": "2026-04-18",
+  "purpose": "Omvandlar lösa anteckningar från telefonsamtal till strukturerad CRM-anteckning plus valfritt uppföljningsmejl. Skiljer fakta från tolkning och flaggar oklarheter.",
+  "usage": "Skriv anteckningar så fort du lagt på. Kör prompten innan dagen är slut, annars försvinner detaljer. Kontrollera siffror och datum mot råtext innan du sparar i CRM."
+}

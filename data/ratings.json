@@ -413,8 +413,44 @@
       "category": "hr-rekrytering",
       "rating": 4.3,
       "rated_at": "2026-04-18T12:52:29.131Z"
+    },
+    {
+      "slug": "reserakning-hjalpreda",
+      "category": "administration-ea",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T14:42:37.075Z"
+    },
+    {
+      "slug": "offertunderlag-struktur",
+      "category": "administration-ea",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T14:43:41.844Z"
+    },
+    {
+      "slug": "arkivering-dokumentnamn",
+      "category": "administration-ea",
+      "rating": 4.1,
+      "rated_at": "2026-04-18T14:43:42.060Z"
+    },
+    {
+      "slug": "telefonsamtal-sammanfattning",
+      "category": "administration-ea",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T14:43:42.271Z"
+    },
+    {
+      "slug": "motesbokning-flera-deltagare",
+      "category": "administration-ea",
+      "rating": 4.1,
+      "rated_at": "2026-04-18T14:43:42.487Z"
+    },
+    {
+      "slug": "foljebrev-ansokan",
+      "category": "administration-ea",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T14:43:42.701Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-18T12:52:29.131Z"
+  "updated_at": "2026-04-18T14:43:42.701Z"
 }

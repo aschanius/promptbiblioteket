@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-18T12:52:29.141Z",
+  "generated_at": "2026-04-18T14:43:42.710Z",
   "categories": [
     {
       "id": "administration-ea",
       "title": "Administration & EA",
       "description": "Prompts för assistenter, koordinatorer och kontorsadministration. Schemaläggning, dokumenthantering och kommunikation.",
       "priority": 99,
-      "prompt_count": 5,
+      "prompt_count": 11,
       "prompts": [
         {
           "slug": "agendaforslag-infor-mote",
@@ -27,6 +27,23 @@
           "tested_date": "2026-04-11T00:00:00.000Z"
         },
         {
+          "slug": "arkivering-dokumentnamn",
+          "title": "Arkivering — enhetliga filnamn och mappstruktur",
+          "file": "administration-ea/arkivering-dokumentnamn.md",
+          "rating": 4.1,
+          "tags": [
+            "arkivering",
+            "filnamn",
+            "dokumenthantering",
+            "administration",
+            "struktur"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "extrahera-nyckelinformation",
           "title": "Extrahera nyckelinformation ur dokument",
           "file": "administration-ea/extrahera-nyckelinformation.md",
@@ -42,6 +59,23 @@
             "gemini-2.5-flash"
           ],
           "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "foljebrev-ansokan",
+          "title": "Följebrev — skräddarsytt till jobbansökan",
+          "file": "administration-ea/foljebrev-ansokan.md",
+          "rating": 4.2,
+          "tags": [
+            "följebrev",
+            "jobbansökan",
+            "CV",
+            "rekrytering",
+            "administration"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "kalenderprioritering-veckoplanering",
@@ -78,6 +112,57 @@
           "tested_date": "2026-04-14T00:00:00.000Z"
         },
         {
+          "slug": "motesbokning-flera-deltagare",
+          "title": "Mötesbokning — tidsförslag till flera deltagare",
+          "file": "administration-ea/motesbokning-flera-deltagare.md",
+          "rating": 4.1,
+          "tags": [
+            "mötesbokning",
+            "kalender",
+            "koordinering",
+            "administration",
+            "mejl"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "offertunderlag-struktur",
+          "title": "Offertunderlag — strukturera förfrågan till komplett offert",
+          "file": "administration-ea/offertunderlag-struktur.md",
+          "rating": 4.2,
+          "tags": [
+            "offert",
+            "försäljning",
+            "kund",
+            "administration",
+            "säljstöd"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "reserakning-hjalpreda",
+          "title": "Reseräkning — strukturera kvitton och traktamenten enligt Skatteverket",
+          "file": "administration-ea/reserakning-hjalpreda.md",
+          "rating": 4.2,
+          "tags": [
+            "reseräkning",
+            "traktamente",
+            "Skatteverket",
+            "administration",
+            "ekonomi"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "snabbmejl",
           "title": "Snabbmejl — professionellt mejl på sekunder",
           "file": "administration-ea/snabbmejl.md",
@@ -93,6 +178,23 @@
             "gemini-2.5-flash"
           ],
           "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "telefonsamtal-sammanfattning",
+          "title": "Telefonsamtal — sammanfattning till CRM eller uppföljningsmejl",
+          "file": "administration-ea/telefonsamtal-sammanfattning.md",
+          "rating": 4.2,
+          "tags": [
+            "telefonsamtal",
+            "CRM",
+            "dokumentation",
+            "uppföljning",
+            "administration"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         }
       ]
     },
@@ -328,8 +430,10 @@
             "GDPR",
             "kandidat"
           ],
-          "tested_models": [],
-          "tested_date": null
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "exit-intervju-forberedelse",
@@ -1373,5 +1477,5 @@
       ]
     }
   ],
-  "total_prompts": 76
+  "total_prompts": 82
 }

@@ -551,7 +551,55 @@
       "source_author": "EU AI Act + GDPR artikel 22",
       "source_lang": "sv",
       "added_at": "2026-04-18T12:52:29.131Z"
+    },
+    {
+      "slug": "reserakning-hjalpreda",
+      "category": "administration-ea",
+      "source_url": "https://www.skatteverket.se/",
+      "source_author": "Skatteverkets traktamentsregler",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:42:37.075Z"
+    },
+    {
+      "slug": "offertunderlag-struktur",
+      "category": "administration-ea",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:43:41.844Z"
+    },
+    {
+      "slug": "arkivering-dokumentnamn",
+      "category": "administration-ea",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:43:42.060Z"
+    },
+    {
+      "slug": "telefonsamtal-sammanfattning",
+      "category": "administration-ea",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:43:42.271Z"
+    },
+    {
+      "slug": "motesbokning-flera-deltagare",
+      "category": "administration-ea",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:43:42.487Z"
+    },
+    {
+      "slug": "foljebrev-ansokan",
+      "category": "administration-ea",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T14:43:42.701Z"
     }
   ],
-  "updated_at": "2026-04-18T12:52:29.131Z"
+  "updated_at": "2026-04-18T14:43:42.701Z"
 }
