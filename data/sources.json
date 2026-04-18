@@ -695,7 +695,63 @@
       "source_author": "Teknikministeriet",
       "source_lang": "sv",
       "added_at": "2026-04-18T15:04:16.769Z"
+    },
+    {
+      "slug": "affarsmodell-canvas",
+      "category": "sme-entreprenorer",
+      "source_url": "https://www.strategyzer.com/canvas/business-model-canvas",
+      "source_author": "Alexander Osterwalder — Business Model Canvas (strukturerad enligt Promptbibliotekets mall av Teknikministeriet)",
+      "source_lang": "en",
+      "added_at": "2026-04-18T15:15:52.863Z"
+    },
+    {
+      "slug": "kundavtal-granskning-sme",
+      "category": "sme-entreprenorer",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:15:53.080Z"
+    },
+    {
+      "slug": "saljmail-kalluppsok",
+      "category": "sme-entreprenorer",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:15:53.297Z"
+    },
+    {
+      "slug": "leverantorsforhandling-brief",
+      "category": "sme-entreprenorer",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:15:53.513Z"
+    },
+    {
+      "slug": "kassaflode-mikroforetagare",
+      "category": "sme-entreprenorer",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:15:53.730Z"
+    },
+    {
+      "slug": "startup-pitch-feedback",
+      "category": "sme-entreprenorer",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:15:53.948Z"
+    },
+    {
+      "slug": "momsdeklaration-egenforetagare",
+      "category": "sme-entreprenorer",
+      "source_url": "https://www.skatteverket.se/foretag/moms",
+      "source_author": "Skatteverket — Moms",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:16:46.986Z"
     }
   ],
-  "updated_at": "2026-04-18T15:04:16.769Z"
+  "updated_at": "2026-04-18T15:16:46.986Z"
 }

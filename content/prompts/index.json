@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-18T15:04:16.780Z",
+  "generated_at": "2026-04-18T15:16:46.997Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -1198,8 +1198,25 @@
       "title": "SME & entreprenörer",
       "description": "Prompts för småföretagare, verksamhetsledare och enmansföretag. Affärsplanering, kundkommunikation och effektivisering.",
       "priority": 99,
-      "prompt_count": 5,
+      "prompt_count": 12,
       "prompts": [
+        {
+          "slug": "affarsmodell-canvas",
+          "title": "Affärsmodell — Canvas-utkast för entreprenör",
+          "file": "sme-entreprenorer/affarsmodell-canvas.md",
+          "rating": 4.3,
+          "tags": [
+            "affärsmodell",
+            "canvas",
+            "entreprenörskap",
+            "strategi",
+            "SME"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
         {
           "slug": "idegenerering-for-problemlosning",
           "title": "Idégenerering för problemlösning",
@@ -1218,6 +1235,23 @@
           "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
+          "slug": "kassaflode-mikroforetagare",
+          "title": "Kassaflöde — översikt för mikroföretagare",
+          "file": "sme-entreprenorer/kassaflode-mikroforetagare.md",
+          "rating": 4.3,
+          "tags": [
+            "kassaflöde",
+            "likviditet",
+            "ekonomi",
+            "mikroföretagare",
+            "SME"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "kontinuitetsplan-egenforetagare",
           "title": "Kontinuitetsplan vid egen sjukdom",
           "file": "sme-entreprenorer/kontinuitetsplan-egenforetagare.md",
@@ -1233,6 +1267,57 @@
             "claude-opus-4-7"
           ],
           "tested_date": "2026-04-17T00:00:00.000Z"
+        },
+        {
+          "slug": "kundavtal-granskning-sme",
+          "title": "Kundavtal SME — granskning inför signering",
+          "file": "sme-entreprenorer/kundavtal-granskning-sme.md",
+          "rating": 4.2,
+          "tags": [
+            "kundavtal",
+            "granskning",
+            "juridik",
+            "SME",
+            "avtalsrätt"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "leverantorsforhandling-brief",
+          "title": "Leverantörsförhandling — brief inför samtal",
+          "file": "sme-entreprenorer/leverantorsforhandling-brief.md",
+          "rating": 4.3,
+          "tags": [
+            "förhandling",
+            "inköp",
+            "leverantör",
+            "SME",
+            "avtal"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "momsdeklaration-egenforetagare",
+          "title": "Momsdeklaration — förberedelse för egenföretagare",
+          "file": "sme-entreprenorer/momsdeklaration-egenforetagare.md",
+          "rating": 4.3,
+          "tags": [
+            "moms",
+            "skatteverket",
+            "deklaration",
+            "bokföring",
+            "egenföretagare"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "omvand-brief",
@@ -1269,6 +1354,23 @@
           "tested_date": "2026-04-17T00:00:00.000Z"
         },
         {
+          "slug": "saljmail-kalluppsok",
+          "title": "Säljmail — kalluppsök som inte känns som spam",
+          "file": "sme-entreprenorer/saljmail-kalluppsok.md",
+          "rating": 4.2,
+          "tags": [
+            "försäljning",
+            "kalluppsök",
+            "säljmail",
+            "outreach",
+            "SME"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "skriv-vinnande-offert",
           "title": "Skriv vinnande offert",
           "file": "sme-entreprenorer/skriv-vinnande-offert.md",
@@ -1284,6 +1386,23 @@
             "claude-opus-4-6"
           ],
           "tested_date": "2026-04-11T00:00:00.000Z"
+        },
+        {
+          "slug": "startup-pitch-feedback",
+          "title": "Pitch-deck — feedback från investerar-perspektiv",
+          "file": "sme-entreprenorer/startup-pitch-feedback.md",
+          "rating": 4.3,
+          "tags": [
+            "pitch",
+            "investerare",
+            "startup",
+            "fundraising",
+            "SME"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         }
       ]
     },
@@ -1682,5 +1801,5 @@
       ]
     }
   ],
-  "total_prompts": 94
+  "total_prompts": 101
 }

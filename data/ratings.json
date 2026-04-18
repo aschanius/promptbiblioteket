@@ -521,8 +521,50 @@
       "category": "marknadsforing-kommunikation",
       "rating": 4.3,
       "rated_at": "2026-04-18T15:04:16.769Z"
+    },
+    {
+      "slug": "affarsmodell-canvas",
+      "category": "sme-entreprenorer",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T15:15:52.863Z"
+    },
+    {
+      "slug": "kundavtal-granskning-sme",
+      "category": "sme-entreprenorer",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T15:15:53.080Z"
+    },
+    {
+      "slug": "saljmail-kalluppsok",
+      "category": "sme-entreprenorer",
+      "rating": 4.2,
+      "rated_at": "2026-04-18T15:15:53.297Z"
+    },
+    {
+      "slug": "leverantorsforhandling-brief",
+      "category": "sme-entreprenorer",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T15:15:53.513Z"
+    },
+    {
+      "slug": "kassaflode-mikroforetagare",
+      "category": "sme-entreprenorer",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T15:15:53.730Z"
+    },
+    {
+      "slug": "startup-pitch-feedback",
+      "category": "sme-entreprenorer",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T15:15:53.948Z"
+    },
+    {
+      "slug": "momsdeklaration-egenforetagare",
+      "category": "sme-entreprenorer",
+      "rating": 4.3,
+      "rated_at": "2026-04-18T15:16:46.986Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-18T15:04:16.769Z"
+  "updated_at": "2026-04-18T15:16:46.986Z"
 }
