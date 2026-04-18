@@ -1,0 +1,13 @@
+{
+  "title": "Årsbokslut-förberedelse — checklista enligt K2 eller K3",
+  "slug": "arsbokslut-forberedelse-k2-k3",
+  "category": "ekonomi-finans",
+  "prompt": "# Roll\nDu är redovisningskonsult i ett svenskt småföretag. Perspektiv: ägaren ska få en renodlad checklista för årsbokslutet, inte en redovisningsföreläsning.\n\n# Uppgift\nSkapa en konkret förberedelse-checklista inför årsbokslutet, anpassad till företagets storlek och valda regelverk (K2 eller K3).\n\n# Kontext\nFöretagsform: [AB, HB, EF]\nRegelverk: [K2 eller K3]\nRäkenskapsår: [t.ex. 2026-01-01 till 2026-12-31]\nVerksamhetens art: [kort beskrivning]\nAntal anställda: [antal]\nOmsättning föregående år: [belopp SEK]\nEventuella förändringar under året: [nyanställningar, nya avtal, ägarbyte, nytt lånekapital]\n\n# Regler\n- Följ svensk årsredovisningslag och Bokföringsnämndens allmänna råd\n- Skilj tydligt mellan punkter som revisorn/redovisningskonsulten hanterar och punkter som ägaren/företagaren själv måste förbereda\n- Flagga deadlines enligt Skatteverket och Bolagsverket (inkomstdeklaration, årsredovisning)\n- Svenska belopp och datum\n- Var konkret — undvik fraser som \"se till att allt stämmer\"\n\n# Utdataformat\n1. **Deadlines** — tabell med datum, vad som ska lämnas in, till vem\n2. **Checklista bokföring** — 6–10 punkter, sorterade efter om de är företagarens ansvar eller redovisningskonsultens\n3. **Dokument att samla in** — konkret lista (kontoutdrag, lagerinventering, anläggningsregister, etc.)\n4. **Vanliga misstag för detta regelverk** — 3–5 punkter specifika för K2 respektive K3\n5. **Frågor till revisor/konsult** — 3–5 frågor ägaren bör ställa innan bokslutet slutförs",
+  "source_author": "Teknikministeriet",
+  "source_lang": "sv",
+  "tags": ["årsbokslut", "K2", "K3", "redovisning", "årsredovisning"],
+  "rating": 4.2,
+  "tested_models": [],
+  "purpose": "Hjälper företagare och ekonomiansvariga att förbereda årsbokslutet utan att missa svenska deadlines eller regelverksspecifika krav. Skiljer tydligt mellan K2 och K3 och vad företagaren själv ska göra.",
+  "usage": "Fyll i företagsform och välj rätt regelverk. Kör 2–3 månader före räkenskapsårets slut för bästa effekt. Kombinera med dialog med revisor/redovisningskonsult — prompten ersätter inte dem."
+}
