@@ -647,7 +647,55 @@
       "source_author": "Socialstyrelsen — Samordnad individuell plan (SIP)",
       "source_lang": "sv",
       "added_at": "2026-04-18T14:55:37.455Z"
+    },
+    {
+      "slug": "kampanjbrief",
+      "category": "marknadsforing-kommunikation",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:04:15.647Z"
+    },
+    {
+      "slug": "content-kalender-kvartal",
+      "category": "marknadsforing-kommunikation",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:04:15.873Z"
+    },
+    {
+      "slug": "malgruppssegmentering",
+      "category": "marknadsforing-kommunikation",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:04:16.097Z"
+    },
+    {
+      "slug": "webbtext-seo",
+      "category": "marknadsforing-kommunikation",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:04:16.320Z"
+    },
+    {
+      "slug": "nyhetsbrev-strukturkoll",
+      "category": "marknadsforing-kommunikation",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:04:16.545Z"
+    },
+    {
+      "slug": "kundcase-berattelse",
+      "category": "marknadsforing-kommunikation",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-18T15:04:16.769Z"
     }
   ],
-  "updated_at": "2026-04-18T14:55:37.455Z"
+  "updated_at": "2026-04-18T15:04:16.769Z"
 }

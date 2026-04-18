@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-04-18T14:55:37.465Z",
+  "generated_at": "2026-04-18T15:04:16.780Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -985,7 +985,7 @@
       "title": "Marknadsföring & kommunikation",
       "description": "Prompts för marknadschefer, copywriters, PR och sociala medier. Kampanjer, texter, tonalitet och innehållsstrategi.",
       "priority": 99,
-      "prompt_count": 6,
+      "prompt_count": 12,
       "prompts": [
         {
           "slug": "ai-inforande-kommunikation",
@@ -1022,6 +1022,23 @@
           "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
+          "slug": "content-kalender-kvartal",
+          "title": "Content-kalender — redaktionsplan för ett kvartal",
+          "file": "marknadsforing-kommunikation/content-kalender-kvartal.md",
+          "rating": 4.3,
+          "tags": [
+            "content",
+            "redaktionsplan",
+            "kalender",
+            "marknadsföring",
+            "planering"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "innehallsatervinning",
           "title": "Innehållsåtervinning — ett innehåll, flera format",
           "file": "marknadsforing-kommunikation/innehallsatervinning.md",
@@ -1037,6 +1054,23 @@
             "gemini-2.5-flash"
           ],
           "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "kampanjbrief",
+          "title": "Kampanjbrief — från idé till skarp brief",
+          "file": "marknadsforing-kommunikation/kampanjbrief.md",
+          "rating": 4.3,
+          "tags": [
+            "kampanj",
+            "brief",
+            "marknadsplan",
+            "kommunikation",
+            "strategi"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
           "slug": "klarsprakskonsult-textomskrivning",
@@ -1073,6 +1107,57 @@
           "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
+          "slug": "kundcase-berattelse",
+          "title": "Kundcase — berättelse från problem till resultat",
+          "file": "marknadsforing-kommunikation/kundcase-berattelse.md",
+          "rating": 4.3,
+          "tags": [
+            "kundcase",
+            "case study",
+            "berättelse",
+            "referens",
+            "content"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "malgruppssegmentering",
+          "title": "Målgruppssegmentering — från breda grupper till skarpa segment",
+          "file": "marknadsforing-kommunikation/malgruppssegmentering.md",
+          "rating": 4.3,
+          "tags": [
+            "segmentering",
+            "målgrupp",
+            "ICP",
+            "strategi",
+            "marknad"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "nyhetsbrev-strukturkoll",
+          "title": "Nyhetsbrev — strukturkoll och förbättringsförslag",
+          "file": "marknadsforing-kommunikation/nyhetsbrev-strukturkoll.md",
+          "rating": 4.2,
+          "tags": [
+            "nyhetsbrev",
+            "e-post",
+            "granskning",
+            "copywriting",
+            "marknadsföring"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
           "slug": "pressmeddelande-med-nyhetsvinkel",
           "title": "Pressmeddelande med nyhetsvinkel",
           "file": "marknadsforing-kommunikation/pressmeddelande-med-nyhetsvinkel.md",
@@ -1088,6 +1173,23 @@
             "claude-opus-4-6"
           ],
           "tested_date": "2026-04-11T00:00:00.000Z"
+        },
+        {
+          "slug": "webbtext-seo",
+          "title": "Webbtext — optimerad för sökmotor utan att tappa läsvärde",
+          "file": "marknadsforing-kommunikation/webbtext-seo.md",
+          "rating": 4.2,
+          "tags": [
+            "SEO",
+            "webbtext",
+            "copywriting",
+            "sökordsoptimering",
+            "content"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-04-18T00:00:00.000Z"
         }
       ]
     },
@@ -1580,5 +1682,5 @@
       ]
     }
   ],
-  "total_prompts": 88
+  "total_prompts": 94
 }
