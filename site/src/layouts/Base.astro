@@ -13,6 +13,7 @@ const { title, description = 'Open source AI-prompts för svenska yrkesverksamma
 const pageTitle = title === 'Promptbiblioteket' ? title : `${title} | Promptbiblioteket`;
 const canonicalUrl = canonical || Astro.url.href;
 const siteUrl = 'https://prompts.teknikministeriet.se';
+const ogImage = `${siteUrl}/og-image.webp`;
 ---
 <html lang="sv">
 <head>
@@ -28,11 +29,17 @@ const siteUrl = 'https://prompts.teknikministeriet.se';
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalUrl} />
   <meta property="og:site_name" content="Promptbiblioteket — Teknikministeriet" />
+  <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Promptbiblioteket — open source AI-prompts för svenska yrkesverksamma" />
+  <meta property="og:locale" content="sv_SE" />
 
   <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={pageTitle} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={ogImage} />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
