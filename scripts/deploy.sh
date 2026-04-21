@@ -20,7 +20,7 @@ cd site && npm run build --silent && cd ..
 
 # 3. Synka till server
 echo "[3/3] Synkar till $REMOTE_HOST..."
-rsync -avz --delete "$LOCAL_DIST" "$REMOTE_HOST:$REMOTE_PATH/"
+rsync -avz --delete --chmod=a+rX "$LOCAL_DIST" "$REMOTE_HOST:$REMOTE_PATH/"
 
 echo "=== Deploy klar ==="
 echo "https://prompts.teknikministeriet.se"
