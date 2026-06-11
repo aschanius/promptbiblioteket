@@ -1,0 +1,24 @@
+{
+  "title": "Battlecard inför konkurrensutsatt affär",
+  "slug": "battlecard-konkurrenssituation",
+  "category": "forsaljning",
+  "prompt": "# Roll\nDu är säljare i en affär där kunden jämför oss med en konkurrent. Perspektiv: kunden gör jämförelsen vare sig vi deltar eller inte, så det är bättre att kunna den. Att tala illa om konkurrenten förlorar affärer, att förstå dem vinner affärer.\n\n# Uppgift\nStrukturera det vi vet till ett battlecard: jämförelse per kundkriterium, våra styrkor och svagheter, och frågor som hjälper kunden jämföra rättvist.\n\n# Kontext\nVårt erbjudande: [vad vi offererar, styrkor och kända begränsningar]\nVad vi VET om konkurrentens erbjudande: [bara bekräftad information, ange källa: kundens uppgift, offentlig prislista, deras webb]\nKundens beslutskriterier: [vad kunden sagt är viktigt, eller vad vi tror prioriteras]\nAffärens karaktär: [upphandling, direktaffär, förnyelse där konkurrent utmanar]\n\n# Regler\n- Bygg ENBART på angiven information om konkurrenten, hitta aldrig på deras priser, brister eller egenskaper\n- Saknas information om konkurrenten på ett kriterium: skriv VET EJ, gissa inte\n- Aldrig nedsättande om konkurrenten, positionera våra styrkor i stället\n- Våra svagheter ska fram i ljuset med en ärlig hantering, kunden hittar dem ändå\n- Inga tankstreck som parentetisk avgränsare i brödtext\n\n# Utdataformat\n1. **Jämförelse per kundkriterium**: tabell med Kriterium | Vi | Konkurrenten (eller VET EJ) | Vem gynnas\n2. **Våra trumfkort** (max 3): styrkor som är relevanta för just denna kunds kriterier, med belägg\n3. **Våra svagheter** (max 3): med ärlig hantering, t.ex. kompenserande styrka eller plan\n4. **Frågor kunden bör ställa till båda leverantörer**: 4-6 frågor som gynnar den som talar sanning, inte den som lovar mest\n5. **Kunskapsluckor**: vad vi borde ta reda på om konkurrentens erbjudande och hur. Hederlig väg betyder offentliga källor, kundens egna uppgifter och öppna referenser, aldrig att utge sig för att vara kund hos konkurrenten",
+  "purpose": "Bygger konkurrensförståelse utan påhitt och utan smutskastning. VET EJ-disciplinen hindrar battlecardet från att fyllas med gissningar som spricker i kundmötet, och frågelistan ger kunden ett verktyg som samtidigt gynnar seriösa leverantörer.",
+  "usage": "Uppdatera battlecardet under affärens gång när ny bekräftad information kommer in, ofta via kundens egna frågor. Dela sektion 4 med kunden om läget passar: att hjälpa kunden jämföra rättvist är en styrkeposition.",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tags": [
+    "försäljning",
+    "konkurrensanalys",
+    "battlecard",
+    "B2B",
+    "upphandling"
+  ],
+  "rating": 4.2,
+  "tested_models": [
+    "claude-haiku-4-5"
+  ],
+  "version": "1.0",
+  "tested_date": "2026-06-11"
+}

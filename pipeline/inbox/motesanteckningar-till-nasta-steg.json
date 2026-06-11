@@ -1,0 +1,24 @@
+{
+  "title": "Mötesanteckningar till åtaganden och nästa steg",
+  "slug": "motesanteckningar-till-nasta-steg",
+  "category": "forsaljning",
+  "prompt": "# Roll\nDu är säljare som just avslutat ett kundmöte. Perspektiv: det vi lovade i mötet ska gå att följa upp, och kunden ska känna igen sitt möte i sammanfattningen.\n\n# Uppgift\nStrukturera mina råa mötesanteckningar till en tydlig sammanfattning med åtaganden, beslut och nästa steg.\n\n# Kontext\nMina anteckningar: [klistra in råa anteckningar, stödord räcker]\nMötets deltagare: [namn och roller]\nVar i affären vi befinner oss: [första möte, behovsanalys, offertfas, förhandling]\n\n# Regler\n- Bygg ENBART på anteckningarna, hitta aldrig på något som inte står där\n- Markera allt tvetydigt med [OKLART] i stället för att gissa\n- Skilj tydligt mellan vad kunden sa och min tolkning av det\n- Datum och belopp återges exakt som i anteckningarna, normalisera inte\n- Inga tankstreck som parentetisk avgränsare i brödtext\n\n# Utdataformat\n1. **Sammanfattning** (max 5 meningar): vad mötet handlade om och vart det ledde\n2. **Kundens behov och prioriteringar**: med kundens egna formuleringar där de finns\n3. **Våra åtaganden**: vad vi lovade, med deadline per punkt\n4. **Kundens åtaganden**: vad de skulle göra eller ta reda på\n5. **Beslut som fattades** och beslut som sköts upp\n6. **Öppna frågor**: inklusive alla [OKLART]-markeringar\n7. **Förslag på nästa steg**: konkret och tidsatt, baserat på vad mötet faktiskt gav",
+  "purpose": "Gör råa mötesanteckningar till uppföljningsbar struktur medan mötet är färskt. OKLART-markeringarna hindrar att gissningar smyger in som fakta i CRM och uppföljning.",
+  "usage": "Kör direkt efter mötet, helst inom en timme. Skriv anteckningarna som de är, prompten klarar stödord och halva meningar. Granska åtagandelistan extra noga innan du för in något i CRM eller delar med kunden.",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tags": [
+    "försäljning",
+    "kundmöte",
+    "uppföljning",
+    "dokumentation",
+    "CRM"
+  ],
+  "rating": 4.1,
+  "tested_models": [
+    "claude-haiku-4-5"
+  ],
+  "version": "1.0",
+  "tested_date": "2026-06-11"
+}

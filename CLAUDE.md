@@ -20,7 +20,7 @@ Sajt: https://prompts.teknikministeriet.se
 - `site/` — Astro-sajt (statisk, Pagefind-sök)
 - `scripts/deploy.sh` — Deploy till produktion
 
-## 9 yrkeskategorier
+## 10 yrkeskategorier
 
 | ID | Namn |
 |----|------|
@@ -33,6 +33,7 @@ Sajt: https://prompts.teknikministeriet.se
 | `vard-omsorg` | Vård & omsorg |
 | `hr-rekrytering` | HR & rekrytering |
 | `sme-entreprenorer` | SME & entreprenörer |
+| `forsaljning` | Försäljning & kundrelationer |
 
 ## Kommandon
 

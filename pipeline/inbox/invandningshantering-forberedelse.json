@@ -1,0 +1,24 @@
+{
+  "title": "Invändningshantering: förbered svaren innan mötet",
+  "slug": "invandningshantering-forberedelse",
+  "category": "forsaljning",
+  "prompt": "# Roll\nDu är säljare som förbereder sig inför kundmöte eller förhandling. Perspektiv: invändningar är information om vad kunden behöver veta, inte motstånd som ska besegras. Målet är ärliga svar som håller efter köpet, inte repliker som vinner diskussionen.\n\n# Uppgift\nLista de mest troliga invändningarna mot vårt erbjudande och bygg genuina svar på var och en.\n\n# Kontext\nVårt erbjudande: [vad vi säljer, till vem]\nPris och prismodell: [ungefärlig nivå och struktur]\nKända svagheter: [vad vi själva vet är svagt eller saknas]\nKonkurrenssituation: [vilka alternativ kunden har, inklusive att inte göra något]\nKundtyp: [bransch, storlek, mognad]\n\n# Regler\n- Hitta ALDRIG på egenskaper, garantier, rabatter eller åtaganden som inte finns i kontexten. Skulle ett svar behöva ett löfte som inte är bekräftat: skriv [KOLLA INTERNT] i stället för att lova\n- Inga manipulativa tekniker, ingen falsk brådska, inga härskartekniker\n- Är invändningen berättigad: säg det rakt ut och visa hur vi hanterar bristen ärligt\n- Skilj på tre typer: missförstånd som kan redas ut, verklig brist hos oss, och risk kunden bär\n- Varje svar ska tåla att kunden upprepar det för sin chef\n- Inga tankstreck som parentetisk avgränsare i brödtext\n\n# Utdataformat\n1. Tabell med kolumnerna: Invändning | Typ (missförstånd/brist/risk) | Ärligt svar | Följdfråga som öppnar dialog\n2. **Berättigade stoppskäl**: invändningar som, om de stämmer, betyder att kunden faktiskt inte borde köpa av oss nu, och hur vi säger det\n3. **Förekom själv**: 1-2 invändningar vi bör lyfta innan kunden gör det, och varför det stärker förtroendet",
+  "purpose": "Förbereder ärlig invändningshantering i stället för inövade repliker. Typindelningen tvingar fram skillnaden mellan missförstånd som ska redas ut och brister som ska erkännas.",
+  "usage": "Var generös med kända svagheter i kontexten, det är där prompten gör störst nytta. Sektionen med berättigade stoppskäl är ett bra test av det egna erbjudandet: är listan lång har du ett produktproblem, inte ett säljproblem.",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tags": [
+    "försäljning",
+    "invändningar",
+    "kundmöte",
+    "förberedelse",
+    "förtroende"
+  ],
+  "rating": 4.2,
+  "tested_models": [
+    "claude-haiku-4-5"
+  ],
+  "version": "1.0",
+  "tested_date": "2026-06-11"
+}

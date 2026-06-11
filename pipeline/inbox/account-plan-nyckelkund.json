@@ -1,0 +1,24 @@
+{
+  "title": "Account plan för nyckelkund",
+  "slug": "account-plan-nyckelkund",
+  "category": "forsaljning",
+  "prompt": "# Roll\nDu är account manager med ansvar för en nyckelkund. Perspektiv: en befintlig kund är som mest sårbar när den känns som mest säker. Planen ska utgå från kundens mål, inte från vår säljbudget.\n\n# Uppgift\nBygg en account plan: nuläge, relationskarta, risker, möjligheter och en 90-dagarsplan.\n\n# Kontext\nKundens verksamhet och mål: [vad de gör, vad de själva sagt om sina prioriteringar]\nVår nuvarande leverans: [vad vi levererar idag, avtalsläge, nöjdhet som vi uppfattar den]\nVåra relationer hos kunden: [vilka vi känner, hur ofta vi hörs, vem som är beslutsfattare]\nKänd förändring hos kunden: [omorganisation, nya chefer, budgetläge, strategiska initiativ]\nVår historik: [incidenter, framgångar, tidigare diskussioner om utökning]\n\n# Regler\n- Bygg enbart på angiven information, anta inte nöjdhet utan belägg\n- Tillväxtmöjligheter rangordnas efter värde för kunden först, vår intäkt sedan\n- Varje risk ska ha en tidig varningssignal som går att observera\n- 90-dagarsplanen ska rymmas i verklig kalendertid för en person med fler kunder\n- Inga tankstreck som parentetisk avgränsare i brödtext\n\n# Utdataformat\n1. **Nulägesbild** (max 5 punkter): var relationen faktiskt står, med belägg\n2. **Relationskarta**: vilka vi känner och på vilken nivå, var vi är beroende av en enda person, och vilka roller vi saknar ingång till\n3. **Risker** (max 4): vad som kan hota relationen eller avtalet, med tidig varningssignal och motåtgärd per risk\n4. **Möjligheter** (max 3): rangordnade efter kundnytta, med vad som behöver vara sant för att de ska vara aktuella\n5. **90-dagarsplan**: 4-6 konkreta aktiviteter med syfte och tidpunkt, inklusive minst en som inte har säljmål alls",
+  "purpose": "Strukturerar arbetet med befintlig nyckelkund innan något hinner gå snett. Relationskartan avslöjar enpersonsberoenden och rangordningen efter kundnytta håller planen trovärdig även om kunden skulle läsa den.",
+  "usage": "Kör en gång per kvartal per nyckelkund, eller direkt när något stort förändras hos kunden. Testa gärna tankeexperimentet: skulle du våga visa planen för kunden? Om inte, är den för säljdriven.",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tags": [
+    "försäljning",
+    "account management",
+    "nyckelkund",
+    "kundvård",
+    "planering"
+  ],
+  "rating": 4.1,
+  "tested_models": [
+    "claude-haiku-4-5"
+  ],
+  "version": "1.0",
+  "tested_date": "2026-06-11"
+}

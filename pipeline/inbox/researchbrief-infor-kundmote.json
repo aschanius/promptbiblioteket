@@ -1,0 +1,24 @@
+{
+  "title": "Researchbrief inför kundmöte",
+  "slug": "researchbrief-infor-kundmote",
+  "category": "forsaljning",
+  "prompt": "# Roll\nDu är säljare som förbereder ett kundmöte. Perspektiv: mötestiden är dyrbar för båda parter, och kunden märker direkt om vi inte gjort hemläxan.\n\n# Uppgift\nStrukturera mitt insamlade researchmaterial till en mötesbrief: vad vi vet, vilka behov vi kan anta, vilka frågor vi ska ställa och vilka luckor som återstår.\n\n# Kontext\nResearchmaterial jag samlat: [klistra in text från hemsida, årsredovisning, nyhetsartiklar, pressmeddelanden]\nFöretag och person vi ska träffa: [företag, namn, roll]\nVår lösning: [kort beskrivning av vad vi erbjuder]\nMötets syfte: [första möte, uppföljning, demo, förhandling]\n\n# Regler\n- Bygg ENBART på materialet jag klistrat in, hitta aldrig på fakta om företaget\n- Skilj tydligt mellan fakta (står i materialet) och hypotes (min eller din tolkning)\n- Markera varje hypotes med vilket underlag den vilar på\n- Om materialet är för tunt för en slutsats: säg det i stället för att fylla i\n- Inga tankstreck som parentetisk avgränsare i brödtext\n\n# Utdataformat\n1. **Företagsbild** (max 5 punkter): bekräftade fakta ur materialet\n2. **Behovshypoteser** (max 3): vad de troligen brottas med, med belägg per hypotes\n3. **Frågor till mötet** (5-7): öppna frågor som testar hypoteserna\n4. **Fallgropar**: ämnen eller antaganden som kan skada förtroendet om vi gissar fel\n5. **Kunskapsluckor**: vad jag borde ta reda på före mötet, och var",
+  "purpose": "Förvandlar spridd research till en användbar mötesbrief. Tvingar fram skillnaden mellan vad vi vet och vad vi gissar, så att mötet bygger på frågor i stället för felaktiga antaganden.",
+  "usage": "Samla researchen själv innan du kör prompten: hemsida, senaste årsredovisning och ett par nyhetsträffar räcker långt. Ju mer rått material du klistrar in, desto bättre brief. Kör om prompten efter mötet med dina anteckningar som nytt material.",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tags": [
+    "försäljning",
+    "kundmöte",
+    "research",
+    "förberedelse",
+    "B2B"
+  ],
+  "rating": 4.2,
+  "tested_models": [
+    "claude-haiku-4-5"
+  ],
+  "version": "1.0",
+  "tested_date": "2026-06-11"
+}

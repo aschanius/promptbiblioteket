@@ -605,8 +605,80 @@
       "category": "ekonomi-finans",
       "rating": 4.1,
       "rated_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "researchbrief-infor-kundmote",
+      "category": "forsaljning",
+      "rating": 4.2,
+      "rated_at": "2026-06-11T21:18:50.340Z"
+    },
+    {
+      "slug": "discoveryfragor-kundmote",
+      "category": "forsaljning",
+      "rating": 4.1,
+      "rated_at": "2026-06-11T21:18:50.570Z"
+    },
+    {
+      "slug": "invandningshantering-forberedelse",
+      "category": "forsaljning",
+      "rating": 4.2,
+      "rated_at": "2026-06-11T21:18:50.797Z"
+    },
+    {
+      "slug": "motesanteckningar-till-nasta-steg",
+      "category": "forsaljning",
+      "rating": 4.1,
+      "rated_at": "2026-06-11T21:18:51.034Z"
+    },
+    {
+      "slug": "vardebudskap-per-beslutsfattare",
+      "category": "forsaljning",
+      "rating": 4.2,
+      "rated_at": "2026-06-11T21:18:51.261Z"
+    },
+    {
+      "slug": "kvalificering-affarsmojlighet",
+      "category": "forsaljning",
+      "rating": 4.3,
+      "rated_at": "2026-06-11T21:18:51.489Z"
+    },
+    {
+      "slug": "offert-utan-svar-analys",
+      "category": "forsaljning",
+      "rating": 4.2,
+      "rated_at": "2026-06-11T21:18:51.722Z"
+    },
+    {
+      "slug": "forhandlingsforberedelse-pris",
+      "category": "forsaljning",
+      "rating": 4.2,
+      "rated_at": "2026-06-11T21:18:51.950Z"
+    },
+    {
+      "slug": "win-loss-analys",
+      "category": "forsaljning",
+      "rating": 4.3,
+      "rated_at": "2026-06-11T21:18:52.179Z"
+    },
+    {
+      "slug": "account-plan-nyckelkund",
+      "category": "forsaljning",
+      "rating": 4.1,
+      "rated_at": "2026-06-11T21:18:52.404Z"
+    },
+    {
+      "slug": "rollspel-kundsamtal",
+      "category": "forsaljning",
+      "rating": 4.4,
+      "rated_at": "2026-06-11T21:18:52.632Z"
+    },
+    {
+      "slug": "battlecard-konkurrenssituation",
+      "category": "forsaljning",
+      "rating": 4.2,
+      "rated_at": "2026-06-11T21:18:52.858Z"
     }
   ],
   "schema_version": "1.0.0",
-  "updated_at": "2026-04-18T15:16:46.986Z"
+  "updated_at": "2026-06-11T21:18:52.858Z"
 }

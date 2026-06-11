@@ -33,7 +33,8 @@ const VALID_CATEGORIES = [
   'marknadsforing-kommunikation',
   'sme-entreprenorer',
   'hr-rekrytering',
-  'vard-omsorg'
+  'vard-omsorg',
+  'forsaljning'
 ];
 
 module.exports = {

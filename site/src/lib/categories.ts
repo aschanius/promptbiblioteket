@@ -14,6 +14,7 @@ export const categories: Category[] = [
   { id: 'vard-omsorg', title: 'Vård & omsorg', description: 'Sjuksköterskor, läkare, undersköterskor och vårdadministratörer. Dokumentation och patientkommunikation.' },
   { id: 'hr-rekrytering', title: 'HR & rekrytering', description: 'HR-chefer, rekryterare och personalutvecklare. Jobbannonsering, intervjufrågor och onboarding.' },
   { id: 'sme-entreprenorer', title: 'SME & entreprenörer', description: 'Småföretagare, verksamhetsledare och enmansföretag. Affärsplanering och effektivisering.' },
+  { id: 'forsaljning', title: 'Försäljning & kundrelationer', description: 'Säljare, account managers och kundansvariga. Mötesförberedelse, kvalificering, förhandling och kundvård.' },
 ];
 
 export function getCategoryById(id: string): Category | undefined {

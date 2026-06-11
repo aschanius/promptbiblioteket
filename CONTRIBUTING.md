@@ -69,6 +69,7 @@ Prompts med rating under 3.0 avvisas. Vi bedömer:
 | `vard-omsorg` | Vård & omsorg |
 | `hr-rekrytering` | HR & rekrytering |
 | `sme-entreprenorer` | SME & entreprenörer |
+| `forsaljning` | Försäljning & kundrelationer |
 
 ## Bransch-taggar
 

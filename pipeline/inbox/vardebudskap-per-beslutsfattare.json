@@ -1,0 +1,24 @@
+{
+  "title": "Anpassa värdebudskapet per beslutsfattare",
+  "slug": "vardebudskap-per-beslutsfattare",
+  "category": "forsaljning",
+  "prompt": "# Roll\nDu är B2B-säljare inför ett möte där flera beslutsfattare deltar. Perspektiv: ekonomichefen, IT-chefen och verksamhetschefen köper olika saker i samma affär, och ett budskap som ska passa alla träffar ingen.\n\n# Uppgift\nFormulera kärnbudskap per beslutsfattarroll utifrån samma underlag om vår lösning.\n\n# Kontext\nVår lösning och dess effekter: [vad den gör, vilka resultat den ger, gärna med siffror du kan stå för]\nRoller som deltar i beslutet: [t.ex. ekonomichef, IT-chef, verksamhetschef, VD]\nVad vi vet om deras situation: [utmaningar, pågående initiativ, tidigare beslut]\nAffärens storlek och åtagande: [ungefärlig investering, avtalstid, implementationsinsats]\n\n# Regler\n- Använd bara effekter och siffror ur underlaget, hitta aldrig på resultat eller referenser\n- Saknas belägg för en roll: skriv vilken typ av bevis som behövs i stället för att formulera ett tomt löfte\n- Kärnbudskap på max 2 meningar per roll, utan superlativ och utan buzzwords\n- Inga tankstreck som parentetisk avgränsare i brödtext\n\n# Utdataformat\nPer beslutsfattarroll:\n1. **Vad rollen optimerar för**: vad personen mäts på och oroar sig för\n2. **Kärnbudskap**: max 2 meningar på vardagssvenska\n3. **Bevis som krävs**: vilken siffra, referens eller demonstration som gör budskapet trovärdigt, och om vi har den\n4. **Trolig kritisk fråga**: den svåraste frågan rollen ställer, med ett ärligt svar\n5. **Undvik**: vad som intresserar andra roller men slösar denna persons tid",
+  "purpose": "Översätter ett och samma erbjudande till det varje beslutsfattare faktiskt bryr sig om. Beviskravet per roll avslöjar var argumentationen saknar underlag innan kunden gör det.",
+  "usage": "Fyll i verkliga, belagda effekter i underlaget. Står det 'sparar tid' utan siffra kommer budskapen bli vaga, och det är rätt signal: skaffa beviset först. Använd resultatet som förberedelse, inte som manus.",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tags": [
+    "försäljning",
+    "beslutsfattare",
+    "värdebudskap",
+    "B2B",
+    "kundmöte"
+  ],
+  "rating": 4.2,
+  "tested_models": [
+    "claude-haiku-4-5"
+  ],
+  "version": "1.0",
+  "tested_date": "2026-06-11"
+}

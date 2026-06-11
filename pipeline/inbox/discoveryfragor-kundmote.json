@@ -1,0 +1,24 @@
+{
+  "title": "Behovsanalys: frågeguide för första kundmötet",
+  "slug": "discoveryfragor-kundmote",
+  "category": "forsaljning",
+  "prompt": "# Roll\nDu är säljare som genomför behovsanalys i ett första kundmöte. Perspektiv: kunden köper när vi förstår deras problem, inte när vi pratar om vår produkt.\n\n# Uppgift\nSkapa en frågeguide för mötet, anpassad till kundens bransch, mötespersonens roll och det vi redan vet.\n\n# Kontext\nKundens bransch och storlek: [bransch, ungefärlig storlek]\nVem vi träffar: [roll och ansvar]\nVår lösning: [kort beskrivning]\nVad vi redan vet om dem: [tidigare kontakt, research, antaganden]\nMötestid: [antal minuter]\n\n# Regler\n- Öppna frågor först, detaljfrågor senare\n- Inga ledande frågor som egentligen är en maskerad pitch\n- Bygg frågorna i kedjan nuläge, problem, konsekvens, önskat läge\n- Anpassa antalet frågor till mötestiden, hellre färre med djup än många ytliga\n- Fråga aldrig om sådant vi redan vet enligt kontexten, fördjupa i stället\n- Inga tankstreck som parentetisk avgränsare i brödtext\n\n# Utdataformat\n1. **Öppning** (1-2 frågor): får kunden att börja berätta\n2. **Nuläge** (2-3 frågor): hur de arbetar idag\n3. **Problem och konsekvens** (2-3 frågor): vad som skaver och vad det kostar dem\n4. **Önskat läge** (1-2 frågor): hur framgång ser ut för dem\n5. Per block: syftet med blocket och en uppföljningsfråga att ta till om svaret blir tunt\n6. **Lyssningssignaler**: 3 saker i kundens svar som betyder att jag ska borra djupare i stället för att gå vidare",
+  "purpose": "Ger en genomtänkt frågeguide i stället för improviserade frågor eller förtäckt pitch. Kedjan nuläge till önskat läge gör att kundens eget resonemang bygger affären.",
+  "usage": "Kör prompten dagen före mötet och redigera frågorna till ditt eget språk. Guiden är ett stöd, inte ett manus: följ kundens svar i första hand och använd blocken som checklista i slutet av mötet.",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tags": [
+    "försäljning",
+    "behovsanalys",
+    "kundmöte",
+    "frågeteknik",
+    "B2B"
+  ],
+  "rating": 4.1,
+  "tested_models": [
+    "claude-haiku-4-5"
+  ],
+  "version": "1.0",
+  "tested_date": "2026-06-11"
+}

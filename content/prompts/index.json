@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-06-11T20:58:38.900Z",
+  "generated_at": "2026-06-11T21:18:52.870Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -391,6 +391,219 @@
             "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "forsaljning",
+      "title": "Försäljning & kundrelationer",
+      "description": "Prompts för säljare, account managers och kundansvariga. Mötesförberedelse, kvalificering, förhandling och kundvård.",
+      "priority": 99,
+      "prompt_count": 12,
+      "prompts": [
+        {
+          "slug": "account-plan-nyckelkund",
+          "title": "Account plan för nyckelkund",
+          "file": "forsaljning/account-plan-nyckelkund.md",
+          "rating": 4.1,
+          "tags": [
+            "försäljning",
+            "account management",
+            "nyckelkund",
+            "kundvård",
+            "planering"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "battlecard-konkurrenssituation",
+          "title": "Battlecard inför konkurrensutsatt affär",
+          "file": "forsaljning/battlecard-konkurrenssituation.md",
+          "rating": 4.2,
+          "tags": [
+            "försäljning",
+            "konkurrensanalys",
+            "battlecard",
+            "B2B",
+            "upphandling"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "discoveryfragor-kundmote",
+          "title": "Behovsanalys: frågeguide för första kundmötet",
+          "file": "forsaljning/discoveryfragor-kundmote.md",
+          "rating": 4.1,
+          "tags": [
+            "försäljning",
+            "behovsanalys",
+            "kundmöte",
+            "frågeteknik",
+            "B2B"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "forhandlingsforberedelse-pris",
+          "title": "Förhandlingsförberedelse: pris och villkor",
+          "file": "forsaljning/forhandlingsforberedelse-pris.md",
+          "rating": 4.2,
+          "tags": [
+            "försäljning",
+            "förhandling",
+            "pris",
+            "B2B",
+            "förberedelse"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "invandningshantering-forberedelse",
+          "title": "Invändningshantering: förbered svaren innan mötet",
+          "file": "forsaljning/invandningshantering-forberedelse.md",
+          "rating": 4.2,
+          "tags": [
+            "försäljning",
+            "invändningar",
+            "kundmöte",
+            "förberedelse",
+            "förtroende"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "kvalificering-affarsmojlighet",
+          "title": "Kvalificera affärsmöjligheten innan du satsar tiden",
+          "file": "forsaljning/kvalificering-affarsmojlighet.md",
+          "rating": 4.3,
+          "tags": [
+            "försäljning",
+            "kvalificering",
+            "pipeline",
+            "B2B",
+            "prioritering"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "motesanteckningar-till-nasta-steg",
+          "title": "Mötesanteckningar till åtaganden och nästa steg",
+          "file": "forsaljning/motesanteckningar-till-nasta-steg.md",
+          "rating": 4.1,
+          "tags": [
+            "försäljning",
+            "kundmöte",
+            "uppföljning",
+            "dokumentation",
+            "CRM"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "offert-utan-svar-analys",
+          "title": "Offert utan svar: analys och nästa drag",
+          "file": "forsaljning/offert-utan-svar-analys.md",
+          "rating": 4.2,
+          "tags": [
+            "försäljning",
+            "offert",
+            "uppföljning",
+            "B2B",
+            "beslutsstöd"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "researchbrief-infor-kundmote",
+          "title": "Researchbrief inför kundmöte",
+          "file": "forsaljning/researchbrief-infor-kundmote.md",
+          "rating": 4.2,
+          "tags": [
+            "försäljning",
+            "kundmöte",
+            "research",
+            "förberedelse",
+            "B2B"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "rollspel-kundsamtal",
+          "title": "Rollspel: öva kundsamtalet med AI som kund",
+          "file": "forsaljning/rollspel-kundsamtal.md",
+          "rating": 4.4,
+          "tags": [
+            "försäljning",
+            "rollspel",
+            "träning",
+            "kundsamtal",
+            "övning"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "vardebudskap-per-beslutsfattare",
+          "title": "Anpassa värdebudskapet per beslutsfattare",
+          "file": "forsaljning/vardebudskap-per-beslutsfattare.md",
+          "rating": 4.2,
+          "tags": [
+            "försäljning",
+            "beslutsfattare",
+            "värdebudskap",
+            "B2B",
+            "kundmöte"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
+        },
+        {
+          "slug": "win-loss-analys",
+          "title": "Win/loss-analys av avslutad affär",
+          "file": "forsaljning/win-loss-analys.md",
+          "rating": 4.3,
+          "tags": [
+            "försäljning",
+            "win-loss",
+            "analys",
+            "lärande",
+            "B2B"
+          ],
+          "tested_models": [
+            "claude-haiku-4-5"
+          ],
+          "tested_date": "2026-06-11T00:00:00.000Z"
         }
       ]
     },
@@ -1801,5 +2014,5 @@
       ]
     }
   ],
-  "total_prompts": 101
+  "total_prompts": 113
 }

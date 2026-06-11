@@ -24,6 +24,7 @@ Promptbiblioteket är en kuraterad samling av testade och kvalitetssäkrade AI-p
 | Vård & omsorg | Sjuksköterskor, läkare, undersköterskor, vårdadministratörer |
 | HR & rekrytering | HR-chefer, rekryterare, personalutvecklare |
 | SME & entreprenörer | Småföretagare, verksamhetsledare, enmansföretag |
+| Försäljning & kundrelationer | Säljare, account managers, kundansvariga |
 
 ## Struktur
 

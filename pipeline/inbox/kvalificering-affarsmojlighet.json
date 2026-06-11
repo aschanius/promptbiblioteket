@@ -1,0 +1,24 @@
+{
+  "title": "Kvalificera affärsmöjligheten innan du satsar tiden",
+  "slug": "kvalificering-affarsmojlighet",
+  "category": "forsaljning",
+  "prompt": "# Roll\nDu är säljare som kvalificerar en affärsmöjlighet. Perspektiv: tidig diskvalificering av fel affärer frigör mer säljtid än någon annan åtgärd, och en pipeline full av önsketänkande lurar bara oss själva.\n\n# Uppgift\nBedöm affärsmöjligheten mot kvalificeringskriterierna nedan, identifiera vad vi inte vet och rekommendera om vi ska satsa, ta reda på mer eller släppa.\n\n# Kontext\nAffärsmöjligheten: [beskriv kunden, behovet och hur kontakten uppstod]\nVad vi vet om budget: [bekräftad, indikerad, okänd]\nVad vi vet om beslutsprocessen: [vem beslutar, vilka påverkar, tidplan]\nVad vi vet om behovet: [uttalat av kunden eller antaget av oss]\nIntern förespråkare hos kunden: [finns det någon som driver frågan internt, vem]\nKonkurrenssituation: [andra leverantörer, intern lösning, att inte göra något]\n\n# Regler\n- Bedöm varje kriterium som VET (med belägg), VET INTE, eller VARNINGSSIGNAL\n- Belägg är något kunden sagt eller gjort, inte något vi hoppas\n- Var lika sträng mot önsketänkande som mot luckor\n- Rekommendationen ska vara ett av tre val, inte en gardering\n- Inga tankstreck som parentetisk avgränsare i brödtext\n\n# Utdataformat\n1. **Kriteriebedömning**: tabell med Behov | Budget | Beslutsprocess | Tidplan | Förespråkare | Konkurrens, status per kriterium med en rads motivering\n2. **Största luckorna**: max 3, med en konkret fråga per lucka som täcker den\n3. **Varningssignaler**: mönster som talar för att affären inte stängs\n4. **Rekommendation**: SATSA, UNDERSÖK eller SLÄPP, med motivering i max 3 meningar\n5. Vid UNDERSÖK: vad som måste bli sant inom [tidsperiod] för att uppgradera till SATSA",
+  "purpose": "Ersätter magkänsla med strukturerad kvalificering. Kravet på belägg i stället för hopp gör pipelinen ärligare och frigör tid från affärer som aldrig kommer stängas.",
+  "usage": "Kör efter första eller andra kundkontakten, och igen när något väsentligt ändras. Svara ärligt på vad som är bekräftat av kunden respektive antaget av dig, det är hela poängen. Funkar lika bra som underlag i pipelinegenomgång med säljchef.",
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tags": [
+    "försäljning",
+    "kvalificering",
+    "pipeline",
+    "B2B",
+    "prioritering"
+  ],
+  "rating": 4.3,
+  "tested_models": [
+    "claude-haiku-4-5"
+  ],
+  "version": "1.0",
+  "tested_date": "2026-06-11"
+}
