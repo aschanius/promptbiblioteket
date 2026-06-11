@@ -751,6 +751,62 @@
       "source_author": "Skatteverket — Moms",
       "source_lang": "sv",
       "added_at": "2026-04-18T15:16:46.986Z"
+    },
+    {
+      "slug": "besparingspotential-8020",
+      "category": "ekonomi-finans",
+      "source_url": "https://www.teknikministeriet.se/prompts-ekonomer/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "forklara-ekonomi-for-styrelsen",
+      "category": "ekonomi-finans",
+      "source_url": "https://www.teknikministeriet.se/prompts-ekonomer/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "kvartalskommentar-ledningsgrupp",
+      "category": "ekonomi-finans",
+      "source_url": "https://www.teknikministeriet.se/prompts-ekonomer/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "monsterigenkanning-finansdata",
+      "category": "ekonomi-finans",
+      "source_url": "https://www.teknikministeriet.se/prompts-ekonomer/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "rapportstruktur-for-ekonomer",
+      "category": "ekonomi-finans",
+      "source_url": "https://www.teknikministeriet.se/prompts-ekonomer/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "scenarioanalys-tre-utfall",
+      "category": "ekonomi-finans",
+      "source_url": "https://www.teknikministeriet.se/prompts-ekonomer/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "snabb-avvikelseanalys",
+      "category": "ekonomi-finans",
+      "source_url": "https://www.teknikministeriet.se/prompts-ekonomer/",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-04-14T00:00:00.000Z"
     }
   ],
   "updated_at": "2026-04-18T15:16:46.986Z"

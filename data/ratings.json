@@ -563,6 +563,48 @@
       "category": "sme-entreprenorer",
       "rating": 4.3,
       "rated_at": "2026-04-18T15:16:46.986Z"
+    },
+    {
+      "slug": "besparingspotential-8020",
+      "category": "ekonomi-finans",
+      "rating": 4,
+      "rated_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "forklara-ekonomi-for-styrelsen",
+      "category": "ekonomi-finans",
+      "rating": 4.2,
+      "rated_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "kvartalskommentar-ledningsgrupp",
+      "category": "ekonomi-finans",
+      "rating": 4.3,
+      "rated_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "monsterigenkanning-finansdata",
+      "category": "ekonomi-finans",
+      "rating": 4.2,
+      "rated_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "rapportstruktur-for-ekonomer",
+      "category": "ekonomi-finans",
+      "rating": 4.1,
+      "rated_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "scenarioanalys-tre-utfall",
+      "category": "ekonomi-finans",
+      "rating": 4.2,
+      "rated_at": "2026-04-14T00:00:00.000Z"
+    },
+    {
+      "slug": "snabb-avvikelseanalys",
+      "category": "ekonomi-finans",
+      "rating": 4.1,
+      "rated_at": "2026-04-14T00:00:00.000Z"
     }
   ],
   "schema_version": "1.0.0",
