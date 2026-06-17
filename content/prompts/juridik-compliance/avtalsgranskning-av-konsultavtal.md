@@ -19,7 +19,7 @@ tags:
 ---
 ## Syfte
 
-Hjälper jurister, bolagsjurister och konsulter att snabbt identifiera red flags i ett konsultavtal — vad som är standard, vad som är onormalt och var riskerna sitter.
+Hjälper jurister, bolagsjurister och konsulter att snabbt identifiera red flags i ett konsultavtal, vad som är standard, vad som är onormalt och var riskerna sitter.
 
 ## Prompt
 
@@ -41,7 +41,7 @@ Avtalstext:
 - Skriv på klar svenska utan onödig juristjargong. Förklara tekniska termer.
 - Skilj tydligt mellan "kritisk risk", "bör förhandlas" och "ok som det är".
 - Ange alltid om en klausul är marknadsstandard eller avvikande från norm.
-- Ersätt aldrig riktig juridisk rådgivning — markera tydligt när frågan bör lyftas till jurist.
+- Ersätt aldrig riktig juridisk rådgivning, markera tydligt när frågan bör lyftas till jurist.
 - Ge konkreta omformuleringar, inte bara "detta är dåligt".
 
 # Utdataformat

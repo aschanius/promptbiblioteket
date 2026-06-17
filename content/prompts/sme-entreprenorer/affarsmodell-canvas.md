@@ -3,7 +3,7 @@ title: "Affärsmodell: Canvas-utkast för entreprenör"
 slug: affarsmodell-canvas
 category: sme-entreprenorer
 source_url: https://www.strategyzer.com/canvas/business-model-canvas
-source_author: Alexander Osterwalder — Business Model Canvas (strukturerad enligt Promptbibliotekets mall av Teknikministeriet)
+source_author: Alexander Osterwalder, Business Model Canvas (strukturerad enligt Promptbibliotekets mall av Teknikministeriet)
 source_lang: en
 rating: 4.3
 version: "1.0"
@@ -40,7 +40,7 @@ Nuvarande intäkter: [ingen, några första kunder, månatlig omsättning ungef�
 Vad vi vet om kunderna: [egna observationer, kundsamtal, data]
 Befintliga resurser: [team, kapital, teknik, nätverk, kunddata]
 Konkurrens: [vem gör det idag, vad är annorlunda med oss]
-Antaganden idag: [vad entreprenören tror om kunder, betalningsvilja, kanaler — viktigt för validering]
+Antaganden idag: [vad entreprenören tror om kunder, betalningsvilja, kanaler: viktigt för validering]
 Mål 12 månader: [var vill entreprenören vara om ett år]
 
 # Regler
@@ -74,4 +74,4 @@ Mål 12 månader: [var vill entreprenören vara om ett år]
 
 ## Användning
 
-Canvasen är ett LEVANDE dokument — uppdatera varje gång du lär dig något nytt om kunder eller marknad. De kritiska antagandena är där fokus ska ligga, inte de säkra rutorna.
+Canvasen är ett LEVANDE dokument, uppdatera varje gång du lär dig något nytt om kunder eller marknad. De kritiska antagandena är där fokus ska ligga, inte de säkra rutorna.

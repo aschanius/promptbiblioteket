@@ -42,10 +42,10 @@ Tidshorisont: [kort/medel/lång sikt]
 - Var specifik för branschen och den svenska kontexten
 
 # Utdataformat
-**Steg 1 — Direkt effekt:** [vad som händer omedelbart]
-**Steg 2 — Följdeffekt:** [vad det leder till]
-**Steg 3 — Sekundär effekt:** [konsekvenser folk missar]
-**Steg 4 — Systemeffekt:** [bredare påverkan]
+**Steg 1 (Direkt effekt):** [vad som händer omedelbart]
+**Steg 2 (Följdeffekt):** [vad det leder till]
+**Steg 3 (Sekundär effekt):** [konsekvenser folk missar]
+**Steg 4 (Systemeffekt):** [bredare påverkan]
 
 **Icke-uppenbara risker:** 3 konsekvenser du bör förbereda dig på
 **Möjligheter:** 2 positiva effekter du kan utnyttja

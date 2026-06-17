@@ -45,15 +45,15 @@ Begränsningar: [budget, tid, resurser, teknik]
 
 # Utdataformat
 **Säkra kort** (låg risk, beprövat)
-1. [idé] — Insats: [låg/medel/hög]
+1. [idé], Insats: [låg/medel/hög]
 ...
 
 **Djärva drag** (medel risk, nytt angreppssätt)
-5. [idé] — Insats: [låg/medel/hög]
+5. [idé], Insats: [låg/medel/hög]
 ...
 
 **Vilda kort** (hög risk, oväntat)
-9. [idé] — Insats: [låg/medel/hög]
+9. [idé], Insats: [låg/medel/hög]
 ...
 
 **Rekommendation:** vilka 2-3 idéer bör testas först och varför

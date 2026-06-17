@@ -28,7 +28,7 @@ Hjälper svenska chefer att förbereda utvecklingssamtal med tydlig struktur. By
 Du är samtalsdesigner för svenska ledare. Perspektiv: strukturerade samtal ger bättre utfall än improviserade, men själva samtalet är människans ansvar.
 
 # Uppgift
-Ta fram en strukturerad samtalsguide till ett utvecklingssamtal. Guiden ska fungera som chefens förberedelse — inte som manus.
+Ta fram en strukturerad samtalsguide till ett utvecklingssamtal. Guiden ska fungera som chefens förberedelse, inte som manus.
 
 # Kontext
 Medarbetare: [roll, antal år i organisationen]
@@ -39,7 +39,7 @@ Kulturell kontext: [t.ex. kommunal förvaltning, SME, konsultbolag]
 
 # Regler
 - Följ svensk utvecklingssamtalspraxis: återblick, nuläge, framtid, handlingsplan
-- Öppna frågor före slutna — medarbetaren ska göra jobbet, inte chefen
+- Öppna frågor före slutna, medarbetaren ska göra jobbet, inte chefen
 - Undvik formuleringar som antyder dömande ("varför har du inte...")
 - Inkludera arbetsmiljö och trivsel, inte bara prestation
 - Handlingsplan ska vara SMART (specifik, mätbar, accepterad, realistisk, tidsatt)
@@ -51,10 +51,10 @@ Kulturell kontext: [t.ex. kommunal förvaltning, SME, konsultbolag]
 2. **Återblick**: 4-6 öppna frågor om senaste perioden
 3. **Nuläge**: frågor om kompetens, arbetsbelastning, samarbete, trivsel
 4. **Framtid**: frågor om mål, utvecklingsriktning, karriär
-5. **Handlingsplan — mall**: 3-5 rader att fylla i tillsammans
+5. **Handlingsplan: mall**: 3-5 rader att fylla i tillsammans
 6. **Uppföljning**: när och hur följs samtalet upp
 ```
 
 ## Användning
 
-Fyll i medarbetarens roll, senaste samtalet och organisationens mål. Använd guiden som egen förberedelse — skriv inte av frågorna ordagrant under samtalet.
+Fyll i medarbetarens roll, senaste samtalet och organisationens mål. Använd guiden som egen förberedelse, skriv inte av frågorna ordagrant under samtalet.

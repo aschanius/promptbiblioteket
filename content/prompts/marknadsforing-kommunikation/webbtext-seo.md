@@ -26,13 +26,13 @@ Skriver webbtext som svarar på sökintent och rankas i sökmotor utan att tappa
 
 ```txt
 # Roll
-Du är copywriter eller content-producent som skriver webbtext som ska ranka på sökmotor och samtidigt läsas av människor som hittar till sidan. Perspektiv: Google ska förstå innehållet, men människor ska VILJA läsa det — inte tvingas.
+Du är copywriter eller content-producent som skriver webbtext som ska ranka på sökmotor och samtidigt läsas av människor som hittar till sidan. Perspektiv: Google ska förstå innehållet, men människor ska VILJA läsa det, inte tvingas.
 
 # Uppgift
 Skriv en webbtext som svarar på ett sökintent, är strukturerad för SEO-grundläggande (rubriker, sökord, meta) och är skriven i varumärkets ton.
 
 # Kontext
-Sida: [vilken sida — tjänstesida, blogginlägg, kategorisida, landningssida]
+Sida: [vilken sida: tjänstesida, blogginlägg, kategorisida, landningssida]
 Primärt sökord: [det sökord/frågan sidan ska ranka på]
 Sekundära sökord: [2-4 relaterade sökord eller fraser]
 Sökintent: [informationellt, navigationellt, transaktionellt, kommersiellt undersökande]
@@ -46,9 +46,9 @@ CTA: [vad vi vill att läsaren gör efter texten]
 
 # Regler
 - Skriv för MÄNNISKOR i första hand, för Google i andra
-- Svara på sökintent INOM första 100 ord — ingen lång inledning
+- Svara på sökintent INOM första 100 ord, ingen lång inledning
 - Rubrikstruktur: H1 (en), H2 (flera), H3 (vid behov), logisk hierarki
-- Sökord naturligt integrerade — inte keyword stuffing
+- Sökord naturligt integrerade, inte keyword stuffing
 - Meta-titel max 60 tecken, meta-beskrivning max 155 tecken
 - Använd listor, tabeller och fetstil där det hjälper läsbarheten
 - Svensk text med rätt tilltal (du/ni)
@@ -71,4 +71,4 @@ CTA: [vad vi vill att läsaren gör efter texten]
 
 ## Användning
 
-Gör sökordsanalys i separat verktyg innan du kör prompten. Kontrollera meta-beskrivning mot faktisk SERP-bredd efter publicering. SEO är långsiktigt — revidera texten efter 3-6 månader baserat på trafikdata.
+Gör sökordsanalys i separat verktyg innan du kör prompten. Kontrollera meta-beskrivning mot faktisk SERP-bredd efter publicering. SEO är långsiktigt, revidera texten efter 3-6 månader baserat på trafikdata.

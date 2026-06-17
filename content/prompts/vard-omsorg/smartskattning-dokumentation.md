@@ -44,9 +44,9 @@ Uppföljning planerad: [efter X minuter, nästa skift, morgonrond]
 Läkarordinationer: [stående smärtlindring, vid-behovs-dos, maxdygnsdos]
 
 # Regler
-- Använd rätt instrument för patientens kognitiva status — Abbey är för patienter som inte kan verbalisera
+- Använd rätt instrument för patientens kognitiva status, Abbey är för patienter som inte kan verbalisera
 - Dokumentera smärtskattning FÖRE och EFTER given åtgärd (40-60 min efter oral, 15-30 min efter subkutant)
-- Aldrig tolka patientens uttryck — citera om möjligt ("det bränner" inte "brännande smärta")
+- Aldrig tolka patientens uttryck, citera om möjligt ("det bränner" inte "brännande smärta")
 - Skilj klart på observation (objektiv) och tolkning (subjektiv)
 - Vid smärta > 3 (VAS/NRS) eller Abbey > 7 krävs åtgärd eller dokumenterad orsak till varför inte
 - Svenska vårdtermer, anatomiska termer på svenska
@@ -66,4 +66,4 @@ Läkarordinationer: [stående smärtlindring, vid-behovs-dos, maxdygnsdos]
 
 ## Användning
 
-Kör prompten direkt efter smärtskattning och åtgärd, och igen efter utvärdering. Dokumentera alltid i ordinarie journalsystem enligt Socialstyrelsens riktlinjer — prompten ger strukturen, inte beslutet.
+Kör prompten direkt efter smärtskattning och åtgärd, och igen efter utvärdering. Dokumentera alltid i ordinarie journalsystem enligt Socialstyrelsens riktlinjer, prompten ger strukturen, inte beslutet.

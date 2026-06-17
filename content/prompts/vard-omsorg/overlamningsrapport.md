@@ -50,10 +50,10 @@ Rådata:
 
 För varje patient/brukare:
 - **Patient:** [namn/ID]
-- **S — Situation:** Aktuellt tillstånd i en mening
-- **B — Bakgrund:** Relevant historik och inläggningsorsak
-- **A — Aktuellt:** Vitala parametrar, given behandling, observationer
-- **R — Rekommendation:** Vad som behöver göras, prioritet, tidsram
+- **S (Situation):** Aktuellt tillstånd i en mening
+- **B (Bakgrund):** Relevant historik och inläggningsorsak
+- **A (Aktuellt):** Vitala parametrar, given behandling, observationer
+- **R (Rekommendation):** Vad som behöver göras, prioritet, tidsram
 - **⚠ Observera:** [säkerhetskritisk information, om relevant]
 
 **Generellt:**

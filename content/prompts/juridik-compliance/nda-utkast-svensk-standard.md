@@ -41,10 +41,10 @@ Behöver avtalet gälla under förhandling eller efter tecknat huvudavtal: [ange
 Särskilda krav: [t.ex. exportkontroll, GDPR, insiderinformation]
 
 # Regler
-- Skriv på tydlig svensk juridik — undvik onödig engelsk jargong ("non-compete" blir konkurrensklausul)
+- Skriv på tydlig svensk juridik, undvik onödig engelsk jargong ("non-compete" blir konkurrensklausul)
 - Svensk lag ska vara tillämplig, svensk domstol som tvistforum (föreslå men motivera)
 - Undantag för allmänt tillgänglig information, självständigt utvecklad information, information från tredje part utan sekretess, samt lagstadgad upplysningsskyldighet
-- Konkurrensklausul HÖR INTE HEMMA i ett NDA — flagga om användaren vill ha det och rekommendera separat avtal
+- Konkurrensklausul HÖR INTE HEMMA i ett NDA, flagga om användaren vill ha det och rekommendera separat avtal
 - Vitesklausul kan användas men måste vara rimlig (vanligen 500 000–2 000 000 SEK beroende på bransch)
 - Personuppgifter: om NDA innebär behandling av personuppgifter krävs kompletterande PUB-avtal
 - Svenska utan tankstreck i brödtext
@@ -65,4 +65,4 @@ Särskilda krav: [t.ex. exportkontroll, GDPR, insiderinformation]
 
 ## Användning
 
-Fyll i kontext noggrant — typ av NDA och informationens natur styr hela avtalet. Utkastet är en startpunkt; komplicerade avtal bör granskas av jurist innan signering.
+Fyll i kontext noggrant, typ av NDA och informationens natur styr hela avtalet. Utkastet är en startpunkt; komplicerade avtal bör granskas av jurist innan signering.

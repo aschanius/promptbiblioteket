@@ -19,7 +19,7 @@ tags:
 ---
 ## Syfte
 
-Hjälper controllers att snabbt omvandla månadsresultat till en strukturerad rapport med variansanalys, drivande faktorer och handlingsförslag — från siffror till beslut.
+Hjälper controllers att snabbt omvandla månadsresultat till en strukturerad rapport med variansanalys, drivande faktorer och handlingsförslag, från siffror till beslut.
 
 ## Prompt
 
@@ -42,7 +42,7 @@ Kommentarer: [kända engångshändelser eller förklaringar]
 - Skriv på professionell men tillgänglig svenska. Ingen onödig fackjargong.
 - Fokusera på avvikelser som faktiskt betyder något, inte varenda rad.
 - Skilj mellan volym-, pris- och mixeffekter när det går.
-- Ge alltid en hypotes om varför något avviker — aldrig bara konstatera.
+- Ge alltid en hypotes om varför något avviker, aldrig bara konstatera.
 - Avsluta med rekommendationer, inte bara observationer.
 
 # Utdataformat
@@ -56,7 +56,7 @@ Kommentarer: [kända engångshändelser eller förklaringar]
 
 ## Användning
 
-Klistra in resultatrader från ert ekonomisystem direkt. Fungerar även med ofullständigt underlag — modellen markerar tydligt när den saknar data. Be om kort version (sammanfattning + topp-3 avvikelser) när du bara har 5 minuter på dig inför ledningsgruppen.
+Klistra in resultatrader från ert ekonomisystem direkt. Fungerar även med ofullständigt underlag, modellen markerar tydligt när den saknar data. Be om kort version (sammanfattning + topp-3 avvikelser) när du bara har 5 minuter på dig inför ledningsgruppen.
 
 ## Testresultat
 

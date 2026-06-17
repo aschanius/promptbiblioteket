@@ -42,11 +42,11 @@ Patientens egna prioriteringar: [vad hen vill uppnå eller klara av]
 Tidsram: [hemgång planerad när, hur många möten kvar]
 
 # Regler
-- Patientens egna mål ska finnas med — rehab utan patientinflytande fungerar inte
+- Patientens egna mål ska finnas med, rehab utan patientinflytande fungerar inte
 - Mål ska vara SMARTA (specifika, mätbara, accepterade, realistiska, tidsatta)
 - Skilj mellan KORT SIKT (till nästa möte) och LÅNG SIKT (hela rehabperioden)
 - Varje åtgärd ska ha en ansvarig profession och en frekvens
-- Dokumentera beslut, inte diskussion — detta är mötesprotokoll, inte referat
+- Dokumentera beslut, inte diskussion, detta är mötesprotokoll, inte referat
 - Svenska rehabtermer, svenska tester och instrument där möjligt
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
@@ -73,4 +73,4 @@ Tidsram: [hemgång planerad när, hur många möten kvar]
 
 ## Användning
 
-Skicka ut agendan före mötet så alla förbereder sitt underlag. Dokumentera direkt i protokollet under mötet. SMART-målen är viktiga — vaga mål ger vag rehab.
+Skicka ut agendan före mötet så alla förbereder sitt underlag. Dokumentera direkt i protokollet under mötet. SMART-målen är viktiga, vaga mål ger vag rehab.

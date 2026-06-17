@@ -56,7 +56,7 @@ Leveranstid: [när det ska vara klart]
 
 ## Användning
 
-Samla ihop all kundkommunikation innan du kör prompten — mail, mötesanteckningar och brief. Ju mer konkret underlag, desto skarpare offert. Kör gärna två varianter med olika prismodeller och jämför.
+Samla ihop all kundkommunikation innan du kör prompten, mail, mötesanteckningar och brief. Ju mer konkret underlag, desto skarpare offert. Kör gärna två varianter med olika prismodeller och jämför.
 
 ## Testresultat
 

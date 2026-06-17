@@ -41,7 +41,7 @@ Tidshorisont: [när ska gapen vara stängda]
 EU AI Act-krav: [om relevant: roller som kräver AI-kompetens enligt artikel 4]
 
 # Regler
-- Skilj TYDLIGT mellan "bra att ha" och "verksamhetskritiskt" — verksamhetsmålen styr
+- Skilj TYDLIGT mellan "bra att ha" och "verksamhetskritiskt", verksamhetsmålen styr
 - Utgå från att intern utveckling är billigare men tar tid, extern rekrytering är snabbare men dyrare
 - Inkludera soft skills (samarbete, ledarskap, kommunikation), inte bara tekniska färdigheter
 - Flagga risker: nyckelpersonberoende, åldersprofil, kunskap som bara en har
@@ -52,7 +52,7 @@ EU AI Act-krav: [om relevant: roller som kräver AI-kompetens enligt artikel 4]
 # Utdataformat
 1. **Kompetensmatris**: tabell: kompetens, nivå idag (saknas/grund/bra/expert), nivå behov, gap, verksamhetskritisk (ja/nej)
 2. **Topp-5 kritiska gap**: de mest akuta, med konsekvensbeskrivning
-3. **Nyckelpersonrisker**: kompetens som bara en person bär — lista
+3. **Nyckelpersonrisker**: kompetens som bara en person bär, lista
 4. **Åtgärdsförslag per gap**: utbildning / mentorskap / omfördelning / rekrytering / konsult, med motivering och ungefärlig kostnad
 5. **AI-kompetens enligt AI Act**: analys av vilka roller som berörs
 6. **12-månadersplan**: konkret tidsplan med milstolpar

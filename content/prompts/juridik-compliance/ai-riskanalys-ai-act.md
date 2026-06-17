@@ -33,7 +33,7 @@ Klassificera AI-systemet nedan enligt AI Act och lista tillämpliga krav. Beskri
 # Kontext
 AI-system: [beskriv funktion och ändamål]
 Domän: [rekrytering, kreditbedömning, utbildning, biometri, kritisk infrastruktur, offentlig tjänst, annat]
-Användare: [vem fattar beslut baserat på AI — HR, kundtjänst, automatiserat]
+Användare: [vem fattar beslut baserat på AI: HR, kundtjänst, automatiserat]
 Berörda personer: [anställda, kunder, medborgare]
 Leverantör: [köpt lösning, egen utveckling, open source]
 Geografisk marknad: [Sverige, EU, globalt]
@@ -44,8 +44,8 @@ Geografisk marknad: [Sverige, EU, globalt]
 - Flagga om systemet tangerar förbjudna tillämpningar (manipulation, social scoring, emotionsinferens i arbete eller skola)
 - Särskilt utmärkande risker för svenska SME: rekryterings-AI, kreditbedömning, tillgång till offentliga tjänster
 - Ange tillämpningsdatum: Art 5 gäller från 2 feb 2025, hög risk från 2 aug 2026
-- Detta ERSÄTTER inte juridisk rådgivning — komplex klassificering ska verifieras av jurist
-- Böter upp till 35 MEUR eller 7 % av global omsättning — ta inte lätt på förbjuden-flaggan
+- Detta ERSÄTTER inte juridisk rådgivning, komplex klassificering ska verifieras av jurist
+- Böter upp till 35 MEUR eller 7 % av global omsättning, ta inte lätt på förbjuden-flaggan
 
 # Utdataformat
 1. **Klassificering**: förbjuden, hög, begränsad eller minimal risk med motivering
@@ -58,4 +58,4 @@ Geografisk marknad: [Sverige, EU, globalt]
 
 ## Användning
 
-Beskriv AI-systemet konkret med ändamål och användning. Verifiera alltid komplex klassificering med jurist — böter upp till 35 MEUR eller 7 % av global omsättning vid förbjuden kategori.
+Beskriv AI-systemet konkret med ändamål och användning. Verifiera alltid komplex klassificering med jurist, böter upp till 35 MEUR eller 7 % av global omsättning vid förbjuden kategori.

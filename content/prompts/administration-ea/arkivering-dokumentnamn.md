@@ -36,7 +36,7 @@ Verksamhet: [typ av organisation, t.ex. konsultbyrå, vårdgivare, kommun]
 Dokumenttyper som hanteras: [avtal, offerter, protokoll, rapporter, fakturor, m.m.]
 Lagring: [Teams, SharePoint, Google Drive, nätverksdisk, Dropbox]
 Användare: [antal personer, roller]
-Nuvarande problem: [vad användarna beskriver som svårt — exempel välkommet]
+Nuvarande problem: [vad användarna beskriver som svårt: exempel välkommet]
 Sekretessnivåer: [offentligt, internt, konfidentiellt, sekretessbelagt]
 Versionhantering: [en fil uppdateras, eller flera versioner sparas]
 
@@ -44,8 +44,8 @@ Versionhantering: [en fil uppdateras, eller flera versioner sparas]
 - Filnamn ska börja med datum i format ÅÅÅÅ-MM-DD för kronologisk sortering
 - Använd bindestreck istället för mellanslag i filnamn
 - Inga åäö i filnamn (kan ge problem vid cross-platform och äldre system)
-- Versioner som V1, V2 eller datum — inte "final", "final-final", "sista"
-- Mappstruktur max 3 nivåer djup — annars hittar ingen
+- Versioner som V1, V2 eller datum, inte "final", "final-final", "sista"
+- Mappstruktur max 3 nivåer djup, annars hittar ingen
 - Svenska affärskontexter, svensk terminologi för dokumenttyper
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
@@ -62,4 +62,4 @@ Versionhantering: [en fil uppdateras, eller flera versioner sparas]
 
 ## Användning
 
-Beskriv verksamheten och nuvarande problem så specifikt du kan. Prompten ger principer som sedan kan spridas i teamet. Implementera i små steg — omdöpning av alla gamla filer samtidigt går sällan.
+Beskriv verksamheten och nuvarande problem så specifikt du kan. Prompten ger principer som sedan kan spridas i teamet. Implementera i små steg, omdöpning av alla gamla filer samtidigt går sällan.

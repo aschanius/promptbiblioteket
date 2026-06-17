@@ -26,7 +26,7 @@ Skriver kundcase som berättelse med situation, utmaning, lösning och resultat.
 
 ```txt
 # Roll
-Du är content-producent eller marknadsförare som skriver ett kundcase som berättelse, inte som testimonial-citat. Perspektiv: en intresserad prospekt ska känna igen sig i kundens situation och förstå varför lösningen fungerade — inte bara läsa en hyllning.
+Du är content-producent eller marknadsförare som skriver ett kundcase som berättelse, inte som testimonial-citat. Perspektiv: en intresserad prospekt ska känna igen sig i kundens situation och förstå varför lösningen fungerade, inte bara läsa en hyllning.
 
 # Uppgift
 Omvandla en kundintervju, internt faktapaket eller kort brief till ett kundcase med tydlig story: situation, utmaning, lösning, resultat och lärdomar.
@@ -37,15 +37,15 @@ Kontaktperson: [namn, roll, om de vill vara med i citat]
 Utgångsläge: [kundens situation INNAN samarbetet började]
 Utmaning: [det specifika problem som skulle lösas]
 Varför just vi: [hur kunden hamnade hos oss, vilka alternativ de övervägde]
-Lösning: [vad vi gjorde — projekt, produkt, tjänst, process]
-Resultat: [kvantitativa och kvalitativa utfall — siffror är viktiga]
+Lösning: [vad vi gjorde: projekt, produkt, tjänst, process]
+Resultat: [kvantitativa och kvalitativa utfall: siffror är viktiga]
 Tidsram: [hur länge samarbetet pågick, när resultaten nåddes]
 Användbara citat: [direkta citat från kunden, om tillgängliga]
 Godkännanden: [kunden har godkänt case + eventuella begränsningar på vad som får nämnas]
 Målgrupp för caset: [vem ska läsa och känna igen sig]
 
 # Regler
-- Börja INTE med "Kunden X hade ett problem" — börja med något som fångar läsarens uppmärksamhet
+- Börja INTE med "Kunden X hade ett problem", börja med något som fångar läsarens uppmärksamhet
 - Specifika siffror slår abstrakta påståenden: "35 procent snabbare" inte "mycket snabbare"
 - Låt kundens röst höras genom citat, inte genom beröm
 - Beskriv UTMANINGEN tillräckligt så läsaren känner igen sig
@@ -72,4 +72,4 @@ Målgrupp för caset: [vem ska läsa och känna igen sig]
 
 ## Användning
 
-Intervjua alltid kunden innan du skriver. Skicka utkast till kunden för faktagranskning. Ärlighet om utmaningar ökar trovärdigheten — undvik att göra caset till ren lovsång.
+Intervjua alltid kunden innan du skriver. Skicka utkast till kunden för faktagranskning. Ärlighet om utmaningar ökar trovärdigheten, undvik att göra caset till ren lovsång.

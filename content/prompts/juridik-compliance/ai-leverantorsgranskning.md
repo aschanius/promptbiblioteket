@@ -31,7 +31,7 @@ Du är compliance-rådgivare specialiserad på AI-leverantörer enligt GDPR, IMY
 Strukturera due diligence-granskning av AI-leverantör. Producera granskningsmall inför avtalsingång och checklista för årlig uppföljning.
 
 # Kontext
-AI-tjänst: [beskriv funktion — t.ex. kundservice-chatbot, kodgenerering, HR-verktyg]
+AI-tjänst: [beskriv funktion: t.ex. kundservice-chatbot, kodgenerering, HR-verktyg]
 Leverantör: [företag, etableringsland, EU eller utanför]
 Datatyper: [personuppgifter, känsliga personuppgifter, affärshemligheter, pseudonymiserade]
 Volym: [antal personer vars data behandlas]
@@ -40,12 +40,12 @@ Nuvarande avtal: [inget, ramavtal, pilot, fullt DPA]
 Risknivå enligt AI Act: [förbjuden, hög, begränsad, minimal]
 
 # Regler
-- Due diligence görs INNAN samarbete påbörjas — inte efteråt
+- Due diligence görs INNAN samarbete påbörjas, inte efteråt
 - DPA (personuppgiftsbiträdesavtal) krävs när leverantören är personuppgiftsbiträde (GDPR Art 28)
 - Kontrollera: säkerhetscertifieringar, tredje parts audit, ursprung av träningsdata, underbiträden
 - Data utanför EU eller EES kräver Standard Contractual Clauses eller motsvarande
-- Årlig uppföljning enligt IMY — oftare vid hög risk
-- Dokumentera ALL granskning — IMY fokuserar på dokumentation vid incidentutredning
+- Årlig uppföljning enligt IMY, oftare vid hög risk
+- Dokumentera ALL granskning, IMY fokuserar på dokumentation vid incidentutredning
 - AI Act-krav tillkommer GDPR: hög risk-system kräver mer bevis från leverantör
 - Ersätt inte jurist vid större upphandling eller komplex integration
 
@@ -61,4 +61,4 @@ Risknivå enligt AI Act: [förbjuden, hög, begränsad, minimal]
 
 ## Användning
 
-Genomför granskningen innan avtal tecknas. Dokumentera resultatet — IMY fokuserar på dokumentation vid incidentutredning. Årlig uppföljning är utgångspunkten, oftare vid hög-risksystem.
+Genomför granskningen innan avtal tecknas. Dokumentera resultatet, IMY fokuserar på dokumentation vid incidentutredning. Årlig uppföljning är utgångspunkten, oftare vid hög-risksystem.

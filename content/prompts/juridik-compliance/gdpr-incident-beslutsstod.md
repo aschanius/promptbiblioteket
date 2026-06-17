@@ -46,7 +46,7 @@ Nuvarande åtgärder: [lista]
 - Följ GDPR artikel 33 (anmälan till tillsynsmyndighet) och artikel 34 (information till registrerade)
 - 72-timmarsfönstret räknas från när någon i organisationen blev medveten om incidenten, inte från själva händelsen
 - Bedöm sannolikhet för risk/hög risk för de registrerades rättigheter och friheter
-- Osäkerhet talar FÖR anmälan — IMY föredrar överanmälan över underanmälan
+- Osäkerhet talar FÖR anmälan, IMY föredrar överanmälan över underanmälan
 - Hänvisa till IMY:s vägledning där relevant
 - Svenska utan tankstreck i brödtext
 - Markera punkter där juridisk rådgivning krävs
@@ -63,4 +63,4 @@ Nuvarande åtgärder: [lista]
 
 ## Användning
 
-Kör omedelbart vid misstanke om personuppgiftsincident. Fyll i så mycket fakta du har — osäkerhet är OK och ska flaggas. Prompten ersätter inte dataskyddsombud eller juridisk rådgivning, men ger strukturerat underlag att utgå från.
+Kör omedelbart vid misstanke om personuppgiftsincident. Fyll i så mycket fakta du har, osäkerhet är OK och ska flaggas. Prompten ersätter inte dataskyddsombud eller juridisk rådgivning, men ger strukturerat underlag att utgå från.

@@ -29,7 +29,7 @@ Producerar transparensinformation till kandidater om AI-användning i rekryterin
 Du är rekryteringsansvarig eller HR-specialist i en svensk organisation som använder AI i någon del av rekryteringsprocessen. Perspektiv: följa EU AI Act och GDPR samtidigt som kandidater informeras öppet utan att skrämma bort dem.
 
 # Uppgift
-Producera ALLA utdataformatets delar som komplett, färdigskriven text — inte sammanfattning eller beskrivning. Leverera transparensinformation till kandidater om hur AI används i rekryteringsprocessen: vilka steg som involverar AI, hur besluten fattas, och kandidatens rättigheter att invända eller begära mänsklig bedömning.
+Producera ALLA utdataformatets delar som komplett, färdigskriven text, inte sammanfattning eller beskrivning. Leverera transparensinformation till kandidater om hur AI används i rekryteringsprocessen: vilka steg som involverar AI, hur besluten fattas, och kandidatens rättigheter att invända eller begära mänsklig bedömning.
 
 # Kontext
 Organisation: [namn, bransch]
@@ -42,14 +42,14 @@ Dataskyddsombud eller kontaktperson för frågor: [namn, roll]
 Tillämpliga kollektivavtal: [om relevant]
 
 # Regler
-- EU AI Act klassificerar AI i rekrytering som hög risk — det kräver transparens, dokumentation och mänsklig översikt
+- EU AI Act klassificerar AI i rekrytering som hög risk, det kräver transparens, dokumentation och mänsklig översikt
 - GDPR artikel 22 ger individer rätt att inte bli föremål för helt automatiserat beslut
 - Information ska vara konkret: inte "AI används i processen" utan "ett AI-verktyg läser ditt CV och matchar mot kompetenskraven"
 - Kandidaten ska veta HUR besluten fattas och VEM som bär ansvar
 - Rätten att begära mänsklig bedömning ska vara tydlig och lätt att utöva
-- Undvik juridisk jargong — kandidaten ska förstå utan att vara jurist
+- Undvik juridisk jargong, kandidaten ska förstå utan att vara jurist
 - Svenska utan tankstreck i brödtext
-- Ingen överinformation — håll det kort och konkret, cirka 200–300 ord
+- Ingen överinformation, håll det kort och konkret, cirka 200–300 ord
 
 # Utdataformat
 1. **Transparenstext till kandidat**: komplett text som kan läggas i jobbannonsen eller skickas med första kontakten, cirka 200 ord
@@ -62,4 +62,4 @@ Tillämpliga kollektivavtal: [om relevant]
 
 ## Användning
 
-Fyll i noggrant hur AI faktiskt används — överdriv inte och förringa inte. Granska texten med dataskyddsombud och gärna en extern kandidat för tydlighet. Uppdatera texten varje gång AI-användningen förändras.
+Fyll i noggrant hur AI faktiskt används, överdriv inte och förringa inte. Granska texten med dataskyddsombud och gärna en extern kandidat för tydlighet. Uppdatera texten varje gång AI-användningen förändras.

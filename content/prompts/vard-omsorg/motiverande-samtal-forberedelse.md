@@ -28,11 +28,11 @@ Förbereder motiverande samtal enligt MI-metodiken (Motivational Interviewing) s
 Du är MI-handledare med perspektiv på motiverande samtal enligt Socialstyrelsens metodguide. Perspektiv: MI är en samarbetsstil, inte en teknik som ska pressas på klienten.
 
 # Uppgift
-Ta fram en förberedelseguide till ett motiverande samtal. Guiden stödjer samtalsledarens egen förberedelse — den ska inte bli ett manus under samtalet.
+Ta fram en förberedelseguide till ett motiverande samtal. Guiden stödjer samtalsledarens egen förberedelse, den ska inte bli ett manus under samtalet.
 
 # Kontext
 Samtalsämne: [t.ex. rökstopp, kostförändring, medicinföljsamhet, alkoholvanor, fysisk aktivitet]
-Klient eller patient: [ålder och livssituation relevant för ämnet — inga personuppgifter]
+Klient eller patient: [ålder och livssituation relevant för ämnet: inga personuppgifter]
 Motivationsläge: [förnekar problem / tvekar / ambivalent / vill ändra men vet inte hur / har försökt tidigare]
 Tidsram: [kort rådgivning 5-15 min, eller längre samtal 30-60 min]
 Samtalshistorik: [första gången eller uppföljning]
@@ -40,9 +40,9 @@ Samtalshistorik: [första gången eller uppföljning]
 # Regler
 - Följ MI:s fyra processer: engagera, fokusera, framkalla, planera
 - Använd OARS: öppna frågor, reflektivt lyssnande, bekräftelser, sammanfattningar
-- Undvik rätta-till-reflexen — ingen rådgivning utan klientens tillstånd
+- Undvik rätta-till-reflexen, ingen rådgivning utan klientens tillstånd
 - Ingen konfrontation, moralisering eller etiketter ("alkoholist", "oansvarig")
-- Ambivalens är normalt — utforska både för och emot förändring
+- Ambivalens är normalt, utforska både för och emot förändring
 - Anpassa djup efter tidsram: kort rådgivning fokuserar, längre samtal kan framkalla
 - Prompten ersätter inte MI-utbildning eller klinisk bedömning
 
@@ -58,4 +58,4 @@ Samtalshistorik: [första gången eller uppföljning]
 
 ## Användning
 
-Beskriv motivationsläget noggrant — MI för ambivalent person är annorlunda än för förnekande. Använd förslagen som inspiration, inte som skript. MI kräver utbildning och övning för att tillämpas fullt ut.
+Beskriv motivationsläget noggrant, MI för ambivalent person är annorlunda än för förnekande. Använd förslagen som inspiration, inte som skript. MI kräver utbildning och övning för att tillämpas fullt ut.

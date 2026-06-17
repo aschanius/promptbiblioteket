@@ -26,7 +26,7 @@ Förbereder leverantörsförhandling med mål, position, smärtgräns, BATNA och
 
 ```txt
 # Roll
-Du är affärsägare eller inköpsansvarig på ett SME som ska förhandla med en leverantör. Perspektiv: SME har sällan inköpsavdelning eller dedikerad förhandlare — förberedelsen måste vara egen och smart.
+Du är affärsägare eller inköpsansvarig på ett SME som ska förhandla med en leverantör. Perspektiv: SME har sällan inköpsavdelning eller dedikerad förhandlare, förberedelsen måste vara egen och smart.
 
 # Uppgift
 Ta fram en förhandlingsbrief med mål, alternativ, givakt-punkter och frågor inför ett konkret förhandlingssamtal med en leverantör.
@@ -36,20 +36,20 @@ Leverantör: [företag, vad de levererar, hur länge de varit kund/leverantör h
 Volym: [nuvarande avtalsvärde per år, volym, prisnivå]
 Samtalssyfte: [omförhandling vid avtalsslut, prishöjning från dem, kvalitetsproblem, utökat samarbete]
 Vårt nuläge: [ekonomisk situation, beroende av denna leverantör, alternativ vi har]
-Leverantörens situation: [vad vi tror om deras situation — kapacitet, konkurrens, önskan att behålla oss]
-Vad vi vill uppnå: [konkret — pris, villkor, servicenivå, flexibilitet]
+Leverantörens situation: [vad vi tror om deras situation: kapacitet, konkurrens, önskan att behålla oss]
+Vad vi vill uppnå: [konkret: pris, villkor, servicenivå, flexibilitet]
 Vad vi är beredda att ge: [längre avtal, större volym, referens, snabbare betalning]
 Deadline för samtalet: [när måste beslut fattas]
 Tidigare förhandlingar: [hur har det gått, vad fungerade, vad fastnade]
-Vår BATNA: [bästa alternativa handlingsväg om detta inte blir — byte, egen produktion, avstå]
+Vår BATNA: [bästa alternativa handlingsväg om detta inte blir: byte, egen produktion, avstå]
 
 # Regler
 - Skilj mellan MÅL (vad vi vill uppnå) och POSITION (vår ingångspunkt) och SMÄRTGRÄNS (där vi går)
-- BATNA är avgörande — utan den är det vädjan, inte förhandling
+- BATNA är avgörande, utan den är det vädjan, inte förhandling
 - Identifiera ANCHORS som vi bör sätta tidigt i samtalet
 - Förutse vanliga invändningar och förbered svar
 - Säkra att BEHOV (vad vi verkligen måste ha) skilj från ÖNSKEMÅL
-- Ingen överförhandling — om relationen är viktig långsiktigt, lämna utrymme för motparten att vinna något
+- Ingen överförhandling, om relationen är viktig långsiktigt, lämna utrymme för motparten att vinna något
 - Svensk affärsförhandlingsstil (mjuk men konkret)
 - Inga tankstreck som parentetisk avgränsare i brödtext
 - Inga klargörande frågor, leverera färdigt resultat direkt
@@ -70,4 +70,4 @@ Vår BATNA: [bästa alternativa handlingsväg om detta inte blir — byte, egen 
 
 ## Användning
 
-Förbered briefen minst 2 dagar innan samtalet så att du hinner tänka. BATNA är det viktigaste — utan en trovärdig backup har du lite att stå på. Ta anteckningar under samtalet och jämför utfall mot briefen efteråt.
+Förbered briefen minst 2 dagar innan samtalet så att du hinner tänka. BATNA är det viktigaste, utan en trovärdig backup har du lite att stå på. Ta anteckningar under samtalet och jämför utfall mot briefen efteråt.

@@ -40,7 +40,7 @@ Referensens relation till kandidaten: [tidigare chef, kollega, underställd, kun
 Tid för referenssamtalet: [vanligen 20–30 min]
 
 # Regler
-- Inled med öppna, låga-inträdeströskel-frågor — inte "är kandidaten bra på X"
+- Inled med öppna, låga-inträdeströskel-frågor, inte "är kandidaten bra på X"
 - Ställ EN fråga i taget, vänta på svar
 - Använd beteendebaserade frågor ("kan du beskriva en situation där…")
 - Varva brett-fokuserade med specifika (verifiera CV-påståenden)
@@ -61,4 +61,4 @@ Tid för referenssamtalet: [vanligen 20–30 min]
 
 ## Användning
 
-Kör INNAN referenssamtalet, gärna dagen innan så frågorna sitter. Ta anteckningar under samtalet — skriv INTE ner ordagrant, sammanfatta bedömningen. Makulera anteckningar efter rekryteringens slut enligt dataskyddsrutin.
+Kör INNAN referenssamtalet, gärna dagen innan så frågorna sitter. Ta anteckningar under samtalet, skriv INTE ner ordagrant, sammanfatta bedömningen. Makulera anteckningar efter rekryteringens slut enligt dataskyddsrutin.

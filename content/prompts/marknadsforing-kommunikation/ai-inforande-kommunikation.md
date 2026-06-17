@@ -19,7 +19,7 @@ tags:
 ---
 ## Syfte
 
-Strukturerar intern och extern kommunikation vid AI-införande. Bygger förtroende genom transparens — 77 % av kunder förväntar sig öppenhet om AI-användning.
+Strukturerar intern och extern kommunikation vid AI-införande. Bygger förtroende genom transparens, 77 % av kunder förväntar sig öppenhet om AI-användning.
 
 ## Prompt
 
@@ -36,17 +36,17 @@ Påverkan på arbete: [ersätter uppgifter, stödjer uppgifter, omfördelar, aut
 Personalpåverkan: [ingen neddragning, omplacering, ny roll, risk för uppsägning]
 Kunder: [B2B, B2C, offentlig tjänst]
 Transparenskrav: [AI Act Art 50 för chatbotar, GDPR för automatiserade beslut]
-Kollektivavtal: [ja eller nej — påverkar MBL-förhandling]
+Kollektivavtal: [ja eller nej: påverkar MBL-förhandling]
 Tidsram: [införande från datum X]
 
 # Regler
-- Kommunicera FÖRE införandet, inte efter — oro odlas i tystnaden
+- Kommunicera FÖRE införandet, inte efter, oro odlas i tystnaden
 - Skilj budskap per målgrupp: anställda vill veta "vad händer med mitt jobb", kunder "hur påverkas mig"
-- Transparens om vad AI gör OCH vad den inte gör — ärligt om begränsningar
+- Transparens om vad AI gör OCH vad den inte gör, ärligt om begränsningar
 - Vid personaleffekter: MBL-förhandling innan beslut, inte efter
 - AI Act Art 50: chatbotar måste avslöja att det är AI
 - Automatiserade beslut som påverkar individer: GDPR Art 22 kräver möjlighet till mänsklig granskning
-- Feedback-kanal från medarbetare och kunder — envägskommunikation skapar motstånd
+- Feedback-kanal från medarbetare och kunder, envägskommunikation skapar motstånd
 - Uppföljning: mät förtroende, inte bara förståelse
 
 # Utdataformat

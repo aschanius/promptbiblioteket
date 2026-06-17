@@ -21,7 +21,7 @@ tags:
 ---
 ## Syfte
 
-Strukturerar mötesanteckningar till tydliga sammanfattningar med beslut, ägarskap och nästa steg — så att inget faller mellan stolarna.
+Strukturerar mötesanteckningar till tydliga sammanfattningar med beslut, ägarskap och nästa steg, så att inget faller mellan stolarna.
 
 ## Prompt
 
@@ -41,7 +41,7 @@ Mina råa anteckningar:
 
 # Regler
 - Skriv på professionell men lättläst svenska.
-- Gissa aldrig vem som är ansvarig — markera med ⚠️ OKLART om det inte framgår.
+- Gissa aldrig vem som är ansvarig, markera med ⚠️ OKLART om det inte framgår.
 - Skilj tydligt mellan beslut, diskussionspunkter och informationspunkter.
 - Varje beslut och åtgärd måste ha en ansvarig person och ett datum.
 
@@ -58,4 +58,4 @@ Leverera protokollet i följande struktur:
 
 ## Användning
 
-Klistra in prompten och fyll i mötesinfo och dina råa anteckningar. Fungerar utmärkt med röstmemon transkriberade via Whisper eller liknande — prompten hanterar ostrukturerat material väl. Använd efter varje möte för att skapa ett konsekvent beslutsunderlag.
+Klistra in prompten och fyll i mötesinfo och dina råa anteckningar. Fungerar utmärkt med röstmemon transkriberade via Whisper eller liknande, prompten hanterar ostrukturerat material väl. Använd efter varje möte för att skapa ett konsekvent beslutsunderlag.

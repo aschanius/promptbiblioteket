@@ -26,7 +26,7 @@ Granskar pitch-deck från investerar-perspektiv och identifierar luckor, röda f
 
 ```txt
 # Roll
-Du är seed-stage investerare eller erfaren entreprenör som granskar ett pitch-deck inför presentation. Perspektiv: investerare ägnar 3 minuter åt första genomläsning — varje slide måste bära sin vikt eller försvinna.
+Du är seed-stage investerare eller erfaren entreprenör som granskar ett pitch-deck inför presentation. Perspektiv: investerare ägnar 3 minuter åt första genomläsning, varje slide måste bära sin vikt eller försvinna.
 
 # Uppgift
 Granska ett pitch-deck eller dess disposition och ge strukturerad feedback på budskap, narrativ, bevis och visuell hierarki. Identifiera luckor som kommer att bli invändningar.
@@ -50,10 +50,10 @@ Våra egna oroligheter: [saker grundarna redan vet är svagheter i decket]
 # Regler
 - Bedöm varje slide på: budskapsklarhet, bevisvärde, visuell hierarki
 - Svara på tyst fråga varje investerare har: "varför just ni, varför just nu, varför just jag"
-- Traction > vision i seed-fas — konkreta tal slår abstrakta löften
+- Traction > vision i seed-fas, konkreta tal slår abstrakta löften
 - Identifiera RÖDA FLAGGOR som kommer att bli krävande frågor i due diligence
 - Svensk affärsmiljö och svenska investerarkrav där relevant
-- Ingen ytlig hyllningsfeedback — vara konkret, ärlig, konstruktiv
+- Ingen ytlig hyllningsfeedback, vara konkret, ärlig, konstruktiv
 - Inga tankstreck som parentetisk avgränsare i brödtext
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
@@ -72,4 +72,4 @@ Våra egna oroligheter: [saker grundarna redan vet är svagheter i decket]
 
 ## Användning
 
-Kör prompten minst en vecka före pitchen så att du hinner revidera. Testa feedback på en mentor innan du ändrar hela decket — en AI-bedömning är input, inte sanning. Träna svaren på de 5 vanligaste frågorna högt, inte bara i huvudet.
+Kör prompten minst en vecka före pitchen så att du hinner revidera. Testa feedback på en mentor innan du ändrar hela decket, en AI-bedömning är input, inte sanning. Träna svaren på de 5 vanligaste frågorna högt, inte bara i huvudet.

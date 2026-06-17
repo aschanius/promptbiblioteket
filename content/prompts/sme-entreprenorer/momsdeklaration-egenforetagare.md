@@ -3,7 +3,7 @@ title: "Momsdeklaration: förberedelse för egenföretagare"
 slug: momsdeklaration-egenforetagare
 category: sme-entreprenorer
 source_url: https://www.skatteverket.se/foretag/moms
-source_author: Skatteverket — Moms
+source_author: Skatteverket, Moms
 source_lang: sv
 rating: 4.3
 version: "1.0"
@@ -40,16 +40,16 @@ Periodens transaktioner: [antal kundfakturor, antal leverantörsfakturor, uppska
 Momssatser som är relevanta: [25 procent standardmoms, 12 procent livsmedel/hotell, 6 procent böcker/tidningar/transport, 0 procent export inom EU/utom EU]
 Omvänd skattskyldighet: [om vi köpt varor/tjänster från EU eller utomlands, ja/nej]
 Upplösningsmoms: [investeringar vi köpt och ska dra av momsen på]
-Föregående period: [återbetalning eller att betala — för jämförelse]
+Föregående period: [återbetalning eller att betala: för jämförelse]
 Särskilda händelser: [stora enskilda fakturor, kundförluster, kreditfakturor, företagsöverföring]
 Osäkra poster: [transaktioner där jag är osäker på moms-hanteringen]
 
 # Regler
 - Använd Skatteverkets terminologi och riktlinjer från skatteverket.se
 - Separera UTGÅENDE moms (från våra fakturor) och INGÅENDE moms (på våra inköp)
-- Kontrollera balansen mellan bokföring och deklaration — skillnader måste utredas
+- Kontrollera balansen mellan bokföring och deklaration, skillnader måste utredas
 - Flagga alltid OMVÄND SKATTSKYLDIGHET (EU-köp, byggtjänster) separat
-- Varor/tjänster FRÅN privatperson utan moms — korrekt hanterat?
+- Varor/tjänster FRÅN privatperson utan moms, korrekt hanterat?
 - Svenska belopp, svenska skatteperioder, svensk terminologi
 - Inga tankstreck som parentetisk avgränsare i brödtext
 - Inga klargörande frågor, leverera färdigt resultat direkt
@@ -70,4 +70,4 @@ Osäkra poster: [transaktioner där jag är osäker på moms-hanteringen]
 
 ## Användning
 
-Deklarationen är ALLTID företagarens ansvar — denna prompt hjälper med strukturen, men kontrollen ska alltid göras mot Skatteverkets senaste regler. Vid osäkerhet: kontakta redovisningskonsult eller ring Skatteverkets företagarservice innan inskick.
+Deklarationen är ALLTID företagarens ansvar, denna prompt hjälper med strukturen, men kontrollen ska alltid göras mot Skatteverkets senaste regler. Vid osäkerhet: kontakta redovisningskonsult eller ring Skatteverkets företagarservice innan inskick.

@@ -45,7 +45,7 @@ Utkast till Key Results (om finns): [lista]
 - Key Results: mätbara, tidsbundna, 3–5 per Objective
 - KR ska vara utfallsorienterade (outcome), inte aktivitetsorienterade (fel: "hålla 20 kundmöten", rätt: "få 5 nya kunder signerade")
 - Ambition: KR ska vara svåra (60–70 procent trolig måluppfyllelse), inte garanterade
-- Undvik mer än 3 Objectives — fokus är poängen
+- Undvik mer än 3 Objectives, fokus är poängen
 - Svenska utan tankstreck i brödtext
 - Var konkret med siffror, procent, datum
 

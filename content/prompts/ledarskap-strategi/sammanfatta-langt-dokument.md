@@ -43,9 +43,9 @@ Dokument:
 - Om dokumentet innehåller rekommendationer, lyft fram dem explicit
 
 # Utdataformat
-1. **Enrading** (max 15 ord) — kärnan i dokumentet
-2. **Stycke** (max 100 ord) — de viktigaste punkterna
-3. **Detaljerad** (max 300 ord) — huvudinnehållet med nyckeltal och beslut i punktlista
+1. **Enrading** (max 15 ord): kärnan i dokumentet
+2. **Stycke** (max 100 ord): de viktigaste punkterna
+3. **Detaljerad** (max 300 ord): huvudinnehållet med nyckeltal och beslut i punktlista
 ```
 
 ## Användning

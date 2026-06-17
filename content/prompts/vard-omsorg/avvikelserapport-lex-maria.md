@@ -33,17 +33,17 @@ Strukturera underlaget nedan till utkast för avvikelserapport. Producera analys
 # Kontext
 Typ: [Lex Maria för hälso- och sjukvård, eller Lex Sarah för socialtjänst]
 Händelse: [kort beskrivning utan personuppgifter]
-Datum och plats: [när och var — utan identifierande detaljer]
+Datum och plats: [när och var: utan identifierande detaljer]
 Rådata:
-[klistra in anteckningar, vittnesmål eller observationer — ANVÄND ALDRIG personnummer, namn eller andra identifierare]
+[klistra in anteckningar, vittnesmål eller observationer: ANVÄND ALDRIG personnummer, namn eller andra identifierare]
 Redan vidtagna åtgärder: [vad har gjorts direkt efter händelsen]
 
 # Regler
 - Struktur enligt regelverk: händelseförlopp → orsaker → riskbedömning → åtgärder → uppföljning
 - Skilj på utlösande, bakomliggande och bidragande orsaker
-- Beskriv konsekvens och allvarsgrad — men slutlig bedömning av allvarlig vårdskada tas av chefläkare eller MAS/MAR
+- Beskriv konsekvens och allvarsgrad, men slutlig bedömning av allvarlig vårdskada tas av chefläkare eller MAS/MAR
 - Åtgärder ska vara både omedelbara (skydd och stopp) och systemförebyggande
-- Inga personuppgifter i AI-verktyget — strukturera endast själva analysen
+- Inga personuppgifter i AI-verktyget, strukturera endast själva analysen
 - Prompten ersätter INTE vårdgivarens egen utredning. Slutligt beslut om anmälan till IVO tas av ansvarig roll
 - Utkastet ska kompletteras och kvalitetssäkras i vårdgivarens avvikelsesystem
 

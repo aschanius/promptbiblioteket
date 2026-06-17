@@ -37,17 +37,17 @@ Resa: [destination, syfte, datum från–till]
 Transportsätt: [flyg, tåg, bil, taxi, kombinerat]
 Logi: [hotell, egen övernattning hos bekant]
 Kvitton: [lista eller beskrivning av samlade kvitton]
-Måltider som bjudits av värd: [datum, måltid — styr traktamentsavdrag]
+Måltider som bjudits av värd: [datum, måltid: styr traktamentsavdrag]
 Resepolicy: [företagets resepolicy om finns]
 Traktamentsnivå: [Sverige 280 kr/dag, utlandstraktamente enligt Skatteverkets tabell]
 
 # Regler
-- Följ Skatteverkets traktamentsregler — hel dag, halv dag, nedsättning vid fri kost (frukost 20 procent, lunch 35 procent, middag 35 procent)
+- Följ Skatteverkets traktamentsregler, hel dag, halv dag, nedsättning vid fri kost (frukost 20 procent, lunch 35 procent, middag 35 procent)
 - Utlandstraktamente enligt Skatteverkets tabell för land
 - Bilersättning: skattefri del 25 kr/mil (2026), överskjutande beskattas
 - Representation: företag bjuder = reducerad avdragsrätt enligt Skatteverkets regler
 - Kvitto krävs för belopp över 100 kr (exklusive representation där alltid kvitto)
-- Skilj på PRIVAT och TJÄNST — kvällsmat på egen hand efter konferens räknas
+- Skilj på PRIVAT och TJÄNST, kvällsmat på egen hand efter konferens räknas
 - Svenska belopp och datum
 
 # Utdataformat
@@ -64,4 +64,4 @@ Traktamentsnivå: [Sverige 280 kr/dag, utlandstraktamente enligt Skatteverkets t
 
 ## Användning
 
-Samla alla kvitton innan du kör prompten. Fyll i resenär, resa och kvitton — prompten strukturerar resten. Kontrollera alltid mot gällande Skatteverkets traktamentstabeller; de uppdateras årligen.
+Samla alla kvitton innan du kör prompten. Fyll i resenär, resa och kvitton, prompten strukturerar resten. Kontrollera alltid mot gällande Skatteverkets traktamentstabeller; de uppdateras årligen.

@@ -39,13 +39,13 @@ Regulatorisk kontext: [GDPR, AI Act, branschspecifik reglering]
 Avtalsform: [kollektivavtal eller ej]
 
 # Regler
-- Policyn ska rymmas på 2-3 A4 — medarbetare läser inte längre
+- Policyn ska rymmas på 2-3 A4, medarbetare läser inte längre
 - Fokusera på vad som ÄR tillåtet, inte bara förbud
 - Inkludera konkret datahanterings-sektion: vilken data får skickas in, vilken får inte
 - Ange kanal för incidentrapportering (dataläcka, felaktig AI-output som påverkat beslut)
-- Referera AI Act Artikel 4 om kompetenskrav — gäller från 2 feb 2025
+- Referera AI Act Artikel 4 om kompetenskrav, gäller från 2 feb 2025
 - Hänvisa till GDPR vid personuppgiftsfrågor, detaljera inte regelverket
-- Ersätt inte förhandling med fack — vid kollektivavtal kräver ändring MBL-förhandling
+- Ersätt inte förhandling med fack, vid kollektivavtal kräver ändring MBL-förhandling
 
 # Utdataformat
 1. **Syfte**: varför policyn finns (3-5 rader)
@@ -60,4 +60,4 @@ Avtalsform: [kollektivavtal eller ej]
 
 ## Användning
 
-Specificera vilka AI-verktyg som redan används och vilken känslig data organisationen hanterar. Vid kollektivavtal krävs MBL-förhandling innan policyn införs — utkastet är underlag, inte beslut.
+Specificera vilka AI-verktyg som redan används och vilken känslig data organisationen hanterar. Vid kollektivavtal krävs MBL-förhandling innan policyn införs, utkastet är underlag, inte beslut.

@@ -19,7 +19,7 @@ tags:
 ---
 ## Syfte
 
-Hjälper assistenter och koordinatorer att snabbt bygga en strukturerad mötesagenda med tidsbudget, beslutspunkter och förberedelsematerial — så att mötet faktiskt leder någonstans.
+Hjälper assistenter och koordinatorer att snabbt bygga en strukturerad mötesagenda med tidsbudget, beslutspunkter och förberedelsematerial, så att mötet faktiskt leder någonstans.
 
 ## Prompt
 
@@ -54,7 +54,7 @@ Underlag: [klistra in mötesbakgrund, tidigare protokoll eller relevant material
 
 ## Användning
 
-Komplettera med kända öppna punkter från tidigare protokoll — då blir agendan skarp och relevant. För stående möten: spara ett första agendaförslag som mall och uppdatera bara kontext + kända frågor inför varje ny vecka.
+Komplettera med kända öppna punkter från tidigare protokoll, då blir agendan skarp och relevant. För stående möten: spara ett första agendaförslag som mall och uppdatera bara kontext + kända frågor inför varje ny vecka.
 
 ## Testresultat
 

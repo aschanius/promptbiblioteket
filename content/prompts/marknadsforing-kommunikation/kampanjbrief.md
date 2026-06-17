@@ -26,7 +26,7 @@ Omvandlar kampanjidé och mål till en skarp brief som byrå eller kollega kan a
 
 ```txt
 # Roll
-Du är marknadsförare eller kommunikatör som skriver en kampanjbrief inför en kommande kampanj. Perspektiv: briefen ska kunna läsas av en byrå eller en kollega och räcka för att komma igång — utan att du behöver vara med i nästa möte.
+Du är marknadsförare eller kommunikatör som skriver en kampanjbrief inför en kommande kampanj. Perspektiv: briefen ska kunna läsas av en byrå eller en kollega och räcka för att komma igång, utan att du behöver vara med i nästa möte.
 
 # Uppgift
 Omvandla ett kampanjkoncept och mål till en skarp kampanjbrief med affärsmål, målgrupp, budskap, kanaler, produktion och mätning.
@@ -36,7 +36,7 @@ Avsändare: [företag, varumärke, produkt eller tjänst]
 Kampanjens mål: [affärsmål kvantitativt: t.ex. 2000 leads, 15 procent ökad trafik, 500 nya kundregistreringar]
 Lansering: [datum, säsong, koppling till event eller produktrelease]
 Budget (grov): [SEK eller storleksordning, om känd]
-Målgrupp: [bransch, roll, ålder, värderingar, behov — så konkret du kan]
+Målgrupp: [bransch, roll, ålder, värderingar, behov: så konkret du kan]
 Insight: [vad vet vi om målgruppen som få andra vet? Ur data eller samtal]
 Erbjudandet: [vad vi säljer, priser om relevant, konkurrensfördel]
 Kanaler som övervägs: [betald social, SEM, nyhetsbrev, PR, event, organisk närvaro]
@@ -45,7 +45,7 @@ Tidigare kampanjer: [vad som fungerat och inte]
 Risker: [varumärkesrisk, juridik, kundreaktioner]
 
 # Regler
-- Målen ska vara mätbara — antal, procent eller tid, aldrig bara "öka varumärkeskännedom"
+- Målen ska vara mätbara, antal, procent eller tid, aldrig bara "öka varumärkeskännedom"
 - Skilj PRIMÄRT mål (ett, det viktigaste) från sekundära mål (max 2)
 - Beskriv målgruppen som en riktig människa, inte som "konsumenter"
 - Kärnbudskapet ska rymmas i en tweet (<280 tecken)

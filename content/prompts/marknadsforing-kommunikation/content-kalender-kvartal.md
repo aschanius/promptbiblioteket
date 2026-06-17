@@ -26,7 +26,7 @@ Skapar en content-kalender för ett kvartal med tema, format, målgrupp och ansv
 
 ```txt
 # Roll
-Du är content-ansvarig eller kommunikatör som planerar redaktionellt innehåll för ett helt kvartal. Perspektiv: kalendern ska göra det omöjligt att "kom igång med innehåll" — allt är redan bestämt.
+Du är content-ansvarig eller kommunikatör som planerar redaktionellt innehåll för ett helt kvartal. Perspektiv: kalendern ska göra det omöjligt att "kom igång med innehåll", allt är redan bestämt.
 
 # Uppgift
 Skapa en content-kalender för ett kvartal baserat på strategiska teman, affärsmål och tillgängliga resurser. Kalendern ska täcka vad, när, varför, av vem och i vilken kanal.
@@ -41,12 +41,12 @@ Känd händelser och tidpunkter: [mässor, produktrelease, säsongsevent, kundev
 Kanaler: [LinkedIn, nyhetsbrev, blogg, YouTube, Instagram, podcast, egna event]
 Publiceringsfrekvens per kanal: [t.ex. blogg 1/vecka, LinkedIn 3/vecka, nyhetsbrev 2/månad]
 Resurser: [inhouse team, frilans, extern byrå]
-Tidigare toppmätningar: [vad som engagerat mest hittills — för att bygga vidare]
+Tidigare toppmätningar: [vad som engagerat mest hittills: för att bygga vidare]
 
 # Regler
 - Varje innehåll ska ha en TYDLIG ROLL i kundresan: kännedom, intresse, övervägande, köp eller lojalitet
 - Balansera UNIKT innehåll (egen produktion) med KURERAT innehåll (delning av relevant från andra)
-- Lämna marginal för AKTUELLT (ca 20 procent) — plats för reaktion på händelser
+- Lämna marginal för AKTUELLT (ca 20 procent): plats för reaktion på händelser
 - Varje inlägg ska ha en målgrupp, ett tema och ett mål (inte alla tre samtidigt)
 - Återanvänd: ett långformat (blogg) blir 4-6 kortare format för olika kanaler
 - Svenska begrepp, svenska exempel

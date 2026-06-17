@@ -35,15 +35,15 @@ Målgrupp: [chefer, HR, jurister, IT, medarbetare i allmänhet, specifik roll]
 Gruppstorlek: [antal]
 Nuvarande AI-kompetens: [ingen, grundläggande, medel, expert]
 AI-användning i rollen: [dagligen, veckovis, sällan, inte alls]
-Känsliga beslut: [tas beslut baserat på AI-output — rekrytering, kreditbedömning, medicinsk triage]
+Känsliga beslut: [tas beslut baserat på AI-output: rekrytering, kreditbedömning, medicinsk triage]
 Organisationens AI-verktyg: [vilka används idag]
 Budget eller tid: [timmar per medarbetare]
 
 # Regler
 - Utgå från definitionen i Art 3.56: kompetens, kunskap och förståelse för att införa AI välgrundat och bli medveten om möjligheter, risker och potentiell skada
-- Differentiera djup efter roll — HR som fattar rekryteringsbeslut behöver mer än den som sammanfattar mötesnoteringar
+- Differentiera djup efter roll, HR som fattar rekryteringsbeslut behöver mer än den som sammanfattar mötesnoteringar
 - Inkludera fyra kunskapsområden: verktygsanvändning, risker (hallucinering, bias), datahantering (GDPR, sekretess), organisationens policy
-- Planen ska vara mätbar — hur verifieras att kunskapen nått fram
+- Planen ska vara mätbar, hur verifieras att kunskapen nått fram
 - Dokumentera planen så att den kan visas vid tillsyn
 - Repetition minst årligen, uppdatering vid nya verktyg eller större ändringar
 - Ersätt inte professionell utbildningsdesigner för komplexa program
@@ -59,4 +59,4 @@ Budget eller tid: [timmar per medarbetare]
 
 ## Användning
 
-Var noga med att ange AI-användning i rollen. En chef som fattar rekryteringsbeslut behöver annat djup än en person som sammanfattar mötesnoteringar. Dokumentera planen — den kan behöva visas vid tillsyn.
+Var noga med att ange AI-användning i rollen. En chef som fattar rekryteringsbeslut behöver annat djup än en person som sammanfattar mötesnoteringar. Dokumentera planen, den kan behöva visas vid tillsyn.

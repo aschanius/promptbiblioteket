@@ -43,9 +43,9 @@ Särskilda risker: [t.ex. offentlig upphandling, internationella kontakter, fina
 # Regler
 - Lagen gäller alla arbetsgivare med 50+ arbetstagare (vissa undantag kan höja gränsen till 250)
 - Intern rapporteringskanal: krav på oberoende, sekretess, återkoppling inom 7 dagar och uppföljning inom 3 månader
-- Extern kanal: rapportering till behörig myndighet — arbetstagaren väljer själv vilken kanal
+- Extern kanal: rapportering till behörig myndighet, arbetstagaren väljer själv vilken kanal
 - Skyddade personer: arbetstagare, praktikanter, volontärer, uppdragstagare, leverantörsanställda, aktieägare med arbetsuppgifter
-- Skydd mot repressalier — bevisbördan ligger hos arbetsgivaren
+- Skydd mot repressalier, bevisbördan ligger hos arbetsgivaren
 - Repressalieförbud gäller även om visselblåsningen visar sig obefogad, så länge rapporten lämnades i god tro
 - Personuppgiftshantering: känslig information, egna rättsliga grunder enligt lagen
 - Svenska utan tankstreck i brödtext

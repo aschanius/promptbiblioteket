@@ -26,7 +26,7 @@ Segmenterar en bred målgrupp till 3-5 distinkta segment med egna jobb, triggers
 
 ```txt
 # Roll
-Du är marknadsförare eller affärsstrateg som segmenterar en bred målgrupp till hanterbara segment. Perspektiv: segmenten ska vara olika nog att motivera olika budskap och kanaler — inte bara olika etiketter på samma grupp.
+Du är marknadsförare eller affärsstrateg som segmenterar en bred målgrupp till hanterbara segment. Perspektiv: segmenten ska vara olika nog att motivera olika budskap och kanaler, inte bara olika etiketter på samma grupp.
 
 # Uppgift
 Segmentera en bred målgrupp till 3-5 distinkta segment med egna behov, trigger, budskap och kanalförslag. Inkludera ett ICP (ideal customer profile) för det viktigaste segmentet.
@@ -35,18 +35,18 @@ Segmentera en bred målgrupp till 3-5 distinkta segment med egna behov, trigger,
 Företag eller produkt: [namn, kategori]
 Affärskontext: [B2B, B2C, B2B2C]
 Marknad: [geografisk, bransch, storlek på kundföretag om B2B]
-Bred målgrupp idag: [hur målgruppen beskrivs nu — ofta för brett]
+Bred målgrupp idag: [hur målgruppen beskrivs nu: ofta för brett]
 Kundinsikter: [kvantitativa fakta: åldrar, omsättning, branschfördelning. Kvalitativa citat: vad kunder säger]
 Data: [CRM-mönster, topp-segment efter lönsamhet, churn-mönster, NPS]
 Konkurrens: [vilka segment andra fokuserar på, eller missar]
-Affärsmål: [vad segmenteringen ska leda till — tillväxt, retention, prissättning, produktutveckling]
+Affärsmål: [vad segmenteringen ska leda till: tillväxt, retention, prissättning, produktutveckling]
 Segmenteringsprincipfel att undvika: [t.ex. demografi utan beteende, eller för snäva segment]
 
 # Regler
 - Ett segment måste vara MÄTBART (hur identifierar vi det?), NÅBART (kan vi nå det?), RELEVANT (värt att satsa på?) och DIFFERENTIERAT (skiljer sig från andra)
-- Blanda inte demografisk data med psykografisk utan koppling — ålder räcker sällan
+- Blanda inte demografisk data med psykografisk utan koppling, ålder räcker sällan
 - Segment ska ha 1-2 definierande jobb att göra (jobs to be done)
-- ICP är beskrivning av IDEALKUND, inte alla kunder — den ska vara spetsig
+- ICP är beskrivning av IDEALKUND, inte alla kunder, den ska vara spetsig
 - Undvik för många segment: 3-5 är hanterbart, 7+ blir ohanterligt
 - Svensk marknadsterminologi, svenska kundexempel
 - Inga klargörande frågor, leverera färdigt resultat direkt

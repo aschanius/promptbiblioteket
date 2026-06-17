@@ -43,7 +43,7 @@ Avtalstext: [klistra in hela PUB-avtalet]
 
 # Regler
 - Gå igenom ALLA nio obligatoriska punkter i artikel 28.3: föremål, varaktighet, art/ändamål, typ av uppgifter, kategori registrerade, personuppgiftsansvariges rättigheter/skyldigheter, biträdets skyldigheter (alla sex a–h)
-- Flagga om avtalet är för vagt ("nödvändiga åtgärder" utan specificering) — det är en vanlig brist
+- Flagga om avtalet är för vagt ("nödvändiga åtgärder" utan specificering): det är en vanlig brist
 - Hantering av underbiträden: krävs godkännande, förhandsgodkända, eller generellt godkännande med informationsplikt
 - Tredjelandsöverföring: SCC (Standard Contractual Clauses), BCR, eller adekvansbeslut
 - Revisionsrätt och inspektioner
@@ -63,4 +63,4 @@ Avtalstext: [klistra in hela PUB-avtalet]
 
 ## Användning
 
-Klistra in hela PUB-avtalet och fyll i kontext om behandlingen. Kör innan avtalet signeras. Prompten ersätter inte juridisk rådgivning för komplicerade avtal — men fångar de vanligaste bristerna.
+Klistra in hela PUB-avtalet och fyll i kontext om behandlingen. Kör innan avtalet signeras. Prompten ersätter inte juridisk rådgivning för komplicerade avtal, men fångar de vanligaste bristerna.

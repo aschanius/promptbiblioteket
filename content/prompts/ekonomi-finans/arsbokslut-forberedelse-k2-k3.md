@@ -44,7 +44,7 @@ Eventuella förändringar under året: [nyanställningar, nya avtal, ägarbyte, 
 - Skilj tydligt mellan punkter som revisorn/redovisningskonsulten hanterar och punkter som ägaren/företagaren själv måste förbereda
 - Flagga deadlines enligt Skatteverket och Bolagsverket (inkomstdeklaration, årsredovisning)
 - Svenska belopp och datum
-- Var konkret — undvik fraser som "se till att allt stämmer"
+- Var konkret, undvik fraser som "se till att allt stämmer"
 
 # Utdataformat
 1. **Deadlines**: tabell med datum, vad som ska lämnas in, till vem
@@ -56,4 +56,4 @@ Eventuella förändringar under året: [nyanställningar, nya avtal, ägarbyte, 
 
 ## Användning
 
-Fyll i företagsform och välj rätt regelverk. Kör 2–3 månader före räkenskapsårets slut för bästa effekt. Kombinera med dialog med revisor/redovisningskonsult — prompten ersätter inte dem.
+Fyll i företagsform och välj rätt regelverk. Kör 2–3 månader före räkenskapsårets slut för bästa effekt. Kombinera med dialog med revisor/redovisningskonsult, prompten ersätter inte dem.

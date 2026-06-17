@@ -35,17 +35,17 @@ Analysera en elevs arbete mot aktuella kunskapskrav och producera ett betygsunde
 Ämne och årskurs: [t.ex. svenska åk 9, samhällskunskap gymnasiet kurs 1b]
 Läroplan: [Lgr22 eller GY2025]
 Kunskapskrav som ska bedömas: [klistra in de relevanta formuleringarna från kursplanen]
-Elevens arbete: [beskriv: enskilda arbeten, prov, muntliga redovisningar, gruppuppgifter — lista med datum om möjligt]
+Elevens arbete: [beskriv: enskilda arbeten, prov, muntliga redovisningar, gruppuppgifter: lista med datum om möjligt]
 Konkreta observationer: [exempel på vad eleven visat, citat, bedömningsanteckningar]
 Särskilt stöd eller anpassningar: [om det finns]
 
 # Regler
 - Skilj TYDLIGT mellan observation och tolkning. Observation: "eleven kopplar industriella revolutionen till miljöfrågan." Tolkning: "visar välutvecklad förmåga att se orsakssamband."
 - Använd de exakta orden från kunskapskravet ("i huvudsak", "utvecklat", "välutvecklat", "mer utvecklat")
-- Sätt INTE ett slutgiltigt betyg — leverera underlag som läraren kan grunda sitt beslut på
+- Sätt INTE ett slutgiltigt betyg, leverera underlag som läraren kan grunda sitt beslut på
 - Flagga om det finns kunskapskrav som ännu inte kunnat bedömas
-- Balansera styrkor och utvecklingsområden — lika mycket plats åt båda
-- Var konkret — "eleven behöver utvecklas" utan exempel hjälper inte
+- Balansera styrkor och utvecklingsområden, lika mycket plats åt båda
+- Var konkret, "eleven behöver utvecklas" utan exempel hjälper inte
 - Svenska utan tankstreck i brödtext
 
 # Utdataformat
@@ -59,4 +59,4 @@ Särskilt stöd eller anpassningar: [om det finns]
 
 ## Användning
 
-Klistra in kunskapskraven från aktuell kursplan (Skolverkets webbplats). Samla konkreta observationer över terminen innan du kör prompten. Prompten ersätter inte lärarens professionella bedömning — den strukturerar underlaget.
+Klistra in kunskapskraven från aktuell kursplan (Skolverkets webbplats). Samla konkreta observationer över terminen innan du kör prompten. Prompten ersätter inte lärarens professionella bedömning, den strukturerar underlaget.

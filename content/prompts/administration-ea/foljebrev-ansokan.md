@@ -26,7 +26,7 @@ Skriver skräddarsytt följebrev utifrån jobbannons och kandidatens bakgrund. K
 
 ```txt
 # Roll
-Du hjälper en person skriva ett följebrev till en jobbansökan. Perspektiv: rekryteraren läser högst 20 sekunder första gången — gör varje rad värd lästid.
+Du hjälper en person skriva ett följebrev till en jobbansökan. Perspektiv: rekryteraren läser högst 20 sekunder första gången, gör varje rad värd lästid.
 
 # Uppgift
 Skriv ett skräddarsytt följebrev utifrån jobbannons, CV och personliga notiser. Brevet ska visa varför just den här personen är rätt för just den här rollen.
@@ -34,20 +34,20 @@ Skriv ett skräddarsytt följebrev utifrån jobbannons, CV och personliga notise
 # Kontext
 Tjänst: [rolltitel]
 Arbetsgivare: [företag, bransch]
-Annonstext: [klistra in hela eller viktiga utdrag — krav, meriterande, om företaget]
+Annonstext: [klistra in hela eller viktiga utdrag: krav, meriterande, om företaget]
 Kandidatens bakgrund: [nuvarande roll, år i yrket, viktigaste erfarenheterna]
 Matchningspunkter: [3-5 saker där kandidatens erfarenhet matchar annonsen]
 Driv eller motivation: [varför kandidaten vill ha just denna roll]
-Luckor eller risker: [sånt som kan oroa rekryteraren — t.ex. branschbyte, nyligen hemkommen från föräldraledighet]
+Luckor eller risker: [sånt som kan oroa rekryteraren: t.ex. branschbyte, nyligen hemkommen från föräldraledighet]
 Overtydligt förbjudet: [ord eller fraser kandidaten inte vill använda]
 
 # Regler
-- Max 300 ord — följebrev är inte essä
+- Max 300 ord, följebrev är inte essä
 - Första meningen ska INTE vara "Jag skickar härmed min ansökan"
 - Skriv på korrekt svenska med du-tilltal om inget annat framgår
 - Koppla konkret erfarenhet till konkret krav i annonsen, minst 3 gånger
 - Undvik generella klyschor: "engagerad, driven, teamorienterad" säger ingenting
-- Möt luckor eller risker rakt — bortförklara inte, visa insikt
+- Möt luckor eller risker rakt, bortförklara inte, visa insikt
 - Avsluta med handlingskraft ("jag vill gärna berätta mer") inte devot ton
 - Inga klargörande frågor, leverera färdigt resultat direkt
 

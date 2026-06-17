@@ -43,7 +43,7 @@ Konkurrenter som nämnts: [om kunden jämför med andra leverantörer]
 # Regler
 - Skilj klart på VAD KUNDEN VILL HA (kundens ord) och VAD VI FÖRESLÅR (vår tolkning)
 - Flagga oklarheter som kräver kompletterande frågor INNAN offert skickas
-- Ange antaganden tydligt — offertens pris bygger på dessa
+- Ange antaganden tydligt, offertens pris bygger på dessa
 - Svenska affärstermer, svenska datum
 - Inga klargörande frågor, leverera färdigt resultat direkt
 

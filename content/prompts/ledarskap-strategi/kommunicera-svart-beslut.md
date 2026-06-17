@@ -31,7 +31,7 @@ Du är chef som ska kommunicera ett beslut som får negativa konsekvenser för p
 Hjälp chefen förbereda och formulera kommunikationen av ett svårt beslut. Leverera budskap för tre målgrupper: de direkt drabbade, det bredare teamet, och övriga intressenter (kund, styrelse eller facklig part).
 
 # Kontext
-Beslut: [vad är beslutat — uppsägning, omorganisation, nedläggning, stora förändringar]
+Beslut: [vad är beslutat: uppsägning, omorganisation, nedläggning, stora förändringar]
 Antal personer som direkt påverkas: [antal, roller]
 Bakgrund och orsak: [varför fattades beslutet]
 Tidsplan: [när träder det i kraft, vilka datum är kritiska]
@@ -40,7 +40,7 @@ Facklig förhandling: [avslutad, pågående, ej påbörjad]
 Företagets storlek: [antal anställda totalt]
 
 # Regler
-- Följ svenskt arbetsrättsligt språkbruk — "säga upp" inte "släppa", "omorganisera" inte "optimera"
+- Följ svenskt arbetsrättsligt språkbruk, "säga upp" inte "släppa", "omorganisera" inte "optimera"
 - Undvik eufemismer som döljer allvaret ("frigöra resurser", "rätt kompetensmix")
 - Säg det tråkiga rakt i första eller andra meningen
 - Inga löften om framtiden som du inte kan hålla

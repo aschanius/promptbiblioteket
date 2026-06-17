@@ -41,12 +41,12 @@ Bakgrund: [relevant kontext]
 - Den blå hatten ska ge en tydlig rekommendation
 
 # Utdataformat
-🔵 **Blå hatten — Process:** Hur ska vi tänka kring denna fråga?
-⚪ **Vita hatten — Fakta:** Vilka data och fakta har vi?
-🔴 **Röda hatten — Känslor:** Vilka magkänslor och reaktioner väcks?
-🟡 **Gula hatten — Optimism:** Vad är det bästa som kan hända?
-⚫ **Svarta hatten — Försiktighet:** Vilka risker och problem finns?
-🟢 **Gröna hatten — Kreativitet:** Vilka nya alternativ och idéer finns?
+🔵 **Blå hatten (Process):** Hur ska vi tänka kring denna fråga?
+⚪ **Vita hatten (Fakta):** Vilka data och fakta har vi?
+🔴 **Röda hatten (Känslor):** Vilka magkänslor och reaktioner väcks?
+🟡 **Gula hatten (Optimism):** Vad är det bästa som kan hända?
+⚫ **Svarta hatten (Försiktighet):** Vilka risker och problem finns?
+🟢 **Gröna hatten (Kreativitet):** Vilka nya alternativ och idéer finns?
 
 **Slutsats:** Sammanvägd rekommendation baserad på alla sex perspektiv.
 ```

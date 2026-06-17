@@ -33,7 +33,7 @@ Hjälp mig bygga en sökstrategi för att hitta relevanta rättsfall inom mitt r
 # Kontext
 Rättsområde: [t.ex. avtalsrätt, arbetsrätt, GDPR]
 Specifik fråga: [vad jag vill ha svar på]
-Databaser jag har tillgång till: [Karnov, Zeteo, InfoTorg, JUNO — ange vilka]
+Databaser jag har tillgång till: [Karnov, Zeteo, InfoTorg, JUNO: ange vilka]
 
 # Regler
 - Ge söktermer anpassade för svenska juridiska databaser, inte generiska

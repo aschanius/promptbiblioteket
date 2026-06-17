@@ -39,9 +39,9 @@ Kritiska kunskaper: [vad måste medarbetaren behärska för att bidra]
 Team: [vilka ska medarbetaren samarbeta nära med]
 
 # Regler
-- Dag 1-30: lärande och rollklarhet — relationer, förväntningar, system
-- Dag 31-60: självständighet — egna uppgifter, feedback-loop, första leveranser
-- Dag 61-90: bidrag — självgående, förbättringsförslag, första utvärdering
+- Dag 1-30: lärande och rollklarhet, relationer, förväntningar, system
+- Dag 31-60: självständighet, egna uppgifter, feedback-loop, första leveranser
+- Dag 61-90: bidrag, självgående, förbättringsförslag, första utvärdering
 - Varje fas: maximalt 5 konkreta mål, vart och ett med tydlig bekräftelseform
 - Check-in med chef varje vecka de första 30 dagarna, varannan vecka 31-90
 - Fokusera på vad medarbetaren ska KUNNA, inte bara vad de ska göra
@@ -65,4 +65,4 @@ Team: [vilka ska medarbetaren samarbeta nära med]
 
 ## Användning
 
-Ange roll, team och kritiska kunskaper. Planen ska gås igenom med medarbetaren dag 1 — den är ett verktyg för dialog, inte en leveranslista som checkas av i tysthet.
+Ange roll, team och kritiska kunskaper. Planen ska gås igenom med medarbetaren dag 1, den är ett verktyg för dialog, inte en leveranslista som checkas av i tysthet.

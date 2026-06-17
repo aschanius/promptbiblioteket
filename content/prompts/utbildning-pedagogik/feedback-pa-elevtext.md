@@ -41,7 +41,7 @@ Elevtext: [klistra in hela texten]
 # Regler
 - Följ svenska skolspråket: "förstnivå", "utvecklat", "välutvecklat" från kunskapskraven
 - Skriv DIREKT till eleven, inte om eleven till rektor
-- Inga betygsomdömen i feedback-sektionen — feedback ska främja lärande, inte rangordna
+- Inga betygsomdömen i feedback-sektionen, feedback ska främja lärande, inte rangordna
 - Konkret: peka på rad, stycke eller formulering, inte "du bör skärpa texten"
 - Tre utvecklingspunkter räcker, inte en lång lista
 - Ingen kritik utan konkret förslag på hur det kan utvecklas
@@ -59,4 +59,4 @@ Elevtext: [klistra in hela texten]
 
 ## Användning
 
-Fyll i kontexten inklusive kunskapskrav från aktuell kursplan. Klistra in hela elevtexten. Granska alltid feedbacken innan du skickar till eleven — prompten är ett stöd, inte ersättning för pedagogisk bedömning.
+Fyll i kontexten inklusive kunskapskrav från aktuell kursplan. Klistra in hela elevtexten. Granska alltid feedbacken innan du skickar till eleven, prompten är ett stöd, inte ersättning för pedagogisk bedömning.

@@ -42,7 +42,7 @@ Tid för formativ check-in: [hur lång tid läraren har, t.ex. 3 min mitt i lekt
 # Regler
 - Frågorna ska kunna besvaras utan att eleven skäms om den svarar fel
 - Kombinera öppna frågor (som synliggör tänkande) med kortsvarsfrågor (som snabbt visar om begreppet förståtts)
-- Undvik ja/nej-frågor — de bekräftar inte förståelse
+- Undvik ja/nej-frågor, de bekräftar inte förståelse
 - Inkludera minst en fråga som kan besvaras kroppsligt (tummen upp/ner, gå till rätt sida av rummet)
 - Anpassa till lektionens moment (olika frågor mitt i genomgång vs under grupparbete)
 - Svenska utan tankstreck i brödtext

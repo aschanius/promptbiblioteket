@@ -63,4 +63,4 @@ Riskfaktorer: [fall, trycksår, undernäring, suicidrisk om relevant]
 
 ## Användning
 
-Samla bedömningsdata innan du kör prompten. Utkastet ska alltid granskas av ansvarig sjuksköterska innan journalföring. Mät mål i konkreta termer — "bättre" räcker inte.
+Samla bedömningsdata innan du kör prompten. Utkastet ska alltid granskas av ansvarig sjuksköterska innan journalföring. Mät mål i konkreta termer, "bättre" räcker inte.

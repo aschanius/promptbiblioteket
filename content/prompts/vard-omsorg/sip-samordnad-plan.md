@@ -3,7 +3,7 @@ title: "Samordnad individuell plan (SIP): förberedelse och struktur"
 slug: sip-samordnad-plan
 category: vard-omsorg
 source_url: https://www.socialstyrelsen.se/kunskapsstod-och-regler/regler-och-riktlinjer/sip-samordnad-individuell-plan/
-source_author: Socialstyrelsen — Samordnad individuell plan (SIP)
+source_author: Socialstyrelsen, Samordnad individuell plan (SIP)
 source_lang: sv
 rating: 4.4
 version: "1.0"
@@ -42,7 +42,7 @@ Den enskildes egna mål: [vad hen vill uppnå, vad som är viktigt]
 Sekretessnivåer: [samtycke till informationsdelning inhämtat ja/nej/delvis]
 
 # Regler
-- Den enskilde ÄGER mötet — hen bestämmer agenda och vem som deltar, med stöd från initierande verksamhet
+- Den enskilde ÄGER mötet, hen bestämmer agenda och vem som deltar, med stöd från initierande verksamhet
 - Samtycke till informationsdelning krävs från den enskilde innan deltagare får information om varandras områden
 - Mötets resultat är en PLAN som dokumenteras hos båda huvudmän (hälso- och sjukvård OCH socialtjänst)
 - Skilj mellan VAD som ska göras (insats) och VEM som gör det (ansvarig verksamhet)
@@ -79,4 +79,4 @@ Sekretessnivåer: [samtycke till informationsdelning inhämtat ja/nej/delvis]
 
 ## Användning
 
-Initiera alltid SIP i samråd med den enskilde. Samtycke till informationsdelning måste inhämtas innan deltagare får information om varandras områden. Planen följs upp regelbundet — en SIP som inte revideras är död.
+Initiera alltid SIP i samråd med den enskilde. Samtycke till informationsdelning måste inhämtas innan deltagare får information om varandras områden. Planen följs upp regelbundet, en SIP som inte revideras är död.

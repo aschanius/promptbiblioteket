@@ -43,7 +43,7 @@ Nästa steg: [vad som sades skulle hända härnäst]
 # Regler
 - Skilj på FAKTA (vad som sades) och TOLKNING (vad det kan betyda)
 - Konkreta överenskommelser i punktlista med ansvarig och deadline
-- Siffror, datum och belopp verbatim från anteckningar — gissa aldrig
+- Siffror, datum och belopp verbatim från anteckningar, gissa aldrig
 - Flagga om någon punkt verkar otydlig och behöver bekräftas
 - Svenska affärsfraser, direkt ton
 - Inga klargörande frågor, leverera färdigt resultat direkt

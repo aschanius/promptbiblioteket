@@ -19,7 +19,7 @@ tags:
 ---
 ## Syfte
 
-Hjälper vårdpersonal att översätta medicinsk fackinformation till tydlig vardagssvenska för patienter och anhöriga — utan att förlora precision eller göra nya medicinska bedömningar.
+Hjälper vårdpersonal att översätta medicinsk fackinformation till tydlig vardagssvenska för patienter och anhöriga, utan att förlora precision eller göra nya medicinska bedömningar.
 
 ## Prompt
 
@@ -53,7 +53,7 @@ Situation: [vad informationen gäller, t.ex. inför besök, efter utskrivning]
 
 ## Användning
 
-Använd för att förbereda information inför patientbesök, utskrivningssamtal eller anhörigmöten. Låt alltid ansvarig vårdpersonal godkänna texten innan den delas — prompten gör ingen medicinsk bedömning, bara språklig översättning. Fungerar bäst med konkret originaltext, inte sammanfattningar.
+Använd för att förbereda information inför patientbesök, utskrivningssamtal eller anhörigmöten. Låt alltid ansvarig vårdpersonal godkänna texten innan den delas, prompten gör ingen medicinsk bedömning, bara språklig översättning. Fungerar bäst med konkret originaltext, inte sammanfattningar.
 
 ## Testresultat
 

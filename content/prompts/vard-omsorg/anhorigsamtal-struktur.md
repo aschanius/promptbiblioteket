@@ -43,10 +43,10 @@ Tidigare samtal: [vad har sagts innan, vilka överenskommelser finns]
 Event den anhöriges sinnesstämning: [chock, sorg, ilska, trötthet, förvirring]
 
 # Regler
-- Sekretessen för den enskilde är absolut — dela aldrig mer än vad som samtyckts eller uttryckligen är undantag enligt OSL
+- Sekretessen för den enskilde är absolut, dela aldrig mer än vad som samtyckts eller uttryckligen är undantag enligt OSL
 - Skilj mellan FAKTA (diagnos, medicinsk status) och TOLKNING (prognos, vad som kan hända)
 - Använd ord anhöriga förstår, ingen onödig medicinsk jargong
-- Ställ öppna frågor före du ger information — vad vet de redan?
+- Ställ öppna frågor före du ger information, vad vet de redan?
 - Planera för känslor: paus, vatten, tystnad. Låt anhöriga reagera
 - Om svåra besked: ge beskedet tidigt, inte efter 20 minuter inledning
 - Dokumentera samtalet utan värderingar som kan läsas av anhöriga senare

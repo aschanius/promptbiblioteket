@@ -56,7 +56,7 @@ Underlag:
 
 ## Användning
 
-Samla bakgrund, siffror och citat-råmaterial innan du kör prompten — ju konkretare underlag desto bättre resultat. Fungerar bra även för småföretag som sällan skriver pressmeddelanden. Be modellen skriva i flera varianter om du vill testa olika vinklar.
+Samla bakgrund, siffror och citat-råmaterial innan du kör prompten, ju konkretare underlag desto bättre resultat. Fungerar bra även för småföretag som sällan skriver pressmeddelanden. Be modellen skriva i flera varianter om du vill testa olika vinklar.
 
 ## Testresultat
 

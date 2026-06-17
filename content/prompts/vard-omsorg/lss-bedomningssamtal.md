@@ -44,7 +44,7 @@ Särskilda hänsyn: [kommunikationsstöd, tolk, korta pauser, fysiska hjälpmede
 - Grundhållning: samtalet handlar om den enskildes hela livssituation, inte bara diagnos
 - Använd LSS-lagens terminologi korrekt (goda levnadsvillkor, delaktighet, inflytande)
 - Skilj vad den enskilde själv uttrycker, vad anhöriga berättar och vad handläggaren observerar
-- Dokumentera behov ur den enskildes perspektiv — inte bara funktionsnedsättningens tyngd
+- Dokumentera behov ur den enskildes perspektiv, inte bara funktionsnedsättningens tyngd
 - Inkludera ICF-kategorier (kroppsfunktion, aktivitet, delaktighet, omgivningsfaktorer) där relevant
 - Svensk terminologi inom LSS och socialtjänst
 - Inga klargörande frågor, leverera färdigt resultat direkt
@@ -62,4 +62,4 @@ Särskilda hänsyn: [kommunikationsstöd, tolk, korta pauser, fysiska hjälpmede
 
 ## Användning
 
-Använd denna prompt när du förbereder ett konkret bedömningssamtal. Anpassa frågorna efter den enskildes kommunikationssätt. Dokumentation sker alltid i ordinarie verksamhetssystem — prompten ersätter inte formell utredning.
+Använd denna prompt när du förbereder ett konkret bedömningssamtal. Anpassa frågorna efter den enskildes kommunikationssätt. Dokumentation sker alltid i ordinarie verksamhetssystem, prompten ersätter inte formell utredning.

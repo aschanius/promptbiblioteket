@@ -35,21 +35,21 @@ Vårdtid: [från, till, vårdorsak]
 Vårdenhet: [avdelningstyp]
 Mottagande: [kommunal hemsjukvård, primärvård, annan avdelning, hemmet utan insats]
 Rådata:
-[klistra in vårdplanering, dagliga noteringar och utvärderingar — UTAN personuppgifter]
+[klistra in vårdplanering, dagliga noteringar och utvärderingar: UTAN personuppgifter]
 Aktiva omvårdnadsproblem: [lista]
 Lösta omvårdnadsproblem: [lista]
 
 # Regler
 - Följ VIPS-modellen: Välbefinnande, Integritet, Prevention, Säkerhet
-- Sammanfatta utfall — inte dagliga noteringar
+- Sammanfatta utfall, inte dagliga noteringar
 - Beskriv både vad som uppnåtts och vad som återstår
 - Markera riskområden som mottagaren måste känna till (fallrisk, trycksår, nutrition, medicinering)
 - Använd SBAR-liknande struktur inom respektive VIPS-del
-- Inga personuppgifter i AI-verktyget — all journaldata hanteras endast i vårdgivarens system
+- Inga personuppgifter i AI-verktyget, all journaldata hanteras endast i vårdgivarens system
 - Utkastet ska kvalitetssäkras mot journalen innan det läggs in
 
 # Utdataformat
-**Omvårdnadsepikris — [avdelning, period]**
+**Omvårdnadsepikris: [avdelning, period]**
 
 1. **Sammanfattning**: vårdtid, vårdorsak, övergripande utfall i 3-5 meningar
 2. **Välbefinnande**: smärta, sömn, nutrition, ADL-förmåga
@@ -62,4 +62,4 @@ Lösta omvårdnadsproblem: [lista]
 
 ## Användning
 
-Klistra in vårdplanering och utvärderingar i anonymiserad form — INGA personuppgifter. Utkastet ska granskas mot journalen och kompletteras i vårdgivarens dokumentationssystem innan det fastställs.
+Klistra in vårdplanering och utvärderingar i anonymiserad form, INGA personuppgifter. Utkastet ska granskas mot journalen och kompletteras i vårdgivarens dokumentationssystem innan det fastställs.

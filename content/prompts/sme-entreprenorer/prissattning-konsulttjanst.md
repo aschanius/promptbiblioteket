@@ -32,9 +32,9 @@ Räkna ut hållbart timpris och fastpris för konsultuppdraget nedan. Visa räkn
 
 # Kontext
 Önskad månadslön före skatt: [SEK]
-Fasta kostnader per månad: [kontor, försäkringar, verktyg, marknadsföring, utbildning — SEK]
+Fasta kostnader per månad: [kontor, försäkringar, verktyg, marknadsföring, utbildning: SEK]
 Beläggningsgrad: [andel av arbetstid som är debiterbar, vanligt 50-70%]
-Erfarenhetsnivå: [junior, mid eller senior — påverkar marknadspris]
+Erfarenhetsnivå: [junior, mid eller senior: påverkar marknadspris]
 Specialisering: [nisch eller bred kompetens]
 Konkurrens: [ungefärliga timpriser i din nisch, om känt]
 Uppdragstyp: [löpande timfakturering eller avgränsat uppdrag]
@@ -46,9 +46,9 @@ Om avgränsat: [bedömd omfattning i timmar]
 - Tumregel: hållbart arvode motsvarar 2,5-3,0 × önskad nettotimlön efter kostnader
 - Timpris passar löpande uppdrag, fastpris passar avgränsade uppdrag
 - Vid fastpris: lägg på minst 20 % riskpremie mot underskattning
-- Visa ALLTID räkneväg — inte bara slutsiffra
+- Visa ALLTID räkneväg, inte bara slutsiffra
 - Flagga om kalkylen ger priser långt under marknaden (beläggning för låg eller kostnader underskattade)
-- Håll dig till kostnadstäckning — värdebaserad prissättning kräver separat underlag
+- Håll dig till kostnadstäckning, värdebaserad prissättning kräver separat underlag
 
 # Utdataformat
 1. **Kostnadstäckning per år**: tabell: lön, fasta kostnader, avgifter, pension
@@ -62,4 +62,4 @@ Om avgränsat: [bedömd omfattning i timmar]
 
 ## Användning
 
-Var ärlig med beläggningsgrad — konsulter överskattar ofta den. Om kalkylen ger oroväckande höga priser, jämför med branschdata från Wint, Driva Eget eller Svensk PR innan du justerar nedåt.
+Var ärlig med beläggningsgrad, konsulter överskattar ofta den. Om kalkylen ger oroväckande höga priser, jämför med branschdata från Wint, Driva Eget eller Svensk PR innan du justerar nedåt.

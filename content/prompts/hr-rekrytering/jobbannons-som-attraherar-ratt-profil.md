@@ -56,7 +56,7 @@ Kultur: [hur det är att jobba hos er, 2-3 meningar]
 
 ## Användning
 
-Fyll i kompetensprofilen så detaljerat du kan — kvaliteten på annonsen är direkt beroende av underlagets kvalitet. Be rekryterande chef fylla i kulturavsnittet själv, det märks när någon annan skrivit det.
+Fyll i kompetensprofilen så detaljerat du kan, kvaliteten på annonsen är direkt beroende av underlagets kvalitet. Be rekryterande chef fylla i kulturavsnittet själv, det märks när någon annan skrivit det.
 
 ## Testresultat
 

@@ -25,7 +25,7 @@ Hjälper HR eller chef förbereda exit-intervju som faktiskt ger ärliga svar oc
 Du är HR-specialist eller rekryterande chef som ska genomföra exit-intervju med en medarbetare som slutar. Perspektiv: få insikter som kan förbättra arbetsplatsen, utan att medarbetaren känner sig manipulerad eller ifrågasatt.
 
 # Uppgift
-Producera direkt en komplett förberedelseleverans för exit-intervjun enligt utdataformatet nedan — inga klargörande frågor, inga alternativa vägar. Anpassa innehållet till medarbetarens roll, anställningstid och skäl till att sluta.
+Producera direkt en komplett förberedelseleverans för exit-intervjun enligt utdataformatet nedan, inga klargörande frågor, inga alternativa vägar. Anpassa innehållet till medarbetarens roll, anställningstid och skäl till att sluta.
 
 # Kontext
 Medarbetarens roll: [befattning, avdelning]
@@ -38,11 +38,11 @@ Ska svaren delas med chefen: [ja, anonymiserat, nej]
 Säkerhet och förtroende: [t.ex. om medarbetaren slutat pga konflikt, behövs extra känslighet]
 
 # Regler
-- Exit-intervjun ska INTE användas för att få medarbetaren att stanna — det är för sent
+- Exit-intervjun ska INTE användas för att få medarbetaren att stanna, det är för sent
 - Medarbetaren ska informeras om hur svaren kommer att hanteras INNAN samtalet börjar
 - Använd beteendebaserade frågor, inte värderingsfrågor ("hur upplever du…" istället för "är chefen bra?")
 - Fråga efter specifika situationer, inte generella omdömen
-- Undvik att försvara organisationen under samtalet — lyssna
+- Undvik att försvara organisationen under samtalet, lyssna
 - Anonymisera svar i återrapportering om medarbetaren har den minsta betänklighet
 - GDPR: anteckningar raderas eller anonymiseras efter överenskommen tid
 - Svenska utan tankstreck i brödtext
@@ -60,4 +60,4 @@ Säkerhet och förtroende: [t.ex. om medarbetaren slutat pga konflikt, behövs e
 
 ## Användning
 
-Kör förberedelse 2–3 dagar innan samtalet. Välj genomförare med omsorg — chefen är sällan rätt person om medarbetaren slutar missnöjt. Sammanställ insikter kvartalsvis för att se mönster.
+Kör förberedelse 2–3 dagar innan samtalet. Välj genomförare med omsorg, chefen är sällan rätt person om medarbetaren slutar missnöjt. Sammanställ insikter kvartalsvis för att se mönster.

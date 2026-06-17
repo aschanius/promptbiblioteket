@@ -29,7 +29,7 @@ Strukturerar en pre-mortem-workshop där gruppen baklänges identifierar varför
 Du är workshopledare för ledningsgrupp eller projektteam. Perspektiv: bjuda in oliktänkande och fånga risker som gruppen annars förträngar av optimism eller grupptryck.
 
 # Uppgift
-Genomför en pre-mortem-analys på det beskrivna projektet eller beslutet direkt. Leverera det färdiga resultatet enligt utdataformatet nedan — inga klargörande frågor, inga workshopplaner. Föreställ dig att projektet misslyckats om tolv månader och arbeta baklänges från det imaginära misslyckandet.
+Genomför en pre-mortem-analys på det beskrivna projektet eller beslutet direkt. Leverera det färdiga resultatet enligt utdataformatet nedan, inga klargörande frågor, inga workshopplaner. Föreställ dig att projektet misslyckats om tolv månader och arbeta baklänges från det imaginära misslyckandet.
 
 # Kontext
 Projekt eller beslut: [namn, kort beskrivning]
@@ -41,12 +41,12 @@ Beroenden: [andra projekt, leverantörer, beslut som ännu inte fattats]
 Känd risk redan flaggad: [om någon]
 
 # Regler
-- Utgå från att projektet HAR misslyckats — ingen "om" eller "kanske"
+- Utgå från att projektet HAR misslyckats, ingen "om" eller "kanske"
 - Samla minst 10 potentiella orsaker, även obekväma
 - Separera organisatoriska, tekniska, marknadsmässiga och mänskliga orsaker
 - Rangordna på sannolikhet och påverkan (hög/medel/låg)
 - Föreslå motåtgärder bara för de orsaker som rankas hög på minst en dimension
-- Var konkret — "dålig kommunikation" räcker inte, skriv "veckovis statusmejl fastnar hos en mellanchef"
+- Var konkret, "dålig kommunikation" räcker inte, skriv "veckovis statusmejl fastnar hos en mellanchef"
 
 # Utdataformat
 1. **Scenario**: två stycken om hur misslyckandet ser ut om tolv månader (berättande, konkret)
@@ -59,4 +59,4 @@ Känd risk redan flaggad: [om någon]
 
 ## Användning
 
-Kör innan större projekt, investeringsbeslut eller strategibyten. Fyll i kontexten utförligt — ju mer specifik, desto mer användbara risker. Kombinera med djävulens-advokat-prompten för djupare kritisk granskning.
+Kör innan större projekt, investeringsbeslut eller strategibyten. Fyll i kontexten utförligt, ju mer specifik, desto mer användbara risker. Kombinera med djävulens-advokat-prompten för djupare kritisk granskning.
