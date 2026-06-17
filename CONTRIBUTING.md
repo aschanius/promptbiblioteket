@@ -77,6 +77,14 @@ Branschspecifika prompts placeras i funktionskategorin med en `bransch:`-tagg. T
 
 Konvention: `bransch:bygg`, `bransch:transport`, `bransch:restaurang`, `bransch:tillverkning`, `bransch:handel` etc.
 
+## Teman och flöden
+
+Utöver yrkeskategorierna finns två tvärgående strukturer som binder ihop prompts.
+
+**Teman** grupperar prompts tvärs kategorier via taggar. De definieras i `site/src/lib/themes.ts` som objekt med `id`, `title`, `description`, `tags` och `why`. En prompt hamnar i ett tema om någon av dess taggar finns i temats `tags`-lista. Lägg till ett tema genom att lägga ett objekt i `themes`-arrayen, och se till att de prompts som ska ingå bär minst en av temats taggar. En dedikerad umbrella-tagg (t.ex. `bygga-med-ai`) på varje medlem är säkraste sättet att styra medlemskapet utan att råka dra in andra prompts.
+
+**Flöden** är arbetsmetoder som kedjar ihop flera prompts i ordning. De ligger som `.md`-filer i `content/flows/` med frontmatter: `title`, `slug`, `category` (flödets hemkategori), `estimated_time`, `level` (`nyborjare`, `medel` eller `expert`), `tags` och `steps`. Varje steg är `{ prompt: <slug>, role: <beskrivning> }`. Stegen får referera prompts i vilken kategori som helst, sidan slår upp varje slug globalt och länkar till promptens egen kategori. En slug som inte finns failar bygget, så dubbelkolla att varje `prompt:` matchar en publicerad prompt.
+
 ## Språkregel
 
 Alla prompts och beskrivningar ska vara på korrekt svenska med å, ä, ö. ASCII-approximationer ("ar" istället för "är") accepteras inte.
