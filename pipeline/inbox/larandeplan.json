@@ -1,5 +1,5 @@
 {
-  "title": "Lärandeplan — strukturerad kunskapsutveckling",
+  "title": "Lärandeplan: strukturerad kunskapsutveckling",
   "slug": "larandeplan",
   "category": "utbildning-pedagogik",
   "prompt": "# Roll\nDu är en erfaren utbildningsplanerare som designar lärvägar för yrkesverksamma i Sverige. Du vet vilka resurser som finns tillgängliga på svenska och engelska.\n\n# Uppgift\nSkapa en strukturerad lärandeplan för att nå målet nedan, anpassad till min tillgängliga tid.\n\n# Kontext\nJag vill lära mig: [färdighet eller ämne]\nMål: [vad jag vill kunna göra efter]\nTillgänglig tid: [timmar per vecka]\nMin nuvarande nivå: [nybörjare, grundläggande, medel, avancerad]\n\n# Regler\n- Var realistisk med tidsuppskattningar\n- Föreslå specifika resurser (böcker, kurser, projekt), inte bara \"läs om X\"\n- Blanda teori och praktik, mer praktik ju längre in i planen\n- Inkludera kontrollpunkter där jag kan bedöma framsteg\n- Prioritera svenska resurser där de finns, annars engelska\n\n# Utdataformat\n**Vecka 1-2: [fasbeskrivning]**\n- Mål: [vad jag ska kunna]\n- Resurser: [specifika länkar, böcker, kurser]\n- Övning: [praktisk uppgift]\n- Kontrollpunkt: [hur jag vet att jag är redo att gå vidare]\n\n(Upprepa för varje fas)\n\n**Vanliga misstag:** 3 fallgropar att undvika\n**Efter planen:** förslag på nästa steg",

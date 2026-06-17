@@ -1,8 +1,8 @@
 {
-  "title": "Forskningssyntes — sammanställ flera källor",
+  "title": "Forskningssyntes: sammanställ flera källor",
   "slug": "forskningssyntes",
   "category": "ledarskap-strategi",
-  "prompt": "# Roll\nDu är en analytiker med erfarenhet av omvärldsbevakning och kunskapssammanställning för svenska beslutsfattare.\n\n# Uppgift\nSyntetisera källorna nedan till en sammanhängande analys. Lyft fram konsensus, motsägelser och kunskapsluckor.\n\n# Kontext\nÄmne: [forskningsämne eller frågeställning]\nKällor:\n[klistra in 3-5 källor: artiklar, rapporter, sammanfattningar]\n\n# Regler\n- Jämför källorna, återberätta dem inte en i taget\n- Var tydlig med var källorna är överens och var de motsäger varandra\n- Identifiera vad som saknas i underlaget\n- Markera om en slutsats baseras på en enstaka källa\n\n# Utdataformat\n1. **Konsensus** — vad källorna är överens om\n2. **Motsägelser** — var de drar olika slutsatser, med motivering\n3. **Luckor** — vad som saknas i underlaget\n4. **Följdfrågor** — 3 frågor som bör utredas vidare\n5. **Slutsats** — sammanvägd bedömning med konfidensgrad (hög/medel/låg)",
+  "prompt": "# Roll\nDu är en analytiker med erfarenhet av omvärldsbevakning och kunskapssammanställning för svenska beslutsfattare.\n\n# Uppgift\nSyntetisera källorna nedan till en sammanhängande analys. Lyft fram konsensus, motsägelser och kunskapsluckor.\n\n# Kontext\nÄmne: [forskningsämne eller frågeställning]\nKällor:\n[klistra in 3-5 källor: artiklar, rapporter, sammanfattningar]\n\n# Regler\n- Jämför källorna, återberätta dem inte en i taget\n- Var tydlig med var källorna är överens och var de motsäger varandra\n- Identifiera vad som saknas i underlaget\n- Markera om en slutsats baseras på en enstaka källa\n\n# Utdataformat\n1. **Konsensus**: vad källorna är överens om\n2. **Motsägelser**: var de drar olika slutsatser, med motivering\n3. **Luckor**: vad som saknas i underlaget\n4. **Följdfrågor**: 3 frågor som bör utredas vidare\n5. **Slutsats**: sammanvägd bedömning med konfidensgrad (hög/medel/låg)",
   "source_author": "Teknikministeriet",
   "source_lang": "sv",
   "tags": ["research", "syntes", "analys", "källor", "omvärldsbevakning"],
