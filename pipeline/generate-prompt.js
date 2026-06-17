@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Generate Prompt — Genererar en ny prompt via meta-prompt.
+ * Generate Prompt, Genererar en ny prompt via meta-prompt.
  *
  * Tar ämne + kategori, bygger en meta-prompt som instruerar Claude
  * att generera en högkvalitativ prompt, och sparar resultatet som
@@ -80,7 +80,7 @@ function buildMetaPrompt(topic, category, categoryMeta, template, ratingSchema, 
     ? categoryMeta.match(/title:\s*"(.+?)"/)?.[1] || category
     : category;
 
-  let prompt = `Du ska generera en högkvalitativ AI-prompt för Promptbiblioteket — ett open source-bibliotek med AI-prompts för svenska yrkesverksamma.
+  let prompt = `Du ska generera en högkvalitativ AI-prompt för Promptbiblioteket, ett open source-bibliotek med AI-prompts för svenska yrkesverksamma.
 
 ## Uppgift
 
@@ -102,12 +102,12 @@ ${template}
     prompt += `
 
 Prompttexten (inuti txt-blocket) ska använda svenska sektionsrubriker:
-- **# Roll** (obligatorisk) — Vem är AI:n? Vilken expertis?
-- **# Uppgift** (obligatorisk) — Vad ska AI:n göra? Konkret och handlingsbart.
-- **# Kontext** (valfri) — Bakgrundsinformation
-- **# Regler** (valfri) — Begränsningar och riktlinjer
-- **# Steg** (valfri) — Arbetsflöde, steg-för-steg
-- **# Utdataformat** (valfri) — Önskat format på svaret
+- **# Roll** (obligatorisk): Vem är AI:n? Vilken expertis?
+- **# Uppgift** (obligatorisk): Vad ska AI:n göra? Konkret och handlingsbart.
+- **# Kontext** (valfri): Bakgrundsinformation
+- **# Regler** (valfri): Begränsningar och riktlinjer
+- **# Steg** (valfri): Arbetsflöde, steg-för-steg
+- **# Utdataformat** (valfri): Önskat format på svaret
 
 Använd minst Roll + Uppgift. Lägg till fler sektioner när de tillför värde.`;
   }
@@ -124,7 +124,7 @@ Prompten bedöms på ${parsed.dimensions.length} dimensioner (1-5 poäng vardera
     for (let i = 0; i < parsed.dimensions.length; i++) {
       const d = parsed.dimensions[i];
       const weightNote = d.weight !== 1.0 ? ` (viktas ${d.weight}x)` : '';
-      prompt += `\n${i + 1}. **${d.title}**${weightNote} — ${d.description}`;
+      prompt += `\n${i + 1}. **${d.title}**${weightNote}: ${d.description}`;
     }
     prompt += `\n\nSikta på minst ${publishThreshold} i snittrating.`;
   } else {
@@ -133,11 +133,11 @@ Prompten bedöms på ${parsed.dimensions.length} dimensioner (1-5 poäng vardera
 ## Kvalitetskrav
 
 Prompten bedöms på 5 dimensioner (1-5 poäng vardera):
-1. **Tydlighet** — Entydig instruktion utan dubbelmeningar
-2. **Specificitet** — Tillräckligt kontext och detaljer
-3. **Överförbarhet** — Fungerar i svensk yrkeskontext (viktas 1.2x)
-4. **Innovation** — Tillför något utöver det uppenbara
-5. **Testbarhet** — Resultatet kan bedömas objektivt
+1. **Tydlighet**: Entydig instruktion utan dubbelmeningar
+2. **Specificitet**: Tillräckligt kontext och detaljer
+3. **Överförbarhet**: Fungerar i svensk yrkeskontext (viktas 1.2x)
+4. **Innovation**: Tillför något utöver det uppenbara
+5. **Testbarhet**: Resultatet kan bedömas objektivt
 
 Sikta på minst 4.0 i snittrating.`;
   }
@@ -189,7 +189,7 @@ function main() {
   const opts = parseArgs(process.argv);
 
   if (!opts.topic || !opts.category) {
-    console.error('Generate Prompt — Promptbiblioteket\n');
+    console.error('Generate Prompt, Promptbiblioteket\n');
     console.error('Användning:');
     console.error('  node pipeline/generate-prompt.js --topic "Ämne" --category kategori-id [--manual]');
     console.error('');

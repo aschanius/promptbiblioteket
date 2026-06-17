@@ -9,7 +9,7 @@ interface Props {
   jsonLd?: Record<string, unknown>;
 }
 
-const { title, description = 'Open source AI-prompts för svenska yrkesverksamma. Sök, kopiera och använd — gratis.', canonical, jsonLd } = Astro.props;
+const { title, description = 'Open source AI-prompts för svenska yrkesverksamma. Sök, kopiera och använd, kostnadsfritt.', canonical, jsonLd } = Astro.props;
 const pageTitle = title === 'Promptbiblioteket' ? title : `${title} | Promptbiblioteket`;
 const canonicalUrl = canonical || Astro.url.href;
 const siteUrl = 'https://prompts.teknikministeriet.se';
@@ -28,11 +28,11 @@ const ogImage = `${siteUrl}/og-image.png`;
   <meta property="og:description" content={description} />
   <meta property="og:type" content="website" />
   <meta property="og:url" content={canonicalUrl} />
-  <meta property="og:site_name" content="Promptbiblioteket — Teknikministeriet" />
+  <meta property="og:site_name" content="Promptbiblioteket: Teknikministeriet" />
   <meta property="og:image" content={ogImage} />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Promptbiblioteket — open source AI-prompts för svenska yrkesverksamma" />
+  <meta property="og:image:alt" content="Promptbiblioteket: open source AI-prompts för svenska yrkesverksamma" />
   <meta property="og:locale" content="sv_SE" />
 
   <!-- Twitter -->

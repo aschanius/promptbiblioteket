@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Update Manifest — Uppdaterar index.json baserat på befintliga prompt-filer.
+ * Update Manifest, Uppdaterar index.json baserat på befintliga prompt-filer.
  *
  * Skannar content/prompts/ och bygger om manifestet.
  * Bevarar manuellt inmatad metadata i index.json (t.ex. descriptions).
@@ -80,7 +80,7 @@ function scanPrompts() {
 }
 
 function main() {
-  console.log('Update Manifest — Promptbiblioteket\n');
+  console.log('Update Manifest, Promptbiblioteket\n');
 
   const currentManifest = loadCurrentManifest();
   const categories = scanPrompts();

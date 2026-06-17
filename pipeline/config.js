@@ -1,5 +1,5 @@
 /**
- * Promptbiblioteket — Delad konfiguration
+ * Promptbiblioteket, Delad konfiguration
  *
  * Gemensam källa för kategorier, sökvägar och andra konstanter
  * som används av verify-prompts.js, format-prompt.js, generate-prompt.js

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Pipeline Runner — Publicerar en granskad prompt från inbox.
+ * Pipeline Runner, Publicerar en granskad prompt från inbox.
  *
  * Tar en JSON-fil från pipeline/inbox/, formaterar den till .md,
  * kör verifiering, uppdaterar manifest och datafiler.
@@ -122,7 +122,7 @@ function checkSimilarity(promptData, slug) {
       const wordUnion = new Set([...newWords, ...existWords]).size;
       const wordSim = wordUnion > 0 ? wordIntersect / wordUnion : 0;
 
-      // Viktad score — taggar väger tungt (samma ämnesområde)
+      // Viktad score, taggar väger tungt (samma ämnesområde)
       const similarity = (titleSim * 0.25) + (tagSim * 0.4) + (wordSim * 0.35);
 
       if (similarity > 0.25) {
@@ -221,7 +221,7 @@ function main() {
   const inputFile = process.argv[2];
 
   if (!inputFile) {
-    console.error('Pipeline Runner — Promptbiblioteket\n');
+    console.error('Pipeline Runner, Promptbiblioteket\n');
     console.error('Användning:');
     console.error('  node pipeline/run-pipeline.js <inbox-fil.json>');
     console.error('');
@@ -236,7 +236,7 @@ function main() {
     process.exit(1);
   }
 
-  console.log('Pipeline Runner — Promptbiblioteket\n');
+  console.log('Pipeline Runner, Promptbiblioteket\n');
   console.log('='.repeat(60));
 
   // 1. Läs inbox-JSON
@@ -261,7 +261,7 @@ function main() {
 
   // Rating-gate: prompts med rating under 3.0 avvisas
   if (promptData.rating !== undefined && promptData.rating !== null && promptData.rating < 3.0) {
-    console.error(`   Rating ${promptData.rating} under minimum 3.0 — avvisad.`);
+    console.error(`   Rating ${promptData.rating} under minimum 3.0, avvisad.`);
     console.error('   Förbättra prompten och kör igen.');
     process.exit(1);
   }
@@ -318,17 +318,17 @@ function main() {
     for (const w of similarWarnings) {
       console.log(`     ${w}`);
     }
-    console.log('   (Varning — publicering fortsätter. Granska manuellt.)');
+    console.log('   (Varning, publicering fortsätter. Granska manuellt.)');
   }
 
   // 4. Förbered datafiler i minnet
   console.log('\n4. Förbereder datafiler...');
   const dataWrites = prepareDataFiles(promptData, formatted.slug);
 
-  // 5. Skriv allt i en batch — prompt-fil först (behövs för manifest-scan)
+  // 5. Skriv allt i en batch, prompt-fil först (behövs för manifest-scan)
   console.log('\n5. Skriver alla filer...');
-  const newFiles = [];       // Filer som inte fanns innan — raderas vid rollback
-  const backups = new Map(); // Befintliga filer — återställs vid rollback
+  const newFiles = [];       // Filer som inte fanns innan, raderas vid rollback
+  const backups = new Map(); // Befintliga filer, återställs vid rollback
 
   // Säker skrivning: tempfil + rename för atomicitet
   function safeWrite(filePath, content) {
@@ -377,12 +377,12 @@ function main() {
     console.log(`  Fil: ${promptFilePath}`);
     console.log(`  Totalt prompts: ${manifestResult.stats.totalPrompts}`);
     console.log('\nFöreslaget nästa steg:');
-    console.log(`  git add content/ data/ && git commit -m "feat: ny prompt — ${promptData.title}"`);
+    console.log(`  git add content/ data/ && git commit -m "feat: ny prompt, ${promptData.title}"`);
 
   } catch (err) {
     // Rollback: återställ befintliga filer, radera nya
     console.error(`\n   Fel vid skrivning: ${err.message}`);
-    console.error('   Rollback — återställer...');
+    console.error('   Rollback, återställer...');
     for (const [filePath, original] of backups) {
       try {
         fs.writeFileSync(filePath, original, 'utf8');

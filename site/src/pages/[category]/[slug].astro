@@ -30,7 +30,7 @@ const flowsUsingThis = allFlows.filter((f: any) =>
 const { Content } = await render(entry);
 
 // Read original file to extract prompt text
-// We need the raw body — use entry.body if available
+// We need the raw body, use entry.body if available
 const rawBody = entry.body || '';
 const promptText = extractPromptText(rawBody);
 
@@ -116,7 +116,7 @@ const jsonLd = {
         <ul class="changelog-list">
           {data.changelog.map((entry: any) => (
             <li>
-              <strong>v{entry.version}</strong> · {entry.date.toLocaleDateString('sv-SE')} — {entry.change}
+              <strong>v{entry.version}</strong> · {entry.date.toLocaleDateString('sv-SE')}: {entry.change}
             </li>
           ))}
         </ul>

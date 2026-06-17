@@ -27,7 +27,7 @@ const description = `AI-prompts för ${category.title.toLowerCase()}. ${category
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
-  name: `${category.title} — AI-prompts`,
+  name: `${category.title}: AI-prompts`,
   description,
   url: `https://prompts.teknikministeriet.se/${category.id}/`,
   isPartOf: {
@@ -37,7 +37,7 @@ const jsonLd = {
   },
 };
 ---
-<Base title={`${category.title} — AI-prompts`} description={description} jsonLd={jsonLd}>
+<Base title={`${category.title}: AI-prompts`} description={description} jsonLd={jsonLd}>
   <Breadcrumb crumbs={[
     { label: 'Hem', href: '/' },
     { label: category.title },

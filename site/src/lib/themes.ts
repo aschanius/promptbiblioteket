@@ -8,7 +8,7 @@ export interface Theme {
 
 /**
  * Teman grupperar prompts tvärs yrkeskategorier. Varje tema filtrerar på en
- * uppsättning taggar — samma prompt kan därför ingå i flera teman.
+ * uppsättning taggar, samma prompt kan därför ingå i flera teman.
  */
 export const themes: Theme[] = [
   {
@@ -16,7 +16,7 @@ export const themes: Theme[] = [
     title: 'AI-styrning i organisationen',
     description: 'Prompts som hjälper organisationer styra AI-användning: policy, compliance, utbildning och kommunikation.',
     tags: ['ai-styrning', 'GDPR', 'compliance', 'IMY', 'AI-verktyg', 'personuppgifter'],
-    why: 'Från februari 2025 kräver EU AI Act tillräcklig AI-kompetens hos alla som arbetar med AI. Ämnet sträcker sig över HR, juridik och utbildning — därför finns det som tema, inte egen kategori.',
+    why: 'Från februari 2025 kräver EU AI Act tillräcklig AI-kompetens hos alla som arbetar med AI. Ämnet sträcker sig över HR, juridik och utbildning, därför finns det som tema, inte egen kategori.',
   },
   {
     id: 'ai-kundkommunikation',
@@ -30,7 +30,7 @@ export const themes: Theme[] = [
     title: 'AI & dokumentation',
     description: 'Prompts för strukturerad dokumentation: sammanfatta, extrahera nyckelinformation, skriva protokoll, journaler och rapporter.',
     tags: ['dokumentation', 'sammanfattning', 'extraktion', 'protokoll', 'journal', 'rapport'],
-    why: 'Dokumentation är en av de uppgifter där AI ger störst tidsvinst. Från SBAR-överlämning i vården till mötesprotokoll i administrationen — samma mönster återkommer i olika kontexter. Temat samlar prompts som gör dokumentation till en naturlig del av arbetet i stället för ett efterarbete.',
+    why: 'Dokumentation är en av de uppgifter där AI ger störst tidsvinst. Från SBAR-överlämning i vården till mötesprotokoll i administrationen, samma mönster återkommer i olika kontexter. Temat samlar prompts som gör dokumentation till en naturlig del av arbetet i stället för ett efterarbete.',
   },
   {
     id: 'ai-analys',

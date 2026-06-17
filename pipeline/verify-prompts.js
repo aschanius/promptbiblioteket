@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Prompt Quality Control — Promptbiblioteket
+ * Prompt Quality Control, Promptbiblioteket
  * Verifierar alla AI-prompts i content/prompts/ mot kvalitetskrav.
  *
  * Baserad på Vardagshackers verify-prompts.js, utökad med:
@@ -12,7 +12,7 @@
  *
  * Användning: node pipeline/verify-prompts.js [--category <id>] [--verbose]
  *
- * READ-ONLY — gör inga ändringar
+ * READ-ONLY, gör inga ändringar
  */
 
 const fs = require('fs');
@@ -97,7 +97,7 @@ const QUALITY_CHECKS = {
     test: (prompt) => {
       // Kontrollera vanliga ASCII-approximationer av svenska ord.
       // Lookbehind/lookahead inkluderar svenska tecken eftersom JavaScripts
-      // \b bara ser ASCII-word-chars — annars triggar t.ex. "frågor" (där "å"
+      // \b bara ser ASCII-word-chars, annars triggar t.ex. "frågor" (där "å"
       // räknas som non-word och skapar falsk ordgräns före "gor").
       const suspicious = /(?<![\wåäöÅÄÖ])(ar|pa|for|las|gor|fran|atgarder)(?![\wåäöÅÄÖ])/i.test(prompt);
       return !suspicious;
@@ -188,7 +188,7 @@ function validateFrontmatter(data, filename) {
     if (versionNum > 1.0 && (!data.changelog || data.changelog.length === 0)) {
       issues.push({
         severity: 'warning',
-        message: `version ${data.version} saknar changelog — dokumentera vad som ändrats`
+        message: `version ${data.version} saknar changelog, dokumentera vad som ändrats`
       });
     }
   }
@@ -276,7 +276,7 @@ function findPromptFiles(dir, category) {
 }
 
 async function main() {
-  console.log('Prompt Quality Control — Promptbiblioteket\n');
+  console.log('Prompt Quality Control, Promptbiblioteket\n');
   console.log('='.repeat(70));
 
   if (categoryFilter) {

@@ -8,7 +8,7 @@ import { levelLabels } from '../../lib/flows';
 const allFlows = await getCollection('flows');
 const flows = [...allFlows].sort((a, b) => a.data.title.localeCompare(b.data.title, 'sv'));
 
-const description = 'Flöden kombinerar flera prompts till sammanhängande arbetsmönster. Från månadsbokslut till rekryteringsprocess — färdiga kedjor för vardagens uppgifter.';
+const description = 'Flöden kombinerar flera prompts till sammanhängande arbetsmönster. Från månadsbokslut till rekryteringsprocess, färdiga kedjor för vardagens uppgifter.';
 
 const jsonLd = {
   '@context': 'https://schema.org',

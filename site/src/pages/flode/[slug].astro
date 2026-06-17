@@ -30,7 +30,7 @@ const resolvedSteps = data.steps.map(step => {
   };
 });
 
-// Verify all steps resolve — broken references fail the build
+// Verify all steps resolve, broken references fail the build
 const missing = resolvedSteps.filter(s => !s.resolved);
 if (missing.length > 0) {
   throw new Error(

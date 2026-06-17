@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Format Prompt — Skapar en prompt-fil från interaktiv input eller JSON.
+ * Format Prompt, Skapar en prompt-fil från interaktiv input eller JSON.
  *
  * Användning:
  *   node pipeline/4-publish/format-prompt.js --json '{"title":"...","category":"...","prompt":"..."}'
@@ -85,7 +85,7 @@ function formatPromptFile(data) {
     body += '\n## Testresultat\n\n';
     for (const result of test_results) {
       const stars = '\u2605'.repeat(result.score) + '\u2606'.repeat(5 - result.score);
-      body += `- **${result.model}:** ${stars} \u2014 ${result.comment}\n`;
+      body += `- **${result.model}:** ${stars}: ${result.comment}\n`;
     }
   }
 
@@ -153,7 +153,7 @@ function main() {
       process.exit(1);
     }
   } else {
-    console.log('Format Prompt — Promptbiblioteket');
+    console.log('Format Prompt, Promptbiblioteket');
     console.log('');
     console.log('Användning:');
     console.log('  node pipeline/4-publish/format-prompt.js --json \'{"title":"...","category":"...","prompt":"..."}\'');
