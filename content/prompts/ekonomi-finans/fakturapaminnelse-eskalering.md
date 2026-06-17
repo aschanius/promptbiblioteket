@@ -1,5 +1,5 @@
 ---
-title: Fakturapåminnelse — eskaleringstrappa från vänlig till inkasso
+title: "Fakturapåminnelse: eskaleringstrappa från vänlig till inkasso"
 slug: fakturapaminnelse-eskalering
 category: ekonomi-finans
 source_author: Teknikministeriet
@@ -50,8 +50,8 @@ Företagets policy: [har ni dröjsmålsränta, påminnelseavgift, inkassopartner
 1. **Påminnelse 1** (skickas dag 7 efter förfall) — kort mejltext, cirka 60 ord
 2. **Påminnelse 2** (skickas dag 14) — mejltext med räntebesked, cirka 80 ord
 3. **Påminnelse 3** (skickas dag 21) — formell text med inkassovarning, cirka 100 ord
-4. **Beslutsmatris för inkasso** — tabell med kriterier: belopp, kundens betalningshistorik, kommunikation, rekommendation (egen inkasso, inkassopartner, avskrivning)
-5. **Interna noteringar** — 3–4 punkter som ska dokumenteras i kundkortet
+4. **Beslutsmatris för inkasso**: tabell med kriterier: belopp, kundens betalningshistorik, kommunikation, rekommendation (egen inkasso, inkassopartner, avskrivning)
+5. **Interna noteringar**: 3–4 punkter som ska dokumenteras i kundkortet
 ```
 
 ## Användning

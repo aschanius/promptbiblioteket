@@ -1,5 +1,5 @@
 ---
-title: Sex tänkarhattar — beslutsanalys
+title: "Sex tänkarhattar: beslutsanalys"
 slug: sex-tankarhattar
 category: ledarskap-strategi
 source_url: https://www.teknikministeriet.se/prompts-allman/

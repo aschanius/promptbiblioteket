@@ -1,5 +1,5 @@
 ---
-title: Reseräkning — strukturera kvitton och traktamenten enligt Skatteverket
+title: "Reseräkning: strukturera kvitton och traktamenten enligt Skatteverket"
 slug: reserakning-hjalpreda
 category: administration-ea
 source_url: https://www.skatteverket.se/
@@ -51,15 +51,15 @@ Traktamentsnivå: [Sverige 280 kr/dag, utlandstraktamente enligt Skatteverkets t
 - Svenska belopp och datum
 
 # Utdataformat
-1. **Resesammanställning** — datum, syfte, destination, start- och sluttid
-2. **Transportkostnader** — tabell: datum, från–till, transportslag, belopp, kvitto-referens
-3. **Logi** — tabell: datum, hotell, antal nätter, belopp per natt, totalt
-4. **Måltider och representation** — separata poster för egna måltider, representation och bjudna måltider
-5. **Traktamente** — tabell: datum, hel/halv dag, eventuell reducering, utbetalningsbelopp
-6. **Bilersättning** — mil, skattefri del, beskattningsbar del
-7. **Total** — summering per kostnadstyp
-8. **Kvitton som saknas** — lista där kvitto behöver efterfrågas innan inlämning
-9. **Kommentarer till ekonomi** — anteckningar som förklarar undantag eller oklara poster
+1. **Resesammanställning**: datum, syfte, destination, start- och sluttid
+2. **Transportkostnader**: tabell: datum, från–till, transportslag, belopp, kvitto-referens
+3. **Logi**: tabell: datum, hotell, antal nätter, belopp per natt, totalt
+4. **Måltider och representation**: separata poster för egna måltider, representation och bjudna måltider
+5. **Traktamente**: tabell: datum, hel/halv dag, eventuell reducering, utbetalningsbelopp
+6. **Bilersättning**: mil, skattefri del, beskattningsbar del
+7. **Total**: summering per kostnadstyp
+8. **Kvitton som saknas**: lista där kvitto behöver efterfrågas innan inlämning
+9. **Kommentarer till ekonomi**: anteckningar som förklarar undantag eller oklara poster
 ```
 
 ## Användning

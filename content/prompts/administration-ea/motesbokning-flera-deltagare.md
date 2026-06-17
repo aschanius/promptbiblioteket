@@ -1,5 +1,5 @@
 ---
-title: Mötesbokning — tidsförslag till flera deltagare
+title: "Mötesbokning: tidsförslag till flera deltagare"
 slug: motesbokning-flera-deltagare
 category: administration-ea
 source_url: https://www.teknikministeriet.se
@@ -50,15 +50,15 @@ Förberedelse som krävs: [material deltagarna bör läsa innan]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Ämnesrad** — 1 rad: gör det tydligt vad mötet gäller och att svar krävs
-2. **Mejl** — komplett mejltext, max 150 ord:
+1. **Ämnesrad**: 1 rad: gör det tydligt vad mötet gäller och att svar krävs
+2. **Mejl**: komplett mejltext, max 150 ord:
    - Kort introduktion av mötets syfte
    - 3 tidsalternativ som numrerade punkter
    - Format (fysiskt/digitalt) och teknisk detalj (adress eller möteslänk kommer senare)
    - Förberedelsematerial om relevant
    - Svar-deadline och svarsform ("svara med 1, 2 eller 3" eller "bocka i kalenderinbjudan")
    - Vänlig avslutning
-3. **Alternativ: kalender-invite-text** — korta fält för när möte bokats
+3. **Alternativ: kalender-invite-text**: korta fält för när möte bokats
    - Titel
    - Beskrivning (3-5 rader)
    - Förberedelse

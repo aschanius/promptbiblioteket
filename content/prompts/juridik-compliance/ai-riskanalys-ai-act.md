@@ -48,12 +48,12 @@ Geografisk marknad: [Sverige, EU, globalt]
 - Böter upp till 35 MEUR eller 7 % av global omsättning — ta inte lätt på förbjuden-flaggan
 
 # Utdataformat
-1. **Klassificering** — förbjuden, hög, begränsad eller minimal risk med motivering
-2. **Relevanta lagrum** — specifika artiklar och Annex III-punkter
-3. **Tillämpningsdatum** — när respektive krav träder i kraft
-4. **Krav att uppfylla** — tabell med krav, deadline, ansvarig roll
-5. **Red flags** — förbjudna tillämpningar som måste åtgärdas direkt
-6. **Nästa steg** — vad organisationen bör göra först
+1. **Klassificering**: förbjuden, hög, begränsad eller minimal risk med motivering
+2. **Relevanta lagrum**: specifika artiklar och Annex III-punkter
+3. **Tillämpningsdatum**: när respektive krav träder i kraft
+4. **Krav att uppfylla**: tabell med krav, deadline, ansvarig roll
+5. **Red flags**: förbjudna tillämpningar som måste åtgärdas direkt
+6. **Nästa steg**: vad organisationen bör göra först
 ```
 
 ## Användning

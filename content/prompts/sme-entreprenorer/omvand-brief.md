@@ -1,5 +1,5 @@
 ---
-title: Omvänd brief — klargör innan du löser
+title: "Omvänd brief: klargör innan du löser"
 slug: omvand-brief
 category: sme-entreprenorer
 source_url: https://www.teknikministeriet.se

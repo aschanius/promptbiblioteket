@@ -1,5 +1,5 @@
 ---
-title: Klarspråkskonsult — textomskrivning
+title: "Klarspråkskonsult: textomskrivning"
 slug: klarsprakskonsult-textomskrivning
 category: marknadsforing-kommunikation
 source_url: https://www.teknikministeriet.se/prompts-allman/
@@ -47,8 +47,8 @@ Text:
 
 # Utdataformat
 1. **Omskriven text** med klarspråksändringar
-2. **Ändringslogg** — lista de 5 viktigaste ändringarna med motivering
-3. **Läsbarhetsuppskattning** — enkel/medel/avancerad, före och efter
+2. **Ändringslogg**: lista de 5 viktigaste ändringarna med motivering
+3. **Läsbarhetsuppskattning**: enkel/medel/avancerad, före och efter
 ```
 
 ## Användning
@@ -57,4 +57,4 @@ Klistra in hela texten eller de mest svårlästa avsnitten. Ange texttyp och må
 
 ## Testresultat
 
-- **Gemini 2.5 Flash:** ★★★★☆ — Följde alla regler korrekt: korta meningar, aktiv form, vardagliga ord. Lade till underrubriker, levererade ändringslogg med motiveringar och läsbarhetsuppskattning före/efter. Omskrev en komplex myndighetsmening (67 ord) till sex korta meningar utan informationsförlust.
+- **Gemini 2.5 Flash:** ★★★★☆: Följde alla regler korrekt: korta meningar, aktiv form, vardagliga ord. Lade till underrubriker, levererade ändringslogg med motiveringar och läsbarhetsuppskattning före/efter. Omskrev en komplex myndighetsmening (67 ord) till sex korta meningar utan informationsförlust.

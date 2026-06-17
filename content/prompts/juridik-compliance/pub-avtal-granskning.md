@@ -1,5 +1,5 @@
 ---
-title: Personuppgiftsbiträdesavtal (PUB-avtal) — granskning enligt GDPR artikel 28
+title: "Personuppgiftsbiträdesavtal (PUB-avtal): granskning enligt GDPR artikel 28"
 slug: pub-avtal-granskning
 category: juridik-compliance
 source_url: https://www.imy.se/
@@ -52,13 +52,13 @@ Avtalstext: [klistra in hela PUB-avtalet]
 - Svenska utan tankstreck i brödtext
 
 # Utdataformat
-1. **Sammanfattning** — 2–3 meningar om avtalets övergripande status (godtagbart, behöver justeras, behöver omformuleras i grunden)
-2. **Artikel 28-checklista** — tabell med kolumner: obligatorisk punkt, status (tydlig/vag/saknas), referens till paragraf i avtalet, kommentar
-3. **Kritiska brister** — punkter där avtalet INTE uppfyller GDPR-kraven, med förslag på formulering
-4. **Vaga formuleringar** — citat från avtalet + förslag på tydligare skrivning
-5. **Tredjelandsöverföringar** — specifik analys om detta är aktuellt
-6. **Underbiträden** — analys av klausulerna
-7. **Frågor att ställa motparten** — 3–5 konkreta frågor innan avtalet signeras
+1. **Sammanfattning**: 2–3 meningar om avtalets övergripande status (godtagbart, behöver justeras, behöver omformuleras i grunden)
+2. **Artikel 28-checklista**: tabell med kolumner: obligatorisk punkt, status (tydlig/vag/saknas), referens till paragraf i avtalet, kommentar
+3. **Kritiska brister**: punkter där avtalet INTE uppfyller GDPR-kraven, med förslag på formulering
+4. **Vaga formuleringar**: citat från avtalet + förslag på tydligare skrivning
+5. **Tredjelandsöverföringar**: specifik analys om detta är aktuellt
+6. **Underbiträden**: analys av klausulerna
+7. **Frågor att ställa motparten**: 3–5 konkreta frågor innan avtalet signeras
 ```
 
 ## Användning

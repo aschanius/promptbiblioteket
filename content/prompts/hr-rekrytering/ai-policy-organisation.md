@@ -48,14 +48,14 @@ Avtalsform: [kollektivavtal eller ej]
 - Ersätt inte förhandling med fack — vid kollektivavtal kräver ändring MBL-förhandling
 
 # Utdataformat
-1. **Syfte** — varför policyn finns (3-5 rader)
-2. **Godkända verktyg** — lista med version eller plan där relevant
-3. **Datahantering** — vad får och får inte skickas till AI
-4. **Användningsregler** — du-form, exempel på användning och gränser
-5. **Transparens** — när behöver du ange att AI använts (mot kunder, kollegor, i leveranser)
-6. **Incidentrapportering** — vem, hur, när
-7. **Utbildningskrav** — koppling till Art 4 kompetenskrav
-8. **Revision** — när uppdateras policyn, vem äger den
+1. **Syfte**: varför policyn finns (3-5 rader)
+2. **Godkända verktyg**: lista med version eller plan där relevant
+3. **Datahantering**: vad får och får inte skickas till AI
+4. **Användningsregler**: du-form, exempel på användning och gränser
+5. **Transparens**: när behöver du ange att AI använts (mot kunder, kollegor, i leveranser)
+6. **Incidentrapportering**: vem, hur, när
+7. **Utbildningskrav**: koppling till Art 4 kompetenskrav
+8. **Revision**: när uppdateras policyn, vem äger den
 ```
 
 ## Användning

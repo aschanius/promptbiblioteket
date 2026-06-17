@@ -1,5 +1,5 @@
 ---
-title: Förbättra din prompt — metaprompt
+title: "Förbättra din prompt: metaprompt"
 slug: forbattra-din-prompt
 category: utbildning-pedagogik
 source_url: https://www.teknikministeriet.se/prompts-allman/
@@ -45,10 +45,10 @@ Vad som inte fungerar: [beskriv problemet med nuvarande resultat]
 - Om prompten är bra som den är, säg det
 
 # Utdataformat
-1. **Analys** — vad som är bra och vad som saknas (3-5 punkter)
-2. **Förbättrad prompt** — den omarbetade versionen
-3. **Ändringsförklaring** — vad du ändrade och varför, punkt för punkt
-4. **Tips** — 2-3 generella prompting-tips baserade på de problem jag hade
+1. **Analys**: vad som är bra och vad som saknas (3-5 punkter)
+2. **Förbättrad prompt**: den omarbetade versionen
+3. **Ändringsförklaring**: vad du ändrade och varför, punkt för punkt
+4. **Tips**: 2-3 generella prompting-tips baserade på de problem jag hade
 ```
 
 ## Användning

@@ -1,5 +1,5 @@
 ---
-title: Följebrev — skräddarsytt till jobbansökan
+title: "Följebrev: skräddarsytt till jobbansökan"
 slug: foljebrev-ansokan
 category: administration-ea
 source_url: https://www.teknikministeriet.se
@@ -52,13 +52,13 @@ Overtydligt förbjudet: [ord eller fraser kandidaten inte vill använda]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Följebrev** — komplett brev, max 300 ord, redo att klistras in i ansökningssystem:
+1. **Följebrev**: komplett brev, max 300 ord, redo att klistras in i ansökningssystem:
    - Rubrik: tjänsten och arbetsgivaren
    - Öppning (1-2 meningar): varför just denna roll fångar kandidatens intresse
    - Mittsektion (2-3 stycken): matchning mellan kandidatens erfarenhet och annonsens krav, konkret
    - Eventuell lucka hanterad kort och professionellt
    - Avslutning: konkret önskan om samtal och kontakt
-2. **Anteckning till kandidaten** — 3-5 punkter:
+2. **Anteckning till kandidaten**: 3-5 punkter:
    - Vilka matchningar brevet byggts kring
    - Vilka formuleringar som kan justeras efter smak
    - Eventuell varning om uppgifter i bakgrunden som kan behöva styrkas

@@ -1,5 +1,5 @@
 ---
-title: Momsdeklaration — förberedelse för egenföretagare
+title: "Momsdeklaration: förberedelse för egenföretagare"
 slug: momsdeklaration-egenforetagare
 category: sme-entreprenorer
 source_url: https://www.skatteverket.se/foretag/moms
@@ -55,17 +55,17 @@ Osäkra poster: [transaktioner där jag är osäker på moms-hanteringen]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Periodöversikt** — vilken period, när ska deklarationen vara inskickad, uppskattad omsättning
-2. **Utgående moms** — tabell: momssats, beskattningsunderlag (belopp utan moms), moms att redovisa, kommentar
-3. **Ingående moms** — tabell: typ av inköp, belopp utan moms, moms att dra av, kommentar
-4. **Omvänd skattskyldighet** — EU-köp varor, EU-köp tjänster, byggtjänster, separat redovisning
-5. **Export och EU-försäljning** — belopp per typ, momssats 0, rapportering via periodisk sammanställning
-6. **Moms att betala eller återfå** — beräknad summa, kontroll mot bokföringen
-7. **Avvikelser och oklara poster** — lista med transaktioner som behöver dubbelkollas innan inskick
-8. **Kontrollfrågor** — 5-8 frågor för att validera att deklarationen är komplett (t.ex. "har alla kreditfakturor bokats korrekt?")
-9. **Checklista inför inskick** — punkter att verifiera: bokföring avstämd, moms stämmer med SAF-T, inga osäkra poster kvar
-10. **Sparande** — vilka verifikat ska sparas och hur länge (7 år för fysiska, 10 år för fastigheter)
-11. **Risk för Skatteverkets granskning** — signal om något i perioden avviker påtagligt jämfört med normalen
+1. **Periodöversikt**: vilken period, när ska deklarationen vara inskickad, uppskattad omsättning
+2. **Utgående moms**: tabell: momssats, beskattningsunderlag (belopp utan moms), moms att redovisa, kommentar
+3. **Ingående moms**: tabell: typ av inköp, belopp utan moms, moms att dra av, kommentar
+4. **Omvänd skattskyldighet**: EU-köp varor, EU-köp tjänster, byggtjänster, separat redovisning
+5. **Export och EU-försäljning**: belopp per typ, momssats 0, rapportering via periodisk sammanställning
+6. **Moms att betala eller återfå**: beräknad summa, kontroll mot bokföringen
+7. **Avvikelser och oklara poster**: lista med transaktioner som behöver dubbelkollas innan inskick
+8. **Kontrollfrågor**: 5-8 frågor för att validera att deklarationen är komplett (t.ex. "har alla kreditfakturor bokats korrekt?")
+9. **Checklista inför inskick**: punkter att verifiera: bokföring avstämd, moms stämmer med SAF-T, inga osäkra poster kvar
+10. **Sparande**: vilka verifikat ska sparas och hur länge (7 år för fysiska, 10 år för fastigheter)
+11. **Risk för Skatteverkets granskning**: signal om något i perioden avviker påtagligt jämfört med normalen
 ```
 
 ## Användning

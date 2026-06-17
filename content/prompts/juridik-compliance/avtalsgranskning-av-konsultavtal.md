@@ -59,4 +59,4 @@ Klistra in hela avtalet eller de mest relevanta paragraferna. Var tydlig med din
 
 ## Testresultat
 
-- **Claude Opus 4.6:** ★★★★☆ — Flaggade red flags prioriterat efter allvar, föreslog alternativa formuleringar, markerade standard vs avvikelse, rekommenderade juristkonsultation för kritiska frågor
+- **Claude Opus 4.6:** ★★★★☆: Flaggade red flags prioriterat efter allvar, föreslog alternativa formuleringar, markerade standard vs avvikelse, rekommenderade juristkonsultation för kritiska frågor

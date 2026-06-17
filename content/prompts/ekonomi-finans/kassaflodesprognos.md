@@ -1,5 +1,5 @@
 ---
-title: Kassaflödesprognos — likviditetsanalys
+title: "Kassaflödesprognos: likviditetsanalys"
 slug: kassaflodesprognos
 category: ekonomi-finans
 source_url: https://www.teknikministeriet.se
@@ -48,10 +48,10 @@ Säsongsvariation: [ja/nej, beskriv mönster]
 - Var konservativ i uppskattningar
 
 # Utdataformat
-1. **Månad-för-månad-prognos** — tabell med in, ut, netto, ackumulerad kassa
-2. **Riskflaggor** — veckor med likviditetsbrist, markerade med allvar (varning/kritisk)
-3. **Åtgärdsförslag** — 3-5 konkreta åtgärder för att stärka kassan
-4. **Känslighetsanalys** — vad händer om största kunden betalar 30 dagar sent?
+1. **Månad-för-månad-prognos**: tabell med in, ut, netto, ackumulerad kassa
+2. **Riskflaggor**: veckor med likviditetsbrist, markerade med allvar (varning/kritisk)
+3. **Åtgärdsförslag**: 3-5 konkreta åtgärder för att stärka kassan
+4. **Känslighetsanalys**: vad händer om största kunden betalar 30 dagar sent?
 ```
 
 ## Användning

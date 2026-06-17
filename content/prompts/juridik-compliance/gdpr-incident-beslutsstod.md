@@ -1,5 +1,5 @@
 ---
-title: GDPR-incident — beslutsstöd för anmälan till IMY
+title: "GDPR-incident: beslutsstöd för anmälan till IMY"
 slug: gdpr-incident-beslutsstod
 category: juridik-compliance
 source_url: https://www.imy.se/
@@ -52,13 +52,13 @@ Nuvarande åtgärder: [lista]
 - Markera punkter där juridisk rådgivning krävs
 
 # Utdataformat
-1. **Sammanfattning av händelsen** — 3–4 meningar neutralt
-2. **Riskklassificering** — låg / risk / hög risk med motivering
-3. **Beslut: anmäla till IMY** — ja/nej/osäkert med motivering, hänvisning till relevant artikel
-4. **Beslut: informera registrerade** — ja/nej/osäkert med motivering
-5. **Omedelbara åtgärder (24h)** — numrerad lista med ansvarig roll
-6. **Uppföljning (72h och därefter)** — vad ska dokumenteras, vilka frågor ska besvaras
-7. **Juridiska frågor som kräver rådgivning** — 2–4 punkter där dataskyddsombud eller advokat bör konsulteras
+1. **Sammanfattning av händelsen**: 3–4 meningar neutralt
+2. **Riskklassificering**: låg / risk / hög risk med motivering
+3. **Beslut: anmäla till IMY**: ja/nej/osäkert med motivering, hänvisning till relevant artikel
+4. **Beslut: informera registrerade**: ja/nej/osäkert med motivering
+5. **Omedelbara åtgärder (24h)**: numrerad lista med ansvarig roll
+6. **Uppföljning (72h och därefter)**: vad ska dokumenteras, vilka frågor ska besvaras
+7. **Juridiska frågor som kräver rådgivning**: 2–4 punkter där dataskyddsombud eller advokat bör konsulteras
 ```
 
 ## Användning

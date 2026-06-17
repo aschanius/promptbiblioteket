@@ -46,8 +46,8 @@ Originaltext:
 
 # Utdataformat
 1. **Omskriven text** i den önskade tonen
-2. **Anpassningsnoter** — vilka val du gjorde och varför (3-5 punkter)
-3. **Alternativt tilltal** — en mening som visar hur texten skulle låta i motsatt ton
+2. **Anpassningsnoter**: vilka val du gjorde och varför (3-5 punkter)
+3. **Alternativt tilltal**: en mening som visar hur texten skulle låta i motsatt ton
 ```
 
 ## Användning

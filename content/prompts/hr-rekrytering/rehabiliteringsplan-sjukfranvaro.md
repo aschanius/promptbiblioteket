@@ -48,12 +48,12 @@ Kontaktpersoner: [chef, HR, företagshälsovård, Försäkringskassans handlägg
 - Ersätter inte dialog med medarbetare, företagshälsovård eller Försäkringskassan
 
 # Utdataformat
-1. **Nuläge** — arbetsförmåga och hinder, strukturerat
-2. **Åtgärdsplan** — tabell: åtgärd, ansvarig, tidpunkt, uppföljningskriterium
-3. **Stegvis återgång** — tidslinje med milstolpar vid deltidssjukskrivning
-4. **Kontaktvägar** — vem kontaktar vem, hur ofta
-5. **Uppföljning** — tidpunkter och format (möte, avstämning, revidering)
-6. **Checklista inför inlämning** — vad planen ska innehålla enligt Försäkringskassan
+1. **Nuläge**: arbetsförmåga och hinder, strukturerat
+2. **Åtgärdsplan**: tabell: åtgärd, ansvarig, tidpunkt, uppföljningskriterium
+3. **Stegvis återgång**: tidslinje med milstolpar vid deltidssjukskrivning
+4. **Kontaktvägar**: vem kontaktar vem, hur ofta
+5. **Uppföljning**: tidpunkter och format (möte, avstämning, revidering)
+6. **Checklista inför inlämning**: vad planen ska innehålla enligt Försäkringskassan
 ```
 
 ## Användning

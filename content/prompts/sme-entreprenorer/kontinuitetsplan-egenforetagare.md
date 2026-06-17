@@ -53,14 +53,14 @@ Familjesituation: [någon som känner till företaget och kan agera vid kris]
 # Utdataformat
 **Kontinuitetsplan — [företagsnamn], version [datum]**
 
-1. **Akut kontaktlista** — tabell: roll, namn, telefon, vad de kan agera på
-2. **Första 48 timmarna** — vad MÅSTE ske, av vem
-3. **Första två veckorna** — kundkontakt, fakturering, pågående leveranser
-4. **Löpande åtaganden** — återkommande betalningar, avtal som löper
-5. **Kritisk åtkomst** — pekare (inte värden): "banklogin hos person X", "avtal i mapp Y"
-6. **Försäkringsstatus** — vad täcker vad, brister att hantera
-7. **Långtidsfrånvaro (över två veckor)** — utlöser separat plan, vem tar kontakt
-8. **Revision** — datum för nästa genomgång
+1. **Akut kontaktlista**: tabell: roll, namn, telefon, vad de kan agera på
+2. **Första 48 timmarna**: vad MÅSTE ske, av vem
+3. **Första två veckorna**: kundkontakt, fakturering, pågående leveranser
+4. **Löpande åtaganden**: återkommande betalningar, avtal som löper
+5. **Kritisk åtkomst**: pekare (inte värden): "banklogin hos person X", "avtal i mapp Y"
+6. **Försäkringsstatus**: vad täcker vad, brister att hantera
+7. **Långtidsfrånvaro (över två veckor)**: utlöser separat plan, vem tar kontakt
+8. **Revision**: datum för nästa genomgång
 ```
 
 ## Användning

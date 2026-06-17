@@ -1,5 +1,5 @@
 ---
-title: Nyhetsbrev — strukturkoll och förbättringsförslag
+title: "Nyhetsbrev: strukturkoll och förbättringsförslag"
 slug: nyhetsbrev-strukturkoll
 category: marknadsforing-kommunikation
 source_url: https://www.teknikministeriet.se
@@ -54,17 +54,17 @@ Begränsningar: [max längd, juridiska friskrivningar, obligatoriska länkar]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Sammanfattning** — 2-3 meningars bedömning: vad som fungerar, vad som är svagast
-2. **Ämnesrad** — bedömning av utkastet + 3 alternativa ämnesrader att A/B-testa
-3. **Preview text** — bedömning + 2 förslag (45-90 tecken)
-4. **Öppning (första 50 orden)** — bedömning + konkret förslag på omskrivning
-5. **Innehållsordning** — kommentar per sektion, förslag på omordning om det behövs
-6. **Läsbarhet** — punktlista: för långa stycken, svår meningsbyggnad, brist på underrubriker, jargong
-7. **CTA** — är det tydligt vad läsaren ska göra? Om flera: vilken ska bort?
-8. **Ton och varumärke** — stämmer texten med varumärkets personlighet? Exempel på ställen att skärpa
-9. **Mobil-koll** — vad som kan läsa dåligt på liten skärm
-10. **Juridik och efterlevnad** — avregistreringslänk finns, avsändarinfo, eventuell GDPR-korrekt hantering
-11. **Prioritering** — vilka 3 ändringar ger mest effekt om tiden är knapp
+1. **Sammanfattning**: 2-3 meningars bedömning: vad som fungerar, vad som är svagast
+2. **Ämnesrad**: bedömning av utkastet + 3 alternativa ämnesrader att A/B-testa
+3. **Preview text**: bedömning + 2 förslag (45-90 tecken)
+4. **Öppning (första 50 orden)**: bedömning + konkret förslag på omskrivning
+5. **Innehållsordning**: kommentar per sektion, förslag på omordning om det behövs
+6. **Läsbarhet**: punktlista: för långa stycken, svår meningsbyggnad, brist på underrubriker, jargong
+7. **CTA**: är det tydligt vad läsaren ska göra? Om flera: vilken ska bort?
+8. **Ton och varumärke**: stämmer texten med varumärkets personlighet? Exempel på ställen att skärpa
+9. **Mobil-koll**: vad som kan läsa dåligt på liten skärm
+10. **Juridik och efterlevnad**: avregistreringslänk finns, avsändarinfo, eventuell GDPR-korrekt hantering
+11. **Prioritering**: vilka 3 ändringar ger mest effekt om tiden är knapp
 ```
 
 ## Användning

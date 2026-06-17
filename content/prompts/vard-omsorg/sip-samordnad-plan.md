@@ -1,5 +1,5 @@
 ---
-title: Samordnad individuell plan (SIP) — förberedelse och struktur
+title: "Samordnad individuell plan (SIP): förberedelse och struktur"
 slug: sip-samordnad-plan
 category: vard-omsorg
 source_url: https://www.socialstyrelsen.se/kunskapsstod-och-regler/regler-och-riktlinjer/sip-samordnad-individuell-plan/
@@ -52,29 +52,29 @@ Sekretessnivåer: [samtycke till informationsdelning inhämtat ja/nej/delvis]
 
 # Utdataformat
 **Del 1: Förberedelse (initierande handläggare)**
-1. **Bakgrund** — 2-3 meningar om den enskildes situation och varför SIP initieras
-2. **Samtyckesstatus** — vad den enskilde samtyckt till
-3. **Deltagare att bjuda in** — den enskilde, anhöriga, involverade verksamheter. Notera vem som tillfrågats
-4. **Förmöte med den enskilde** — frågor för att förbereda: vad vill hen uppnå, vem ska vara med, vad ska INTE tas upp
-5. **Praktiska förutsättningar** — plats, tid, längd, kommunikationsstöd, tolk
+1. **Bakgrund**: 2-3 meningar om den enskildes situation och varför SIP initieras
+2. **Samtyckesstatus**: vad den enskilde samtyckt till
+3. **Deltagare att bjuda in**: den enskilde, anhöriga, involverade verksamheter. Notera vem som tillfrågats
+4. **Förmöte med den enskilde**: frågor för att förbereda: vad vill hen uppnå, vem ska vara med, vad ska INTE tas upp
+5. **Praktiska förutsättningar**: plats, tid, längd, kommunikationsstöd, tolk
 
 **Del 2: Mötesagenda**
-6. **Välkomnande och syfte** — den enskilde presenterar vad mötet ska leda till
-7. **Nuläge** — varje deltagare beskriver sitt område kort, med den enskildes godkännande
-8. **Den enskildes mål** — vad är viktigast att uppnå
-9. **Insatser och ansvar** — vem gör vad
-10. **Uppföljning** — när, hur, vem sammankallar
+6. **Välkomnande och syfte**: den enskilde presenterar vad mötet ska leda till
+7. **Nuläge**: varje deltagare beskriver sitt område kort, med den enskildes godkännande
+8. **Den enskildes mål**: vad är viktigast att uppnå
+9. **Insatser och ansvar**: vem gör vad
+10. **Uppföljning**: när, hur, vem sammankallar
 
 **Del 3: Planmall (dokumenteras efter mötet)**
-11. **Den enskilde** — namn (kan lämnas tomt om känsligt), samtyckesbekräftelse
-12. **Deltagare** — vilka som varit med, anhöriga inkluderade
-13. **Nuläge** — kort per område
-14. **Mål** — tabell: målområde, konkret mål, tidsram
-15. **Insatser** — tabell: insats, ansvarig verksamhet/person, frekvens, startdatum
-16. **Informationsdelning** — vilken information som delas mellan verksamheter
-17. **Uppföljning** — datum för uppföljande SIP, vem sammankallar
-18. **Den enskildes egen kommentar** — utrymme där hen kan notera vad som är viktigt
-19. **Beslut om planens delning** — var planen dokumenteras (journal, socialtjänstsystem, övrigt)
+11. **Den enskilde**: namn (kan lämnas tomt om känsligt), samtyckesbekräftelse
+12. **Deltagare**: vilka som varit med, anhöriga inkluderade
+13. **Nuläge**: kort per område
+14. **Mål**: tabell: målområde, konkret mål, tidsram
+15. **Insatser**: tabell: insats, ansvarig verksamhet/person, frekvens, startdatum
+16. **Informationsdelning**: vilken information som delas mellan verksamheter
+17. **Uppföljning**: datum för uppföljande SIP, vem sammankallar
+18. **Den enskildes egen kommentar**: utrymme där hen kan notera vad som är viktigt
+19. **Beslut om planens delning**: var planen dokumenteras (journal, socialtjänstsystem, övrigt)
 ```
 
 ## Användning

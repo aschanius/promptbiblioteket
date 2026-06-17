@@ -50,13 +50,13 @@ Risknivå enligt AI Act: [förbjuden, hög, begränsad, minimal]
 - Ersätt inte jurist vid större upphandling eller komplex integration
 
 # Utdataformat
-1. **Datakartläggning** — vilken data behandlas, var lagras den, vem har åtkomst
-2. **Rättslig grund** — personuppgiftsansvarig eller biträde-roll, DPA-status, SCC vid överföring utanför EU
-3. **Säkerhetsgranskning** — checklista: certifieringar, loggning, kryptering, åtkomstkontroll
-4. **AI-specifika frågor** — träningsdata, modelldokumentation, AI Act-efterlevnad
-5. **Underbiträden** — lista, godkännanderutin, avtalsvillkor
-6. **Kontinuitetsplan** — vad händer vid leverantörens incident, konkurs eller prisändring
-7. **Årlig granskningsmall** — dokumentation som produceras vid uppföljning
+1. **Datakartläggning**: vilken data behandlas, var lagras den, vem har åtkomst
+2. **Rättslig grund**: personuppgiftsansvarig eller biträde-roll, DPA-status, SCC vid överföring utanför EU
+3. **Säkerhetsgranskning**: checklista: certifieringar, loggning, kryptering, åtkomstkontroll
+4. **AI-specifika frågor**: träningsdata, modelldokumentation, AI Act-efterlevnad
+5. **Underbiträden**: lista, godkännanderutin, avtalsvillkor
+6. **Kontinuitetsplan**: vad händer vid leverantörens incident, konkurs eller prisändring
+7. **Årlig granskningsmall**: dokumentation som produceras vid uppföljning
 ```
 
 ## Användning

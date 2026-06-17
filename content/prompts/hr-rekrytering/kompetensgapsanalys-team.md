@@ -1,5 +1,5 @@
 ---
-title: Kompetensgapsanalys för team — vad saknas, vad kan utvecklas internt
+title: "Kompetensgapsanalys för team: vad saknas, vad kan utvecklas internt"
 slug: kompetensgapsanalys-team
 category: hr-rekrytering
 source_author: Teknikministeriet
@@ -50,13 +50,13 @@ EU AI Act-krav: [om relevant: roller som kräver AI-kompetens enligt artikel 4]
 - Svenska utan tankstreck i brödtext
 
 # Utdataformat
-1. **Kompetensmatris** — tabell: kompetens, nivå idag (saknas/grund/bra/expert), nivå behov, gap, verksamhetskritisk (ja/nej)
-2. **Topp-5 kritiska gap** — de mest akuta, med konsekvensbeskrivning
-3. **Nyckelpersonrisker** — kompetens som bara en person bär — lista
-4. **Åtgärdsförslag per gap** — utbildning / mentorskap / omfördelning / rekrytering / konsult, med motivering och ungefärlig kostnad
-5. **AI-kompetens enligt AI Act** — analys av vilka roller som berörs
-6. **12-månadersplan** — konkret tidsplan med milstolpar
-7. **Uppföljningsfrågor till teamet** — 3–5 frågor för att validera analysen med medarbetarna
+1. **Kompetensmatris**: tabell: kompetens, nivå idag (saknas/grund/bra/expert), nivå behov, gap, verksamhetskritisk (ja/nej)
+2. **Topp-5 kritiska gap**: de mest akuta, med konsekvensbeskrivning
+3. **Nyckelpersonrisker**: kompetens som bara en person bär — lista
+4. **Åtgärdsförslag per gap**: utbildning / mentorskap / omfördelning / rekrytering / konsult, med motivering och ungefärlig kostnad
+5. **AI-kompetens enligt AI Act**: analys av vilka roller som berörs
+6. **12-månadersplan**: konkret tidsplan med milstolpar
+7. **Uppföljningsfrågor till teamet**: 3–5 frågor för att validera analysen med medarbetarna
 ```
 
 ## Användning

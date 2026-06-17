@@ -1,5 +1,5 @@
 ---
-title: Visselblåsarlagen — tillämpningsguide för svenska arbetsgivare
+title: "Visselblåsarlagen: tillämpningsguide för svenska arbetsgivare"
 slug: visselblasarlagen-tillampning
 category: juridik-compliance
 source_url: https://lagen.nu/2021:890
@@ -52,14 +52,14 @@ Särskilda risker: [t.ex. offentlig upphandling, internationella kontakter, fina
 - Skilj på vad som är lagkrav och vad som är rekommenderat bästa praxis
 
 # Utdataformat
-1. **Gäller lagen för er** — ja/nej/osäkert med motivering (antal arbetstagare, koncernregler)
-2. **Obligatoriska delar** — checklista över vad som ska finnas på plats (kanal, rutin, utpekade personer, information till arbetstagare)
-3. **Utpekade personer och oberoende** — vem kan vara mottagare, var ligger hinder
-4. **Ärendeflöde** — steg från mottagande till avslut med tidsfrister (7 dagar bekräftelse, 3 månader återkoppling)
-5. **Personuppgifter** — hantering enligt GDPR, särskilda hänsyn för känslig information
-6. **Repressalieskydd** — vad organisationen måste undvika och hur det bevisas
-7. **Rekommenderat utöver lagkrav** — 3–5 praktiska rekommendationer som underlättar implementering
-8. **Dokument som behöver tas fram** — lista med förslag till titlar (policy, rutin, informationsmaterial)
+1. **Gäller lagen för er**: ja/nej/osäkert med motivering (antal arbetstagare, koncernregler)
+2. **Obligatoriska delar**: checklista över vad som ska finnas på plats (kanal, rutin, utpekade personer, information till arbetstagare)
+3. **Utpekade personer och oberoende**: vem kan vara mottagare, var ligger hinder
+4. **Ärendeflöde**: steg från mottagande till avslut med tidsfrister (7 dagar bekräftelse, 3 månader återkoppling)
+5. **Personuppgifter**: hantering enligt GDPR, särskilda hänsyn för känslig information
+6. **Repressalieskydd**: vad organisationen måste undvika och hur det bevisas
+7. **Rekommenderat utöver lagkrav**: 3–5 praktiska rekommendationer som underlättar implementering
+8. **Dokument som behöver tas fram**: lista med förslag till titlar (policy, rutin, informationsmaterial)
 ```
 
 ## Användning

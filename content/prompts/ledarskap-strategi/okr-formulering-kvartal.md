@@ -1,5 +1,5 @@
 ---
-title: OKR-formulering för kvartalet — mål och mätbara nyckelresultat
+title: "OKR-formulering för kvartalet: mål och mätbara nyckelresultat"
 slug: okr-formulering-kvartal
 category: ledarskap-strategi
 source_author: Teknikministeriet
@@ -50,12 +50,12 @@ Utkast till Key Results (om finns): [lista]
 - Var konkret med siffror, procent, datum
 
 # Utdataformat
-1. **Bedömning av eventuella utkast** — styrkor, svagheter, vanliga fallgropar
-2. **Förslag till Objectives** — 1–3 formulerade, med motivering per Objective (en mening om varför det är rätt för kvartalet)
-3. **Förslag till Key Results per Objective** — tabell med kolumner: KR, startvärde, målvärde, mätfrekvens, ägare
-4. **Vanliga fällor att undvika** — 3–5 specifika för det här teamet eller den här typen av mål
-5. **Veckorytm för uppföljning** — förslag på hur gruppen följer upp KR, vad som triggar omprioritering
-6. **Reflektionsfrågor för ledningsgruppen** — 3 frågor att diskutera innan OKR fastställs
+1. **Bedömning av eventuella utkast**: styrkor, svagheter, vanliga fallgropar
+2. **Förslag till Objectives**: 1–3 formulerade, med motivering per Objective (en mening om varför det är rätt för kvartalet)
+3. **Förslag till Key Results per Objective**: tabell med kolumner: KR, startvärde, målvärde, mätfrekvens, ägare
+4. **Vanliga fällor att undvika**: 3–5 specifika för det här teamet eller den här typen av mål
+5. **Veckorytm för uppföljning**: förslag på hur gruppen följer upp KR, vad som triggar omprioritering
+6. **Reflektionsfrågor för ledningsgruppen**: 3 frågor att diskutera innan OKR fastställs
 ```
 
 ## Användning

@@ -1,5 +1,5 @@
 ---
-title: Pre-mortem — identifiera projektrisker innan start
+title: "Pre-mortem: identifiera projektrisker innan start"
 slug: pre-mortem-for-projektrisker
 category: ledarskap-strategi
 source_url: https://hbr.org/2007/09/performing-a-project-premortem
@@ -49,12 +49,12 @@ Känd risk redan flaggad: [om någon]
 - Var konkret — "dålig kommunikation" räcker inte, skriv "veckovis statusmejl fastnar hos en mellanchef"
 
 # Utdataformat
-1. **Scenario** — två stycken om hur misslyckandet ser ut om tolv månader (berättande, konkret)
-2. **Orsakslista** — tabell med kolumner: orsak, kategori (org/tek/marknad/mänsklig), sannolikhet, påverkan
-3. **Topp-5 kritiska risker** — de med hög sannolikhet + hög påverkan
-4. **Motåtgärder per kritisk risk** — konkret åtgärd, ansvarig roll, deadline
-5. **Tidiga varningssignaler** — 3–5 observerbara signaler att övervaka under projektets gång
-6. **Beslutspunkt** — vad ska gruppen ta ställning till nu baserat på pre-mortem-resultatet
+1. **Scenario**: två stycken om hur misslyckandet ser ut om tolv månader (berättande, konkret)
+2. **Orsakslista**: tabell med kolumner: orsak, kategori (org/tek/marknad/mänsklig), sannolikhet, påverkan
+3. **Topp-5 kritiska risker**: de med hög sannolikhet + hög påverkan
+4. **Motåtgärder per kritisk risk**: konkret åtgärd, ansvarig roll, deadline
+5. **Tidiga varningssignaler**: 3–5 observerbara signaler att övervaka under projektets gång
+6. **Beslutspunkt**: vad ska gruppen ta ställning till nu baserat på pre-mortem-resultatet
 ```
 
 ## Användning

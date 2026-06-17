@@ -60,4 +60,4 @@ Samla ihop all kundkommunikation innan du kör prompten — mail, mötesanteckni
 
 ## Testresultat
 
-- **Claude Opus 4.6:** ★★★★☆ — Levererade alla 7 sektioner, speglade kundens smärtpunkt i inledningen, prissättning strukturerad med belopp + villkor + giltighetstid
+- **Claude Opus 4.6:** ★★★★☆: Levererade alla 7 sektioner, speglade kundens smärtpunkt i inledningen, prissättning strukturerad med belopp + villkor + giltighetstid

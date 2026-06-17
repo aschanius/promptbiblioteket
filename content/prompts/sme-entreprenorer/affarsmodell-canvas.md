@@ -1,5 +1,5 @@
 ---
-title: Affärsmodell — Canvas-utkast för entreprenör
+title: "Affärsmodell: Canvas-utkast för entreprenör"
 slug: affarsmodell-canvas
 category: sme-entreprenorer
 source_url: https://www.strategyzer.com/canvas/business-model-canvas
@@ -55,21 +55,21 @@ Mål 12 månader: [var vill entreprenören vara om ett år]
 # Utdataformat
 **Business Model Canvas-utkast**
 
-1. **Kundsegment** — vem är primär kund, vem är sekundär, vad skiljer dem
-2. **Värdeerbjudande** — det konkreta värdet per kundsegment, formulerat från kundens horisont
-3. **Kanaler** — hur kunden hittar oss, hur vi levererar värdet, hur vi håller kontakt efteråt
-4. **Kundrelationer** — självservice, personlig service, community, automatiserat
-5. **Intäktsströmmar** — vad betalar kunden för, engångsbetalning eller återkommande, prisnivå
-6. **Nyckelresurser** — vad är kritiskt för att leverera värdet (människor, teknik, immateriella rättigheter, kapital)
-7. **Nyckelaktiviteter** — de 3-5 saker vi MÅSTE göra rätt för att affären ska fungera
-8. **Nyckelpartners** — leverantörer, samarbeten, strategiska allianser
-9. **Kostnadsstruktur** — fasta och rörliga kostnader, inklusive dolda (tid, stöd, support)
+1. **Kundsegment**: vem är primär kund, vem är sekundär, vad skiljer dem
+2. **Värdeerbjudande**: det konkreta värdet per kundsegment, formulerat från kundens horisont
+3. **Kanaler**: hur kunden hittar oss, hur vi levererar värdet, hur vi håller kontakt efteråt
+4. **Kundrelationer**: självservice, personlig service, community, automatiserat
+5. **Intäktsströmmar**: vad betalar kunden för, engångsbetalning eller återkommande, prisnivå
+6. **Nyckelresurser**: vad är kritiskt för att leverera värdet (människor, teknik, immateriella rättigheter, kapital)
+7. **Nyckelaktiviteter**: de 3-5 saker vi MÅSTE göra rätt för att affären ska fungera
+8. **Nyckelpartners**: leverantörer, samarbeten, strategiska allianser
+9. **Kostnadsstruktur**: fasta och rörliga kostnader, inklusive dolda (tid, stöd, support)
 
 **Analys efter canvasen:**
-10. **Motsägelser** — var canvasen motsäger sig själv (t.ex. lyxvärde men massmarknadskanal)
-11. **Kritiska antaganden** — vilka antaganden om kunder, pris, kanaler är MEST avgörande och MINST bevisade
-12. **Validerings-experiment** — 3 konkreta test som kan göras de närmaste 30 dagarna för att validera de mest kritiska antagandena
-13. **Frågor att ta till mentor eller rådgivare** — 2-3 frågor där canvasen blottar osäkerhet
+10. **Motsägelser**: var canvasen motsäger sig själv (t.ex. lyxvärde men massmarknadskanal)
+11. **Kritiska antaganden**: vilka antaganden om kunder, pris, kanaler är MEST avgörande och MINST bevisade
+12. **Validerings-experiment**: 3 konkreta test som kan göras de närmaste 30 dagarna för att validera de mest kritiska antagandena
+13. **Frågor att ta till mentor eller rådgivare**: 2-3 frågor där canvasen blottar osäkerhet
 ```
 
 ## Användning

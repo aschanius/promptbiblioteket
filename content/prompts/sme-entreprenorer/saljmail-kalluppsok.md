@@ -1,5 +1,5 @@
 ---
-title: Säljmail — kalluppsök som inte känns som spam
+title: "Säljmail: kalluppsök som inte känns som spam"
 slug: saljmail-kalluppsok
 category: sme-entreprenorer
 source_url: https://www.teknikministeriet.se
@@ -55,12 +55,12 @@ Min relation: [helt okänd, träffats 1 gång, har gemensam kontakt, följer var
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Ämnesrad** — 3 alternativ, max 7 ord vardera, konkret och inte sälj-klichéaktigt
-2. **Preview text** — 45-80 tecken, förstärker ämnesraden utan att avslöja allt
-3. **Mejl (under 120 ord)** — själva brevet i fullständig form
-4. **Anteckning till säljaren** — vad som är specifikt med detta mejl, varför det borde ge svar
-5. **Uppföljning** — om inget svar inom 7 dagar: förslag på kort uppföljningsmejl (max 50 ord) med annan vinkel
-6. **Varningsflagga** — om något i researchen eller prospektens situation gör att kalluppsök är olämpligt just nu (t.ex. bolaget går igenom neddragningar), säg det
+1. **Ämnesrad**: 3 alternativ, max 7 ord vardera, konkret och inte sälj-klichéaktigt
+2. **Preview text**: 45-80 tecken, förstärker ämnesraden utan att avslöja allt
+3. **Mejl (under 120 ord)**: själva brevet i fullständig form
+4. **Anteckning till säljaren**: vad som är specifikt med detta mejl, varför det borde ge svar
+5. **Uppföljning**: om inget svar inom 7 dagar: förslag på kort uppföljningsmejl (max 50 ord) med annan vinkel
+6. **Varningsflagga**: om något i researchen eller prospektens situation gör att kalluppsök är olämpligt just nu (t.ex. bolaget går igenom neddragningar), säg det
 ```
 
 ## Användning

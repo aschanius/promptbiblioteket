@@ -47,12 +47,12 @@ Kulturell kontext: [t.ex. kommunal förvaltning, SME, konsultbolag]
 - Ersätt aldrig mänskligt samtal. Guiden är förberedelse, inte script
 
 # Utdataformat
-1. **Samtalsöppning** — förslag till inramning i 2-3 meningar
-2. **Återblick** — 4-6 öppna frågor om senaste perioden
-3. **Nuläge** — frågor om kompetens, arbetsbelastning, samarbete, trivsel
-4. **Framtid** — frågor om mål, utvecklingsriktning, karriär
-5. **Handlingsplan — mall** — 3-5 rader att fylla i tillsammans
-6. **Uppföljning** — när och hur följs samtalet upp
+1. **Samtalsöppning**: förslag till inramning i 2-3 meningar
+2. **Återblick**: 4-6 öppna frågor om senaste perioden
+3. **Nuläge**: frågor om kompetens, arbetsbelastning, samarbete, trivsel
+4. **Framtid**: frågor om mål, utvecklingsriktning, karriär
+5. **Handlingsplan — mall**: 3-5 rader att fylla i tillsammans
+6. **Uppföljning**: när och hur följs samtalet upp
 ```
 
 ## Användning

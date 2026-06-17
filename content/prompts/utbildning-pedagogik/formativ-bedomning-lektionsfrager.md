@@ -1,5 +1,5 @@
 ---
-title: Formativ bedömning — frågor att ställa under lektionen
+title: "Formativ bedömning: frågor att ställa under lektionen"
 slug: formativ-bedomning-lektionsfrager
 category: utbildning-pedagogik
 source_url: https://www.skolverket.se/
@@ -48,12 +48,12 @@ Tid för formativ check-in: [hur lång tid läraren har, t.ex. 3 min mitt i lekt
 - Svenska utan tankstreck i brödtext
 
 # Utdataformat
-1. **Tre tidiga check-in-frågor** — att ställa i början efter genomgången, synliggör förståelse av grundbegreppet
-2. **Två djupdykande frågor** — att ställa mitt i lektionen, synliggör resonemang och tillämpning
-3. **Två avslutande frågor** — att ställa sista 5 minuterna, sammanfattar och flaggar kvarstående frågor
-4. **En kroppslig check-in** — konkret metod (exit ticket, 4 hörn, tummen upp-ner med motivering)
-5. **Tolkningsnyckel för läraren** — vad svaret på varje fråga avslöjar om elevens lärande, och vilken åtgärd läraren kan ta direkt på lektionen
-6. **Vanliga fallgropar** — 3 fallgropar när läraren tolkar elevers svar och hur de undviks
+1. **Tre tidiga check-in-frågor**: att ställa i början efter genomgången, synliggör förståelse av grundbegreppet
+2. **Två djupdykande frågor**: att ställa mitt i lektionen, synliggör resonemang och tillämpning
+3. **Två avslutande frågor**: att ställa sista 5 minuterna, sammanfattar och flaggar kvarstående frågor
+4. **En kroppslig check-in**: konkret metod (exit ticket, 4 hörn, tummen upp-ner med motivering)
+5. **Tolkningsnyckel för läraren**: vad svaret på varje fråga avslöjar om elevens lärande, och vilken åtgärd läraren kan ta direkt på lektionen
+6. **Vanliga fallgropar**: 3 fallgropar när läraren tolkar elevers svar och hur de undviks
 ```
 
 ## Användning

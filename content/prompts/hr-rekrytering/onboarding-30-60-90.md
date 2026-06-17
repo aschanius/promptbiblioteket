@@ -1,5 +1,5 @@
 ---
-title: Onboardingplan — första 30, 60 och 90 dagarna
+title: "Onboardingplan: första 30, 60 och 90 dagarna"
 slug: onboarding-30-60-90
 category: hr-rekrytering
 source_url: https://www.teknikministeriet.se
@@ -60,7 +60,7 @@ Team: [vilka ska medarbetaren samarbeta nära med]
 **Dag 61-90: Bidrag**
 - (samma struktur som ovan)
 
-**Utvärdering dag 90** — vad som bedöms, hur, vem deltar
+**Utvärdering dag 90**: vad som bedöms, hur, vem deltar
 ```
 
 ## Användning

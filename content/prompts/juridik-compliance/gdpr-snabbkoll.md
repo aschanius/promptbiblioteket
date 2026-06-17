@@ -46,12 +46,12 @@ Befintliga skyddsåtgärder: [vad som redan finns]
 - Var pragmatisk, inte alarmistisk
 
 # Utdataformat
-1. **Sammanfattning** — övergripande bedömning (grön/gul/röd)
-2. **Rättslig grund** — vilken grund som gäller (Art. 6) och om den håller
-3. **Risker** — identifierade brister, sorterade efter allvar
-4. **Rekommendationer** — konkreta åtgärder med prioritet (hög/medel/låg)
-5. **Dokumentation som saknas** — registerförteckning, konsekvensbedömning, biträdesavtal etc.
-6. **Nästa steg** — vad som bör göras först
+1. **Sammanfattning**: övergripande bedömning (grön/gul/röd)
+2. **Rättslig grund**: vilken grund som gäller (Art. 6) och om den håller
+3. **Risker**: identifierade brister, sorterade efter allvar
+4. **Rekommendationer**: konkreta åtgärder med prioritet (hög/medel/låg)
+5. **Dokumentation som saknas**: registerförteckning, konsekvensbedömning, biträdesavtal etc.
+6. **Nästa steg**: vad som bör göras först
 ```
 
 ## Användning

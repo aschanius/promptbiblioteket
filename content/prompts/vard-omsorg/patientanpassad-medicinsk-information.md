@@ -57,4 +57,4 @@ Använd för att förbereda information inför patientbesök, utskrivningssamtal
 
 ## Testresultat
 
-- **Claude Opus 4.6:** ★★★★☆ — Höll sig strikt till underlaget, gjorde inga medicinska bedömningar, markerade tydligt vad anhöriga bör följa upp med vårdpersonal, tydlig språklig översättning
+- **Claude Opus 4.6:** ★★★★☆: Höll sig strikt till underlaget, gjorde inga medicinska bedömningar, markerade tydligt vad anhöriga bör följa upp med vårdpersonal, tydlig språklig översättning

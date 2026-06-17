@@ -1,5 +1,5 @@
 ---
-title: LSS — förberedelse inför bedömningssamtal
+title: "LSS: förberedelse inför bedömningssamtal"
 slug: lss-bedomningssamtal
 category: vard-omsorg
 source_url: https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/lag-1993387-om-stod-och-service-till-vissa_sfs-1993-387
@@ -50,14 +50,14 @@ Särskilda hänsyn: [kommunikationsstöd, tolk, korta pauser, fysiska hjälpmede
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Samtalets syfte** — 2-3 meningar som kan läsas för den enskilde i början
-2. **Förberedande kontroll** — vad handläggaren säkerställer före samtal (tillgänglighet, kommunikation, eventuell tolk)
-3. **Samtalsstruktur** — sekvens med ungefärlig tidsåtgång per del
-4. **Frågebank per livsområde** — indelad i: vardagsliv, boende, arbete/skola/daglig verksamhet, fritid, hälsa, relationer
-5. **Frågor specifikt för sökt insats** — anpassade till just denna LSS-paragraf
-6. **Anteckningsmall** — strukturerat utrymme för: citat från den enskilde, observationer, anhörigas perspektiv, handläggarens tolkning
-7. **Avslutande punkter** — vad den enskilde ska känna till om nästa steg, rättigheter, överklagan
-8. **Reflektionspunkter för handläggaren** — vad som fattas innan bedömning kan fattas, vilka andra professioner som bör höras
+1. **Samtalets syfte**: 2-3 meningar som kan läsas för den enskilde i början
+2. **Förberedande kontroll**: vad handläggaren säkerställer före samtal (tillgänglighet, kommunikation, eventuell tolk)
+3. **Samtalsstruktur**: sekvens med ungefärlig tidsåtgång per del
+4. **Frågebank per livsområde**: indelad i: vardagsliv, boende, arbete/skola/daglig verksamhet, fritid, hälsa, relationer
+5. **Frågor specifikt för sökt insats**: anpassade till just denna LSS-paragraf
+6. **Anteckningsmall**: strukturerat utrymme för: citat från den enskilde, observationer, anhörigas perspektiv, handläggarens tolkning
+7. **Avslutande punkter**: vad den enskilde ska känna till om nästa steg, rättigheter, överklagan
+8. **Reflektionspunkter för handläggaren**: vad som fattas innan bedömning kan fattas, vilka andra professioner som bör höras
 ```
 
 ## Användning

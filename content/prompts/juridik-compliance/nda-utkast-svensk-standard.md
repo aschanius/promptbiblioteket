@@ -1,5 +1,5 @@
 ---
-title: NDA-utkast — sekretessavtal enligt svensk standard
+title: "NDA-utkast: sekretessavtal enligt svensk standard"
 slug: nda-utkast-svensk-standard
 category: juridik-compliance
 source_author: Teknikministeriet
@@ -50,17 +50,17 @@ Särskilda krav: [t.ex. exportkontroll, GDPR, insiderinformation]
 - Svenska utan tankstreck i brödtext
 
 # Utdataformat
-1. **Avtalsparter** — formell rubrik med uppgifter
-2. **Bakgrund** — 2–3 meningar om sammanhang
-3. **Definitioner** — vad konfidentiell information omfattar i detta avtal
-4. **Sekretessåtagande** — vad part(er) förbinder sig till
-5. **Undantag** — vilken information som inte omfattas
-6. **Varaktighet** — avtalstid och efterverkande sekretess
-7. **Påföljd** — vitesklausul och skadestånd
+1. **Avtalsparter**: formell rubrik med uppgifter
+2. **Bakgrund**: 2–3 meningar om sammanhang
+3. **Definitioner**: vad konfidentiell information omfattar i detta avtal
+4. **Sekretessåtagande**: vad part(er) förbinder sig till
+5. **Undantag**: vilken information som inte omfattas
+6. **Varaktighet**: avtalstid och efterverkande sekretess
+7. **Påföljd**: vitesklausul och skadestånd
 8. **Tillämplig lag och tvistforum**
-9. **Övriga villkor** — fullständigt avtal, ändringar, överlåtelse
+9. **Övriga villkor**: fullständigt avtal, ändringar, överlåtelse
 10. **Signaturrader**
-11. **Granskningsanteckningar** — 3–5 punkter att särskilt överväga innan avtalet skickas ut
+11. **Granskningsanteckningar**: 3–5 punkter att särskilt överväga innan avtalet skickas ut
 ```
 
 ## Användning

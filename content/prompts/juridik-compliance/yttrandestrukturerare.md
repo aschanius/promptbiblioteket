@@ -44,11 +44,11 @@ Mottagare: [domstol, myndighet, styrelse, intern]
 - Markera när ärendet kräver komplettering eller ytterligare underlag
 
 # Utdataformat
-1. **Disposition** — föreslagna avsnitt i ordning
-2. **Rubriker** — formulerade rubriker per avsnitt
-3. **Innehållsguide** — checkpunkter för vad varje avsnitt bör innehålla
-4. **Avslutande formulering** — förslag anpassat efter ärendetyp
-5. **Tips** — vanliga misstag att undvika i denna typ av yttrande
+1. **Disposition**: föreslagna avsnitt i ordning
+2. **Rubriker**: formulerade rubriker per avsnitt
+3. **Innehållsguide**: checkpunkter för vad varje avsnitt bör innehålla
+4. **Avslutande formulering**: förslag anpassat efter ärendetyp
+5. **Tips**: vanliga misstag att undvika i denna typ av yttrande
 ```
 
 ## Användning

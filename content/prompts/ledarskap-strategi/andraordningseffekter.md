@@ -1,5 +1,5 @@
 ---
-title: Andraordningseffekter — tänk tre steg längre
+title: "Andraordningseffekter: tänk tre steg längre"
 slug: andraordningseffekter
 category: ledarskap-strategi
 source_url: https://www.teknikministeriet.se

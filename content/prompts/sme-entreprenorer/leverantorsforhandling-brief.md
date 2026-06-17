@@ -1,5 +1,5 @@
 ---
-title: Leverantörsförhandling — brief inför samtal
+title: "Leverantörsförhandling: brief inför samtal"
 slug: leverantorsforhandling-brief
 category: sme-entreprenorer
 source_url: https://www.teknikministeriet.se
@@ -55,17 +55,17 @@ Vår BATNA: [bästa alternativa handlingsväg om detta inte blir — byte, egen 
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Samtalets syfte i en mening** — ett tydligt ankare att gå tillbaka till
-2. **Mål** — primärt (det viktigaste), sekundära (max 2)
-3. **Position och smärtgräns** — tabell: fråga, vår öppningsposition, smärtgräns, motivation
-4. **BATNA** — vårt bästa alternativ om samtalet misslyckas, med konkret nästa steg
-5. **Anchors att sätta tidigt** — 2-3 fakta eller siffror som ska etableras innan förhandling om pris
-6. **Förväntade invändningar + svar** — tabell med 4-6 vanliga invändningar och vår förberedda replik
-7. **Frågor att ställa leverantören** — 4-6 frågor för att förstå deras situation bättre
-8. **Eftergifter vi kan ge** — rankad lista över vad vi kan släppa i prioritetsordning
-9. **Relationsperspektiv** — hur vi förhandlar hårt utan att skada relationen
-10. **Stopp-signaler** — om samtalet går åt fel håll, vad ska jag göra: paus, skifta ämne, vända tillbaka
-11. **Efterarbete** — hur beslut fattas, vem skriver avtalstext, när återkoppling sker
+1. **Samtalets syfte i en mening**: ett tydligt ankare att gå tillbaka till
+2. **Mål**: primärt (det viktigaste), sekundära (max 2)
+3. **Position och smärtgräns**: tabell: fråga, vår öppningsposition, smärtgräns, motivation
+4. **BATNA**: vårt bästa alternativ om samtalet misslyckas, med konkret nästa steg
+5. **Anchors att sätta tidigt**: 2-3 fakta eller siffror som ska etableras innan förhandling om pris
+6. **Förväntade invändningar + svar**: tabell med 4-6 vanliga invändningar och vår förberedda replik
+7. **Frågor att ställa leverantören**: 4-6 frågor för att förstå deras situation bättre
+8. **Eftergifter vi kan ge**: rankad lista över vad vi kan släppa i prioritetsordning
+9. **Relationsperspektiv**: hur vi förhandlar hårt utan att skada relationen
+10. **Stopp-signaler**: om samtalet går åt fel håll, vad ska jag göra: paus, skifta ämne, vända tillbaka
+11. **Efterarbete**: hur beslut fattas, vem skriver avtalstext, när återkoppling sker
 ```
 
 ## Användning

@@ -1,5 +1,5 @@
 ---
-title: Feedback på elevtext — konstruktiv och enligt kunskapskrav
+title: "Feedback på elevtext: konstruktiv och enligt kunskapskrav"
 slug: feedback-pa-elevtext
 category: utbildning-pedagogik
 source_author: Teknikministeriet
@@ -49,12 +49,12 @@ Elevtext: [klistra in hela texten]
 - Svenska utan tankstreck i brödtext
 
 # Utdataformat
-1. **Inledning** — 1–2 meningar om vad eleven lyckats med i texten, konkret
-2. **Det här fungerar** — 3 punkter, varje punkt refererar till ett specifikt ställe i texten
-3. **Det här kan utvecklas** — 3 punkter med konkret förslag per punkt
-4. **Koppling till kunskapskrav** — 2–3 meningar om vilka kunskapskrav texten berör och hur
-5. **Nästa steg** — en konkret sak eleven kan arbeta med i nästa uppgift
-6. **Fråga till eleven** — en fråga som bjuder in till dialog eller reflektion
+1. **Inledning**: 1–2 meningar om vad eleven lyckats med i texten, konkret
+2. **Det här fungerar**: 3 punkter, varje punkt refererar till ett specifikt ställe i texten
+3. **Det här kan utvecklas**: 3 punkter med konkret förslag per punkt
+4. **Koppling till kunskapskrav**: 2–3 meningar om vilka kunskapskrav texten berör och hur
+5. **Nästa steg**: en konkret sak eleven kan arbeta med i nästa uppgift
+6. **Fråga till eleven**: en fråga som bjuder in till dialog eller reflektion
 ```
 
 ## Användning

@@ -1,5 +1,5 @@
 ---
-title: Forskningssyntes — sammanställ flera källor
+title: "Forskningssyntes: sammanställ flera källor"
 slug: forskningssyntes
 category: ledarskap-strategi
 source_url: https://www.teknikministeriet.se
@@ -42,11 +42,11 @@ Källor:
 - Markera om en slutsats baseras på en enstaka källa
 
 # Utdataformat
-1. **Konsensus** — vad källorna är överens om
-2. **Motsägelser** — var de drar olika slutsatser, med motivering
-3. **Luckor** — vad som saknas i underlaget
-4. **Följdfrågor** — 3 frågor som bör utredas vidare
-5. **Slutsats** — sammanvägd bedömning med konfidensgrad (hög/medel/låg)
+1. **Konsensus**: vad källorna är överens om
+2. **Motsägelser**: var de drar olika slutsatser, med motivering
+3. **Luckor**: vad som saknas i underlaget
+4. **Följdfrågor**: 3 frågor som bör utredas vidare
+5. **Slutsats**: sammanvägd bedömning med konfidensgrad (hög/medel/låg)
 ```
 
 ## Användning

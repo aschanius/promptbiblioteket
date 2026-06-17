@@ -1,5 +1,5 @@
 ---
-title: Arkivering — enhetliga filnamn och mappstruktur
+title: "Arkivering: enhetliga filnamn och mappstruktur"
 slug: arkivering-dokumentnamn
 category: administration-ea
 source_url: https://www.teknikministeriet.se
@@ -50,14 +50,14 @@ Versionhantering: [en fil uppdateras, eller flera versioner sparas]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Principer** — 4-6 korta regler som gäller för alla filnamn
-2. **Filnamnmall per dokumenttyp** — tabell: dokumenttyp, mall, exempel, kommentar
-3. **Mappstruktur** — trädvy med maximalt 3 nivåer, med förklaring
-4. **Exempel på omdöpning** — 8-10 konkreta före/efter-par för typiska filer
-5. **Versionhantering** — regel för hur versioner hanteras i filnamn
-6. **Sekretessmärkning** — hur konfidentiellt material markeras i filnamn eller mapp
-7. **Utrullning** — förslag på hur teamet introduceras till nya regler, inklusive vem som ansvarar
-8. **Vanliga fällor** — 3-5 misstag att undvika
+1. **Principer**: 4-6 korta regler som gäller för alla filnamn
+2. **Filnamnmall per dokumenttyp**: tabell: dokumenttyp, mall, exempel, kommentar
+3. **Mappstruktur**: trädvy med maximalt 3 nivåer, med förklaring
+4. **Exempel på omdöpning**: 8-10 konkreta före/efter-par för typiska filer
+5. **Versionhantering**: regel för hur versioner hanteras i filnamn
+6. **Sekretessmärkning**: hur konfidentiellt material markeras i filnamn eller mapp
+7. **Utrullning**: förslag på hur teamet introduceras till nya regler, inklusive vem som ansvarar
+8. **Vanliga fällor**: 3-5 misstag att undvika
 ```
 
 ## Användning

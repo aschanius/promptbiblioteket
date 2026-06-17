@@ -1,5 +1,5 @@
 ---
-title: Snabbmejl — professionellt mejl på sekunder
+title: "Snabbmejl: professionellt mejl på sekunder"
 slug: snabbmejl
 category: administration-ea
 source_url: https://www.teknikministeriet.se

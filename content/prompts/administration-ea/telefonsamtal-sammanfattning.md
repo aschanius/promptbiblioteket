@@ -1,5 +1,5 @@
 ---
-title: Telefonsamtal — sammanfattning till CRM eller uppföljningsmejl
+title: "Telefonsamtal: sammanfattning till CRM eller uppföljningsmejl"
 slug: telefonsamtal-sammanfattning
 category: administration-ea
 source_url: https://www.teknikministeriet.se
@@ -50,18 +50,18 @@ Nästa steg: [vad som sades skulle hända härnäst]
 
 # Utdataformat
 **Del 1: CRM-anteckning**
-1. **Rubrik** — 1 rad: datum + samtalspartner + ämne
-2. **Sammanfattning** — 3-5 meningar som fångar samtalets kärna
-3. **Överenskommelser** — punktlista: vad, vem ansvarar, deadline
-4. **Flaggor** — saker att bevaka eller följa upp på
-5. **Nästa kontaktpunkt** — när och hur
+1. **Rubrik**: 1 rad: datum + samtalspartner + ämne
+2. **Sammanfattning**: 3-5 meningar som fångar samtalets kärna
+3. **Överenskommelser**: punktlista: vad, vem ansvarar, deadline
+4. **Flaggor**: saker att bevaka eller följa upp på
+5. **Nästa kontaktpunkt**: när och hur
 
 **Del 2: Uppföljningsmejl (valfritt)**
-6. **Ämnesrad** — kort, konkret
-7. **Mejltext** — 5-8 rader: tack för samtalet, bekräfta överenskommelser, tydligt nästa steg
+6. **Ämnesrad**: kort, konkret
+7. **Mejltext**: 5-8 rader: tack för samtalet, bekräfta överenskommelser, tydligt nästa steg
 
 **Del 3: Att bekräfta internt** (om nödvändigt)
-8. **Punkter som behöver internt beslut** — innan mejlet skickas
+8. **Punkter som behöver internt beslut**: innan mejlet skickas
 ```
 
 ## Användning

@@ -59,5 +59,5 @@ Särskilt användbar inför:
 
 ## Testresultat
 
-- **Claude 4:** ★★★★☆ — Utmärkt dialogflöde, ställer bra följdfrågor, analogierna är kreativa och relevanta
-- **GPT-4o:** ★★★★☆ — Bra struktur, ibland för akademisk ton men korrigerar sig vid uppföljning
+- **Claude 4:** ★★★★☆: Utmärkt dialogflöde, ställer bra följdfrågor, analogierna är kreativa och relevanta
+- **GPT-4o:** ★★★★☆: Bra struktur, ibland för akademisk ton men korrigerar sig vid uppföljning

@@ -1,5 +1,5 @@
 ---
-title: Exit-intervju — förberedelse och frågor som ger ärliga svar
+title: "Exit-intervju: förberedelse och frågor som ger ärliga svar"
 slug: exit-intervju-forberedelse
 category: hr-rekrytering
 source_author: Teknikministeriet
@@ -48,14 +48,14 @@ Säkerhet och förtroende: [t.ex. om medarbetaren slutat pga konflikt, behövs e
 - Svenska utan tankstreck i brödtext
 
 # Utdataformat
-1. **Ramsättning av samtalet** — 3 meningar chefen/HR säger i inledningen om syfte, sekretess, användning
-2. **Öppningsfrågor** — 2–3 brett formulerade frågor
-3. **Rollspecifika frågor** — 4–6 frågor om själva arbetet, rollen, förutsättningarna
-4. **Organisation och kultur** — 3–5 frågor om samarbete, ledarskap, arbetsmiljö
-5. **Utveckling och framtid** — 2–3 frågor om utvecklingsmöjligheter och varför dessa inte räckte
-6. **Avslutande frågor** — 2 frågor inkl. "finns det något jag inte frågat"
-7. **Anteckningsmall** — hur svaren ska dokumenteras, vilka fält
-8. **Återrapportering** — förslag på format och mottagare av sammanfattning
+1. **Ramsättning av samtalet**: 3 meningar chefen/HR säger i inledningen om syfte, sekretess, användning
+2. **Öppningsfrågor**: 2–3 brett formulerade frågor
+3. **Rollspecifika frågor**: 4–6 frågor om själva arbetet, rollen, förutsättningarna
+4. **Organisation och kultur**: 3–5 frågor om samarbete, ledarskap, arbetsmiljö
+5. **Utveckling och framtid**: 2–3 frågor om utvecklingsmöjligheter och varför dessa inte räckte
+6. **Avslutande frågor**: 2 frågor inkl. "finns det något jag inte frågat"
+7. **Anteckningsmall**: hur svaren ska dokumenteras, vilka fält
+8. **Återrapportering**: förslag på format och mottagare av sammanfattning
 ```
 
 ## Användning

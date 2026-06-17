@@ -1,5 +1,5 @@
 ---
-title: Content-kalender — redaktionsplan för ett kvartal
+title: "Content-kalender: redaktionsplan för ett kvartal"
 slug: content-kalender-kvartal
 category: marknadsforing-kommunikation
 source_url: https://www.teknikministeriet.se
@@ -53,16 +53,16 @@ Tidigare toppmätningar: [vad som engagerat mest hittills — för att bygga vid
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Kvartalets tema och berättelse** — 3-4 meningar som sammanfattar narrativet
-2. **Månadsteman** — ett huvudtema per månad med koppling till affärsmål
-3. **Kalendertabell** — tabell: vecka, datum, kanal, format, tema, målgrupp, mål i kundresa, ansvarig, status
-4. **Återanvändningsschema** — för varje långformat (blogg, podd, video): vilka kortformat ska skapas och när publiceras de
-5. **Reaktiva slots** — markerad plats för aktuellt innehåll, med riktlinjer för vad som passar varumärket
-6. **Kampanjintegration** — hur kvartalets kampanjer (om finns) integreras i kalendern
-7. **Produktionsplan** — deadlines för skrivande, bildsättning, granskning före publicering (7-14 dagar före)
-8. **Mätplan** — vilka nyckeltal som följs per kanal och hur ofta rapportering sker
-9. **Redaktionsmöten** — föreslagen rytm för avstämning (veckovis, varje tredje vecka)
-10. **Risker och alternativ** — om nyckelperson är sjuk, om kampanj flyttas, vilka inlägg kan parkeras
+1. **Kvartalets tema och berättelse**: 3-4 meningar som sammanfattar narrativet
+2. **Månadsteman**: ett huvudtema per månad med koppling till affärsmål
+3. **Kalendertabell**: tabell: vecka, datum, kanal, format, tema, målgrupp, mål i kundresa, ansvarig, status
+4. **Återanvändningsschema**: för varje långformat (blogg, podd, video): vilka kortformat ska skapas och när publiceras de
+5. **Reaktiva slots**: markerad plats för aktuellt innehåll, med riktlinjer för vad som passar varumärket
+6. **Kampanjintegration**: hur kvartalets kampanjer (om finns) integreras i kalendern
+7. **Produktionsplan**: deadlines för skrivande, bildsättning, granskning före publicering (7-14 dagar före)
+8. **Mätplan**: vilka nyckeltal som följs per kanal och hur ofta rapportering sker
+9. **Redaktionsmöten**: föreslagen rytm för avstämning (veckovis, varje tredje vecka)
+10. **Risker och alternativ**: om nyckelperson är sjuk, om kampanj flyttas, vilka inlägg kan parkeras
 ```
 
 ## Användning

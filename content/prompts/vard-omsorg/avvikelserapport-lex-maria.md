@@ -48,12 +48,12 @@ Redan vidtagna åtgärder: [vad har gjorts direkt efter händelsen]
 - Utkastet ska kompletteras och kvalitetssäkras i vårdgivarens avvikelsesystem
 
 # Utdataformat
-1. **Händelseförlopp** — kronologisk beskrivning, utan personuppgifter
-2. **Orsaksanalys** — tabell: utlösande, bakomliggande, bidragande orsaker
-3. **Riskbedömning** — konsekvens och sannolikhet för återupprepning
-4. **Åtgärder** — tabell: omedelbara vs systemförebyggande, ansvarig, tidpunkt
-5. **Uppföljning** — när utvärderas åtgärderna, av vem, hur
-6. **Eskalering** — vilken roll (MAS/MAR/chefläkare) ska fatta beslut om anmälan
+1. **Händelseförlopp**: kronologisk beskrivning, utan personuppgifter
+2. **Orsaksanalys**: tabell: utlösande, bakomliggande, bidragande orsaker
+3. **Riskbedömning**: konsekvens och sannolikhet för återupprepning
+4. **Åtgärder**: tabell: omedelbara vs systemförebyggande, ansvarig, tidpunkt
+5. **Uppföljning**: när utvärderas åtgärderna, av vem, hur
+6. **Eskalering**: vilken roll (MAS/MAR/chefläkare) ska fatta beslut om anmälan
 ```
 
 ## Användning

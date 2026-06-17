@@ -1,5 +1,5 @@
 ---
-title: Kundavtal SME — granskning inför signering
+title: "Kundavtal SME: granskning inför signering"
 slug: kundavtal-granskning-sme
 category: sme-entreprenorer
 source_url: https://www.teknikministeriet.se
@@ -54,19 +54,19 @@ Våra "röda linjer": [sådant vi absolut inte accepterar — om kända i förv�
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Helhetsbedömning** — 2-3 meningar: signera som det är, signera efter förhandling, eller vänta
-2. **Topp-3 punkter att förhandla om** — de tre viktigaste ändringarna i prioritetsordning
-3. **Röda flaggor (deal-breakers)** — punkter som om de inte ändras bör få avtalet att INTE signeras
-4. **Gula flaggor** — punkter som borde förhandlas men som kan tas senare eller släppas om motparten envisas
-5. **Kommersiella villkor** — bedömning av pris, betalningsvillkor, valuta, prisjustering
-6. **Ansvar och skada** — begränsningsklausuler, ansvarstak, försäkringar
-7. **Uppsägning och exit** — uppsägningstid, skäl för uppsägning, data vid avslut
-8. **Immateriella rättigheter** — vem äger vad, licensiering, rätt att använda referens
-9. **Sekretess och dataskydd** — GDPR-hänvisning, personuppgiftsbiträdesavtal, sekretess
-10. **Tvistelösning och tillämplig lag** — svensk domstol eller skiljeförfarande, svensk eller utländsk lag
-11. **Frågor att ställa motparten** — 3-5 konkreta frågor som bör besvaras skriftligen innan signering
-12. **Om jurist bör kontaktas** — markera om nuvarande bedömning når gränsen för vad en AI-granskning kan göra
-13. **Förhandlingsförslag** — föreslagen mejltext till motparten med de tre viktigaste punkterna
+1. **Helhetsbedömning**: 2-3 meningar: signera som det är, signera efter förhandling, eller vänta
+2. **Topp-3 punkter att förhandla om**: de tre viktigaste ändringarna i prioritetsordning
+3. **Röda flaggor (deal-breakers)**: punkter som om de inte ändras bör få avtalet att INTE signeras
+4. **Gula flaggor**: punkter som borde förhandlas men som kan tas senare eller släppas om motparten envisas
+5. **Kommersiella villkor**: bedömning av pris, betalningsvillkor, valuta, prisjustering
+6. **Ansvar och skada**: begränsningsklausuler, ansvarstak, försäkringar
+7. **Uppsägning och exit**: uppsägningstid, skäl för uppsägning, data vid avslut
+8. **Immateriella rättigheter**: vem äger vad, licensiering, rätt att använda referens
+9. **Sekretess och dataskydd**: GDPR-hänvisning, personuppgiftsbiträdesavtal, sekretess
+10. **Tvistelösning och tillämplig lag**: svensk domstol eller skiljeförfarande, svensk eller utländsk lag
+11. **Frågor att ställa motparten**: 3-5 konkreta frågor som bör besvaras skriftligen innan signering
+12. **Om jurist bör kontaktas**: markera om nuvarande bedömning når gränsen för vad en AI-granskning kan göra
+13. **Förhandlingsförslag**: föreslagen mejltext till motparten med de tre viktigaste punkterna
 ```
 
 ## Användning

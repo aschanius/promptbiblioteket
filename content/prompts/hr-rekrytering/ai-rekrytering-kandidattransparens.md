@@ -1,5 +1,5 @@
 ---
-title: AI i rekrytering — transparensinformation till kandidat
+title: "AI i rekrytering: transparensinformation till kandidat"
 slug: ai-rekrytering-kandidattransparens
 category: hr-rekrytering
 source_url: https://www.imy.se/
@@ -52,12 +52,12 @@ Tillämpliga kollektivavtal: [om relevant]
 - Ingen överinformation — håll det kort och konkret, cirka 200–300 ord
 
 # Utdataformat
-1. **Transparenstext till kandidat** — komplett text som kan läggas i jobbannonsen eller skickas med första kontakten, cirka 200 ord
-2. **Utökad FAQ** — 5–7 frågor och svar för kandidater som vill veta mer
-3. **Textsnippet till jobbannonsen** — en mening att inkludera, max 30 ord
-4. **Intern process** — 5–7 steg för hur kandidatens rättigheter hanteras (invändning, mänsklig bedömning, klagomål)
-5. **Dokumentation enligt AI Act** — vad som ska sparas om AI-användningen för respektive kandidat
-6. **Riskpunkter** — 3 frågor som organisationen själv behöver besvara innan texten används
+1. **Transparenstext till kandidat**: komplett text som kan läggas i jobbannonsen eller skickas med första kontakten, cirka 200 ord
+2. **Utökad FAQ**: 5–7 frågor och svar för kandidater som vill veta mer
+3. **Textsnippet till jobbannonsen**: en mening att inkludera, max 30 ord
+4. **Intern process**: 5–7 steg för hur kandidatens rättigheter hanteras (invändning, mänsklig bedömning, klagomål)
+5. **Dokumentation enligt AI Act**: vad som ska sparas om AI-användningen för respektive kandidat
+6. **Riskpunkter**: 3 frågor som organisationen själv behöver besvara innan texten används
 ```
 
 ## Användning

@@ -1,5 +1,5 @@
 ---
-title: Målgruppssegmentering — från breda grupper till skarpa segment
+title: "Målgruppssegmentering: från breda grupper till skarpa segment"
 slug: malgruppssegmentering
 category: marknadsforing-kommunikation
 source_url: https://www.teknikministeriet.se
@@ -52,9 +52,9 @@ Segmenteringsprincipfel att undvika: [t.ex. demografi utan beteende, eller för 
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Segmenteringslogik** — vilken huvudaxel segmenteringen bygger på (behov, bransch, användning, etc.) och varför
-2. **Segmentöversikt** — tabell: segmentnamn, storlek, lönsamhet, tillväxtpotential, strategisk prioritet
-3. **Segment 1-5** — för varje segment:
+1. **Segmenteringslogik**: vilken huvudaxel segmenteringen bygger på (behov, bransch, användning, etc.) och varför
+2. **Segmentöversikt**: tabell: segmentnamn, storlek, lönsamhet, tillväxtpotential, strategisk prioritet
+3. **Segment 1-5**: för varje segment:
    - Namn (beskrivande, inte generiskt)
    - Kort porträtt (2-3 meningar, som om du beskrev en riktig person/företag)
    - Jobb att göra (1-2 primära, 1-2 sekundära)
@@ -63,15 +63,15 @@ Segmenteringsprincipfel att undvika: [t.ex. demografi utan beteende, eller för 
    - Mätbara identifierare (hur vi känner igen dem i data)
    - Kanaler där de finns
    - Kärnbudskap som resonerar
-4. **ICP-fördjupning (Ideal Customer Profile)** — det viktigaste segmentet i djupare detalj:
+4. **ICP-fördjupning (Ideal Customer Profile)**: det viktigaste segmentet i djupare detalj:
    - Företagstyp eller person-arketyp
    - Beslutsprocess och köpkommitté
    - Budget och betalningsvilja
    - Framgångskriterier (vad gör dem nöjda)
    - Röda flaggor (när man INTE ska vinna dem)
-5. **Prioritering** — vilka segment ska vi satsa på nu, vilka senare, vilka inte alls
-6. **Test-approach** — hur vi validerar segmenten i verkligheten (samtal, A/B, pilot) innan stor satsning
-7. **Uppföljning** — när och hur segmenteringen revideras
+5. **Prioritering**: vilka segment ska vi satsa på nu, vilka senare, vilka inte alls
+6. **Test-approach**: hur vi validerar segmenten i verkligheten (samtal, A/B, pilot) innan stor satsning
+7. **Uppföljning**: när och hur segmenteringen revideras
 ```
 
 ## Användning

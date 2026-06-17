@@ -1,5 +1,5 @@
 ---
-title: Kassaflöde — översikt för mikroföretagare
+title: "Kassaflöde: översikt för mikroföretagare"
 slug: kassaflode-mikroforetagare
 category: sme-entreprenorer
 source_url: https://www.teknikministeriet.se
@@ -54,16 +54,16 @@ Säsongsvariation: [om branschen har tydlig säsong]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Nulägessammanfattning** — kort bild av kassa, inkomster, utgifter just nu
-2. **Kassaflödesprognos 3 månader** — tabell: månad, ingående balans, inbetalningar (netto), utbetalningar (inkl skatter), utgående balans
-3. **Prognos 4-6 månader** — samma tabell, markera osäkerhet
-4. **Riskperioder** — månader där kassan riskerar att bli låg eller negativ, med flag
-5. **Kritiska datum** — skatter, löner, semesterersättning, återkommande stora kostnader
-6. **Känslighetsanalys** — vad händer om: en stor kund betalar 30 dagar sent, en stor utbetalning kommer en månad tidigare, intäkterna sjunker 20 procent
-7. **Förbättringsförslag (snabba)** — 3-5 konkreta åtgärder för att förbättra kassaflödet: snabbare fakturering, kortare betalningsvillkor, upphåll av mindre kritisk utgift
-8. **Förbättringsförslag (strukturella)** — 2-3 åtgärder som kräver mer arbete men som stabiliserar långsiktigt: retainer-avtal, delbetalningar, säsongsanpassade kostnader
-9. **När kontakta banken** — om kassan riskerar att gå negativ: varna banken INNAN det händer, inte efteråt
-10. **Att revidera varje månad** — enkelt check-schema för att hålla prognosen levande
+1. **Nulägessammanfattning**: kort bild av kassa, inkomster, utgifter just nu
+2. **Kassaflödesprognos 3 månader**: tabell: månad, ingående balans, inbetalningar (netto), utbetalningar (inkl skatter), utgående balans
+3. **Prognos 4-6 månader**: samma tabell, markera osäkerhet
+4. **Riskperioder**: månader där kassan riskerar att bli låg eller negativ, med flag
+5. **Kritiska datum**: skatter, löner, semesterersättning, återkommande stora kostnader
+6. **Känslighetsanalys**: vad händer om: en stor kund betalar 30 dagar sent, en stor utbetalning kommer en månad tidigare, intäkterna sjunker 20 procent
+7. **Förbättringsförslag (snabba)**: 3-5 konkreta åtgärder för att förbättra kassaflödet: snabbare fakturering, kortare betalningsvillkor, upphåll av mindre kritisk utgift
+8. **Förbättringsförslag (strukturella)**: 2-3 åtgärder som kräver mer arbete men som stabiliserar långsiktigt: retainer-avtal, delbetalningar, säsongsanpassade kostnader
+9. **När kontakta banken**: om kassan riskerar att gå negativ: varna banken INNAN det händer, inte efteråt
+10. **Att revidera varje månad**: enkelt check-schema för att hålla prognosen levande
 ```
 
 ## Användning

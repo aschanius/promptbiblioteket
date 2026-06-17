@@ -46,11 +46,11 @@ Version 2 (ny):
 - Ersätt aldrig juridisk granskning vid komplexa avtal
 
 # Utdataformat
-1. **Sammanfattning** — antal materiella ändringar och övergripande riktning
-2. **Väsentliga ändringar** — tabell med klausul, förändring, konsekvens, bedömning
-3. **Noterbara ändringar** — mindre men relevanta skillnader
-4. **Borttagna klausuler** — vad som försvunnit och vad det innebär
-5. **Rekommendation** — vad som bör lyftas i förhandling
+1. **Sammanfattning**: antal materiella ändringar och övergripande riktning
+2. **Väsentliga ändringar**: tabell med klausul, förändring, konsekvens, bedömning
+3. **Noterbara ändringar**: mindre men relevanta skillnader
+4. **Borttagna klausuler**: vad som försvunnit och vad det innebär
+5. **Rekommendation**: vad som bör lyftas i förhandling
 ```
 
 ## Användning

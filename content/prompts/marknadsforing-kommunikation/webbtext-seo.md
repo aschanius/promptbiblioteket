@@ -1,5 +1,5 @@
 ---
-title: Webbtext — optimerad för sökmotor utan att tappa läsvärde
+title: "Webbtext: optimerad för sökmotor utan att tappa läsvärde"
 slug: webbtext-seo
 category: marknadsforing-kommunikation
 source_url: https://www.teknikministeriet.se
@@ -56,17 +56,17 @@ CTA: [vad vi vill att läsaren gör efter texten]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Meta-titel** — max 60 tecken, innehåller primärt sökord
-2. **Meta-beskrivning** — max 155 tecken, lockar till klick, innehåller primärt sökord
-3. **H1-rubrik** — tydlig, innehåller primärt sökord
-4. **Intro (max 100 ord)** — svarar på sökintent direkt
-5. **H2-rubriker med innehåll** — logisk struktur som täcker huvudfrågorna
-6. **H3-rubriker** — där det hjälper navigation
-7. **Listor eller tabeller** — där innehållet lämpar sig
-8. **Avslutande CTA** — konkret, kopplad till sökintent
-9. **Förslag på interna länkar** — 3-5 med ankartext
-10. **Förslag på externa auktoritativa källor** — 1-3 länkar
-11. **SEO-anteckning** — sökordstäthet ungefärlig, relaterade sökord som fångats, vad som kan förbättras vid senare revidering
+1. **Meta-titel**: max 60 tecken, innehåller primärt sökord
+2. **Meta-beskrivning**: max 155 tecken, lockar till klick, innehåller primärt sökord
+3. **H1-rubrik**: tydlig, innehåller primärt sökord
+4. **Intro (max 100 ord)**: svarar på sökintent direkt
+5. **H2-rubriker med innehåll**: logisk struktur som täcker huvudfrågorna
+6. **H3-rubriker**: där det hjälper navigation
+7. **Listor eller tabeller**: där innehållet lämpar sig
+8. **Avslutande CTA**: konkret, kopplad till sökintent
+9. **Förslag på interna länkar**: 3-5 med ankartext
+10. **Förslag på externa auktoritativa källor**: 1-3 länkar
+11. **SEO-anteckning**: sökordstäthet ungefärlig, relaterade sökord som fångats, vad som kan förbättras vid senare revidering
 ```
 
 ## Användning

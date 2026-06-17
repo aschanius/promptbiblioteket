@@ -48,12 +48,12 @@ Mina råa anteckningar:
 # Utdataformat
 Leverera protokollet i följande struktur:
 
-1. **Mötesinfo** — Datum, deltagare, syfte (2-3 rader)
-2. **Sammanfattning** — Mötets huvudsakliga innehåll (3-5 punkter)
-3. **Beslut** — Numrerad lista: Beslut | Ansvarig | Deadline
-4. **Åtgärdslista** — Numrerad lista: Åtgärd | Ansvarig | Deadline
-5. **Öppna frågor** — Punkter som kräver vidare utredning eller nytt beslut
-6. **Nästa möte** — Föreslaget datum och agenda baserat på öppna frågor.
+1. **Mötesinfo**: Datum, deltagare, syfte (2-3 rader)
+2. **Sammanfattning**: Mötets huvudsakliga innehåll (3-5 punkter)
+3. **Beslut**: Numrerad lista: Beslut | Ansvarig | Deadline
+4. **Åtgärdslista**: Numrerad lista: Åtgärd | Ansvarig | Deadline
+5. **Öppna frågor**: Punkter som kräver vidare utredning eller nytt beslut
+6. **Nästa möte**: Föreslaget datum och agenda baserat på öppna frågor.
 ```
 
 ## Användning

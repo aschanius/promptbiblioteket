@@ -1,5 +1,5 @@
 ---
-title: Löneförhandling — förberedelse för chef
+title: "Löneförhandling: förberedelse för chef"
 slug: loneforhandling-forberedelse-chef
 category: hr-rekrytering
 source_author: Teknikministeriet
@@ -50,13 +50,13 @@ Speciella omständigheter: [t.ex. utökat ansvar, barnledig del av året, intern
 - Svenska utan tankstreck i brödtext
 
 # Utdataformat
-1. **Bedömningsunderlag** — tabell: prestation, ansvar, marknadsjämförelse, beteende/värderingar — med belägg
-2. **Löneförslag med motivering** — belopp, procentuell förändring, motivering i 3–5 meningar
-3. **Talpunkter för samtalet** — 5 nyckelbudskap att leverera
-4. **Hantering av vanliga invändningar** — "jag jämför med X som tjänar mer", "det här är lågt för branschen", "jag förväntade mig mer" — förberedda svar
-5. **Utvecklingsresonemang** — hur ser chefen på medarbetarens lönekurva framåt
-6. **Dokumentation för HR** — vad som ska noteras om beslutet
-7. **Vad chefen absolut INTE ska säga** — 3 fraser att undvika
+1. **Bedömningsunderlag**: tabell: prestation, ansvar, marknadsjämförelse, beteende/värderingar — med belägg
+2. **Löneförslag med motivering**: belopp, procentuell förändring, motivering i 3–5 meningar
+3. **Talpunkter för samtalet**: 5 nyckelbudskap att leverera
+4. **Hantering av vanliga invändningar**: "jag jämför med X som tjänar mer", "det här är lågt för branschen", "jag förväntade mig mer" — förberedda svar
+5. **Utvecklingsresonemang**: hur ser chefen på medarbetarens lönekurva framåt
+6. **Dokumentation för HR**: vad som ska noteras om beslutet
+7. **Vad chefen absolut INTE ska säga**: 3 fraser att undvika
 ```
 
 ## Användning

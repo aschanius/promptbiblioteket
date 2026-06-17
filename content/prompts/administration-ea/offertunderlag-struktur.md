@@ -1,5 +1,5 @@
 ---
-title: Offertunderlag — strukturera förfrågan till komplett offert
+title: "Offertunderlag: strukturera förfrågan till komplett offert"
 slug: offertunderlag-struktur
 category: administration-ea
 source_url: https://www.teknikministeriet.se
@@ -48,16 +48,16 @@ Konkurrenter som nämnts: [om kunden jämför med andra leverantörer]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Kundsammanfattning** — företag, kontakt, relation, förfrågans kärna i 1-2 meningar
-2. **Omfång** — punktlista över vad kunden efterfrågat, direkt ur deras text
-3. **Vår tolkning** — hur vi läser behovet (leveranser, aktiviteter, resultat)
-4. **Antaganden** — lista över antaganden som offertens pris och tidsplan bygger på
-5. **Förslag på leverans** — struktur för offerten (paket, faser eller löpande arbete)
-6. **Tidslinje** — preliminär plan från kontraktsignering till leverans
-7. **Prisindikation** — grov uppskattning baserat på våra standardpriser, med not om att det är indikativt
-8. **Risker och förbehåll** — faktorer som kan påverka pris eller tidsplan
-9. **Frågor till kunden** — oklarheter som behöver svar innan offert skickas
-10. **Nästa steg** — rekommendation: skicka offert direkt, boka klargörande samtal eller be om skriftlig komplettering
+1. **Kundsammanfattning**: företag, kontakt, relation, förfrågans kärna i 1-2 meningar
+2. **Omfång**: punktlista över vad kunden efterfrågat, direkt ur deras text
+3. **Vår tolkning**: hur vi läser behovet (leveranser, aktiviteter, resultat)
+4. **Antaganden**: lista över antaganden som offertens pris och tidsplan bygger på
+5. **Förslag på leverans**: struktur för offerten (paket, faser eller löpande arbete)
+6. **Tidslinje**: preliminär plan från kontraktsignering till leverans
+7. **Prisindikation**: grov uppskattning baserat på våra standardpriser, med not om att det är indikativt
+8. **Risker och förbehåll**: faktorer som kan påverka pris eller tidsplan
+9. **Frågor till kunden**: oklarheter som behöver svar innan offert skickas
+10. **Nästa steg**: rekommendation: skicka offert direkt, boka klargörande samtal eller be om skriftlig komplettering
 ```
 
 ## Användning

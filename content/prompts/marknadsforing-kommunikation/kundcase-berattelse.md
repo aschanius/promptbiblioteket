@@ -1,5 +1,5 @@
 ---
-title: Kundcase — berättelse från problem till resultat
+title: "Kundcase: berättelse från problem till resultat"
 slug: kundcase-berattelse
 category: marknadsforing-kommunikation
 source_url: https://www.teknikministeriet.se
@@ -56,18 +56,18 @@ Målgrupp för caset: [vem ska läsa och känna igen sig]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Rubrik** — fångar kärnan, gärna med siffra eller konkret resultat
-2. **Ingress (2-3 meningar)** — situationen eller ögonblicket som dragit läsaren in
-3. **Kundens situation** — kort presentation av kunden och deras utgångsläge
-4. **Utmaningen** — specifik, konkret, identifierbar. Varför detta var svårt
-5. **Vägen fram** — hur kunden hittade oss, vad som övervägdes, varför vi valdes
-6. **Lösningen** — vad som gjordes, med tillräckligt detalj för trovärdighet
-7. **Resultatet** — mätbart och berättande. Siffror + kundens upplevelse
-8. **Det som var svårt** — ärlig reflektion: vad som inte gick som planerat eller krävde extra
-9. **Kundens egna ord** — 2-3 korta citat placerade naturligt i texten
-10. **Lärdomar** — 2-3 punkter som kan användas av läsaren, oavsett om de blir kund
-11. **Vidare** — CTA som är naturlig: nästa steg för läsare som känner igen sig
-12. **Fact sheet** — kort box: kund, bransch, tidsperiod, primära KPI:er. Kan användas på översiktssida
+1. **Rubrik**: fångar kärnan, gärna med siffra eller konkret resultat
+2. **Ingress (2-3 meningar)**: situationen eller ögonblicket som dragit läsaren in
+3. **Kundens situation**: kort presentation av kunden och deras utgångsläge
+4. **Utmaningen**: specifik, konkret, identifierbar. Varför detta var svårt
+5. **Vägen fram**: hur kunden hittade oss, vad som övervägdes, varför vi valdes
+6. **Lösningen**: vad som gjordes, med tillräckligt detalj för trovärdighet
+7. **Resultatet**: mätbart och berättande. Siffror + kundens upplevelse
+8. **Det som var svårt**: ärlig reflektion: vad som inte gick som planerat eller krävde extra
+9. **Kundens egna ord**: 2-3 korta citat placerade naturligt i texten
+10. **Lärdomar**: 2-3 punkter som kan användas av läsaren, oavsett om de blir kund
+11. **Vidare**: CTA som är naturlig: nästa steg för läsare som känner igen sig
+12. **Fact sheet**: kort box: kund, bransch, tidsperiod, primära KPI:er. Kan användas på översiktssida
 ```
 
 ## Användning

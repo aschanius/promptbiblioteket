@@ -60,4 +60,4 @@ Klistra in resultatrader från ert ekonomisystem direkt. Fungerar även med oful
 
 ## Testresultat
 
-- **Claude Opus 4.6:** ★★★★☆ — Identifierade drivande variansfaktorer, separerade volym/pris-effekter, gav hypoteser och konkreta åtgärdsförslag med ägare
+- **Claude Opus 4.6:** ★★★★☆: Identifierade drivande variansfaktorer, separerade volym/pris-effekter, gav hypoteser och konkreta åtgärdsförslag med ägare

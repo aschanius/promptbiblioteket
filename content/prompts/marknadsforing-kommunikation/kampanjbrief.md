@@ -1,5 +1,5 @@
 ---
-title: Kampanjbrief — från idé till skarp brief
+title: "Kampanjbrief: från idé till skarp brief"
 slug: kampanjbrief
 category: marknadsforing-kommunikation
 source_url: https://www.teknikministeriet.se
@@ -54,19 +54,19 @@ Risker: [varumärkesrisk, juridik, kundreaktioner]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Brieftitel** — kampanjens arbetsnamn
-2. **Sammanfattning** — 3-4 meningar: vad, för vem, varför nu, önskat resultat
-3. **Affärsmål** — primärt mål (mätbart) + max 2 sekundära
-4. **Målgrupp** — beskriven som persona: situation, behov, frustration, vad som triggar intresse
-5. **Insight** — kärnan i vad vi vet om målgruppen som gör denna kampanj möjlig
-6. **Kärnbudskap** — en mening under 280 tecken
-7. **Stöttande budskap** — 3-5 budskap som bär kärnbudskapet i olika kanaler
-8. **Kanaler och roller** — tabell: kanal, syfte i kampanjen, primär/stödjande, format
-9. **Produktionsbehov** — vad som behöver skapas (copy, bild, film, landningssida, automatiserade flöden)
-10. **Tidsplan** — milstolpar från brief till avslut, med deadlines
-11. **Mätning** — nyckeltal per mål, mätpunkter, källor för data
-12. **Risker och förbehåll** — vad kan gå fel, beredskap
-13. **Öppna frågor** — vad briefen ännu inte besvarar och vem som ska svara
+1. **Brieftitel**: kampanjens arbetsnamn
+2. **Sammanfattning**: 3-4 meningar: vad, för vem, varför nu, önskat resultat
+3. **Affärsmål**: primärt mål (mätbart) + max 2 sekundära
+4. **Målgrupp**: beskriven som persona: situation, behov, frustration, vad som triggar intresse
+5. **Insight**: kärnan i vad vi vet om målgruppen som gör denna kampanj möjlig
+6. **Kärnbudskap**: en mening under 280 tecken
+7. **Stöttande budskap**: 3-5 budskap som bär kärnbudskapet i olika kanaler
+8. **Kanaler och roller**: tabell: kanal, syfte i kampanjen, primär/stödjande, format
+9. **Produktionsbehov**: vad som behöver skapas (copy, bild, film, landningssida, automatiserade flöden)
+10. **Tidsplan**: milstolpar från brief till avslut, med deadlines
+11. **Mätning**: nyckeltal per mål, mätpunkter, källor för data
+12. **Risker och förbehåll**: vad kan gå fel, beredskap
+13. **Öppna frågor**: vad briefen ännu inte besvarar och vem som ska svara
 ```
 
 ## Användning

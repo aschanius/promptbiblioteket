@@ -1,5 +1,5 @@
 ---
-title: Pitch-deck — feedback från investerar-perspektiv
+title: "Pitch-deck: feedback från investerar-perspektiv"
 slug: startup-pitch-feedback
 category: sme-entreprenorer
 source_url: https://www.teknikministeriet.se
@@ -58,16 +58,16 @@ Våra egna oroligheter: [saker grundarna redan vet är svagheter i decket]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Första intryck (30 sekunder)** — vad en investerare tänker efter att ha bläddrat snabbt
-2. **Helhetsomdöme** — stark, acceptabel, behöver stor omarbetning. Motivering
-3. **Slide-per-slide-feedback** — tabell: slide, budskap idag, styrka, svaghet, förslag på ändring
-4. **Narrativ-flöde** — berättar decket en sammanhängande historia? Var tappas tråden?
-5. **Saknad information** — vad investeraren kommer sakna för att fatta beslut
-6. **Röda flaggor** — saker som kommer att väcka kritiska frågor (antaganden, siffror, team-gap)
-7. **Topp-3 ändringar** — om grundarna bara hinner göra 3 ändringar, vilka
-8. **De 5 vanligaste frågorna investeraren kommer ställa** — förbered svar på dessa INNAN mötet
-9. **Benchmark mot lyckade pitches** — vad som saknas jämfört med andra företag i samma fas
-10. **Slutkommentar** — ärlig bedömning av huvudrisker för pitchen, inte bara decket
+1. **Första intryck (30 sekunder)**: vad en investerare tänker efter att ha bläddrat snabbt
+2. **Helhetsomdöme**: stark, acceptabel, behöver stor omarbetning. Motivering
+3. **Slide-per-slide-feedback**: tabell: slide, budskap idag, styrka, svaghet, förslag på ändring
+4. **Narrativ-flöde**: berättar decket en sammanhängande historia? Var tappas tråden?
+5. **Saknad information**: vad investeraren kommer sakna för att fatta beslut
+6. **Röda flaggor**: saker som kommer att väcka kritiska frågor (antaganden, siffror, team-gap)
+7. **Topp-3 ändringar**: om grundarna bara hinner göra 3 ändringar, vilka
+8. **De 5 vanligaste frågorna investeraren kommer ställa**: förbered svar på dessa INNAN mötet
+9. **Benchmark mot lyckade pitches**: vad som saknas jämfört med andra företag i samma fas
+10. **Slutkommentar**: ärlig bedömning av huvudrisker för pitchen, inte bara decket
 ```
 
 ## Användning

@@ -1,5 +1,5 @@
 ---
-title: Årsbokslut-förberedelse — checklista enligt K2 eller K3
+title: "Årsbokslut-förberedelse: checklista enligt K2 eller K3"
 slug: arsbokslut-forberedelse-k2-k3
 category: ekonomi-finans
 source_author: Teknikministeriet
@@ -47,11 +47,11 @@ Eventuella förändringar under året: [nyanställningar, nya avtal, ägarbyte, 
 - Var konkret — undvik fraser som "se till att allt stämmer"
 
 # Utdataformat
-1. **Deadlines** — tabell med datum, vad som ska lämnas in, till vem
-2. **Checklista bokföring** — 6–10 punkter, sorterade efter om de är företagarens ansvar eller redovisningskonsultens
-3. **Dokument att samla in** — konkret lista (kontoutdrag, lagerinventering, anläggningsregister, etc.)
-4. **Vanliga misstag för detta regelverk** — 3–5 punkter specifika för K2 respektive K3
-5. **Frågor till revisor/konsult** — 3–5 frågor ägaren bör ställa innan bokslutet slutförs
+1. **Deadlines**: tabell med datum, vad som ska lämnas in, till vem
+2. **Checklista bokföring**: 6–10 punkter, sorterade efter om de är företagarens ansvar eller redovisningskonsultens
+3. **Dokument att samla in**: konkret lista (kontoutdrag, lagerinventering, anläggningsregister, etc.)
+4. **Vanliga misstag för detta regelverk**: 3–5 punkter specifika för K2 respektive K3
+5. **Frågor till revisor/konsult**: 3–5 frågor ägaren bör ställa innan bokslutet slutförs
 ```
 
 ## Användning

@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-06-11T21:18:52.870Z",
+  "generated_at": "2026-06-17T10:12:35.952Z",
   "categories": [
     {
       "id": "administration-ea",
@@ -28,7 +28,7 @@
         },
         {
           "slug": "arkivering-dokumentnamn",
-          "title": "Arkivering — enhetliga filnamn och mappstruktur",
+          "title": "Arkivering: enhetliga filnamn och mappstruktur",
           "file": "administration-ea/arkivering-dokumentnamn.md",
           "rating": 4.1,
           "tags": [
@@ -62,7 +62,7 @@
         },
         {
           "slug": "foljebrev-ansokan",
-          "title": "Följebrev — skräddarsytt till jobbansökan",
+          "title": "Följebrev: skräddarsytt till jobbansökan",
           "file": "administration-ea/foljebrev-ansokan.md",
           "rating": 4.2,
           "tags": [
@@ -113,7 +113,7 @@
         },
         {
           "slug": "motesbokning-flera-deltagare",
-          "title": "Mötesbokning — tidsförslag till flera deltagare",
+          "title": "Mötesbokning: tidsförslag till flera deltagare",
           "file": "administration-ea/motesbokning-flera-deltagare.md",
           "rating": 4.1,
           "tags": [
@@ -130,7 +130,7 @@
         },
         {
           "slug": "offertunderlag-struktur",
-          "title": "Offertunderlag — strukturera förfrågan till komplett offert",
+          "title": "Offertunderlag: strukturera förfrågan till komplett offert",
           "file": "administration-ea/offertunderlag-struktur.md",
           "rating": 4.2,
           "tags": [
@@ -147,7 +147,7 @@
         },
         {
           "slug": "reserakning-hjalpreda",
-          "title": "Reseräkning — strukturera kvitton och traktamenten enligt Skatteverket",
+          "title": "Reseräkning: strukturera kvitton och traktamenten enligt Skatteverket",
           "file": "administration-ea/reserakning-hjalpreda.md",
           "rating": 4.2,
           "tags": [
@@ -164,7 +164,7 @@
         },
         {
           "slug": "snabbmejl",
-          "title": "Snabbmejl — professionellt mejl på sekunder",
+          "title": "Snabbmejl: professionellt mejl på sekunder",
           "file": "administration-ea/snabbmejl.md",
           "rating": 4.1,
           "tags": [
@@ -181,7 +181,7 @@
         },
         {
           "slug": "telefonsamtal-sammanfattning",
-          "title": "Telefonsamtal — sammanfattning till CRM eller uppföljningsmejl",
+          "title": "Telefonsamtal: sammanfattning till CRM eller uppföljningsmejl",
           "file": "administration-ea/telefonsamtal-sammanfattning.md",
           "rating": 4.2,
           "tags": [
@@ -207,7 +207,7 @@
       "prompts": [
         {
           "slug": "arsbokslut-forberedelse-k2-k3",
-          "title": "Årsbokslut-förberedelse — checklista enligt K2 eller K3",
+          "title": "Årsbokslut-förberedelse: checklista enligt K2 eller K3",
           "file": "ekonomi-finans/arsbokslut-forberedelse-k2-k3.md",
           "rating": 4.3,
           "tags": [
@@ -241,7 +241,7 @@
         },
         {
           "slug": "fakturapaminnelse-eskalering",
-          "title": "Fakturapåminnelse — eskaleringstrappa från vänlig till inkasso",
+          "title": "Fakturapåminnelse: eskaleringstrappa från vänlig till inkasso",
           "file": "ekonomi-finans/fakturapaminnelse-eskalering.md",
           "rating": 4.3,
           "tags": [
@@ -275,7 +275,7 @@
         },
         {
           "slug": "kassaflodesprognos",
-          "title": "Kassaflödesprognos — likviditetsanalys",
+          "title": "Kassaflödesprognos: likviditetsanalys",
           "file": "ekonomi-finans/kassaflodesprognos.md",
           "rating": 4.3,
           "tags": [
@@ -633,7 +633,7 @@
         },
         {
           "slug": "ai-rekrytering-kandidattransparens",
-          "title": "AI i rekrytering — transparensinformation till kandidat",
+          "title": "AI i rekrytering: transparensinformation till kandidat",
           "file": "hr-rekrytering/ai-rekrytering-kandidattransparens.md",
           "rating": 4.3,
           "tags": [
@@ -650,7 +650,7 @@
         },
         {
           "slug": "exit-intervju-forberedelse",
-          "title": "Exit-intervju — förberedelse och frågor som ger ärliga svar",
+          "title": "Exit-intervju: förberedelse och frågor som ger ärliga svar",
           "file": "hr-rekrytering/exit-intervju-forberedelse.md",
           "rating": 4.2,
           "tags": [
@@ -682,7 +682,7 @@
         },
         {
           "slug": "kompetensgapsanalys-team",
-          "title": "Kompetensgapsanalys för team — vad saknas, vad kan utvecklas internt",
+          "title": "Kompetensgapsanalys för team: vad saknas, vad kan utvecklas internt",
           "file": "hr-rekrytering/kompetensgapsanalys-team.md",
           "rating": 4.2,
           "tags": [
@@ -699,7 +699,7 @@
         },
         {
           "slug": "loneforhandling-forberedelse-chef",
-          "title": "Löneförhandling — förberedelse för chef",
+          "title": "Löneförhandling: förberedelse för chef",
           "file": "hr-rekrytering/loneforhandling-forberedelse-chef.md",
           "rating": 4.3,
           "tags": [
@@ -716,7 +716,7 @@
         },
         {
           "slug": "onboarding-30-60-90",
-          "title": "Onboardingplan — första 30, 60 och 90 dagarna",
+          "title": "Onboardingplan: första 30, 60 och 90 dagarna",
           "file": "hr-rekrytering/onboarding-30-60-90.md",
           "rating": 4.2,
           "tags": [
@@ -733,7 +733,7 @@
         },
         {
           "slug": "referenstagning-frager",
-          "title": "Referenstagning — frågor för djupare bedömning av kandidat",
+          "title": "Referenstagning: frågor för djupare bedömning av kandidat",
           "file": "hr-rekrytering/referenstagning-frager.md",
           "rating": 4.3,
           "tags": [
@@ -877,7 +877,7 @@
         },
         {
           "slug": "gdpr-incident-beslutsstod",
-          "title": "GDPR-incident — beslutsstöd för anmälan till IMY",
+          "title": "GDPR-incident: beslutsstöd för anmälan till IMY",
           "file": "juridik-compliance/gdpr-incident-beslutsstod.md",
           "rating": 4.4,
           "tags": [
@@ -912,7 +912,7 @@
         },
         {
           "slug": "nda-utkast-svensk-standard",
-          "title": "NDA-utkast — sekretessavtal enligt svensk standard",
+          "title": "NDA-utkast: sekretessavtal enligt svensk standard",
           "file": "juridik-compliance/nda-utkast-svensk-standard.md",
           "rating": 4.2,
           "tags": [
@@ -929,7 +929,7 @@
         },
         {
           "slug": "pub-avtal-granskning",
-          "title": "Personuppgiftsbiträdesavtal (PUB-avtal) — granskning enligt GDPR artikel 28",
+          "title": "Personuppgiftsbiträdesavtal (PUB-avtal): granskning enligt GDPR artikel 28",
           "file": "juridik-compliance/pub-avtal-granskning.md",
           "rating": 4.3,
           "tags": [
@@ -962,7 +962,7 @@
         },
         {
           "slug": "visselblasarlagen-tillampning",
-          "title": "Visselblåsarlagen — tillämpningsguide för svenska arbetsgivare",
+          "title": "Visselblåsarlagen: tillämpningsguide för svenska arbetsgivare",
           "file": "juridik-compliance/visselblasarlagen-tillampning.md",
           "rating": 4.3,
           "tags": [
@@ -1004,7 +1004,7 @@
       "prompts": [
         {
           "slug": "andraordningseffekter",
-          "title": "Andraordningseffekter — tänk tre steg längre",
+          "title": "Andraordningseffekter: tänk tre steg längre",
           "file": "ledarskap-strategi/andraordningseffekter.md",
           "rating": 4.3,
           "tags": [
@@ -1021,7 +1021,7 @@
         },
         {
           "slug": "djavulens-advokat",
-          "title": "Djävulens advokat — stresstest av förslag",
+          "title": "Djävulens advokat: stresstest av förslag",
           "file": "ledarskap-strategi/djavulens-advokat.md",
           "rating": 4.2,
           "tags": [
@@ -1038,7 +1038,7 @@
         },
         {
           "slug": "forskningssyntes",
-          "title": "Forskningssyntes — sammanställ flera källor",
+          "title": "Forskningssyntes: sammanställ flera källor",
           "file": "ledarskap-strategi/forskningssyntes.md",
           "rating": 4.2,
           "tags": [
@@ -1055,7 +1055,7 @@
         },
         {
           "slug": "kommunicera-svart-beslut",
-          "title": "Kommunicera ett svårt beslut — uppsägning, omorganisation eller nedläggning",
+          "title": "Kommunicera ett svårt beslut: uppsägning, omorganisation eller nedläggning",
           "file": "ledarskap-strategi/kommunicera-svart-beslut.md",
           "rating": 4.3,
           "tags": [
@@ -1108,7 +1108,7 @@
         },
         {
           "slug": "okr-formulering-kvartal",
-          "title": "OKR-formulering för kvartalet — mål och mätbara nyckelresultat",
+          "title": "OKR-formulering för kvartalet: mål och mätbara nyckelresultat",
           "file": "ledarskap-strategi/okr-formulering-kvartal.md",
           "rating": 4.2,
           "tags": [
@@ -1125,7 +1125,7 @@
         },
         {
           "slug": "pre-mortem-for-projektrisker",
-          "title": "Pre-mortem — identifiera projektrisker innan start",
+          "title": "Pre-mortem: identifiera projektrisker innan start",
           "file": "ledarskap-strategi/pre-mortem-for-projektrisker.md",
           "rating": 4.2,
           "tags": [
@@ -1159,7 +1159,7 @@
         },
         {
           "slug": "sex-tankarhattar",
-          "title": "Sex tänkarhattar — beslutsanalys",
+          "title": "Sex tänkarhattar: beslutsanalys",
           "file": "ledarskap-strategi/sex-tankarhattar.md",
           "rating": 4.1,
           "tags": [
@@ -1236,7 +1236,7 @@
         },
         {
           "slug": "content-kalender-kvartal",
-          "title": "Content-kalender — redaktionsplan för ett kvartal",
+          "title": "Content-kalender: redaktionsplan för ett kvartal",
           "file": "marknadsforing-kommunikation/content-kalender-kvartal.md",
           "rating": 4.3,
           "tags": [
@@ -1253,7 +1253,7 @@
         },
         {
           "slug": "innehallsatervinning",
-          "title": "Innehållsåtervinning — ett innehåll, flera format",
+          "title": "Innehållsåtervinning: ett innehåll, flera format",
           "file": "marknadsforing-kommunikation/innehallsatervinning.md",
           "rating": 4.1,
           "tags": [
@@ -1270,7 +1270,7 @@
         },
         {
           "slug": "kampanjbrief",
-          "title": "Kampanjbrief — från idé till skarp brief",
+          "title": "Kampanjbrief: från idé till skarp brief",
           "file": "marknadsforing-kommunikation/kampanjbrief.md",
           "rating": 4.3,
           "tags": [
@@ -1287,7 +1287,7 @@
         },
         {
           "slug": "klarsprakskonsult-textomskrivning",
-          "title": "Klarspråkskonsult — textomskrivning",
+          "title": "Klarspråkskonsult: textomskrivning",
           "file": "marknadsforing-kommunikation/klarsprakskonsult-textomskrivning.md",
           "rating": 4.2,
           "tags": [
@@ -1321,7 +1321,7 @@
         },
         {
           "slug": "kundcase-berattelse",
-          "title": "Kundcase — berättelse från problem till resultat",
+          "title": "Kundcase: berättelse från problem till resultat",
           "file": "marknadsforing-kommunikation/kundcase-berattelse.md",
           "rating": 4.3,
           "tags": [
@@ -1338,7 +1338,7 @@
         },
         {
           "slug": "malgruppssegmentering",
-          "title": "Målgruppssegmentering — från breda grupper till skarpa segment",
+          "title": "Målgruppssegmentering: från breda grupper till skarpa segment",
           "file": "marknadsforing-kommunikation/malgruppssegmentering.md",
           "rating": 4.3,
           "tags": [
@@ -1355,7 +1355,7 @@
         },
         {
           "slug": "nyhetsbrev-strukturkoll",
-          "title": "Nyhetsbrev — strukturkoll och förbättringsförslag",
+          "title": "Nyhetsbrev: strukturkoll och förbättringsförslag",
           "file": "marknadsforing-kommunikation/nyhetsbrev-strukturkoll.md",
           "rating": 4.2,
           "tags": [
@@ -1389,7 +1389,7 @@
         },
         {
           "slug": "webbtext-seo",
-          "title": "Webbtext — optimerad för sökmotor utan att tappa läsvärde",
+          "title": "Webbtext: optimerad för sökmotor utan att tappa läsvärde",
           "file": "marknadsforing-kommunikation/webbtext-seo.md",
           "rating": 4.2,
           "tags": [
@@ -1415,7 +1415,7 @@
       "prompts": [
         {
           "slug": "affarsmodell-canvas",
-          "title": "Affärsmodell — Canvas-utkast för entreprenör",
+          "title": "Affärsmodell: Canvas-utkast för entreprenör",
           "file": "sme-entreprenorer/affarsmodell-canvas.md",
           "rating": 4.3,
           "tags": [
@@ -1449,7 +1449,7 @@
         },
         {
           "slug": "kassaflode-mikroforetagare",
-          "title": "Kassaflöde — översikt för mikroföretagare",
+          "title": "Kassaflöde: översikt för mikroföretagare",
           "file": "sme-entreprenorer/kassaflode-mikroforetagare.md",
           "rating": 4.3,
           "tags": [
@@ -1483,7 +1483,7 @@
         },
         {
           "slug": "kundavtal-granskning-sme",
-          "title": "Kundavtal SME — granskning inför signering",
+          "title": "Kundavtal SME: granskning inför signering",
           "file": "sme-entreprenorer/kundavtal-granskning-sme.md",
           "rating": 4.2,
           "tags": [
@@ -1500,7 +1500,7 @@
         },
         {
           "slug": "leverantorsforhandling-brief",
-          "title": "Leverantörsförhandling — brief inför samtal",
+          "title": "Leverantörsförhandling: brief inför samtal",
           "file": "sme-entreprenorer/leverantorsforhandling-brief.md",
           "rating": 4.3,
           "tags": [
@@ -1517,7 +1517,7 @@
         },
         {
           "slug": "momsdeklaration-egenforetagare",
-          "title": "Momsdeklaration — förberedelse för egenföretagare",
+          "title": "Momsdeklaration: förberedelse för egenföretagare",
           "file": "sme-entreprenorer/momsdeklaration-egenforetagare.md",
           "rating": 4.3,
           "tags": [
@@ -1534,7 +1534,7 @@
         },
         {
           "slug": "omvand-brief",
-          "title": "Omvänd brief — klargör innan du löser",
+          "title": "Omvänd brief: klargör innan du löser",
           "file": "sme-entreprenorer/omvand-brief.md",
           "rating": 4.3,
           "tags": [
@@ -1568,7 +1568,7 @@
         },
         {
           "slug": "saljmail-kalluppsok",
-          "title": "Säljmail — kalluppsök som inte känns som spam",
+          "title": "Säljmail: kalluppsök som inte känns som spam",
           "file": "sme-entreprenorer/saljmail-kalluppsok.md",
           "rating": 4.2,
           "tags": [
@@ -1602,7 +1602,7 @@
         },
         {
           "slug": "startup-pitch-feedback",
-          "title": "Pitch-deck — feedback från investerar-perspektiv",
+          "title": "Pitch-deck: feedback från investerar-perspektiv",
           "file": "sme-entreprenorer/startup-pitch-feedback.md",
           "rating": 4.3,
           "tags": [
@@ -1645,7 +1645,7 @@
         },
         {
           "slug": "bedomning-mot-kunskapskrav",
-          "title": "Bedömning mot kunskapskrav — betygsunderlag enligt Lgr22 eller GY2025",
+          "title": "Bedömning mot kunskapskrav: betygsunderlag enligt Lgr22 eller GY2025",
           "file": "utbildning-pedagogik/bedomning-mot-kunskapskrav.md",
           "rating": 4.3,
           "tags": [
@@ -1662,7 +1662,7 @@
         },
         {
           "slug": "expertintervju",
-          "title": "Expertintervju — lär av en virtuell specialist",
+          "title": "Expertintervju: lär av en virtuell specialist",
           "file": "utbildning-pedagogik/expertintervju.md",
           "rating": 4.2,
           "tags": [
@@ -1679,7 +1679,7 @@
         },
         {
           "slug": "feedback-pa-elevtext",
-          "title": "Feedback på elevtext — konstruktiv och enligt kunskapskrav",
+          "title": "Feedback på elevtext: konstruktiv och enligt kunskapskrav",
           "file": "utbildning-pedagogik/feedback-pa-elevtext.md",
           "rating": 4.3,
           "tags": [
@@ -1696,7 +1696,7 @@
         },
         {
           "slug": "forbattra-din-prompt",
-          "title": "Förbättra din prompt — metaprompt",
+          "title": "Förbättra din prompt: metaprompt",
           "file": "utbildning-pedagogik/forbattra-din-prompt.md",
           "rating": 4,
           "tags": [
@@ -1748,7 +1748,7 @@
         },
         {
           "slug": "formativ-bedomning-lektionsfrager",
-          "title": "Formativ bedömning — frågor att ställa under lektionen",
+          "title": "Formativ bedömning: frågor att ställa under lektionen",
           "file": "utbildning-pedagogik/formativ-bedomning-lektionsfrager.md",
           "rating": 4.2,
           "tags": [
@@ -1782,7 +1782,7 @@
         },
         {
           "slug": "larandeplan",
-          "title": "Lärandeplan — strukturerad kunskapsutveckling",
+          "title": "Lärandeplan: strukturerad kunskapsutveckling",
           "file": "utbildning-pedagogik/larandeplan.md",
           "rating": 4.2,
           "tags": [
@@ -1825,7 +1825,7 @@
       "prompts": [
         {
           "slug": "anhorigsamtal-struktur",
-          "title": "Anhörigsamtal — strukturerad samtalsguide",
+          "title": "Anhörigsamtal: strukturerad samtalsguide",
           "file": "vard-omsorg/anhorigsamtal-struktur.md",
           "rating": 4.3,
           "tags": [
@@ -1859,7 +1859,7 @@
         },
         {
           "slug": "lss-bedomningssamtal",
-          "title": "LSS — förberedelse inför bedömningssamtal",
+          "title": "LSS: förberedelse inför bedömningssamtal",
           "file": "vard-omsorg/lss-bedomningssamtal.md",
           "rating": 4.3,
           "tags": [
@@ -1876,7 +1876,7 @@
         },
         {
           "slug": "motiverande-samtal-forberedelse",
-          "title": "Motiverande samtal — förberedelse",
+          "title": "Motiverande samtal: förberedelse",
           "file": "vard-omsorg/motiverande-samtal-forberedelse.md",
           "rating": 4.3,
           "tags": [
@@ -1944,7 +1944,7 @@
         },
         {
           "slug": "rehabmote-dokumentation",
-          "title": "Rehabmöte — struktur och dokumentation av teamträff",
+          "title": "Rehabmöte: struktur och dokumentation av teamträff",
           "file": "vard-omsorg/rehabmote-dokumentation.md",
           "rating": 4.2,
           "tags": [
@@ -1961,7 +1961,7 @@
         },
         {
           "slug": "sip-samordnad-plan",
-          "title": "Samordnad individuell plan (SIP) — förberedelse och struktur",
+          "title": "Samordnad individuell plan (SIP): förberedelse och struktur",
           "file": "vard-omsorg/sip-samordnad-plan.md",
           "rating": 4.4,
           "tags": [
@@ -1978,7 +1978,7 @@
         },
         {
           "slug": "smartskattning-dokumentation",
-          "title": "Smärtskattning — strukturerad dokumentation enligt VAS/NRS/Abbey",
+          "title": "Smärtskattning: strukturerad dokumentation enligt VAS/NRS/Abbey",
           "file": "vard-omsorg/smartskattning-dokumentation.md",
           "rating": 4.4,
           "tags": [
@@ -1996,7 +1996,7 @@
         },
         {
           "slug": "vardplan-utkast",
-          "title": "Vårdplan — utkast från bedömning till konkret plan",
+          "title": "Vårdplan: utkast från bedömning till konkret plan",
           "file": "vard-omsorg/vardplan-utkast.md",
           "rating": 4.3,
           "tags": [

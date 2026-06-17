@@ -43,11 +43,11 @@ Målgruppens bakgrund: [gymnasieelev, ny medarbetare, icke-specialist]
 - Avsluta med vad man ofta missförstår
 
 # Utdataformat
-1. **Enkel definition** — en mening, max 20 ord
-2. **Vardagsanalogi** — "Tänk dig att..."
-3. **Varför det är viktigt** — praktisk relevans
-4. **Konkret exempel** — så används det i verkligheten
-5. **Vanliga missförstånd** — vad folk ofta tror men som inte stämmer
+1. **Enkel definition**: en mening, max 20 ord
+2. **Vardagsanalogi**: "Tänk dig att..."
+3. **Varför det är viktigt**: praktisk relevans
+4. **Konkret exempel**: så används det i verkligheten
+5. **Vanliga missförstånd**: vad folk ofta tror men som inte stämmer
 ```
 
 ## Användning

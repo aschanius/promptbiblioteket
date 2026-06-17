@@ -51,13 +51,13 @@ Lösta omvårdnadsproblem: [lista]
 # Utdataformat
 **Omvårdnadsepikris — [avdelning, period]**
 
-1. **Sammanfattning** — vårdtid, vårdorsak, övergripande utfall i 3-5 meningar
-2. **Välbefinnande** — smärta, sömn, nutrition, ADL-förmåga
-3. **Integritet** — kommunikation, anhörigrelationer, delaktighet i vården
-4. **Prevention** — riskbedömningar (fall, trycksår), förebyggande åtgärder och utfall
-5. **Säkerhet** — medicinering, infektioner, avvikelser under vårdtiden
-6. **Aktiva omvårdnadsproblem vid utskrivning** — tydligt listade med rekommendationer till mottagande enhet
-7. **Uppföljning** — när, av vem, kontaktvägar
+1. **Sammanfattning**: vårdtid, vårdorsak, övergripande utfall i 3-5 meningar
+2. **Välbefinnande**: smärta, sömn, nutrition, ADL-förmåga
+3. **Integritet**: kommunikation, anhörigrelationer, delaktighet i vården
+4. **Prevention**: riskbedömningar (fall, trycksår), förebyggande åtgärder och utfall
+5. **Säkerhet**: medicinering, infektioner, avvikelser under vårdtiden
+6. **Aktiva omvårdnadsproblem vid utskrivning**: tydligt listade med rekommendationer till mottagande enhet
+7. **Uppföljning**: när, av vem, kontaktvägar
 ```
 
 ## Användning

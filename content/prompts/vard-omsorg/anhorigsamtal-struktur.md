@@ -1,5 +1,5 @@
 ---
-title: Anhörigsamtal — strukturerad samtalsguide
+title: "Anhörigsamtal: strukturerad samtalsguide"
 slug: anhorigsamtal-struktur
 category: vard-omsorg
 source_url: https://www.socialstyrelsen.se
@@ -54,16 +54,16 @@ Event den anhöriges sinnesstämning: [chock, sorg, ilska, trötthet, förvirrin
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Förberedelse** — vad du kontrollerar innan (sekretess, tillgängliga lokaler, stöd från annan professionell)
-2. **Öppning** — förslag på inledande fras, presentation, syftet med samtalet
-3. **Kartläggning** — 3-5 öppna frågor: vad anhöriga redan vet, vad de är mest oroliga för, vad de vill få ut av samtalet
-4. **Kärnbudskap** — 2-3 meningar som fångar det viktigaste, formulerade i enkla ord
-5. **Fördjupning** — information i rätt ordning, med utrymme för frågor efter varje del
-6. **Hantering av känslor** — konkreta fraser för olika reaktioner (chock, ilska, tyst sorg, kampför)
-7. **Beslut och överenskommelser** — vad ska hända härnäst, vem ansvarar, när kontakt tas igen
-8. **Avslutning** — sammanfattning av vad som sagts, möjlighet att ställa fler frågor, kontaktuppgifter
-9. **Dokumentationsmall** — strukturerat utrymme för vem som deltog, vad som sagts, överenskommelser, eventuell uppföljning. Formuleringar ska tåla att läsas av anhöriga
-10. **Egen reflektion** — punkter för egen debriefing efteråt (svåra moment, vad som gick bra, vad du vill göra annorlunda)
+1. **Förberedelse**: vad du kontrollerar innan (sekretess, tillgängliga lokaler, stöd från annan professionell)
+2. **Öppning**: förslag på inledande fras, presentation, syftet med samtalet
+3. **Kartläggning**: 3-5 öppna frågor: vad anhöriga redan vet, vad de är mest oroliga för, vad de vill få ut av samtalet
+4. **Kärnbudskap**: 2-3 meningar som fångar det viktigaste, formulerade i enkla ord
+5. **Fördjupning**: information i rätt ordning, med utrymme för frågor efter varje del
+6. **Hantering av känslor**: konkreta fraser för olika reaktioner (chock, ilska, tyst sorg, kampför)
+7. **Beslut och överenskommelser**: vad ska hända härnäst, vem ansvarar, när kontakt tas igen
+8. **Avslutning**: sammanfattning av vad som sagts, möjlighet att ställa fler frågor, kontaktuppgifter
+9. **Dokumentationsmall**: strukturerat utrymme för vem som deltog, vad som sagts, överenskommelser, eventuell uppföljning. Formuleringar ska tåla att läsas av anhöriga
+10. **Egen reflektion**: punkter för egen debriefing efteråt (svåra moment, vad som gick bra, vad du vill göra annorlunda)
 ```
 
 ## Användning

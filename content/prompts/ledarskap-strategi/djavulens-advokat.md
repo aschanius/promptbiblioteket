@@ -1,5 +1,5 @@
 ---
-title: Djävulens advokat — stresstest av förslag
+title: "Djävulens advokat: stresstest av förslag"
 slug: djavulens-advokat
 category: ledarskap-strategi
 source_url: https://www.teknikministeriet.se/prompts-allman/
@@ -43,11 +43,11 @@ Tidsperspektiv: [kort/medellång/lång sikt]
 - Avsluta alltid med hur förslaget kan stärkas
 
 # Utdataformat
-1. **Fem starkaste motargumenten** — med motivering
-2. **Risker** — vad kan gå fel vid genomförande?
-3. **Intressentkritik** — vilka invändningar kommer från kunder, anställda, ägare?
-4. **Alternativa lösningar** — finns bättre sätt att uppnå samma mål?
-5. **Så stärker du förslaget** — konkreta förbättringar som bemöter kritiken
+1. **Fem starkaste motargumenten**: med motivering
+2. **Risker**: vad kan gå fel vid genomförande?
+3. **Intressentkritik**: vilka invändningar kommer från kunder, anställda, ägare?
+4. **Alternativa lösningar**: finns bättre sätt att uppnå samma mål?
+5. **Så stärker du förslaget**: konkreta förbättringar som bemöter kritiken
 ```
 
 ## Användning

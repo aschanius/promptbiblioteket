@@ -1,5 +1,5 @@
 ---
-title: Smärtskattning — strukturerad dokumentation enligt VAS/NRS/Abbey
+title: "Smärtskattning: strukturerad dokumentation enligt VAS/NRS/Abbey"
 slug: smartskattning-dokumentation
 category: vard-omsorg
 source_url: https://www.socialstyrelsen.se
@@ -53,15 +53,15 @@ Läkarordinationer: [stående smärtlindring, vid-behovs-dos, maxdygnsdos]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Smärtskattning före åtgärd** — instrument, värde, patientens egna ord
-2. **Smärtanamnes** — lokalisation, karaktär, duration, försämrande och lindrande faktorer
-3. **Observationer** — ansiktsuttryck, rörelse, andning, vegetativa tecken (om Abbey)
-4. **Bedömning** — smärttyp (akut/kronisk, nociceptiv/neuropatisk om möjligt), allvarlighetsgrad
-5. **Åtgärd** — exakt läkemedel med styrka och dos, tidpunkt, administrationssätt. Eller icke-farmakologisk åtgärd
-6. **Utvärdering efter åtgärd** — smärtskattning vid uppföljningstid, förändring i observationer
-7. **Kommunikation** — om läkare kontaktats, om anhörig informerats
-8. **Dokumentation i journal** — färdig journaltext som kan klistras in
-9. **Signal till nästa skift** — om uppföljning krävs, risk för eskalation, kommande dos
+1. **Smärtskattning före åtgärd**: instrument, värde, patientens egna ord
+2. **Smärtanamnes**: lokalisation, karaktär, duration, försämrande och lindrande faktorer
+3. **Observationer**: ansiktsuttryck, rörelse, andning, vegetativa tecken (om Abbey)
+4. **Bedömning**: smärttyp (akut/kronisk, nociceptiv/neuropatisk om möjligt), allvarlighetsgrad
+5. **Åtgärd**: exakt läkemedel med styrka och dos, tidpunkt, administrationssätt. Eller icke-farmakologisk åtgärd
+6. **Utvärdering efter åtgärd**: smärtskattning vid uppföljningstid, förändring i observationer
+7. **Kommunikation**: om läkare kontaktats, om anhörig informerats
+8. **Dokumentation i journal**: färdig journaltext som kan klistras in
+9. **Signal till nästa skift**: om uppföljning krävs, risk för eskalation, kommande dos
 ```
 
 ## Användning

@@ -60,4 +60,4 @@ Samla bakgrund, siffror och citat-råmaterial innan du kör prompten — ju konk
 
 ## Testresultat
 
-- **Claude Opus 4.6:** ★★★★☆ — Fångade bästa vinkeln direkt (kontrast 68% vs 12%), följde utdataformatet exakt, svensk pressmeddelande-konvention genomgående
+- **Claude Opus 4.6:** ★★★★☆: Fångade bästa vinkeln direkt (kontrast 68% vs 12%), följde utdataformatet exakt, svensk pressmeddelande-konvention genomgående

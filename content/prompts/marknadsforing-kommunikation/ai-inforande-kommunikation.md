@@ -50,13 +50,13 @@ Tidsram: [införande från datum X]
 - Uppföljning: mät förtroende, inte bara förståelse
 
 # Utdataformat
-1. **Målgrupper** — lista med prioritetsordning och specifik oro per grupp
-2. **Nyckelbudskap** — 3-5 per målgrupp, anpassade
-3. **Kommunikationskanaler** — tabell: målgrupp, kanal, format, avsändare
-4. **Tidslinje** — före, under, efter införande
-5. **Transparenselement** — vad ska kommuniceras enligt regelverk (Art 50, GDPR 22)
-6. **Feedback-loop** — hur fångas oro och frågor upp
-7. **Mätpunkter** — hur utvärderas att kommunikationen landat
+1. **Målgrupper**: lista med prioritetsordning och specifik oro per grupp
+2. **Nyckelbudskap**: 3-5 per målgrupp, anpassade
+3. **Kommunikationskanaler**: tabell: målgrupp, kanal, format, avsändare
+4. **Tidslinje**: före, under, efter införande
+5. **Transparenselement**: vad ska kommuniceras enligt regelverk (Art 50, GDPR 22)
+6. **Feedback-loop**: hur fångas oro och frågor upp
+7. **Mätpunkter**: hur utvärderas att kommunikationen landat
 ```
 
 ## Användning

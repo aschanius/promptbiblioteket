@@ -42,11 +42,11 @@ Bakgrund: [relevant kontext, historik]
 - Fokusera på det jag kan förbereda, inte det jag inte kan kontrollera
 
 # Utdataformat
-1. **Troliga frågor** — 3 frågor motparten sannolikt ställer, med förslag på svar
-2. **Mina nyckelpunkter** — 3 saker jag måste få sagt
-3. **Invändningar och bemötande** — 2-3 möjliga invändningar med svar
-4. **Min fråga** — en strategisk fråga jag bör ställa
-5. **Öppning** — förslag på hur jag inleder mötet
+1. **Troliga frågor**: 3 frågor motparten sannolikt ställer, med förslag på svar
+2. **Mina nyckelpunkter**: 3 saker jag måste få sagt
+3. **Invändningar och bemötande**: 2-3 möjliga invändningar med svar
+4. **Min fråga**: en strategisk fråga jag bör ställa
+5. **Öppning**: förslag på hur jag inleder mötet
 ```
 
 ## Användning

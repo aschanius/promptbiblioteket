@@ -1,5 +1,5 @@
 ---
-title: Innehållsåtervinning — ett innehåll, flera format
+title: "Innehållsåtervinning: ett innehåll, flera format"
 slug: innehallsatervinning
 category: marknadsforing-kommunikation
 source_url: https://www.teknikministeriet.se

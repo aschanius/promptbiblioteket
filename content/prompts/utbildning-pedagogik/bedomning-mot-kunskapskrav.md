@@ -1,5 +1,5 @@
 ---
-title: Bedömning mot kunskapskrav — betygsunderlag enligt Lgr22 eller GY2025
+title: "Bedömning mot kunskapskrav: betygsunderlag enligt Lgr22 eller GY2025"
 slug: bedomning-mot-kunskapskrav
 category: utbildning-pedagogik
 source_url: https://www.skolverket.se/
@@ -49,12 +49,12 @@ Särskilt stöd eller anpassningar: [om det finns]
 - Svenska utan tankstreck i brödtext
 
 # Utdataformat
-1. **Sammanfattning av elevens prestationer** — 3–5 meningar, konkreta observationer
-2. **Kunskapskrav per kunskapskrav** — tabell med kolumner: kunskapskrav (citat), elevens prestation (observation), tolkning mot nivåerna (i huvudsak / utvecklat / välutvecklat)
-3. **Särskilt starka områden** — 2–3 områden där eleven visar stabil hög nivå
-4. **Utvecklingsområden** — 2–3 områden med konkret förslag på nästa steg
-5. **Underlag som saknas** — kunskapskrav där det ännu inte finns tillräckligt för bedömning
-6. **Förslag på formulering i utvecklingssamtal** — 2–3 meningar läraren kan använda direkt med eleven eller vårdnadshavare
+1. **Sammanfattning av elevens prestationer**: 3–5 meningar, konkreta observationer
+2. **Kunskapskrav per kunskapskrav**: tabell med kolumner: kunskapskrav (citat), elevens prestation (observation), tolkning mot nivåerna (i huvudsak / utvecklat / välutvecklat)
+3. **Särskilt starka områden**: 2–3 områden där eleven visar stabil hög nivå
+4. **Utvecklingsområden**: 2–3 områden med konkret förslag på nästa steg
+5. **Underlag som saknas**: kunskapskrav där det ännu inte finns tillräckligt för bedömning
+6. **Förslag på formulering i utvecklingssamtal**: 2–3 meningar läraren kan använda direkt med eleven eller vårdnadshavare
 ```
 
 ## Användning

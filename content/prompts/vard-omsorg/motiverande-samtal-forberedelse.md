@@ -1,5 +1,5 @@
 ---
-title: Motiverande samtal — förberedelse
+title: "Motiverande samtal: förberedelse"
 slug: motiverande-samtal-forberedelse
 category: vard-omsorg
 source_url: https://www.teknikministeriet.se
@@ -47,13 +47,13 @@ Samtalshistorik: [första gången eller uppföljning]
 - Prompten ersätter inte MI-utbildning eller klinisk bedömning
 
 # Utdataformat
-1. **Ingång** — förslag till samtalsöppning som engagerar (2-3 meningar)
-2. **Engagera** — 3-5 öppna frågor som bygger relation
-3. **Fokusera** — förslag på hur ämnet introduceras utan att pressa
-4. **Framkalla motivation** — frågor som letar fram klientens egna skäl till förändring
-5. **Reflektioner att ha beredskap på** — 3-5 exempel på reflektivt lyssnande
-6. **Planera** — om motivationen räcker, struktur för konkreta steg framåt
-7. **Om motivationen saknas** — hur samtalet kan landa respektfullt och öppna för nästa gång
+1. **Ingång**: förslag till samtalsöppning som engagerar (2-3 meningar)
+2. **Engagera**: 3-5 öppna frågor som bygger relation
+3. **Fokusera**: förslag på hur ämnet introduceras utan att pressa
+4. **Framkalla motivation**: frågor som letar fram klientens egna skäl till förändring
+5. **Reflektioner att ha beredskap på**: 3-5 exempel på reflektivt lyssnande
+6. **Planera**: om motivationen räcker, struktur för konkreta steg framåt
+7. **Om motivationen saknas**: hur samtalet kan landa respektfullt och öppna för nästa gång
 ```
 
 ## Användning

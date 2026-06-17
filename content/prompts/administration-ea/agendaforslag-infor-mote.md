@@ -58,4 +58,4 @@ Komplettera med kända öppna punkter från tidigare protokoll — då blir agen
 
 ## Testresultat
 
-- **Claude Opus 4.6:** ★★★★☆ — Strukturerad agenda med tidsbudget, markerade beslutspunkter vs diskussionspunkter, föreslog konkret förberedelsematerial per deltagare
+- **Claude Opus 4.6:** ★★★★☆: Strukturerad agenda med tidsbudget, markerade beslutspunkter vs diskussionspunkter, föreslog konkret förberedelsematerial per deltagare

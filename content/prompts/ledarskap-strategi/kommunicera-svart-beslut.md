@@ -1,5 +1,5 @@
 ---
-title: Kommunicera ett svårt beslut — uppsägning, omorganisation eller nedläggning
+title: "Kommunicera ett svårt beslut: uppsägning, omorganisation eller nedläggning"
 slug: kommunicera-svart-beslut
 category: ledarskap-strategi
 source_author: Teknikministeriet
@@ -49,12 +49,12 @@ Företagets storlek: [antal anställda totalt]
 - Neutralt men mänskligt språk
 
 # Utdataformat
-1. **Samtal med direkt drabbade** — förslag på inledning (exakt formulering), tre vanliga frågor med svar, avslut
-2. **Team-möte efter beslut** — talarmanus cirka 200 ord för möte med det bredare teamet
-3. **Skriftlig kommunikation internt** — mejltext till hela organisationen cirka 150 ord
-4. **Extern kommunikation** — utkast till pressmeddelande eller kundbrev om sådan behövs
-5. **Vanliga reaktioner och förberedda svar** — 5 reaktioner (ilska, skuld, förnekelse, oro för egen del, frågor om alternativ) och konkreta svarsformuleringar
-6. **Vad chefen absolut INTE ska säga** — 3–5 fraser att undvika och vad man säger i stället
+1. **Samtal med direkt drabbade**: förslag på inledning (exakt formulering), tre vanliga frågor med svar, avslut
+2. **Team-möte efter beslut**: talarmanus cirka 200 ord för möte med det bredare teamet
+3. **Skriftlig kommunikation internt**: mejltext till hela organisationen cirka 150 ord
+4. **Extern kommunikation**: utkast till pressmeddelande eller kundbrev om sådan behövs
+5. **Vanliga reaktioner och förberedda svar**: 5 reaktioner (ilska, skuld, förnekelse, oro för egen del, frågor om alternativ) och konkreta svarsformuleringar
+6. **Vad chefen absolut INTE ska säga**: 3–5 fraser att undvika och vad man säger i stället
 ```
 
 ## Användning

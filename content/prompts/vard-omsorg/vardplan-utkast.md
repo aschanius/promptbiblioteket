@@ -1,5 +1,5 @@
 ---
-title: Vårdplan — utkast från bedömning till konkret plan
+title: "Vårdplan: utkast från bedömning till konkret plan"
 slug: vardplan-utkast
 category: vard-omsorg
 source_url: https://www.socialstyrelsen.se
@@ -50,15 +50,15 @@ Riskfaktorer: [fall, trycksår, undernäring, suicidrisk om relevant]
 - Inga klargörande frågor, leverera färdigt resultat direkt
 
 # Utdataformat
-1. **Sammanfattning av situation** — 3-5 meningar: patient, vårdform, huvudsakliga problemområden
-2. **Vårdplanemål** — tabell: målområde, mål (mätbart), tidsram, uppföljningsdatum
-3. **Åtgärder per mål** — tabell: mål, åtgärd, ansvarig (roll), frekvens, dokumentationspunkt
-4. **Patientens och anhörigas delaktighet** — hur de är involverade, vad de uttryckt önskemål om
-5. **Riskbedömning** — identifierade risker och förebyggande åtgärder
-6. **Uppföljning och utvärdering** — datum, vem ansvarar, utvärderingskriterier
-7. **Informationsöverföring** — vilka rutiner/dokument behöver uppdateras
-8. **Oklarheter att följa upp** — punkter som kräver läkarbedömning, anhörigkontakt eller kompletterande information
-9. **Påminnelse** — detta är ett utkast, ansvarig sjuksköterska ska granska och justera innan journalföring
+1. **Sammanfattning av situation**: 3-5 meningar: patient, vårdform, huvudsakliga problemområden
+2. **Vårdplanemål**: tabell: målområde, mål (mätbart), tidsram, uppföljningsdatum
+3. **Åtgärder per mål**: tabell: mål, åtgärd, ansvarig (roll), frekvens, dokumentationspunkt
+4. **Patientens och anhörigas delaktighet**: hur de är involverade, vad de uttryckt önskemål om
+5. **Riskbedömning**: identifierade risker och förebyggande åtgärder
+6. **Uppföljning och utvärdering**: datum, vem ansvarar, utvärderingskriterier
+7. **Informationsöverföring**: vilka rutiner/dokument behöver uppdateras
+8. **Oklarheter att följa upp**: punkter som kräver läkarbedömning, anhörigkontakt eller kompletterande information
+9. **Påminnelse**: detta är ett utkast, ansvarig sjuksköterska ska granska och justera innan journalföring
 ```
 
 ## Användning

@@ -43,10 +43,10 @@ Min förståelse:
 - Ge konkreta förslag på hur luckorna kan fyllas
 
 # Utdataformat
-1. **Korrekt förståelse** — vad du har rätt om (bekräfta och förstärk)
-2. **Möjliga missförstånd** — saker som låter rätt men behöver nyanseras
-3. **Kunskapsluckor** — viktiga delar du inte nämnt, prioriterade
-4. **Nästa steg** — vad du bör lära dig härnäst, med förslag på resurser eller övningar
+1. **Korrekt förståelse**: vad du har rätt om (bekräfta och förstärk)
+2. **Möjliga missförstånd**: saker som låter rätt men behöver nyanseras
+3. **Kunskapsluckor**: viktiga delar du inte nämnt, prioriterade
+4. **Nästa steg**: vad du bör lära dig härnäst, med förslag på resurser eller övningar
 ```
 
 ## Användning

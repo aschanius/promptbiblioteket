@@ -1,5 +1,5 @@
 ---
-title: Rehabmöte — struktur och dokumentation av teamträff
+title: "Rehabmöte: struktur och dokumentation av teamträff"
 slug: rehabmote-dokumentation
 category: vard-omsorg
 source_url: https://www.socialstyrelsen.se
@@ -52,23 +52,23 @@ Tidsram: [hemgång planerad när, hur många möten kvar]
 
 # Utdataformat
 **Del 1: Mötesagenda (för teamet)**
-1. **Öppning** — närvaro, tidigare mötets överenskommelser
-2. **Patientens röst** — hur mår patienten idag, vad vill patienten prioritera
-3. **Statusrapport per profession** — arbetsterapeut, fysioterapeut, sjuksköterska, övriga
-4. **Funktionsbedömning** — aktuella testresultat, förändring sedan förra möte
-5. **Måldiskussion** — revision av mål baserat på status
-6. **Åtgärdsplan** — vad ska göras innan nästa möte
+1. **Öppning**: närvaro, tidigare mötets överenskommelser
+2. **Patientens röst**: hur mår patienten idag, vad vill patienten prioritera
+3. **Statusrapport per profession**: arbetsterapeut, fysioterapeut, sjuksköterska, övriga
+4. **Funktionsbedömning**: aktuella testresultat, förändring sedan förra möte
+5. **Måldiskussion**: revision av mål baserat på status
+6. **Åtgärdsplan**: vad ska göras innan nästa möte
 7. **Tid och plats för nästa möte**
 
 **Del 2: Protokoll (det som dokumenteras efteråt)**
-8. **Deltagare** — namn och profession/relation
-9. **Patientens prioriteringar** — citat eller sammanfattning
-10. **Status** — kort per problemområde
-11. **Mål** — tabell: målområde, kort sikt, lång sikt, mätmetod
-12. **Åtgärder** — tabell: åtgärd, ansvarig profession, frekvens, uppföljning
-13. **Beslut** — punkter som teamet enats om
-14. **Kvarvarande frågor** — punkter till nästa möte eller som kräver läkarbedömning
-15. **Nästa möte** — datum, deltagare, eventuell förberedelse
+8. **Deltagare**: namn och profession/relation
+9. **Patientens prioriteringar**: citat eller sammanfattning
+10. **Status**: kort per problemområde
+11. **Mål**: tabell: målområde, kort sikt, lång sikt, mätmetod
+12. **Åtgärder**: tabell: åtgärd, ansvarig profession, frekvens, uppföljning
+13. **Beslut**: punkter som teamet enats om
+14. **Kvarvarande frågor**: punkter till nästa möte eller som kräver läkarbedömning
+15. **Nästa möte**: datum, deltagare, eventuell förberedelse
 ```
 
 ## Användning

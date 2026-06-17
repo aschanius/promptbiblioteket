@@ -49,12 +49,12 @@ Budget eller tid: [timmar per medarbetare]
 - Ersätt inte professionell utbildningsdesigner för komplexa program
 
 # Utdataformat
-1. **Målbild** — vad ska gruppen kunna efter utbildningen (3-5 konkreta färdigheter)
-2. **Differentiering** — hur skiljer sig innehållet mellan roller
-3. **Moduler** — tabell: innehåll, format (e-kurs, workshop, självstudier), tidsåtgång
-4. **Bedömning** — hur mäts att kunskapen nått fram (quiz, case, reflektion)
-5. **Dokumentation** — vad registreras för att kunna visas vid tillsyn
-6. **Revisionscykel** — när och hur utvärderas planen
+1. **Målbild**: vad ska gruppen kunna efter utbildningen (3-5 konkreta färdigheter)
+2. **Differentiering**: hur skiljer sig innehållet mellan roller
+3. **Moduler**: tabell: innehåll, format (e-kurs, workshop, självstudier), tidsåtgång
+4. **Bedömning**: hur mäts att kunskapen nått fram (quiz, case, reflektion)
+5. **Dokumentation**: vad registreras för att kunna visas vid tillsyn
+6. **Revisionscykel**: när och hur utvärderas planen
 ```
 
 ## Användning

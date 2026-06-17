@@ -43,11 +43,11 @@ Databaser jag har tillgång till: [Karnov, Zeteo, InfoTorg, JUNO — ange vilka]
 - Ersätt aldrig egen rättsfallsanalys. Markera när resultaten bör verifieras av jurist
 
 # Utdataformat
-1. **Söktermer** — formulerade för de angivna databaserna
-2. **Centrala lagrum** — utgångspunkter med SFS-nummer
-3. **Prejudikat att prioritera** — instanser och varför
-4. **Varningsflaggor** — områden med ändrad eller otydlig praxis
-5. **Nästa steg** — rekommenderad sökordning
+1. **Söktermer**: formulerade för de angivna databaserna
+2. **Centrala lagrum**: utgångspunkter med SFS-nummer
+3. **Prejudikat att prioritera**: instanser och varför
+4. **Varningsflaggor**: områden med ändrad eller otydlig praxis
+5. **Nästa steg**: rekommenderad sökordning
 ```
 
 ## Användning

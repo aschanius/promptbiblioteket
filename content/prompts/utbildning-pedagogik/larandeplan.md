@@ -1,5 +1,5 @@
 ---
-title: Lärandeplan — strukturerad kunskapsutveckling
+title: "Lärandeplan: strukturerad kunskapsutveckling"
 slug: larandeplan
 category: utbildning-pedagogik
 source_url: https://www.teknikministeriet.se

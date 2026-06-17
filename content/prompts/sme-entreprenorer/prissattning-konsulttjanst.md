@@ -51,13 +51,13 @@ Om avgränsat: [bedömd omfattning i timmar]
 - Håll dig till kostnadstäckning — värdebaserad prissättning kräver separat underlag
 
 # Utdataformat
-1. **Kostnadstäckning per år** — tabell: lön, fasta kostnader, avgifter, pension
-2. **Debiterbara timmar per år** — beräkning baserad på beläggningsgrad
-3. **Timpris** — break-even och rekommenderat med marginal
-4. **Fastpris för uppdraget** — omfattning × timpris + riskpremie
-5. **Marknadsjämförelse** — om uppgivet, annars råd om var man hittar data
-6. **Svagheter i kalkylen** — vad som kan slå fel och hur mycket buffert som krävs
-7. **Nästa steg** — hur priset kan justeras uppåt efter dokumenterat värde
+1. **Kostnadstäckning per år**: tabell: lön, fasta kostnader, avgifter, pension
+2. **Debiterbara timmar per år**: beräkning baserad på beläggningsgrad
+3. **Timpris**: break-even och rekommenderat med marginal
+4. **Fastpris för uppdraget**: omfattning × timpris + riskpremie
+5. **Marknadsjämförelse**: om uppgivet, annars råd om var man hittar data
+6. **Svagheter i kalkylen**: vad som kan slå fel och hur mycket buffert som krävs
+7. **Nästa steg**: hur priset kan justeras uppåt efter dokumenterat värde
 ```
 
 ## Användning

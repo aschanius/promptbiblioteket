@@ -60,4 +60,4 @@ Fyll i kompetensprofilen så detaljerat du kan — kvaliteten på annonsen är d
 
 ## Testresultat
 
-- **Claude Opus 4.6:** ★★★★☆ — Följde alla 7 sektioner, undvek rekryteringsjargong, separerade must-have från nice-to-have tydligt, föreslog konkret lönespann
+- **Claude Opus 4.6:** ★★★★☆: Följde alla 7 sektioner, undvek rekryteringsjargong, separerade must-have från nice-to-have tydligt, föreslog konkret lönespann
