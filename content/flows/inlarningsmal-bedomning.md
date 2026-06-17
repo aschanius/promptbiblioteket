@@ -32,6 +32,6 @@ Skapar en tydlig linje från vad eleven ska kunna till hur det mäts. Flödet mo
 
 ## Tips
 
-- Steg 1 bygger på läroplan eller ämnesplan — ha den framme. Utan denna bas blir lärandemålen privatåsikter
+- Steg 1 bygger på läroplan eller ämnesplan, ha den framme. Utan denna bas blir lärandemålen privatåsikter
 - Steg 2 produkterar frågor som används UNDER lektionen, inte bara vid prov. Kontinuerlig formativ bedömning är där inlärningen syns
 - Steg 3 kräver en prestation att bedöma (inlämning, prov, redovisning). Kombinera med steg 2 för att kalibrera: fångar dina formativa frågor det som senare mäts summativt?

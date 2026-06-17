@@ -32,6 +32,6 @@ Från strategi till schemalagd publicering. Flödet undviker de två vanligaste 
 
 ## Tips
 
-- Steg 1 bygger på faktisk kunddata om möjligt — inte bara \"vad vi tror\". Tidigare kampanjers utfall är guld
+- Steg 1 bygger på faktisk kunddata om möjligt, inte bara \"vad vi tror\". Tidigare kampanjers utfall är guld
 - Steg 2 kräver att segmentet från steg 1 kan beskrivas som en persona. Om segmentet känns abstrakt, gå tillbaka och skärp det
-- Steg 3 säkerställer att kampanjen inte konkurrerar mot dina egna organiska inlägg. Integrera tidigt — sent i processen blir det bråk om slots
+- Steg 3 säkerställer att kampanjen inte konkurrerar mot dina egna organiska inlägg. Integrera tidigt, sent i processen blir det bråk om slots

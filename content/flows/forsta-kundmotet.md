@@ -33,4 +33,4 @@ Från kundsamtal till skickad offert. Undviker de två vanligaste misstagen: att
 
 - Steg 1 ska göras FÖRE första kundmötet, inte efter. Omvänd brief är ditt hjälpmedel för att ställa rätt frågor
 - Steg 2 direkt efter mötet, medan kundens röst fortfarande är i huvudet
-- Steg 3 inom 48 timmar — studier visar att första offert ofta vinner
+- Steg 3 inom 48 timmar, studier visar att första offert ofta vinner

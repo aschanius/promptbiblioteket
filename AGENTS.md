@@ -1,4 +1,4 @@
-# Promptbiblioteket — Agent-instruktioner
+# Promptbiblioteket: Agent-instruktioner
 
 ## Roll-princip
 

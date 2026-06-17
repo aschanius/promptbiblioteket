@@ -23,7 +23,7 @@ steps:
 
 ## Syfte
 
-Hela möteskedjan från förberedelse till uppföljning. Lyfter kvaliteten på både mötet och det som händer efter — där de flesta möten tappar värde.
+Hela möteskedjan från förberedelse till uppföljning. Lyfter kvaliteten på både mötet och det som händer efter, där de flesta möten tappar värde.
 
 ## När använd
 
@@ -34,5 +34,5 @@ Hela möteskedjan från förberedelse till uppföljning. Lyfter kvaliteten på b
 ## Tips
 
 - Gör steg 1 ensam dagen innan. Steg 2 några timmar innan eller på morgonen
-- Kör steg 3 direkt efter mötet medan minnet är färskt — dröj inte
+- Kör steg 3 direkt efter mötet medan minnet är färskt, dröj inte
 - Steg 4 samma dag. Efterfrågat: vad beslutades, vem gör vad, när. Inga utsvävningar

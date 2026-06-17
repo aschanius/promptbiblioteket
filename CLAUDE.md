@@ -1,4 +1,4 @@
-# Promptbiblioteket — Projektinstruktioner
+# Promptbiblioteket: Projektinstruktioner
 
 ## Om projektet
 Open source promptbibliotek för svenska yrkesverksamma, under Teknikministeriet.
@@ -13,12 +13,12 @@ Sajt: https://prompts.teknikministeriet.se
 - **Vid adaption av extern prompt:** behåll original `source_author` och `source_url`, markera anpassningen i `## Syfte` (t.ex. "strukturerad enligt Promptbibliotekets mall av Teknikministeriet").
 
 ## Struktur
-- `content/prompts/<kategori>/` — Prompt-filer (.md) per yrkeskategori
-- `content/prompts/index.json` — Manifest med alla kategorier och prompts
-- `pipeline/` — Scripts för kvalitetssäkring och publicering
-- `data/` — Ratings, källor, metadata
-- `site/` — Astro-sajt (statisk, Pagefind-sök)
-- `scripts/deploy.sh` — Deploy till produktion
+- `content/prompts/<kategori>/`: Prompt-filer (.md) per yrkeskategori
+- `content/prompts/index.json`: Manifest med alla kategorier och prompts
+- `pipeline/`: Scripts för kvalitetssäkring och publicering
+- `data/`: Ratings, källor, metadata
+- `site/`: Astro-sajt (statisk, Pagefind-sök)
+- `scripts/deploy.sh`: Deploy till produktion
 
 ## 10 yrkeskategorier
 
@@ -53,7 +53,7 @@ Sajt: https://prompts.teknikministeriet.se
 | `./scripts/deploy.sh` | Deploy till produktion (verify → build → rsync) |
 
 ## Slash command
-- `/prompt-pipeline` — Interaktiv guide genom hela pipeline-flödet (se `.claude/commands/prompt-pipeline.md`)
+- `/prompt-pipeline`: Interaktiv guide genom hela pipeline-flödet (se `.claude/commands/prompt-pipeline.md`)
 
 ## Pipeline-flöde
 
@@ -71,17 +71,17 @@ Sajt: https://prompts.teknikministeriet.se
 4. Uppdaterar data/ratings.json + data/sources.json
 
 ### 4. Verifiera
-`npm run verify -- --verbose` — bekräfta att allt är OK.
+`npm run verify -- --verbose`: bekräfta att allt är OK.
 
 ### 5. Deploy
-`./scripts/deploy.sh` — bygger och synkar till produktion.
+`./scripts/deploy.sh`: bygger och synkar till produktion.
 
 ## Hosting och deploy
 - **Server:** bahnhof-prod (`/var/www/prompts.teknikministeriet.se`)
 - **Typ:** Statisk sajt (Astro 6 + nginx), Pagefind för sökning
-- **Deploy:** `./scripts/deploy.sh` — manuell, verify → build → rsync
+- **Deploy:** `./scripts/deploy.sh`: manuell, verify → build → rsync
 - **SSL:** Let's Encrypt via Certbot
-- **Ingen CI/CD** — deploy sker från lokal maskin
+- **Ingen CI/CD**: deploy sker från lokal maskin
 
 ## Kvalitetskontroller (verify)
 

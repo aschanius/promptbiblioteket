@@ -33,5 +33,5 @@ Systematisk granskning av avtalsutkast innan signering. Flödet fångar både de
 ## Tips
 
 - Steg 1 kräver både nuvarande utkast och referens (tidigare avtal eller mall). Utan jämförelsepunkt blir det bara en läsning
-- Steg 2 ska alltid köras — även avtal som inte är \"dataskyddsavtal\" innehåller ofta personuppgifter (t.ex. kontaktpersoner, behöriga företrädare)
-- Steg 3 hoppas över om avtalet inte berör personuppgiftsbehandling. Osäker? Kör ändå — 5 minuter som säkrar att PUB inte behövs är väl investerad tid
+- Steg 2 ska alltid köras, även avtal som inte är \"dataskyddsavtal\" innehåller ofta personuppgifter (t.ex. kontaktpersoner, behöriga företrädare)
+- Steg 3 hoppas över om avtalet inte berör personuppgiftsbehandling. Osäker? Kör ändå, 5 minuter som säkrar att PUB inte behövs är väl investerad tid

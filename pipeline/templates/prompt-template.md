@@ -1,4 +1,4 @@
-# Prompt-mall — Promptbiblioteket
+# Prompt-mall: Promptbiblioteket
 
 Denna mall definierar den inre strukturen för prompttexter. Använd den som guide när du skriver eller genererar prompts.
 
@@ -24,7 +24,7 @@ En prompt byggs upp av följande sektioner inuti ` ```txt ` -blocket:
 
 ## Minimikrav
 
-En prompt behöver minst **Roll + Uppgift**. Lägg till fler sektioner efter behov — en enkel prompt med tydlig roll och uppgift slår en komplex prompt med otydliga instruktioner.
+En prompt behöver minst **Roll + Uppgift**. Lägg till fler sektioner efter behov, en enkel prompt med tydlig roll och uppgift slår en komplex prompt med otydliga instruktioner.
 
 **Roll = lins, inte kostym.** Rollen sätter perspektiv (vems intressen optimeras) och domän (svensk kontext, bransch). Erfarenhetsanspråk ("erfaren", "15 års erfarenhet", "världsledande") har ingen mätbar effekt på moderna LLM:er och ska inte användas. Skriv ut förkortningar (t.ex. "Executive Assistant", inte "EA") för att undvika tvetydighet.
 

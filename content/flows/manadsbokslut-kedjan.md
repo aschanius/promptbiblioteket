@@ -32,6 +32,6 @@ När månadens böcker stängs: från rådata till ledningsinriktad kommentar oc
 
 ## Tips
 
-- Spara output mellan steg i ett dokument — ingen AI-session har tillräcklig kontext att kedja alla fyra utan copy-paste
+- Spara output mellan steg i ett dokument, ingen AI-session har tillräcklig kontext att kedja alla fyra utan copy-paste
 - Kör steg 1–2 första arbetsdagen efter månadsslut, steg 3–4 när siffrorna är klara
 - Låt steg 3 vara kortare än steg 2. Ledningen vill inte ha variansrapporten ordagrant

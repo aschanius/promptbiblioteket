@@ -37,10 +37,10 @@ data/                      # Manifest, ratings, källor
 ## Använda en prompt
 
 Varje prompt-fil (.md) innehåller:
-1. **Syfte** — Vad prompten gör
-2. **Prompt** — Texten att kopiera
-3. **Användning** — Tips och kontext
-4. **Testresultat** — Hur den presterar i olika modeller
+1. **Syfte**: Vad prompten gör
+2. **Prompt**: Texten att kopiera
+3. **Användning**: Tips och kontext
+4. **Testresultat**: Hur den presterar i olika modeller
 
 ## Bidra
 
@@ -60,9 +60,9 @@ Prompts som ingår måste uppnå minst 3.0 i genomsnittlig rating:
 
 ## Licens
 
-- **Prompts:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) — fri att använda utan attribution
+- **Prompts:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), fri att använda utan attribution
 - **Kod:** [MIT](LICENSE)
 
 ## Byggt av
 
-[Teknikministeriet](https://teknikministeriet.se) — AI och teknik för svenska yrkesverksamma.
+[Teknikministeriet](https://teknikministeriet.se), AI och teknik för svenska yrkesverksamma.

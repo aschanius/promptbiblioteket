@@ -31,5 +31,5 @@ Två nyckelmoment i vårdens informationsöverföring: skift till skift (SBAR) o
 ## Tips
 
 - Använd steg 1 till mottagande personal, steg 2 till mottagande vårdenhet (hemsjukvård, primärvård)
-- Inga personuppgifter får läggas in i AI-verktyget — anonymisera eller använd strukturmall
+- Inga personuppgifter får läggas in i AI-verktyget, anonymisera eller använd strukturmall
 - Båda utkasten ska granskas mot journalen och kvalitetssäkras i vårdgivarens system innan de används skarpt

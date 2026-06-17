@@ -9,25 +9,25 @@ Tack för att du vill bidra! Här är hur du gör.
 Varje prompt ska följa strukturen i `pipeline/templates/prompt-template.md`. Se befintliga prompts för exempel.
 
 **Prompttextens sektioner** (inuti ` ```txt ` -blocket):
-- **Roll** — Vem är AI:n? (obligatorisk)
-- **Uppgift** — Vad ska göras? (obligatorisk)
-- **Kontext** — Bakgrundsinformation (valfri)
-- **Regler** — Begränsningar och riktlinjer (valfri)
-- **Steg** — Arbetsflöde, steg-för-steg (valfri)
-- **Utdataformat** — Önskat format (valfri)
+- **Roll**: Vem är AI:n? (obligatorisk)
+- **Uppgift**: Vad ska göras? (obligatorisk)
+- **Kontext**: Bakgrundsinformation (valfri)
+- **Regler**: Begränsningar och riktlinjer (valfri)
+- **Steg**: Arbetsflöde, steg-för-steg (valfri)
+- **Utdataformat**: Önskat format (valfri)
 
 Roll + Uppgift är minimum. Sektionsrubriker på svenska.
 
 **Obligatoriska fält i frontmatter:**
-- `title` — Kort, beskrivande titel
-- `slug` — URL-vänligt namn (kebab-case)
-- `category` — En av de 9 yrkeskategorierna
-- `tags` — Relevanta sökord
+- `title`: Kort, beskrivande titel
+- `slug`: URL-vänligt namn (kebab-case)
+- `category`: En av de 10 yrkeskategorierna
+- `tags`: Relevanta sökord
 
 **Obligatoriska sektioner:**
-- Syfte — Vad gör prompten?
-- Prompt — Själva prompttexten
-- Användning — Hur och när man använder den
+- Syfte: Vad gör prompten?
+- Prompt: Själva prompttexten
+- Användning: Hur och när man använder den
 
 ### 2. Testa din prompt
 

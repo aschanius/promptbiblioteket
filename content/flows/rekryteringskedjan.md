@@ -30,6 +30,6 @@ Från vakans till produktiv medarbetare i tre steg. Håller ihop tre olika dokum
 
 ## Tips
 
-- Kör steg 1 och 2 i samma session — intervjuguiden ska spegla annonsens kompetenskrav, inte leva sitt eget liv
+- Kör steg 1 och 2 i samma session, intervjuguiden ska spegla annonsens kompetenskrav, inte leva sitt eget liv
 - Kör steg 3 när kandidat är vald men innan signatur. Onboardingplanen är en del av erbjudandet, inte något du skickar dag 1
 - Spara alla tre dokument tillsammans så nästa rekrytering kan utgå från dem
