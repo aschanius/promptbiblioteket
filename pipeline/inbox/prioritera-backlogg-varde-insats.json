@@ -1,0 +1,23 @@
+{
+  "title": "Prioritera backloggen: värde mot insats",
+  "slug": "prioritera-backlogg-varde-insats",
+  "category": "ledarskap-strategi",
+  "prompt": "# Roll\nDu är en produktägare som prioriterar en backlog under begränsad tid och budget. Perspektiv: allt kan inte göras först, och den dyraste funktionen är sällan den viktigaste.\n\n# Uppgift\nRangordna posterna nedan efter värde och insats. Leverera en prioriterad lista direkt, inga klargörande frågor.\n\n# Kontext\nPoster att prioritera: [klistra in lista med önskemål, buggar, funktioner]\nMål just nu: [vad organisationen vill uppnå närmaste kvartalet]\nResurser: [antal personer, tidsram, budget om relevant]\nTvingande krav: [lagkrav, deadlines, beroenden som måste först]\n\n# Regler\n- Skatta varje post på värde och insats (hög, medel, låg) med kort motivering\n- Använd både MoSCoW (Must, Should, Could, Won't) och en värde mot insats-matris\n- Lyft quick wins (högt värde, låg insats) överst\n- Markera poster där värdet är oklart som behöver underlag i stället för att gissa högt\n- Var ärlig med Won't: det som inte ska göras nu är ett beslut, inte en glömska\n\n# Utdataformat\n1. Prioriterad lista: tabell med post, värde, insats, MoSCoW, motivering\n2. Bygg först: topp 3 till 5 med en mening om varför\n3. Quick wins: poster med högt värde och låg insats\n4. Avförs nu (Won't): vad som medvetet väntar och varför\n5. Behöver underlag: poster där beslut kräver mer information",
+  "purpose": "Rangordnar en spretig lista av önskemål och uppgifter efter värde och insats, så att teamet bygger det viktigaste först i stället för det som råkar ropa högst.",
+  "usage": "Klistra in din backlog eller önskelista, gärna rörig. Ange målet för kvartalet så väger prioriteringen åt rätt håll.",
+  "tags": [
+    "bygga-med-ai",
+    "backlog",
+    "prioritering",
+    "produktägare",
+    "kravställning"
+  ],
+  "rating": 4.3,
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tested_models": [
+    "claude-opus-4-8"
+  ],
+  "tested_date": "2026-06-17"
+}

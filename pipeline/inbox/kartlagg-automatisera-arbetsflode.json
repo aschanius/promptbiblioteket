@@ -1,0 +1,23 @@
+{
+  "title": "Kartlägg och automatisera ett repetitivt arbetsflöde",
+  "slug": "kartlagg-automatisera-arbetsflode",
+  "category": "administration-ea",
+  "prompt": "# Roll\nDu är en verksamhetsutvecklare som hjälper kontorsanställda automatisera repetitivt arbete utan att de behöver kunna programmera. Perspektiv: kartlägg flödet först, välj verktyg sist.\n\n# Uppgift\nKartlägg det repetitiva arbetsflödet nedan steg för steg och föreslå var det går att automatisera. Leverera direkt med de antaganden du gör tydligt listade.\n\n# Kontext\nUppgift som upprepas: [beskriv vad du gör, hur ofta, hur lång tid]\nVerktyg du redan har: [t.ex. Microsoft 365, Google Workspace, ett visst system]\nIndata och utdata: [vad du börjar med, vad resultatet ska bli]\nVad som får och inte får automatiseras: [känslig data, beslut som kräver människa]\n\n# Regler\n- Beskriv nuläget som numrerade steg, ett moment per steg\n- Märk varje steg som automatiserbart, delvis automatiserbart eller måste vara manuellt\n- Föreslå konkret metod per automatiserbart steg (AI-prompt, regel, mall, no-code-koppling)\n- Behåll mänsklig kontroll på steg som rör bedömning, känslig data eller utskick\n- Skatta tidsvinst grovt och peka ut det enklaste steget att börja med\n- Föreslå inte verktyg som kräver utvecklare eller stora inköp utan att flagga det\n\n# Utdataformat\n1. Nuläge: numrerad stegkarta över hur uppgiften görs idag\n2. Automatiseringsgrad per steg: tabell med steg, grad, föreslagen metod\n3. Börja här: det enklaste steget med störst tidsvinst\n4. Behåll manuellt: steg som bör förbli mänskliga och varför\n5. Grov tidsvinst: uppskattning per vecka eller månad",
+  "purpose": "Bryter ner en återkommande manuell uppgift i steg och pekar ut var AI eller no-code-verktyg kan ta över, så att du automatiserar rätt del i stället för att börja med tekniken.",
+  "usage": "Beskriv en uppgift du gör om och om igen. Ange vilka verktyg du redan har så blir förslagen sådant du kan börja med direkt, inte nya inköp.",
+  "tags": [
+    "bygga-med-ai",
+    "automatisering",
+    "no-code",
+    "effektivitet",
+    "administration"
+  ],
+  "rating": 4.2,
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tested_models": [
+    "claude-opus-4-8"
+  ],
+  "tested_date": "2026-06-17"
+}

@@ -11,6 +11,7 @@ tested_models:
   - gemini-2.5-flash
 tested_date: 2026-04-12T00:00:00.000Z
 tags:
+  - bygga-med-ai
   - problemdefinition
   - strategi
   - klargörande

@@ -1,0 +1,23 @@
+{
+  "title": "Beställarbrief: vad utvecklaren behöver veta",
+  "slug": "bestallarbrief-till-utvecklare",
+  "category": "sme-entreprenorer",
+  "prompt": "# Roll\nDu hjälper egenföretagare utan teknisk bakgrund att beställa utvecklingsarbete. Perspektiv: oklara krav blir dyra ändringar senare, en bra brief är billig försäkring.\n\n# Uppgift\nSkapa en beställarbrief utifrån behovet nedan, så att en frilansutvecklare eller byrå kan offerera på samma underlag. Leverera direkt, lista det beställaren behöver bestämma.\n\n# Kontext\nVad jag vill ha byggt: [beskriv tjänsten eller funktionen]\nVad det ska lösa: [problemet, för vem]\nVad jag har: [budget, deadline, befintliga system, om något]\nVad jag inte vet: [det jag är osäker på rent tekniskt]\n\n# Regler\n- Översätt behovet till krav en utvecklare kan prissätta, undvik teknisk jargong jag inte äger\n- Skilj på måste-ha och kan-vänta så offerten kan delas i faser\n- Lista vad jag som beställare måste leverera (innehåll, konton, beslut)\n- Ta med frågor jag bör ställa innan jag väljer leverantör\n- Flagga om behovet kan lösas med no-code till lägre kostnad än utveckling\n- Påminn om ägarskap: källkod, konton och data ska tillfalla mig\n\n# Utdataformat\n1. Sammanfattning: vad som ska byggas, i en kort paragraf\n2. Krav: måste-ha och kan-vänta, punktvis\n3. Mitt ansvar som beställare: vad jag måste leverera\n4. Frågor till leverantören: vad jag ska be om besked om\n5. No-code-alternativ: om det finns en billigare väg\n6. Att bestämma innan start: öppna beslut som blockerar",
+  "purpose": "Hjälper en företagare utan teknisk bakgrund att skriva en brief till en frilansutvecklare eller byrå, så att offerterna blir jämförbara och bygget inte spårar ur på grund av oklara krav.",
+  "usage": "Beskriv vad du vill ha byggt, även luddigt. Verktyget gör om det till en brief du kan skicka till flera leverantörer och få jämförbara offerter på.",
+  "tags": [
+    "bygga-med-ai",
+    "kravställning",
+    "no-code",
+    "upphandling",
+    "SME"
+  ],
+  "rating": 4.2,
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tested_models": [
+    "claude-opus-4-8"
+  ],
+  "tested_date": "2026-06-17"
+}

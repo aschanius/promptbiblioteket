@@ -39,6 +39,13 @@ export const themes: Theme[] = [
     tags: ['analys', 'data', 'mönster', 'insikt', 'avvikelse', 'rapport'],
     why: 'Att tolka data är en kompetens som breddar sig från ekonomi och BI till alla roller som fattar beslut. Prompts hjälper strukturera analytiskt tänkande oavsett om det gäller budget, trender i kundfeedback eller avvikelser i produktionen.',
   },
+  {
+    id: 'bygga-med-ai',
+    title: 'Bygga och kvalitetssäkra med AI',
+    description: 'Prompts för yrkesverksamma som deltar i att skapa och kvalitetssäkra digitala lösningar utan att vara utvecklare: kravställning, testfall, buggrapporter, no-code och automatisering av det egna arbetet.',
+    tags: ['bygga-med-ai', 'kravställning', 'acceptanskriterier', 'backlog', 'testfall', 'UAT', 'buggrapport', 'no-code', 'automatisering', 'citizen-developer', 'prototyp', 'problemdefinition', 'metaprompt', 'stresstest', 'pre-mortem'],
+    why: 'Allt fler yrkesroller deltar i att kravställa, testa och bygga digitala lösningar utan att själva koda. Arbetet sträcker sig över ledarskap, administration, ekonomi och eget företagande, därför finns det som tema, inte egen kategori. Tråden samlar prompts som flyttar yrkesverksamma från beställare till medskapare.',
+  },
 ];
 
 export function getThemeById(id: string): Theme | undefined {

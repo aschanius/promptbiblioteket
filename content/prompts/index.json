@@ -1,13 +1,13 @@
 {
   "version": "1.0.0",
-  "generated_at": "2026-06-17T10:12:35.952Z",
+  "generated_at": "2026-06-17T12:26:29.010Z",
   "categories": [
     {
       "id": "administration-ea",
       "title": "Administration & EA",
       "description": "Prompts för assistenter, koordinatorer och kontorsadministration. Schemaläggning, dokumenthantering och kommunikation.",
       "priority": 99,
-      "prompt_count": 11,
+      "prompt_count": 13,
       "prompts": [
         {
           "slug": "agendaforslag-infor-mote",
@@ -42,6 +42,23 @@
             "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "begriplig-buggrapport",
+          "title": "Begriplig buggrapport ur en rörig felbeskrivning",
+          "file": "administration-ea/begriplig-buggrapport.md",
+          "rating": 4.3,
+          "tags": [
+            "bygga-med-ai",
+            "buggrapport",
+            "felrapportering",
+            "support",
+            "administration"
+          ],
+          "tested_models": [
+            "claude-opus-4-8"
+          ],
+          "tested_date": "2026-06-17T00:00:00.000Z"
         },
         {
           "slug": "extrahera-nyckelinformation",
@@ -93,6 +110,23 @@
             "claude-opus-4-6"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
+        },
+        {
+          "slug": "kartlagg-automatisera-arbetsflode",
+          "title": "Kartlägg och automatisera ett repetitivt arbetsflöde",
+          "file": "administration-ea/kartlagg-automatisera-arbetsflode.md",
+          "rating": 4.2,
+          "tags": [
+            "bygga-med-ai",
+            "automatisering",
+            "no-code",
+            "effektivitet",
+            "administration"
+          ],
+          "tested_models": [
+            "claude-opus-4-8"
+          ],
+          "tested_date": "2026-06-17T00:00:00.000Z"
         },
         {
           "slug": "mejltriage-for-chefens-inkorg",
@@ -203,7 +237,7 @@
       "title": "Ekonomi & finans",
       "description": "Prompts för ekonomer, controllers, revisorer och finansanalytiker. Budget, rapportering, analys och revision.",
       "priority": 99,
-      "prompt_count": 11,
+      "prompt_count": 13,
       "prompts": [
         {
           "slug": "arsbokslut-forberedelse-k2-k3",
@@ -223,6 +257,23 @@
           "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
+          "slug": "automatisera-avstamningssteg",
+          "title": "Automatisera ett återkommande avstämningssteg",
+          "file": "ekonomi-finans/automatisera-avstamningssteg.md",
+          "rating": 4.2,
+          "tags": [
+            "bygga-med-ai",
+            "automatisering",
+            "avstämning",
+            "controller",
+            "ekonomi"
+          ],
+          "tested_models": [
+            "claude-opus-4-8"
+          ],
+          "tested_date": "2026-06-17T00:00:00.000Z"
+        },
+        {
           "slug": "besparingspotential-8020",
           "title": "Besparingspotential enligt 80/20-principen",
           "file": "ekonomi-finans/besparingspotential-8020.md",
@@ -238,6 +289,23 @@
             "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-14T00:00:00.000Z"
+        },
+        {
+          "slug": "excel-formel-power-query-ur-beskrivning",
+          "title": "Excel-formel eller Power Query ur en beskrivning",
+          "file": "ekonomi-finans/excel-formel-power-query-ur-beskrivning.md",
+          "rating": 4.3,
+          "tags": [
+            "bygga-med-ai",
+            "automatisering",
+            "excel",
+            "no-code",
+            "ekonomi"
+          ],
+          "tested_models": [
+            "claude-opus-4-8"
+          ],
+          "tested_date": "2026-06-17T00:00:00.000Z"
         },
         {
           "slug": "fakturapaminnelse-eskalering",
@@ -1000,7 +1068,7 @@
       "title": "Ledarskap & strategi",
       "description": "Prompts för chefer, projektledare och beslutsfattare. Mötesledning, strategiarbete, förändringsledning och beslutsunderlag.",
       "priority": 99,
-      "prompt_count": 11,
+      "prompt_count": 14,
       "prompts": [
         {
           "slug": "andraordningseffekter",
@@ -1020,11 +1088,29 @@
           "tested_date": "2026-04-12T00:00:00.000Z"
         },
         {
+          "slug": "behov-till-user-stories",
+          "title": "Från behov till user stories med acceptanskriterier",
+          "file": "ledarskap-strategi/behov-till-user-stories.md",
+          "rating": 4.4,
+          "tags": [
+            "bygga-med-ai",
+            "kravställning",
+            "acceptanskriterier",
+            "produktägare",
+            "krav"
+          ],
+          "tested_models": [
+            "claude-opus-4-8"
+          ],
+          "tested_date": "2026-06-17T00:00:00.000Z"
+        },
+        {
           "slug": "djavulens-advokat",
           "title": "Djävulens advokat: stresstest av förslag",
           "file": "ledarskap-strategi/djavulens-advokat.md",
           "rating": 4.2,
           "tags": [
+            "bygga-med-ai",
             "kritisk granskning",
             "motargument",
             "riskbedömning",
@@ -1129,6 +1215,7 @@
           "file": "ledarskap-strategi/pre-mortem-for-projektrisker.md",
           "rating": 4.2,
           "tags": [
+            "bygga-med-ai",
             "pre-mortem",
             "risk",
             "projekt",
@@ -1139,6 +1226,23 @@
             "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "prioritera-backlogg-varde-insats",
+          "title": "Prioritera backloggen: värde mot insats",
+          "file": "ledarskap-strategi/prioritera-backlogg-varde-insats.md",
+          "rating": 4.3,
+          "tags": [
+            "bygga-med-ai",
+            "backlog",
+            "prioritering",
+            "produktägare",
+            "kravställning"
+          ],
+          "tested_models": [
+            "claude-opus-4-8"
+          ],
+          "tested_date": "2026-06-17T00:00:00.000Z"
         },
         {
           "slug": "sammanfatta-langt-dokument",
@@ -1190,6 +1294,23 @@
             "gemini-2.5-flash"
           ],
           "tested_date": "2026-04-12T00:00:00.000Z"
+        },
+        {
+          "slug": "testfall-uat-ur-kravdokument",
+          "title": "Testfall och UAT-scenarier ur ett kravdokument",
+          "file": "ledarskap-strategi/testfall-uat-ur-kravdokument.md",
+          "rating": 4.4,
+          "tags": [
+            "bygga-med-ai",
+            "testfall",
+            "UAT",
+            "kravställning",
+            "kvalitetssäkring"
+          ],
+          "tested_models": [
+            "claude-opus-4-8"
+          ],
+          "tested_date": "2026-06-17T00:00:00.000Z"
         }
       ]
     },
@@ -1411,7 +1532,7 @@
       "title": "SME & entreprenörer",
       "description": "Prompts för småföretagare, verksamhetsledare och enmansföretag. Affärsplanering, kundkommunikation och effektivisering.",
       "priority": 99,
-      "prompt_count": 12,
+      "prompt_count": 14,
       "prompts": [
         {
           "slug": "affarsmodell-canvas",
@@ -1429,6 +1550,23 @@
             "claude-haiku-4-5"
           ],
           "tested_date": "2026-04-18T00:00:00.000Z"
+        },
+        {
+          "slug": "bestallarbrief-till-utvecklare",
+          "title": "Beställarbrief: vad utvecklaren behöver veta",
+          "file": "sme-entreprenorer/bestallarbrief-till-utvecklare.md",
+          "rating": 4.2,
+          "tags": [
+            "bygga-med-ai",
+            "kravställning",
+            "no-code",
+            "upphandling",
+            "SME"
+          ],
+          "tested_models": [
+            "claude-opus-4-8"
+          ],
+          "tested_date": "2026-06-17T00:00:00.000Z"
         },
         {
           "slug": "idegenerering-for-problemlosning",
@@ -1533,11 +1671,29 @@
           "tested_date": "2026-04-18T00:00:00.000Z"
         },
         {
+          "slug": "no-code-mvp-avgransning",
+          "title": "No-code-MVP: avgränsa vad du bygger först",
+          "file": "sme-entreprenorer/no-code-mvp-avgransning.md",
+          "rating": 4.2,
+          "tags": [
+            "bygga-med-ai",
+            "no-code",
+            "prototyp",
+            "MVP",
+            "SME"
+          ],
+          "tested_models": [
+            "claude-opus-4-8"
+          ],
+          "tested_date": "2026-06-17T00:00:00.000Z"
+        },
+        {
           "slug": "omvand-brief",
           "title": "Omvänd brief: klargör innan du löser",
           "file": "sme-entreprenorer/omvand-brief.md",
           "rating": 4.3,
           "tags": [
+            "bygga-med-ai",
             "problemdefinition",
             "strategi",
             "klargörande",
@@ -1700,6 +1856,7 @@
           "file": "utbildning-pedagogik/forbattra-din-prompt.md",
           "rating": 4,
           "tags": [
+            "bygga-med-ai",
             "metaprompt",
             "prompting",
             "förbättring",
@@ -2014,5 +2171,5 @@
       ]
     }
   ],
-  "total_prompts": 113
+  "total_prompts": 122
 }

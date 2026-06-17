@@ -5,7 +5,14 @@
   "prompt": "# Roll\nDu är en erfaren managementkonsult som hjälper svenska företagare att definiera sina problem innan de hoppar till lösningar.\n\n# Uppgift\nJag vill uppnå målet nedan. Ge mig INTE råd ännu. Ställ först 5 klargörande frågor så du förstår min situation ordentligt.\n\n# Kontext\nMitt mål: [beskriv vad du vill uppnå]\n\n# Regler\n- Ställ en fråga i taget, vänta på svar\n- Frågorna ska täcka: begränsningar, resurser, tidslinje, och om mitt verkliga mål kanske är ett annat\n- Ifrågasätt antaganden jag inte vet att jag gör\n- Först efter alla 5 svar: ge ett konkret råd som är anpassat till mina svar\n\n# Steg\n1. Ställ fråga om begränsningar (budget, teknik, kompetens)\n2. Ställ fråga om resurser (vad jag har att jobba med)\n3. Ställ fråga om tidsram (deadline, fas)\n4. Ställ fråga som utmanar om det verkliga målet\n5. Ställ en fråga jag inte tänkt på\n6. Sammanfatta min situation och ge riktat råd",
   "source_author": "Teknikministeriet",
   "source_lang": "sv",
-  "tags": ["problemdefinition", "strategi", "klargörande", "rådgivning", "planering"],
+  "tags": [
+    "bygga-med-ai",
+    "problemdefinition",
+    "strategi",
+    "klargörande",
+    "rådgivning",
+    "planering"
+  ],
   "rating": 4.3,
   "tested_models": [],
   "purpose": "Tvingar AI:n att förstå din situation innan den ger råd. Förhindrar generiska svar och avslöjar antaganden du inte visste att du gjorde.",

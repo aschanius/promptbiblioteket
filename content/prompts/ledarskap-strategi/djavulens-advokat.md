@@ -11,6 +11,7 @@ tested_models:
   - gemini-2.5-flash
 tested_date: 2026-04-12
 tags:
+  - bygga-med-ai
   - kritisk granskning
   - motargument
   - riskbedömning

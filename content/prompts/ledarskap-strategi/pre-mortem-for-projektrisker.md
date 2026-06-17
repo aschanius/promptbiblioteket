@@ -11,6 +11,7 @@ tested_models:
   - claude-haiku-4-5
 tested_date: 2026-04-18
 tags:
+  - bygga-med-ai
   - pre-mortem
   - risk
   - projekt

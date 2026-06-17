@@ -6,7 +6,14 @@
   "source_author": "Teknikministeriet",
   "source_url": "https://www.teknikministeriet.se/prompts-allman/",
   "source_lang": "sv",
-  "tags": ["kritisk granskning", "motargument", "riskbedömning", "beslut", "stresstest"],
+  "tags": [
+    "bygga-med-ai",
+    "kritisk granskning",
+    "motargument",
+    "riskbedömning",
+    "beslut",
+    "stresstest"
+  ],
   "rating": 4.2,
   "tested_models": [],
   "purpose": "Hjälper chefer och projektledare att stresstesta förslag innan de presenteras. Bättre att hitta svagheterna själv än att bli överraskad i styrelserummet.",

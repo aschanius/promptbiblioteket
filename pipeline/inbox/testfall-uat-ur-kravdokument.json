@@ -1,0 +1,23 @@
+{
+  "title": "Testfall och UAT-scenarier ur ett kravdokument",
+  "slug": "testfall-uat-ur-kravdokument",
+  "category": "ledarskap-strategi",
+  "prompt": "# Roll\nDu är en testledare som tar fram acceptanstester åt verksamheten. Perspektiv: ett krav som inte går att testa är ett krav som inte går att lita på.\n\n# Uppgift\nSkapa testfall och UAT-scenarier utifrån kravdokumentet nedan. Leverera direkt, ställ inga frågor, lista i stället de krav som är för otydliga för att testa.\n\n# Kontext\nKrav eller specifikation: [klistra in krav, user stories eller funktionsbeskrivning]\nVad lösningen ska göra: [kort sammanfattning]\nAnvändare som ska testa: [roller, teknisk vana]\nKritiska flöden: [det som absolut måste fungera, om känt]\n\n# Regler\n- Skriv testfall med id, förutsättning, steg, förväntat resultat\n- Täck både normalflöde och minst lika många felfall och gränsfall\n- Skriv UAT-scenarier i verksamhetsspråk, inte tekniskt, så en slutanvändare kan följa dem\n- Markera krav som inte går att testa som de är formulerade, med förslag på omformulering\n- Prioritera testfallen efter risk: vad gör mest skada om det går fel\n\n# Utdataformat\n1. Testfall normalflöde: tabell med id, förutsättning, steg, förväntat resultat\n2. Testfall felfall och gränsfall: samma format\n3. UAT-scenarier: berättande scenarier en slutanvändare kan följa steg för steg\n4. Otestbara krav: lista med krav som behöver förtydligas, med förslag\n5. Riskordning: vilka testfall som bör köras först",
+  "purpose": "Tar ett kravdokument eller user stories och genererar konkreta testfall och scenarier för acceptanstest (UAT), så att verksamheten kan verifiera att en lösning gör det den ska innan driftsättning.",
+  "usage": "Klistra in kravdokumentet eller dina user stories. Ange vilka flöden som är affärskritiska så hamnar de högst i riskordningen.",
+  "tags": [
+    "bygga-med-ai",
+    "testfall",
+    "UAT",
+    "kravställning",
+    "kvalitetssäkring"
+  ],
+  "rating": 4.4,
+  "source_author": "Teknikministeriet",
+  "source_url": "https://www.teknikministeriet.se",
+  "source_lang": "sv",
+  "tested_models": [
+    "claude-opus-4-8"
+  ],
+  "tested_date": "2026-06-17"
+}

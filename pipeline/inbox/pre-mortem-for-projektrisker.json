@@ -6,9 +6,18 @@
   "source_url": "https://hbr.org/2007/09/performing-a-project-premortem",
   "source_author": "Gary Klein (via HBR)",
   "source_lang": "en",
-  "tags": ["pre-mortem", "risk", "projekt", "beslut", "workshop"],
+  "tags": [
+    "bygga-med-ai",
+    "pre-mortem",
+    "risk",
+    "projekt",
+    "beslut",
+    "workshop"
+  ],
   "rating": 4.2,
-  "tested_models": ["claude-haiku-4-5"],
+  "tested_models": [
+    "claude-haiku-4-5"
+  ],
   "tested_date": "2026-04-18",
   "purpose": "Strukturerar en pre-mortem-workshop där gruppen baklänges identifierar varför projektet skulle kunna misslyckas. Motverkar bekräftelsefel och grupptryck. Baserad på Gary Kleins metod (HBR 2007), strukturerad enligt Promptbibliotekets mall av Teknikministeriet.",
   "usage": "Kör innan större projekt, investeringsbeslut eller strategibyten. Fyll i kontexten utförligt, ju mer specifik, desto mer användbara risker. Kombinera med djävulens-advokat-prompten för djupare kritisk granskning."

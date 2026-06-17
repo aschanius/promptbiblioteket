@@ -903,7 +903,79 @@
       "source_author": "Teknikministeriet",
       "source_lang": "sv",
       "added_at": "2026-06-11T21:18:52.858Z"
+    },
+    {
+      "slug": "behov-till-user-stories",
+      "category": "ledarskap-strategi",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-06-17T12:26:27.994Z"
+    },
+    {
+      "slug": "prioritera-backlogg-varde-insats",
+      "category": "ledarskap-strategi",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-06-17T12:26:28.126Z"
+    },
+    {
+      "slug": "testfall-uat-ur-kravdokument",
+      "category": "ledarskap-strategi",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-06-17T12:26:28.251Z"
+    },
+    {
+      "slug": "begriplig-buggrapport",
+      "category": "administration-ea",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-06-17T12:26:28.375Z"
+    },
+    {
+      "slug": "kartlagg-automatisera-arbetsflode",
+      "category": "administration-ea",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-06-17T12:26:28.495Z"
+    },
+    {
+      "slug": "no-code-mvp-avgransning",
+      "category": "sme-entreprenorer",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-06-17T12:26:28.621Z"
+    },
+    {
+      "slug": "bestallarbrief-till-utvecklare",
+      "category": "sme-entreprenorer",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-06-17T12:26:28.746Z"
+    },
+    {
+      "slug": "excel-formel-power-query-ur-beskrivning",
+      "category": "ekonomi-finans",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-06-17T12:26:28.872Z"
+    },
+    {
+      "slug": "automatisera-avstamningssteg",
+      "category": "ekonomi-finans",
+      "source_url": "https://www.teknikministeriet.se",
+      "source_author": "Teknikministeriet",
+      "source_lang": "sv",
+      "added_at": "2026-06-17T12:26:28.998Z"
     }
   ],
-  "updated_at": "2026-06-11T21:18:52.858Z"
+  "updated_at": "2026-06-17T12:26:28.998Z"
 }
