@@ -65,6 +65,6 @@ thresholds:
 weights:
   clarity: 1.0
   specificity: 1.0
-  transferability: 1.2  # Viktigare — svensk yrkesanpassning är differentiering
-  innovation: 0.8       # Mindre viktigt — nyttig > innovativ
+  transferability: 1.2  # Viktigare, svensk yrkesanpassning är differentiering
+  innovation: 0.8       # Mindre viktigt, nyttig > innovativ
   testability: 1.0
