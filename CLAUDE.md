@@ -4,6 +4,18 @@
 Open source promptbibliotek för svenska yrkesverksamma, under Teknikministeriet.
 Sajt: https://prompts.teknikministeriet.se
 
+## PUBLIKT REPO: läs detta först
+
+Repot är **publikt** på GitHub sedan 2026-07-10. Allt som committas blir omedelbart läsbart för vem som helst: filinnehåll, commit-meddelanden och hela historiken. Denna fil är också publik.
+
+- Committa ALDRIG persondata, kundnamn, priser/avtal, credentials eller interna system-detaljer. Enda godkända infra-referenser: SSH-aliaset `bahnhof-prod` och deploy-sökvägen `/var/www/prompts.teknikministeriet.se`.
+- Arbetsanteckningar, planer och candid resonemang bor i `.claude/plans/` som är **gitignorad**. Lägg aldrig sådant i tracked filer.
+- `.serena/` är lokal verktygskonfig och gitignorad.
+- Commit-meddelanden är publika: beskriv vad som ändrats, utan interna resonemang.
+- Före push av något du är osäker på: kör `gitleaks git --no-banner .` (0 riktiga fynd krävs) och läs diffen med publika ögon.
+- `main` är skyddad via ruleset: externa bidrag går via fork + PR som repo-ägaren godkänner (CODEOWNERS). Direktpush är förbehållet repo-ägaren.
+- Nya gitignore-undantag eller nya toppnivåfiler: tänk "blir detta publikt?" innan commit.
+
 ## Regler
 - **Alla texter på korrekt svenska med å, ä, ö.** Inga ASCII-approximationer.
 - **Varje prompt måste testas** mot minst en LLM innan publicering.

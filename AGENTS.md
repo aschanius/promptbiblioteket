@@ -1,5 +1,9 @@
 # Promptbiblioteket: Agent-instruktioner
 
+## Publikt repo
+
+Repot är publikt på GitHub. Committa aldrig persondata, kundinformation, credentials eller interna system-detaljer; commit-meddelanden är också publika. Arbetsanteckningar hör hemma i gitignorade `.claude/plans/`. Se avsnittet "PUBLIKT REPO" i CLAUDE.md.
+
 ## Roll-princip
 
 **Roll = lins, inte kostym.** Alla roller i prompter ska följa detta mönster:
