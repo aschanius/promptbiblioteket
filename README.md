@@ -60,7 +60,7 @@ Prompts som ingår måste uppnå minst 3.0 i genomsnittlig rating:
 
 ## Licens
 
-- **Prompts:** [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/), fri att använda utan attribution
+- **Prompts och innehåll:** [CC0 1.0](LICENSE-CONTENT), fritt att använda utan attribution
 - **Kod:** [MIT](LICENSE)
 
 ## Byggt av

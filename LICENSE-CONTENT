@@ -1,0 +1,20 @@
+Innehållslicens: CC0 1.0 Universal
+
+Allt innehåll i content/ (prompts, flöden och beskrivningar) som är skapat av
+Teknikministeriet är dedikerat till public domain under CC0 1.0 Universal.
+Du får kopiera, ändra, sprida och använda innehållet, även kommersiellt,
+utan att fråga om lov och utan attribution.
+
+Fullständig licenstext: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Adaptioner av externa källor
+----------------------------
+
+Prompts med en extern upphovsperson i frontmatter-fältet source_author är
+adaptioner: strukturerade, översatta eller bearbetade av Teknikministeriet.
+CC0-dedikationen ovan omfattar Teknikministeriets bearbetning och formulering.
+Ursprungskonceptet krediteras via source_author och source_url, och eventuella
+rättigheter till ursprungsformuleringar ligger kvar hos upphovspersonen.
+
+Koden i detta repo (pipeline/, scripts/, site/ med flera) licensieras separat
+under MIT, se filen LICENSE.

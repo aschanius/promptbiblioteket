@@ -91,4 +91,4 @@ Alla prompts och beskrivningar ska vara på korrekt svenska med å, ä, ö. ASCI
 
 ## Licens
 
-Genom att bidra samtycker du till att dina prompts publiceras under CC0 1.0 (public domain) och att kod publiceras under MIT-licens.
+Genom att bidra samtycker du till att dina prompts publiceras under [CC0 1.0](LICENSE-CONTENT) (public domain) och att kod publiceras under [MIT-licens](LICENSE).
