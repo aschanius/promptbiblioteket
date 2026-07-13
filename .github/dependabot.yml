@@ -1,0 +1,42 @@
+# Dependabot-konfiguration för promptbiblioteket.
+# Grupperar minor- och patch-uppdateringar till en samlad PR per ekosystem
+# och veckovis schema, så beroende-notiser kommer i en förutsägbar batch
+# i stället för en PR per paket. Major-uppdateringar kommer separat för
+# egen granskning. Grupperingen gäller även säkerhetsuppdateringar.
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
+      timezone: "Europe/Stockholm"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(deps)"
+    groups:
+      npm-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
+
+  - package-ecosystem: "npm"
+    directory: "/site"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
+      timezone: "Europe/Stockholm"
+    open-pull-requests-limit: 5
+    commit-message:
+      prefix: "chore(deps)"
+    groups:
+      npm-minor-patch:
+        patterns:
+          - "*"
+        update-types:
+          - "minor"
+          - "patch"
