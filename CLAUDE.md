@@ -90,7 +90,7 @@ Repot är **publikt** på GitHub sedan 2026-07-10. Allt som committas blir omede
 
 ## Hosting och deploy
 - **Server:** bahnhof-prod (`/var/www/prompts.teknikministeriet.se`)
-- **Typ:** Statisk sajt (Astro 6 + nginx), Pagefind för sökning
+- **Typ:** Statisk sajt (Astro 7 + nginx), Pagefind för sökning
 - **Deploy:** `./scripts/deploy.sh`: manuell, verify → build → rsync
 - **SSL:** Let's Encrypt via Certbot
 - **Ingen CI/CD**: deploy sker från lokal maskin
