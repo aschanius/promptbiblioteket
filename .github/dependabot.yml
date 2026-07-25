@@ -2,7 +2,13 @@
 # Grupperar minor- och patch-uppdateringar till en samlad PR per ekosystem
 # och veckovis schema, så beroende-notiser kommer i en förutsägbar batch
 # i stället för en PR per paket. Major-uppdateringar kommer separat för
-# egen granskning. Grupperingen gäller även säkerhetsuppdateringar.
+# egen granskning.
+#
+# Grupperingen gäller ENBART version updates. En grupp utan `applies-to`
+# defaultar till version-updates, så säkerhetsuppdateringar kommer alltid
+# som en PR per paket och landar direkt när en advisory publiceras, inte
+# på måndagsschemat. Det är avsiktligt: säkerhetsfixar ska kunna mergas
+# en och en utan att vänta på resten av batchen.
 version: 2
 updates:
   - package-ecosystem: "npm"
