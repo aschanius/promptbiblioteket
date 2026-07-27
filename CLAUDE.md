@@ -95,6 +95,36 @@ Repot är **publikt** på GitHub sedan 2026-07-10. Allt som committas blir omede
 - **SSL:** Let's Encrypt via Certbot
 - **Ingen CI/CD**: deploy sker från lokal maskin
 
+## Beroendeuppdateringar (Dependabot)
+
+Konfig: `.github/dependabot.yml`. Minor och patch grupperas till en veckovis PR
+per ekosystem (måndag 07:00). Säkerhetsuppdateringar grupperas inte, de kommer
+som en PR per paket direkt när en advisory publiceras.
+
+Eftersom repot saknar CI måste varje PR testas lokalt före merge:
+
+```bash
+gh pr checkout <nr>
+cd site && npm install && npm audit   # ska ge 0 vulnerabilities
+npm run build                         # ska ge 511 HTML-sidor, 133 indexerade
+```
+
+Efter merge: `git pull`, `npm install`, sedan `./scripts/deploy.sh`.
+
+Tre fallgropar, alla bekräftade i skarpt läge:
+
+- **PR:er skapade före en tidigare merge måste rebasas** (`@dependabot rebase`)
+  innan de mergas. `MERGEABLE` från GitHub betyder bara att det saknas
+  textkonflikt, inte att innehållet är säkert: en äldre `package-lock.json`
+  kan rulla tillbaka redan åtgärdade sårbarheter. Kontrollera alltid med
+  `npm audit` på PR-branchen, inte bara att bygget går igenom.
+- **Rensa lokala dependabot-brancher mellan tester.** Dependabot force-pushar
+  vid rebase, vilket får `gh pr checkout` att falla med `exit status 128` och
+  lämna kvar den gamla branchen. Testet körs då tyst på fel kod.
+  Fix: `git branch -D dependabot/...` och checka ut på nytt.
+- **`npm install` kan ge lock-drift på `libc`-fält** beroende på npm-version.
+  Den ändringen ska inte committas: `git checkout site/package-lock.json`.
+
 ## Kvalitetskontroller (verify)
 
 Verify kör 9 kontroller per prompt:
