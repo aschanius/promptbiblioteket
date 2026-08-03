@@ -109,6 +109,20 @@ cd site && npm install && npm audit   # ska ge 0 vulnerabilities
 npm run build                         # ska ge 511 HTML-sidor, 133 indexerade
 ```
 
+Merge kräver ett godkännande från code owner. Rulesetet `skydda-main` sätter
+`require_code_owner_review` på main, så `gh pr merge` faller med "the base
+branch policy prohibits the merge" tills PR:en är godkänd. Godkännandet är ett
+eget steg som repo-ägaren tar ställning till, inte något en session gör
+oombedd:
+
+```bash
+gh pr review <nr> --approve --body "Testad lokalt: npm audit 0, build 511/133."
+gh pr merge <nr> --squash --delete-branch
+```
+
+Använd inte `--admin` för att kringgå rulesetet. Det lämnar inget review-spår
+och gör att den lokala testkörningen inte syns någonstans i PR-historiken.
+
 Efter merge: `git pull`, `npm install`, sedan `./scripts/deploy.sh`.
 
 Tre fallgropar, alla bekräftade i skarpt läge:
