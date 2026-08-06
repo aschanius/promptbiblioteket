@@ -30,6 +30,7 @@ Repot är **publikt** på GitHub sedan 2026-07-10. Allt som committas blir omede
 - `pipeline/`: Scripts för kvalitetssäkring och publicering
 - `data/`: Ratings, källor, metadata
 - `site/`: Astro-sajt (statisk, Pagefind-sök)
+- `site/og/`: Källa till social card (`og-image.html` + `render.sh`)
 - `scripts/deploy.sh`: Deploy till produktion
 
 ## 10 yrkeskategorier
@@ -63,6 +64,7 @@ Repot är **publikt** på GitHub sedan 2026-07-10. Allt som committas blir omede
 | `npm run dev` | Lokal dev-server |
 | `npm run preview` | Förhandsgranska bygge |
 | `./scripts/deploy.sh` | Deploy till produktion (verify → build → rsync) |
+| `./site/og/render.sh` | Rendera om social card till `site/public/og-image.png` |
 
 ## Slash command
 - `/prompt-pipeline`: Interaktiv guide genom hela pipeline-flödet (se `.claude/commands/prompt-pipeline.md`)
@@ -94,6 +96,25 @@ Repot är **publikt** på GitHub sedan 2026-07-10. Allt som committas blir omede
 - **Deploy:** `./scripts/deploy.sh`: manuell, verify → build → rsync
 - **SSL:** Let's Encrypt via Certbot
 - **Ingen CI/CD**: deploy sker från lokal maskin
+
+## Social card (Open Graph)
+
+`site/public/og-image.png` (1200×630) sätts för alla sidor i
+`site/src/layouts/Base.astro`. Bilden är genererad, inte handritad: redigera
+`site/og/og-image.html` och kör `./site/og/render.sh`, redigera aldrig PNG:en
+direkt. Rendering kräver Chrome och nätverk (fonter hämtas från Google Fonts).
+
+PNG är gitignorad generellt, `og-image.png` har ett explicit undantag i
+`.gitignore` så den går att committa utan `-f`.
+
+Kortet innehåller antal prompts och kategorier. Kontrollera siffrorna mot
+`content/prompts/index.json` när det ändras, de var fel i över tre månader utan
+att någon märkte det.
+
+Efter ändring räcker det inte att deploya: LinkedIn och Facebook cachar
+OG-data per sid-URL i flera veckor och visar gammal bild tills cachen rensas
+manuellt i [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)
+och [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/).
 
 ## Beroendeuppdateringar (Dependabot)
 
