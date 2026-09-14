@@ -130,6 +130,16 @@ cd site && npm install && npm audit   # ska ge 0 vulnerabilities
 npm run build                         # ska ge 511 HTML-sidor, 133 indexerade
 ```
 
+Dependabot bevakar **två** kataloger, roten och `/site`. En PR mot rotens
+`package-lock.json` (gray-matter, yaml) testas i roten i stället, och där är
+`verify` det funktionella testet eftersom hela prompt-inläsningen går genom
+frontmatter-parsern:
+
+```bash
+npm install && npm audit              # ska ge 0 vulnerabilities
+npm run verify                        # ska ge 0 fel
+```
+
 Merge kräver ett godkännande från code owner. Rulesetet `skydda-main` sätter
 `require_code_owner_review` på main, så `gh pr merge` faller med "the base
 branch policy prohibits the merge" tills PR:en är godkänd. Godkännandet är ett
@@ -153,6 +163,13 @@ Tre fallgropar, alla bekräftade i skarpt läge:
   textkonflikt, inte att innehållet är säkert: en äldre `package-lock.json`
   kan rulla tillbaka redan åtgärdade sårbarheter. Kontrollera alltid med
   `npm audit` på PR-branchen, inte bara att bygget går igenom.
+- **Merga inte i nummerordning när flera säkerhets-PR:er ligger öppna.** En
+  grupp-PR som dependabot rebasat kan ha gått förbi de enskilda PR:erna: i
+  september 2026 bar grupp-PR:en astro 7.3.1 och sharp 0.35.4, medan tre
+  separata PR:er fortfarande pekade på 7.2.8 respektive 0.35.4. Merga den som
+  täcker mest först, kontrollera versionerna i lock-filen efteråt, och låt
+  dependabot stänga de överflödiga (den gör det inom en minut, med
+  "Looks like X is up-to-date now"). Stäng dem inte manuellt i onödan.
 - **Rensa lokala dependabot-brancher mellan tester.** Dependabot force-pushar
   vid rebase, vilket får `gh pr checkout` att falla med `exit status 128` och
   lämna kvar den gamla branchen. Testet körs då tyst på fel kod.
