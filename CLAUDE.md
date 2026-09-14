@@ -116,6 +116,31 @@ OG-data per sid-URL i flera veckor och visar gammal bild tills cachen rensas
 manuellt i [LinkedIn Post Inspector](https://www.linkedin.com/post-inspector/)
 och [Facebook Sharing Debugger](https://developers.facebook.com/tools/debug/).
 
+## Favicon
+
+Tre filer i `site/public/`, alla deklarerade i `Base.astro`: `favicon.svg`
+(moderna webbläsare), `favicon.ico` (fallback, tre frames i 16, 32 och 48) och
+`apple-touch-icon.png` (180×180, opak med raka hörn eftersom iOS lägger på sin
+egen mask).
+
+`favicon.svg` är källan. Redigera aldrig ICO eller PNG direkt, generera om dem:
+
+```bash
+for n in 16 32 48; do rsvg-convert -w $n -h $n site/public/favicon.svg > /tmp/ico-$n.png; done
+magick /tmp/ico-16.png /tmp/ico-32.png /tmp/ico-48.png site/public/favicon.ico
+magick identify site/public/favicon.ico   # ska visa tre frames
+```
+
+Ikonen är ritad som paths, inte `<text>`, eftersom favicon-rendering saknar
+fonttillgång. Kontrollera alltid 16px-storleken förstorad
+(`magick ico-16.png -scale 1600% -filter point prev.png`) innan du byter
+utseende: det är den storleken flikraden visar, och detaljer som håller i 32px
+faller isär där.
+
+`apple-touch-icon.png` har ett eget undantag i `.gitignore` av samma skäl som
+`og-image.png`, annars faller den bort ur repot samtidigt som en deploy från
+den lokala maskinen ändå skickar upp den.
+
 ## Beroendeuppdateringar (Dependabot)
 
 Konfig: `.github/dependabot.yml`. Minor och patch grupperas till en veckovis PR
