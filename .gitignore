@@ -12,6 +12,7 @@ site/.astro/
 *.png
 !site/public/logo-*.png
 !site/public/og-image.png
+!site/public/apple-touch-icon.png
 *.jpg
 *.jpeg
 tmp/
