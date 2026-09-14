@@ -164,10 +164,11 @@ Tre fallgropar, alla bekräftade i skarpt läge:
   kan rulla tillbaka redan åtgärdade sårbarheter. Kontrollera alltid med
   `npm audit` på PR-branchen, inte bara att bygget går igenom.
 - **Merga inte i nummerordning när flera säkerhets-PR:er ligger öppna.** En
-  grupp-PR som dependabot rebasat kan ha gått förbi de enskilda PR:erna: i
-  september 2026 bar grupp-PR:en astro 7.3.1 och sharp 0.35.4, medan tre
-  separata PR:er fortfarande pekade på 7.2.8 respektive 0.35.4. Merga den som
-  täcker mest först, kontrollera versionerna i lock-filen efteråt, och låt
+  grupp-PR som dependabot rebasat kan redan täcka de enskilda PR:erna: i
+  september 2026 bar grupp-PR:en astro 7.3.1, sharp 0.35.4 och js-yaml 4.3.2,
+  medan en separat PR fortfarande pekade på astro 7.2.8 och två på versioner
+  gruppen redan hade. Merga den som täcker mest först, kontrollera
+  versionerna i lock-filen efteråt, och låt
   dependabot stänga de överflödiga (den gör det inom en minut, med
   "Looks like X is up-to-date now"). Stäng dem inte manuellt i onödan.
 - **Rensa lokala dependabot-brancher mellan tester.** Dependabot force-pushar
