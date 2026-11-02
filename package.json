@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "gray-matter": "^4.0.3",
-    "yaml": "^2.4.0"
+    "yaml": "^2.9.1"
   },
   "license": "MIT",
   "author": "Magnus Aschan <magnus@teknikministeriet.se>",
