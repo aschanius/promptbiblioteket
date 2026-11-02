@@ -202,6 +202,12 @@ Tre fallgropar, alla bekräftade i skarpt läge:
   Fix: `git branch -D dependabot/...` och checka ut på nytt.
 - **`npm install` kan ge lock-drift på `libc`-fält** beroende på npm-version.
   Den ändringen ska inte committas: `git checkout site/package-lock.json`.
+  Ska låsfilen ändras på riktigt, till exempel vid en lokal säkerhetslyft i
+  stället för en dependabot-PR, räcker inte det. Ingen npm vi provat (10.9,
+  11.6, 11.21, 12.2) skriver fälten, de kommer från dependabot. Lägg då
+  tillbaka dem för samma nycklar som i HEAD, kontrollera värdet mot
+  `npm view <paket>@<version> libc` och kör `npm ci` så att disken matchar
+  låsfilen. `git diff site/package-lock.json | grep -c '"libc"'` ska ge 0.
 
 ## Kvalitetskontroller (verify)
 
