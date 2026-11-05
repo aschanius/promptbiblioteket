@@ -1,3 +1,8 @@
+---
+name: prompt-pipeline
+description: Interaktiv guide genom Promptbibliotekets pipeline, från generering och granskning till publicering, verifiering och deploy. Använd när en ny prompt ska in i biblioteket.
+---
+
 # Prompt Pipeline
 
 Kör hela pipelinen för att generera, granska och publicera nya prompts i Promptbiblioteket.
